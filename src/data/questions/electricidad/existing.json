@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "ele-bas-1",
+    "sectionId": 10,
+    "number": 1,
+    "text": "¿Cuál es la unidad básica del Sistema Internacional para medir la corriente eléctrica?",
+    "options": [
+      "Voltio (V)",
+      "Amperio (A)",
+      "Ohmio (Ω)",
+      "Vatio (W)"
+    ],
+    "correctIndex": 1,
+    "explanation": "El amperio (A) mide la intensidad de corriente eléctrica, definida como el flujo de un culombio de carga por segundo (1 A = 1 C/s).",
+    "skill": "Unidades Eléctricas Básicas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Conceptos Eléctricos Fundamentales",
+    "subtopic": "Corriente y Amperio"
+  },
+  {
+    "id": "ele-bas-2",
+    "sectionId": 10,
+    "number": 2,
+    "text": "¿Qué magnitud física mide la oposición natural que presenta un material al paso de la corriente eléctrica?",
+    "options": [
+      "Voltaje",
+      "Resistencia eléctrica",
+      "Potencia",
+      "Capacitancia"
+    ],
+    "correctIndex": 1,
+    "explanation": "La resistencia eléctrica (R), medida en ohmios (Ω), cuantifica la dificultad que encuentran los electrones al fluir por un conductor.",
+    "skill": "Resistencia Eléctrica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Leyes Básicas",
+    "subtopic": "Resistencia y Ohm"
+  },
+  {
+    "id": "ele-bas-3",
+    "sectionId": 10,
+    "number": 3,
+    "text": "¿Qué componente eléctrico básico se utiliza para abrir o cerrar intencionalmente el paso de la corriente en un circuito?",
+    "options": [
+      "Fusible",
+      "Interruptor",
+      "Transformador",
+      "Condensador"
+    ],
+    "correctIndex": 1,
+    "explanation": "El interruptor es un dispositivo de control mecánico que conmuta entre circuito abierto (sin paso de corriente) y circuito cerrado.",
+    "skill": "Componentes de Control Básico",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Circuitos Elementales",
+    "subtopic": "Interruptores"
+  },
+  {
+    "id": "ele-bas-4",
+    "sectionId": 10,
+    "number": 4,
+    "text": "¿Cuál de los siguientes materiales es un aislante eléctrico comúnmente utilizado para recubrir cables de cobre?",
+    "options": [
+      "Plástico PVC",
+      "Aluminio",
+      "Plata",
+      "Hierro"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los polímeros plásticos (como el PVC) tienen electrones fuertemente ligados que impiden la conducción, protegiendo contra descargas.",
+    "skill": "Materiales Conductores y Aislantes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Materiales Eléctricos",
+    "subtopic": "Aislantes"
+  },
+  {
+    "id": "ele-bas-5",
+    "sectionId": 10,
+    "number": 5,
+    "text": "¿Qué ocurre en un circuito eléctrico en serie si una de las bombillas conectadas se quema o se desconecta?",
+    "options": [
+      "Las demás bombillas brillan con el doble de intensidad",
+      "Todas las demás bombillas se apagan porque el circuito queda abierto",
+      "El circuito se pone en cortocircuito",
+      "No ocurre ningún cambio en las demás"
+    ],
+    "correctIndex": 1,
+    "explanation": "En un circuito serie existe un único camino continuo para la corriente; si se interrumpe en cualquier punto, la corriente cesa por completo.",
+    "skill": "Circuitos en Serie",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Topologías de Circuitos",
+    "subtopic": "Circuito Serie Básico"
+  },
+  {
+    "id": "ele-bas-6",
+    "sectionId": 10,
+    "number": 6,
+    "text": "¿Qué instrumento de medición portátil se utiliza para medir voltaje, corriente y resistencia en un solo dispositivo?",
+    "options": [
+      "Osciloscopio",
+      "Multímetro (o polímetro tester)",
+      "Tacómetro",
+      "Vatímetro analógico"
+    ],
+    "correctIndex": 1,
+    "explanation": "El multímetro integra voltímetro (AC/DC), amperímetro y óhmetro en una herramienta de diagnóstico estándar.",
+    "skill": "Instrumental Eléctrico de Medición",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Herramientas de Taller",
+    "subtopic": "El Multímetro"
+  },
+  {
+    "id": "ele-bas-7",
+    "sectionId": 10,
+    "number": 7,
+    "text": "¿Qué tipo de corriente eléctrica suministran las pilas alcalinas y las baterías de automóviles?",
+    "options": [
+      "Corriente Alterna (CA)",
+      "Corriente Continua (CC o DC)",
+      "Corriente trifásica",
+      "Corriente pulsante senoidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las baterías electroquímicas generan corriente continua constante con polaridad fija (+ y -) que fluye en una sola dirección.",
+    "skill": "Tipos de Corriente Eléctrica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Fuentes de Alimentación",
+    "subtopic": "Corriente Continua (DC)"
+  },
+  {
+    "id": "ele-bas-8",
+    "sectionId": 10,
+    "number": 8,
+    "text": "¿Cuál es la función primordial de un fusible en una instalación eléctrica domiciliaria o vehicular?",
+    "options": [
+      "Aumentar la tensión de la red",
+      "Proteger el circuito fundiéndose e interrumpiendo la corriente ante una sobrecorriente o cortocircuito peligroso",
+      "Almacenar energía electrostática",
+      "Medir el consumo en kilovatios-hora"
+    ],
+    "correctIndex": 1,
+    "explanation": "El fusible contiene un hilo metálico calibrado que se funde por efecto Joule cuando la corriente supera el valor nominal de seguridad.",
+    "skill": "Dispositivos de Protección Pasiva",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Seguridad Eléctrica",
+    "subtopic": "Fusibles"
+  },
+  {
+    "id": "ele-bas-9",
+    "sectionId": 10,
+    "number": 9,
+    "text": "En una conexión doméstica de tomacorriente en paralelo, ¿qué ventaja fundamental tiene respecto a una conexión en serie?",
+    "options": [
+      "Si se desconecta o apaga un electrodoméstico, todos los demás continúan funcionando normalmente con el mismo voltaje",
+      "Requiere un solo cable para toda la casa",
+      "Aumenta la resistencia total del hogar",
+      "Evita el uso de interruptores"
+    ],
+    "correctIndex": 0,
+    "explanation": "En paralelo, cada rama es independiente y recibe la tensión nominal completa de la red (110 V o 220 V) independientemente de las otras.",
+    "skill": "Circuitos en Paralelo",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Instalaciones Eléctricas",
+    "subtopic": "Ventajas del Circuito en Paralelo"
+  },
+  {
+    "id": "ele-bas-10",
+    "sectionId": 10,
+    "number": 10,
+    "text": "¿Cuál es la ley básica de la electrostática para las cargas eléctricas de igual y distinto signo?",
+    "options": [
+      "Cargas del mismo signo se atraen y de signo opuesto se repelen",
+      "Cargas del mismo signo se repelen y cargas de signo opuesto se atraen",
+      "Todas las cargas se atraen independientemente de su signo",
+      "Las cargas neutras repelen a las positivas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Es la ley fundamental de atracción y repulsión electrostática expresada cuantitativamente por la Ley de Coulomb.",
+    "skill": "Electrostática Fundamental",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Cargas Eléctricas",
+    "subtopic": "Atracción y Repulsión"
+  },
+  {
+    "id": "ele-bas-11",
+    "sectionId": 10,
+    "number": 11,
+    "text": "¿Qué componente semiconductor emite luz visible cuando circula corriente eléctrica a través de él en sentido directo?",
+    "options": [
+      "Diodo Zener",
+      "Diodo Emisor de Luz (LED)",
+      "Termistor NTC",
+      "Condensador electrolítico"
+    ],
+    "correctIndex": 1,
+    "explanation": "El LED (Light Emitting Diode) emite fotones por electroluminiscencia cuando los electrones recombinan con huecos en la unión p-n polarizada directamente.",
+    "skill": "Componentes Optoelectrónicos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Electrónica Básica",
+    "subtopic": "Diodos LED"
+  },
+  {
+    "id": "ele-bas-12",
+    "sectionId": 10,
+    "number": 12,
+    "text": "¿Qué unidad mide la diferencia de potencial eléctrico o tensión que impulsa a los electrones a moverse?",
+    "options": [
+      "Ohmio",
+      "Voltio (V)",
+      "Amperio",
+      "Joule"
+    ],
+    "correctIndex": 1,
+    "explanation": "El voltio (V) es la unidad del SI para el potencial eléctrico, fuerza electromotriz (FEM) y caída de tensión (1 V = 1 J/C).",
+    "skill": "Tensión y Potencial Eléctrico",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Magnitudes Eléctricas",
+    "subtopic": "Voltio y Tensión"
+  },
+  {
+    "id": "ele-bas-13",
+    "sectionId": 10,
+    "number": 13,
+    "text": "¿Cómo se llama el cable de seguridad de color verde o verde-amarillo que conecta las carcasas metálicas a tierra?",
+    "options": [
+      "Cable de fase",
+      "Cable neutro",
+      "Cable de puesta a tierra (tierra de protección)",
+      "Cable de retorno"
+    ],
+    "correctIndex": 2,
+    "explanation": "El conductor de protección a tierra deriva corrientes de fuga hacia una jabalina enterrada para evitar choques eléctricos al usuario.",
+    "skill": "Código de Colores y Puesta a Tierra",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Seguridad Eléctrica",
+    "subtopic": "Conductor de Protección PE"
+  },
+  {
+    "id": "ele-bas-14",
+    "sectionId": 10,
+    "number": 14,
+    "text": "¿Qué fenómeno térmico provoca que un conductor se caliente cuando circula por él una corriente eléctrica (como en una estufa o tostadora)?",
+    "options": [
+      "Efecto Meissner",
+      "Efecto Joule",
+      "Efecto Hall",
+      "Efecto Seebeck"
+    ],
+    "correctIndex": 1,
+    "explanation": "El efecto Joule disipa potencia en forma de calor por choque inelástico de electrones con los átomos del conductor: Q = I² · R · t.",
+    "skill": "Efecto Joule y Conversión Térmica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Termodinámica Eléctrica",
+    "subtopic": "Efecto Joule"
+  },
+  {
+    "id": "ele-bas-15",
+    "sectionId": 10,
+    "number": 15,
+    "text": "¿Qué componente pasivo tiene la capacidad de almacenar carga eléctrica en un campo electrostático entre dos placas conductoras separadas por un dieléctrico?",
+    "options": [
+      "Inductor",
+      "Condensador (o capacitor)",
+      "Resistencia",
+      "Potenciómetro"
+    ],
+    "correctIndex": 1,
+    "explanation": "El condensador almacena carga Q = C · V en sus armaduras, oponiéndose a cambios bruscos de tensión.",
+    "skill": "Capacitancia y Condensadores",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Componentes Pasivos",
+    "subtopic": "Condensadores"
+  },
+  {
+    "id": "ele-bas-16",
+    "sectionId": 10,
+    "number": 16,
+    "text": "Si tocas accidentalmente un cable energizado con las manos mojadas, ¿qué le ocurre a la resistencia del cuerpo humano y al riesgo de electrocución?",
+    "options": [
+      "La resistencia del cuerpo disminuye drásticamente, aumentando la corriente que lo atraviesa y el peligro letal",
+      "La resistencia aumenta y el cuerpo queda aislado",
+      "El agua bloquea completamente la corriente eléctrica",
+      "No hay ninguna diferencia con las manos secas"
+    ],
+    "correctIndex": 0,
+    "explanation": "La piel húmeda reduce la resistencia cutánea de más de 100,000 Ω a menos de 1,000 Ω, facilitando el paso de corrientes que inducen fibrilación.",
+    "skill": "Riesgo Eléctrico y Seguridad Humana",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Seguridad Ocupacional",
+    "subtopic": "Resistencia Corporal y Humedad"
+  },
+  {
+    "id": "ele-bas-17",
+    "sectionId": 10,
+    "number": 17,
+    "text": "¿Qué dispositivo electromagnético utiliza una pequeña corriente en una bobina para accionar mecánicamente un interruptor de alta corriente?",
+    "options": [
+      "Relé (o relevador electromecánico)",
+      "Transformador reductor",
+      "Resistencia variable",
+      "Diodo Schottky"
+    ],
+    "correctIndex": 0,
+    "explanation": "El relé utiliza el campo magnético de un electroimán para cerrar o abrir contactos de potencia de forma galvánicamente aislada.",
+    "skill": "Dispositivos Electromecánicos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Automatización Básica",
+    "subtopic": "El Relé Electromecánico"
+  },
+  {
+    "id": "ele-bas-18",
+    "sectionId": 10,
+    "number": 18,
+    "text": "¿Qué tipo de pila no se puede recargar y debe desecharse en puntos limpios una vez agotada su energía química inicial?",
+    "options": [
+      "Batería de iones de litio",
+      "Pila primaria (no recargable alcalina)",
+      "Batería de plomo-ácido",
+      "Batería NiMH"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las celdas primarias experimentan reacciones electroquímicas irreversibles durante la descarga, a diferencia de los acumuladores secundarios recargables.",
+    "skill": "Pilas y Acumuladores",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Fuentes Electroquímicas",
+    "subtopic": "Pilas Primarias vs Secundarias"
+  },
+  {
+    "id": "ele-bas-19",
+    "sectionId": 10,
+    "number": 19,
+    "text": "¿Cuál es la ley física que relaciona la tensión (V), la corriente (I) y la resistencia (R) en un circuito resistivo básico?",
+    "options": [
+      "Ley de Faraday",
+      "Ley de Ohm (V = I · R)",
+      "Ley de Coulomb",
+      "Ley de Ampère"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Ley de Georg Simon Ohm es la base del análisis de circuitos eléctricos lineales: la corriente es directamente proporcional al voltaje e inversamente proporcional a la resistencia.",
+    "skill": "Ley de Ohm Fundamental",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Circuitos Eléctricos",
+    "subtopic": "Ley de Ohm"
+  },
+  {
+    "id": "ele-bas-20",
+    "sectionId": 10,
+    "number": 20,
+    "text": "¿Qué componente resistivo permite variar manualmente su valor de resistencia girando un eje o perilla (como el control de volumen de una radio)?",
+    "options": [
+      "Termistor",
+      "Potenciómetro (o reóstato)",
+      "Fotocélula LDR",
+      "Varistor"
+    ],
+    "correctIndex": 1,
+    "explanation": "El potenciómetro es una resistencia de tres terminales con un cursor móvil que actúa como divisor de tensión ajustable manual.",
+    "skill": "Resistencias Variables",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Componentes Electrónicos",
+    "subtopic": "Potenciómetros"
+  },
+  {
+    "id": "ele-int-1",
+    "sectionId": 10,
+    "number": 21,
+    "text": "Según la Ley de Ohm, si una resistencia de 20 Ω se conecta a una fuente de 120 V, ¿cuál es la corriente que circula por ella?",
+    "options": [
+      "0.16 A",
+      "6 A",
+      "24 A",
+      "2,400 A"
+    ],
+    "correctIndex": 1,
+    "explanation": "I = V / R = 120 V / 20 Ω = 6 Amperios.",
+    "skill": "Cálculos con Ley de Ohm",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Circuitos Eléctricos",
+    "subtopic": "Cálculo de Corriente"
+  },
+  {
+    "id": "ele-int-2",
+    "sectionId": 10,
+    "number": 22,
+    "text": "¿Cuál es la potencia eléctrica disipada por una resistencia que consume 5 A bajo una tensión de 220 V?",
+    "options": [
+      "44 W",
+      "550 W",
+      "1,100 W",
+      "2,200 W"
+    ],
+    "correctIndex": 2,
+    "explanation": "Potencia P = V · I = 220 V × 5 A = 1,100 Vatios (W).",
+    "skill": "Potencia Eléctrica en DC",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Cálculos de Potencia",
+    "subtopic": "Ley de Watt"
+  },
+  {
+    "id": "ele-int-3",
+    "sectionId": 10,
+    "number": 23,
+    "text": "¿Qué establece la Primera Ley de Kirchhoff (Ley de Corrientes de Kirchhoff - LCK) para un nodo en cualquier circuito eléctrico?",
+    "options": [
+      "La suma algebraica de las corrientes que entran a un nodo es igual a la suma de las corrientes que salen de él (∑ I_nodo = 0)",
+      "La corriente es inversamente proporcional a la inductancia",
+      "En un nodo el voltaje siempre se anula",
+      "La potencia de entrada es siempre cero"
+    ],
+    "correctIndex": 0,
+    "explanation": "La LCK se fundamenta en el principio de conservación de la carga eléctrica: la carga no puede crearse ni acumularse indefinidamente en un nodo.",
+    "skill": "Leyes de Kirchhoff",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Análisis de Circuitos",
+    "subtopic": "Ley de Corrientes de Kirchhoff (LCK)"
+  },
+  {
+    "id": "ele-int-4",
+    "sectionId": 10,
+    "number": 24,
+    "text": "En un circuito serie con tres resistencias de 15 Ω, 25 Ω y 60 Ω, ¿cuál es la resistencia equivalente total?",
+    "options": [
+      "10 Ω",
+      "50 Ω",
+      "100 Ω",
+      "150 Ω"
+    ],
+    "correctIndex": 2,
+    "explanation": "En serie las resistencias se suman algebraicamente: R_eq = 15 + 25 + 60 = 100 Ω.",
+    "skill": "Resistencias en Serie",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Asociación de Resistencias",
+    "subtopic": "Resistencia Equivalente en Serie"
+  },
+  {
+    "id": "ele-int-5",
+    "sectionId": 10,
+    "number": 25,
+    "text": "¿Qué componente semiconductor permite el paso de corriente eléctrica con facilidad en polarización directa pero lo bloquea en polarización inversa?",
+    "options": [
+      "Diodo semiconductor p-n",
+      "Condensador cerámico",
+      "Transformador elevador",
+      "Inductor toroidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "La unión p-n del diodo tiene una barrera de potencial (~0.7 V en silicio) que conduce en directa y presenta alta resistencia en inversa.",
+    "skill": "Diodos Semiconductores",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electrónica de Estado Sólido",
+    "subtopic": "Polarización de Diodos"
+  },
+  {
+    "id": "ele-int-6",
+    "sectionId": 10,
+    "number": 26,
+    "text": "¿Cuál es la capacitancia equivalente de dos condensadores de 10 μF conectados en paralelo?",
+    "options": [
+      "5 μF",
+      "10 μF",
+      "20 μF",
+      "100 μF"
+    ],
+    "correctIndex": 2,
+    "explanation": "En paralelo, las capacidades se suman directamente: C_eq = C₁ + C₂ = 10 μF + 10 μF = 20 μF.",
+    "skill": "Asociación de Condensadores",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Capacitancia",
+    "subtopic": "Condensadores en Paralelo"
+  },
+  {
+    "id": "ele-int-7",
+    "sectionId": 10,
+    "number": 27,
+    "text": "En corriente alterna senoidal, ¿cuál es la relación entre el valor eficaz (RMS) y el valor pico o máximo (V_pico) de la tensión?",
+    "options": [
+      "V_rms = V_pico / √2 ≈ 0.707 · V_pico",
+      "V_rms = 2 · V_pico",
+      "V_rms = V_pico / 2",
+      "V_rms = π · V_pico"
+    ],
+    "correctIndex": 0,
+    "explanation": "El valor eficaz RMS (Root Mean Square) es el valor de CA que disipa la misma potencia térmica que una tensión continua equivalente.",
+    "skill": "Parámetros de Señales de Corriente Alterna",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Corriente Alterna",
+    "subtopic": "Valor Eficaz RMS"
+  },
+  {
+    "id": "ele-int-8",
+    "sectionId": 10,
+    "number": 28,
+    "text": "¿Qué tipo de transistor bipolar (BJT) tiene tres terminales denominados Base, Colector y Emisor, y se utiliza comúnmente como interruptor electrónico o amplificador?",
+    "options": [
+      "Transistor NPN / PNP",
+      "Tiristor Triac",
+      "Diodo Zener",
+      "Varistor MOV"
+    ],
+    "correctIndex": 0,
+    "explanation": "El transistor bipolar controla una gran corriente entre colector y emisor mediante una pequeña corriente inyectada en la base (I_C = β · I_B).",
+    "skill": "Transistores Bipolares (BJT)",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electrónica Activa",
+    "subtopic": "Transistores BJT NPN y PNP"
+  },
+  {
+    "id": "ele-int-9",
+    "sectionId": 10,
+    "number": 29,
+    "text": "¿Qué dispositivo de protección electromagnética moderno combina protección contra sobrecargas térmicas y contra cortocircuitos magnéticos en un cuadro residencial?",
+    "options": [
+      "Interruptor magnetotérmico (disyuntor termomagnético)",
+      "Fusible de plomo",
+      "Transformador de aislamiento",
+      "Varistor de línea"
+    ],
+    "correctIndex": 0,
+    "explanation": "El magnetotérmico utiliza una lámina bimetálica para sobrecargas lentas (disparo térmico) y una bobina electromagnética para cortocircuitos instantáneos (disparo magnético).",
+    "skill": "Aparamenta de Protección",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Instalaciones Eléctricas",
+    "subtopic": "Interruptores Magnetotérmicos"
+  },
+  {
+    "id": "ele-int-10",
+    "sectionId": 10,
+    "number": 30,
+    "text": "¿Cuál es la frecuencia estándar de la red eléctrica comercial en la mayor parte de Europa y Sudamérica frente a América del Norte?",
+    "options": [
+      "50 Hz en Europa/Sudamérica y 60 Hz en Norteamérica",
+      "100 Hz y 200 Hz",
+      "10 Hz en todo el mundo",
+      "120 Hz continuo"
+    ],
+    "correctIndex": 0,
+    "explanation": "En Europa y varios países de Sudamérica la red opera a 50 Hz (230 V), mientras en EE.UU., México, Ecuador y Colombia opera a 60 Hz (120 V).",
+    "skill": "Sistemas Eléctricos de Potencia Comerciales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Redes Eléctricas",
+    "subtopic": "Frecuencia de Red Comercial"
+  },
+  {
+    "id": "ele-int-11",
+    "sectionId": 10,
+    "number": 31,
+    "text": "¿Qué componente resistivo sensible a la temperatura disminuye su resistencia eléctrica a medida que aumenta la temperatura?",
+    "options": [
+      "Termistor NTC (Coeficiente de Temperatura Negativo)",
+      "Termistor PTC",
+      "Resistencia fija bobinada",
+      "Potenciómetro lineal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los termistores NTC aumentan la concentración de portadores de carga libres con el calor, disminuyendo su resistencia de forma exponencial.",
+    "skill": "Sensores Resistivos Térmicos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Instrumentación",
+    "subtopic": "Termistores NTC"
+  },
+  {
+    "id": "ele-int-12",
+    "sectionId": 10,
+    "number": 32,
+    "text": "¿Qué establece la Segunda Ley de Kirchhoff (Ley de Voltajes de Kirchhoff - LVK) para cualquier malla cerrada de un circuito?",
+    "options": [
+      "La suma algebraica de las diferencias de potencial (voltajes de fuentes y caídas en resistencias) en una trayectoria cerrada es igual a cero (∑ V_malla = 0)",
+      "La corriente es infinita en la malla",
+      "La inductancia se anula con el calor",
+      "Todos los voltajes deben ser continuos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La LVK se fundamenta en la conservación de la energía en un campo electrostático conservativo: el trabajo neto al recorrer un camino cerrado es nulo.",
+    "skill": "Leyes de Kirchhoff para Mallas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Análisis de Circuitos",
+    "subtopic": "Ley de Voltajes de Kirchhoff (LVK)"
+  },
+  {
+    "id": "ele-int-13",
+    "sectionId": 10,
+    "number": 33,
+    "text": "¿Cómo se llama la resistencia aparente total que opone un circuito de corriente alterna que combina resistencia óhmica, inductancia y capacitancia?",
+    "options": [
+      "Conductancia",
+      "Impedancia (Z)",
+      "Admitancia pura",
+      "Permeabilidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La impedancia compleja Z = R + j(X_L - X_C) generaliza la ley de Ohm en corriente alterna (V = I · Z), medida en ohmios (Ω).",
+    "skill": "Impedancia en Corriente Alterna",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Circuitos RLC",
+    "subtopic": "Concepto de Impedancia"
+  },
+  {
+    "id": "ele-int-14",
+    "sectionId": 10,
+    "number": 34,
+    "text": "¿Qué función cumple un diodo Zener conectado en polarización inversa en una fuente de alimentación de corriente continua?",
+    "options": [
+      "Amplificar señales de audio",
+      "Regular y estabilizar el voltaje a un valor constante (tensión Zener V_Z)",
+      "Transformar CA en CC",
+      "Aumentar la resistencia térmica"
+    ],
+    "correctIndex": 1,
+    "explanation": "El diodo Zener está diseñado para operar en la región de ruptura por avalancha inversa manteniendo su tensión en bornes fija frente a variaciones de carga.",
+    "skill": "Diodos Especiales y Reguladores",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electrónica Básica",
+    "subtopic": "Diodo Zener"
+  },
+  {
+    "id": "ele-int-15",
+    "sectionId": 10,
+    "number": 35,
+    "text": "¿Cuál es la inductancia de una bobina que genera una fuerza contraelectromotriz de 10 V cuando la corriente que circula varía a razón de 2 A/s?",
+    "options": [
+      "5 Henrios (H)",
+      "10 Henrios",
+      "20 Henrios",
+      "0.2 Henrios"
+    ],
+    "correctIndex": 0,
+    "explanation": "ε = L · (dI/dt) → L = ε / (dI/dt) = 10 V / (2 A/s) = 5 Henrios (H).",
+    "skill": "Inductancia y Autoinducción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electromagnetismo",
+    "subtopic": "Cálculo de Inductancia"
+  },
+  {
+    "id": "ele-int-16",
+    "sectionId": 10,
+    "number": 36,
+    "text": "¿Qué compuerta lógica digital produce una salida alta (1 lógico) si y solo si todas sus entradas están simultáneamente en nivel alto (1 y 1)?",
+    "options": [
+      "Compuerta OR",
+      "Compuerta AND",
+      "Compuerta NOT",
+      "Compuerta XOR"
+    ],
+    "correctIndex": 1,
+    "explanation": "La compuerta AND implementa el producto lógico booleano: Y = A · B. Solo es 1 cuando ambas entradas son 1.",
+    "skill": "Lógica Digital Booleana",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electrónica Digital",
+    "subtopic": "Compuerta AND"
+  },
+  {
+    "id": "ele-int-17",
+    "sectionId": 10,
+    "number": 37,
+    "text": "En una instalación fotovoltaica aislada, ¿qué dispositivo electrónico protege la batería contra sobrecargas y sobredescargas gestionando la energía de los paneles solares?",
+    "options": [
+      "Inversor de onda senoidal pura",
+      "Regulador o controlador de carga solar",
+      "Diodo rectificador de puente",
+      "Seccionador fusible"
+    ],
+    "correctIndex": 1,
+    "explanation": "El regulador (PWM o MPPT) monitorea la tensión de la batería y desconecta o modula la corriente entrante de los paneles solares.",
+    "skill": "Sistemas Solares Fotovoltaicos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Energía Solar",
+    "subtopic": "Controlador de Carga"
+  },
+  {
+    "id": "ele-int-18",
+    "sectionId": 10,
+    "number": 38,
+    "text": "¿Qué instrumento de visualización gráfica en el dominio del tiempo permite observar la forma de onda, amplitud, frecuencia y distorsión de una señal eléctrica?",
+    "options": [
+      "Megóhmetro",
+      "Osciloscopio",
+      "Luxómetro",
+      "Pinza amperimétrica analógica"
+    ],
+    "correctIndex": 1,
+    "explanation": "El osciloscopio representa la tensión en el eje vertical (Y) en función del tiempo en el eje horizontal (X), indispensable para depuración electrónica.",
+    "skill": "Instrumental Electrónico de Laboratorio",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Mediciones Electrónicas",
+    "subtopic": "El Osciloscopio"
+  },
+  {
+    "id": "ele-int-19",
+    "sectionId": 10,
+    "number": 39,
+    "text": "¿Cuál es el valor eficaz de corriente que circula por un calefactor de 2,200 W alimentado a 220 V de corriente alterna con factor de potencia unitario (cos φ = 1)?",
+    "options": [
+      "5 A",
+      "10 A",
+      "15 A",
+      "20 A"
+    ],
+    "correctIndex": 1,
+    "explanation": "P = V · I · cos(φ) → I = P / (V · cos φ) = 2200 / (220 × 1) = 10 Amperios.",
+    "skill": "Cálculo de Corriente en CA Monofásica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electrotecnia",
+    "subtopic": "Corriente en Cargas Resistivas"
+  },
+  {
+    "id": "ele-int-20",
+    "sectionId": 10,
+    "number": 40,
+    "text": "¿Qué fenómeno indeseado se produce cuando dos conductores activos de distinta polaridad o fase entran en contacto directo con resistencia prácticamente nula?",
+    "options": [
+      "Sobrecarga lenta",
+      "Cortocircuito",
+      "Fuga a tierra mínima",
+      "Armónico impar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al anularse la resistencia del circuito (R → 0), la corriente se eleva instantáneamente a miles de amperios (I_cc = V / Z_red), requiriendo desconexión rápida por protecciones.",
+    "skill": "Fallas Eléctricas y Cortocircuitos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Seguridad y Protecciones",
+    "subtopic": "Cortocircuito"
+  },
+  {
+    "id": "ele-bac-1",
+    "sectionId": 10,
+    "number": 41,
+    "text": "En un circuito RLC serie conectado a una fuente senoidal de frecuencia variable, ¿cuál es la condición física que define la resonancia eléctrica?",
+    "options": [
+      "La reactancia inductiva se anula completamente",
+      "La reactancia inductiva iguala a la reactancia capacitiva (X_L = X_C), haciendo que la impedancia sea puramente resistiva y mínima (Z = R)",
+      "La resistencia óhmica tiende a infinito",
+      "La corriente se retrasa 90° respecto a la tensión"
+    ],
+    "correctIndex": 1,
+    "explanation": "A la frecuencia de resonancia f₀ = 1 / (2π√(LC)), las reactancias se cancelan mutuamente (ωL = 1/ωC), maximizando la corriente en fase con la tensión.",
+    "skill": "Resonancia en Circuitos RLC Serie",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Teoría de Circuitos de CA",
+    "subtopic": "Resonancia RLC"
+  },
+  {
+    "id": "ele-bac-2",
+    "sectionId": 10,
+    "number": 42,
+    "text": "¿Cuál es la ganancia de tensión en lazo cerrado (A_v) de un amplificador operacional ideal configurado como inversor con resistencia de entrada R₁ = 10 kΩ y resistencia de realimentación R_f = 100 kΩ?",
+    "options": [
+      "+10",
+      "-10",
+      "+11",
+      "-100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para el amplificador inversor ideal con tierra virtual en la entrada inversora: A_v = - (R_f / R₁) = - (100 kΩ / 10 kΩ) = -10.",
+    "skill": "Amplificadores Operacionales Ideales (Op-Amps)",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica Analógica",
+    "subtopic": "Amplificador Inversor"
+  },
+  {
+    "id": "ele-bac-3",
+    "sectionId": 10,
+    "number": 43,
+    "text": "¿Qué teorema de redes eléctricas lineales establece que cualquier red activa de dos terminales con fuentes y resistencias puede sustituirse por una sola fuente de tensión equivalente V_th en serie con una resistencia equivalente R_th?",
+    "options": [
+      "Teorema de Norton",
+      "Teorema de Thévenin",
+      "Teorema de Superposición",
+      "Teorema de Millman"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Teorema de Léon Charles Thévenin simplifica drásticamente el análisis de circuitos complejos al calcular la respuesta sobre una carga variable.",
+    "skill": "Teoremas de Circuitos Eléctricos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Análisis de Redes Lineales",
+    "subtopic": "Teorema de Thévenin"
+  },
+  {
+    "id": "ele-bac-4",
+    "sectionId": 10,
+    "number": 44,
+    "text": "¿Cuál es la constante de tiempo (τ) de carga de un circuito RC serie compuesto por una resistencia R = 200 kΩ y un condensador C = 50 μF?",
+    "options": [
+      "1 segundo",
+      "10 segundos",
+      "25 segundos",
+      "100 segundos"
+    ],
+    "correctIndex": 1,
+    "explanation": "τ = R · C = (200 × 10³ Ω) × (50 × 10⁻⁶ F) = 10 segundos. En un tiempo t = 5τ el condensador se considera completamente cargado (99.3%).",
+    "skill": "Respuesta Transitoria en Circuitos RC",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Transitorios en Circuitos",
+    "subtopic": "Constante de Tiempo RC"
+  },
+  {
+    "id": "ele-bac-5",
+    "sectionId": 10,
+    "number": 45,
+    "text": "En un transistor MOSFET de enriquecimiento de canal N, ¿qué tensión crítica entre compuerta y fuente (V_GS) debe superarse para crear el canal de inversión conductor y permitir el paso de corriente de drenador?",
+    "options": [
+      "Tensión de ruptura por avalancha",
+      "Tensión umbral (V_th o V_GS(th))",
+      "Tensión de Early",
+      "Tensión de Zener"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para V_GS > V_th, el campo eléctrico en la compuerta atrae electrones minoritarios a la superficie del sustrato p, formando un canal n conductor entre fuente y drenador.",
+    "skill": "Transistores de Efecto de Campo MOSFET",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Semiconductores",
+    "subtopic": "Tensión Umbral en MOSFETs"
+  },
+  {
+    "id": "ele-bac-6",
+    "sectionId": 10,
+    "number": 46,
+    "text": "¿Cómo se define el ancho de banda a -3 dB de un filtro paso bajo pasivo RC de primer orden?",
+    "options": [
+      "La frecuencia de corte f_c = 1 / (2π · R · C), donde la potencia de salida se reduce a la mitad (atenuación de -3 dB)",
+      "La frecuencia donde la ganancia se hace infinita",
+      "El doble de la frecuencia de resonancia",
+      "La frecuencia de muestreo de Nyquist"
+    ],
+    "correctIndex": 0,
+    "explanation": "En f_c = 1/(2πRC), la magnitud de la función de transferencia cae a 1/√2 ≈ 0.707 de su valor en banda pasante, equivalente a -3.01 dB.",
+    "skill": "Filtros Analógicos Pasivos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respuesta en Frecuencia",
+    "subtopic": "Filtro Paso Bajo RC"
+  },
+  {
+    "id": "ele-bac-7",
+    "sectionId": 10,
+    "number": 47,
+    "text": "En un rectificador de onda completa en puente de Graetz con 4 diodos de silicio (caída directa V_D = 0.7 V por diodo), si la tensión pico secundaria es de 20 V, ¿cuál es la tensión pico máxima sobre la carga?",
+    "options": [
+      "19.3 V",
+      "18.6 V",
+      "20.0 V",
+      "17.2 V"
+    ],
+    "correctIndex": 1,
+    "explanation": "En cada semiciclo conducen dos diodos en serie: V_pico_carga = V_pico_secundario - 2 · V_D = 20 V - 2(0.7 V) = 20 - 1.4 = 18.6 V.",
+    "skill": "Fuentes de Alimentación y Rectificación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica de Potencia Básica",
+    "subtopic": "Rectificador en Puente de Diodos"
+  },
+  {
+    "id": "ele-bac-8",
+    "sectionId": 10,
+    "number": 48,
+    "text": "¿Qué compuerta lógica universal combinada con sí misma permite implementar cualquier otra función lógica booleana según el álgebra de Boole?",
+    "options": [
+      "Compuerta NAND (o NOR)",
+      "Compuerta AND exclusivamente",
+      "Compuerta OR exclusivamente",
+      "Compuerta buffer no inversor"
+    ],
+    "correctIndex": 0,
+    "explanation": "NAND y NOR son compuertas funcionalmente completas o universales: cualquier circuito lógico combinatorio puede construirse usando únicamente compuertas NAND.",
+    "skill": "Universalidad de Compuertas Lógicas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Diseño Lógico Digital",
+    "subtopic": "Compuertas Universales NAND y NOR"
+  },
+  {
+    "id": "ele-bac-9",
+    "sectionId": 10,
+    "number": 49,
+    "text": "En un circuito trifásico equilibrado con carga conectada en triángulo (delta, Δ), ¿cuál es la relación entre la corriente de línea (I_L) y la corriente de fase (I_F)?",
+    "options": [
+      "I_L = I_F",
+      "I_L = √3 · I_F",
+      "I_L = I_F / √3",
+      "I_L = 3 · I_F"
+    ],
+    "correctIndex": 1,
+    "explanation": "En conexión delta, la tensión de línea es igual a la de fase (V_L = V_F) y la corriente de línea es √3 veces mayor que la corriente de fase (I_L = √3 · I_F).",
+    "skill": "Sistemas Trifásicos en Conexión Delta",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sistemas Trifásicos",
+    "subtopic": "Conexión Triángulo o Delta"
+  },
+  {
+    "id": "ele-bac-10",
+    "sectionId": 10,
+    "number": 50,
+    "text": "¿Cuál es el ángulo de desfase entre la tensión y la corriente en un condensador ideal sin pérdidas alimentado en corriente alterna senoidal?",
+    "options": [
+      "Están exactamente en fase (desfase 0°)",
+      "La corriente se adelanta 90° respecto a la tensión (φ = +90°)",
+      "La corriente se retrasa 90° respecto a la tensión",
+      "Desfase de 180°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dado que i(t) = C (dv/dt), la derivada de una función seno es coseno (+90°), haciendo que la corriente capacitiva lidere a la tensión en 90°.",
+    "skill": "Comportamiento de Componentes Reactivos en CA",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fasores y Corriente Alterna",
+    "subtopic": "Desfase en Capacitores"
+  },
+  {
+    "id": "ele-bac-11",
+    "sectionId": 10,
+    "number": 51,
+    "text": "¿Qué componente semiconductor optoelectrónico contiene un LED emisor y un fototransistor receptor en un encapsulado hermético para aislar eléctricamente dos circuitos?",
+    "options": [
+      "Optoacoplador (o aislador óptico)",
+      "Tiristor SCR",
+      "Triac de potencia",
+      "Diodo Varicap"
+    ],
+    "correctIndex": 0,
+    "explanation": "El optoacoplador transmite señales mediante luz infrarroja, proporcionando aislamiento galvánico de miles de voltios entre la etapa de control de bajo voltaje y la etapa de potencia.",
+    "skill": "Aislamiento Galvánico y Optoelectrónica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica de Control",
+    "subtopic": "Optoacopladores"
+  },
+  {
+    "id": "ele-bac-12",
+    "sectionId": 10,
+    "number": 52,
+    "text": "¿Qué ley de la conservación rige el método sistemático de análisis nodal para determinar los potenciales de nodo en circuitos complejos?",
+    "options": [
+      "Ley de Corrientes de Kirchhoff (LCK)",
+      "Ley de Voltajes de Kirchhoff (LVK)",
+      "Principio de Arquímedes",
+      "Ley de Lenz"
+    ],
+    "correctIndex": 0,
+    "explanation": "El análisis nodal formula ecuaciones de LCK en cada nodo esencial no referencial expresando las corrientes de rama en función de las tensiones nodales.",
+    "skill": "Métodos Sistemáticos de Análisis Nodal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Teoría de Circuitos",
+    "subtopic": "Análisis Nodal"
+  },
+  {
+    "id": "ele-bac-13",
+    "sectionId": 10,
+    "number": 53,
+    "text": "En una línea de transmisión bifilar ideal, ¿cuál es la impedancia característica Z₀ en función de la inductancia por unidad de longitud L y la capacitancia por unidad de longitud C sin pérdidas?",
+    "options": [
+      "Z₀ = √(L / C)",
+      "Z₀ = L · C",
+      "Z₀ = √(C / L)",
+      "Z₀ = 1 / (L · C)"
+    ],
+    "correctIndex": 0,
+    "explanation": "La impedancia característica Z₀ = √(L/C) es la relación entre la onda de tensión progresiva y la onda de corriente en una línea de transmisión infinita sin pérdidas.",
+    "skill": "Líneas de Transmisión de Alta Frecuencia",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Campos y Ondas Guiadas",
+    "subtopic": "Impedancia Característica Z0"
+  },
+  {
+    "id": "ele-bac-14",
+    "sectionId": 10,
+    "number": 54,
+    "text": "¿Qué tipo de flip-flop síncrono biestable tiene entradas J y K donde la condición J = 1 y K = 1 hace conmutar (bascular o toggle) el estado de la salida en cada pulso de reloj?",
+    "options": [
+      "Flip-Flop D",
+      "Flip-Flop JK",
+      "Flip-Flop T exclusivamente",
+      "Latch SR asíncrono"
+    ],
+    "correctIndex": 1,
+    "explanation": "El flip-flop JK resuelve la condición de indeterminación del flip-flop SR cuando ambas entradas son 1, invirtiendo el estado anterior Q_{n+1} = Q̄_n.",
+    "skill": "Sistemas Digitales Secuenciales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica Digital",
+    "subtopic": "Flip-Flops JK"
+  },
+  {
+    "id": "ele-bac-15",
+    "sectionId": 10,
+    "number": 55,
+    "text": "¿Cuál es la frecuencia de oscilación de un circuito oscilador astable clásico basado en el temporizador integrado NE555 con resistencias R_A, R_B y condensador C?",
+    "options": [
+      "f = 1.44 / ((R_A + 2R_B) · C)",
+      "f = 1 / (R_A · C)",
+      "f = 2π / √(LC)",
+      "f = 0.693 · (R_A + R_B) · C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los tiempos de carga t_alto = 0.693(R_A + R_B)C y descarga t_bajo = 0.693(R_B)C dan un período total T = 0.693(R_A + 2R_B)C, de donde f = 1.44 / ((R_A + 2R_B)C).",
+    "skill": "Temporizadores Integrados y Osciladores Astables",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Circuitos Integrados Lineales",
+    "subtopic": "Temporizador NE555 en Modo Astable"
+  },
+  {
+    "id": "ele-bac-16",
+    "sectionId": 10,
+    "number": 56,
+    "text": "En el ensayo de aislamiento de conductores con un megóhmetro (megger), ¿qué rango de valores de tensión continua de prueba se aplica típicamente para instalaciones de baja tensión (230/400 V)?",
+    "options": [
+      "5 V a 12 V DC",
+      "500 V a 1,000 V DC",
+      "10 kV a 50 kV DC",
+      "1 V AC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Según norma IEC 60364-6, los ensayos de resistencia de aislamiento en circuitos de tensión nominal hasta 500 V se ejecutan aplicando 500 V DC, exigiendo R_aislamiento > 1 MΩ.",
+    "skill": "Medición de Resistencia de Aislamiento",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Instalaciones y Normativa",
+    "subtopic": "Ensayos con Megóhmetro"
+  },
+  {
+    "id": "ele-bac-17",
+    "sectionId": 10,
+    "number": 57,
+    "text": "¿Qué tipo de realimentación se aplica en los circuitos amplificadores operacionales para estabilizar la ganancia, aumentar el ancho de banda y reducir la distorsión?",
+    "options": [
+      "Realimentación positiva",
+      "Realimentación negativa",
+      "Realimentación regenerativa",
+      "Sin realimentación"
+    ],
+    "correctIndex": 1,
+    "explanation": "La realimentación negativa reconecta una fracción de la salida hacia la entrada inversora (-), sacrificando ganancia de lazo abierto a cambio de linealidad y estabilidad.",
+    "skill": "Teoría de la Realimentación en Amplificadores",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica Analógica",
+    "subtopic": "Realimentación Negativa"
+  },
+  {
+    "id": "ele-bac-18",
+    "sectionId": 10,
+    "number": 58,
+    "text": "¿Qué efecto parásito reduce la sección efectiva de conducción en conductores de cobre a altas frecuencias concentrando la corriente en la periferia exterior?",
+    "options": [
+      "Efecto Hall",
+      "Efecto Pelicular (Efecto Skin)",
+      "Efecto Corona",
+      "Efecto Seebeck"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los campos magnéticos variables inducen corrientes de Foucault internas que contrarrestan el flujo de corriente en el centro del conductor, forzándola a circular por la \"piel\" exterior (profundidad de penetración δ).",
+    "skill": "Electrodinámica y Efecto Pelicular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electromagnetismo Aplicado",
+    "subtopic": "Efecto Skin en Conductores"
+  },
+  {
+    "id": "ele-bac-19",
+    "sectionId": 10,
+    "number": 59,
+    "text": "¿Cuál es la tensión de salida regulada de un circuito integrado regulador de tensión lineal positivo de tres terminales de la serie 7805?",
+    "options": [
+      "+12 V",
+      "+5 V fijos y estabilizados",
+      "-5 V",
+      "+3.3 V"
+    ],
+    "correctIndex": 1,
+    "explanation": "La familia LM78XX entrega tensiones positivas fijas según los dos últimos dígitos: 7805 = +5 V; 7812 = +12 V.",
+    "skill": "Reguladores de Tensión Lineales Integrados",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fuentes de Alimentación",
+    "subtopic": "Familia 78XX"
+  },
+  {
+    "id": "ele-bac-20",
+    "sectionId": 10,
+    "number": 60,
+    "text": "En un convertidor reductor de conmutación DC-DC (Buck Converter), ¿qué elemento almacena energía en forma de campo magnético durante el tiempo de conducción del transistor de conmutación?",
+    "options": [
+      "El diodo volante",
+      "La bobina o inductor de potencia (L)",
+      "La resistencia de derivación",
+      "El condensador de entrada"
+    ],
+    "correctIndex": 1,
+    "explanation": "El inductor L se carga magnéticamente cuando el interruptor MOSFET conduce (V_L = V_in - V_out) y transfiere su energía a la carga a través del diodo cuando el interruptor se abre.",
+    "skill": "Fuentes Conmutadas y Convertidores DC-DC",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrónica de Potencia",
+    "subtopic": "Convertidor Buck"
+  },
+  {
+    "id": "ele-tec-1",
+    "sectionId": 10,
+    "number": 61,
+    "text": "En el arranque de motores de inducción trifásicos de jaula de ardilla, ¿qué método clásico electromecánico reduce la corriente de arranque a un tercio conmutando las conexiones de los devanados estatóricos?",
+    "options": [
+      "Arranque directo a plena tensión",
+      "Arranque estrella-triángulo (Y-Δ)",
+      "Arranque por resistencias rotóricas",
+      "Arranque estatórico por diodos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al conectar en estrella (Y), la tensión por fase se reduce a V_L / √3, reduciendo la corriente de arranque y el par motor a (1/√3)² = 1/3 de los valores de arranque directo.",
+    "skill": "Arranque de Motores Asíncronos Trifásicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Máquinas Eléctricas",
+    "subtopic": "Arranque Estrella-Triángulo"
+  },
+  {
+    "id": "ele-tec-2",
+    "sectionId": 10,
+    "number": 62,
+    "text": "En variadores de frecuencia (VFD / inversores) para control de velocidad de motores de CA, ¿qué técnica de modulación por ancho de pulso aproxima una corriente senoidal pura gobernando los transistores IGBT?",
+    "options": [
+      "PWM senoidal (SPWM) o Modulación Vectorial Espacial (SVPWM)",
+      "Control por ángulo de fase con tiristores",
+      "Modulación en amplitud AM",
+      "Conmutación por relé térmico"
+    ],
+    "correctIndex": 0,
+    "explanation": "La técnica SVPWM optimiza el vector de voltaje en el espacio de estados del inversor trifásico, aumentando la utilización del bus de continua en un 15% y reduciendo la distorsión armónica THD.",
+    "skill": "Accionamientos Eléctricos y Variadores VFD",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Electrónica de Potencia Industrial",
+    "subtopic": "Modulación SVPWM en Inversores"
+  },
+  {
+    "id": "ele-tec-3",
+    "sectionId": 10,
+    "number": 63,
+    "text": "En mantenimiento de transformadores de distribución inmersos en aceite dieléctrico, ¿qué análisis fisicoquímico y de gases disueltos (DGA) detecta descargas parciales, arcos eléctricos o sobrecalentamiento interno?",
+    "options": [
+      "Cromatografía de gases disueltos en aceite (DGA) según norma IEEE C57.104",
+      "Medición de espesor por ultrasonido",
+      "Ensayo de tracción uniaxial",
+      "Análisis de gases de escape"
+    ],
+    "correctIndex": 0,
+    "explanation": "La descomposición térmica del aceite mineral y aislamiento de celulosa genera gases característicos: hidrógeno (descargas parciales), acetileno (arcos de alta energía), etileno y metano (sobrecalentamientos térmicos).",
+    "skill": "Diagnóstico Dieléctrico de Transformadores",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Mantenimiento Eléctrico de Alta Tensión",
+    "subtopic": "Análisis DGA de Gases Disueltos"
+  },
+  {
+    "id": "ele-tec-4",
+    "sectionId": 10,
+    "number": 64,
+    "text": "En la instalación de canalizaciones eléctricas industriales según el Código Eléctrico Nacional (NEC / NFPA 70), ¿cuál es el factor de llenado máximo permitido para un tubo conduit que contiene más de dos conductores?",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Según el Capítulo 9 (Tabla 1) del NEC, para más de 2 conductores el área total ocupada por los cables no debe superar el 40% del área de la sección transversal interna del tubo para evitar sobrecalentamiento y facilitar el jalado.",
+    "skill": "Normativa de Instalaciones Eléctricas NEC",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Dimensionamiento de Canalizaciones",
+    "subtopic": "Factor de Llenado de Tubos Conduit"
+  },
+  {
+    "id": "ele-tec-5",
+    "sectionId": 10,
+    "number": 65,
+    "text": "En un esquema de control mediante autómata programable (PLC), ¿qué tipo de salida por hardware se recomienda para conmutar cargas inductivas de corriente continua de alta frecuencia (como electroválvulas PWM)?",
+    "options": [
+      "Salidas por relé electromecánico",
+      "Salidas por transistor de estado sólido (Sink/Source MOSFET)",
+      "Salidas por transformador pasivo",
+      "Salidas por fusible térmico"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las salidas por transistor operan sin piezas móviles, soportan millones de ciclos de conmutación rápida sin desgaste mecánico ni rebote de contactos.",
+    "skill": "Arquitectura de Entradas y Salidas de PLC",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Automatización Industrial",
+    "subtopic": "Módulos de Salida de PLC"
+  },
+  {
+    "id": "ele-tec-6",
+    "sectionId": 10,
+    "number": 66,
+    "text": "En un sistema de distribución eléctrica en baja tensión, ¿qué esquema de conexión a tierra (ECT) conecta directamente el neutro a tierra en el transformador y las masas metálicas de la instalación a un conductor de protección PE separado conectado a una tierra independiente?",
+    "options": [
+      "Esquema TT",
+      "Esquema TN-C",
+      "Esquema IT con neutro aislado",
+      "Esquema delta flotante"
+    ],
+    "correctIndex": 0,
+    "explanation": "En el esquema TT (tierra en transformador, tierra en masas de usuario), cualquier defecto de aislamiento a masa provoca una corriente de fuga a tierra que es detectada y despejada obligatoriamente por interruptores diferenciales.",
+    "skill": "Sistemas de Puesta a Tierra en Baja Tensión (ECT)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Instalaciones Eléctricas de BT",
+    "subtopic": "Esquema de Puesta a Tierra TT"
+  },
+  {
+    "id": "ele-tec-7",
+    "sectionId": 10,
+    "number": 67,
+    "text": "En la compensación automática del factor de potencia en redes industriales con presencia de armónicos, ¿qué dispositivo se conecta en serie con las baterías de condensadores para evitar la resonancia armónica paralela?",
+    "options": [
+      "Reactancias de desintonización o de rechazo (reactores de choque)",
+      "Fusibles ultrarrápidos",
+      "Diodos Zener de potencia",
+      "Resistencias de frenado dinámico"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las inductancias de desintonización desplazan la frecuencia de resonancia del banco por debajo del armónico predominante más bajo (típicamente sintonizadas a 189 Hz o 134 Hz para redes de 50 Hz), protegiendo los condensadores contra sobrecorrientes armónicas.",
+    "skill": "Calidad de la Energía y Filtrado de Armónicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Compensación de Energía Reactiva",
+    "subtopic": "Bancos de Condensadores Desintonizados"
+  },
+  {
+    "id": "ele-tec-8",
+    "sectionId": 10,
+    "number": 68,
+    "text": "En un circuito de conmutación con transistor MOSFET de potencia, ¿qué diodo ultrarrápido conectado en antiparalelo con una carga inductiva (como la bobina de un relé) disipa la sobretensión inductiva al abrirse el circuito?",
+    "options": [
+      "Diodo de rueda libre (Flyback diode)",
+      "Diodo túnel",
+      "Diodo emisor LED",
+      "Puente rectificador trifásico"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al interrumpir la corriente bruscamente en una bobina, la ley de Faraday v = -L (di/dt) induce un pico destructivo de polaridad inversa; el diodo flyback ofrece un lazo de recirculación seguro para extinguir la energía magnética.",
+    "skill": "Protección de Circuitos de Conmutación Inductiva",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Diseño Electrónico de Potencia",
+    "subtopic": "Diodo Flyback de Rueda Libre"
+  },
+  {
+    "id": "ele-tec-9",
+    "sectionId": 10,
+    "number": 69,
+    "text": "En instrumentación de lazos de control analógico industrial (estándar ISA), ¿por qué se utiliza preferentemente un rango de corriente de 4 a 20 mA en lugar de una señal de voltaje de 0 a 10 V para transmitir señales de sensores a larga distancia?",
+    "options": [
+      "El lazo de corriente es inmune a las caídas de tensión ohmicas en la longitud del cableado y el umbral de 4 mA permite detectar rotura de cable (\"cero vivo\")",
+      "El voltaje es peligroso para los cables apantallados",
+      "Los transmisores no pueden emitir voltajes",
+      "El estándar de corriente no requiere fuente de alimentación"
+    ],
+    "correctIndex": 0,
+    "explanation": "La corriente es idéntica en todo el lazo serie sin importar la resistencia de línea. Además, si el cable se rompe físicamente la corriente cae a 0 mA, distinguiéndose de una lectura de variable de proceso en cero (4 mA).",
+    "skill": "Instrumentación Industrial y Lazos de Corriente",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Control de Procesos",
+    "subtopic": "Lazos de Control 4-20 mA y Cero Vivo"
+  },
+  {
+    "id": "ele-tec-10",
+    "sectionId": 10,
+    "number": 70,
+    "text": "En soldadura electrónica de montaje superficial (SMD) en tarjetas de circuito impreso (PCB), ¿qué perfil térmico de cuatro etapas en un horno de reflujo por convección forzada se sigue rigurosamente?",
+    "options": [
+      "Precalentamiento, meseta o soak, reflujo pico (soldadura) y enfriamiento controlado",
+      "Choque térmico inmediato a 350 °C sin calentamiento previo",
+      "Enfriamiento criogénico antes de aplicar estaño",
+      "Calentamiento exclusivamente por llama directa"
+    ],
+    "correctIndex": 0,
+    "explanation": "El precalentamiento evapora solventes; la meseta activa el fundente y homogeneiza la temperatura sin choques térmicos; el reflujo supera la temperatura liquidus del estaño (~217 °C para aleaciones SAC305) y el enfriamiento forma uniones intermetálicas finas.",
+    "skill": "Fabricación y Ensamblaje Electrónico SMD",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Tecnología de Montaje Superficial",
+    "subtopic": "Perfil de Temperatura en Horno de Reflujo"
+  },
+  {
+    "id": "ele-tec-11",
+    "sectionId": 10,
+    "number": 71,
+    "text": "En el ensayo de rigidez dieléctrica de guantes y herramientas aisladas para trabajos en tensión (TET), ¿qué ensayo de laboratorio según norma ASTM D120 somete el equipo a una alta tensión durante un tiempo determinado midiendo la corriente de fuga?",
+    "options": [
+      "Ensayo Hi-Pot (High Potential test)",
+      "Ensayo de continuidad de bajo voltaje",
+      "Ensayo de impedancia de bucle",
+      "Ensayo Charpy"
+    ],
+    "correctIndex": 0,
+    "explanation": "El ensayo Hi-Pot aplica tensiones de prueba de 5 kV a 40 kV AC verificando que la corriente de fuga no supere los miliamperios máximos permitidos para garantizar la vida del liniero.",
+    "skill": "Seguridad en Trabajos en Tensión (TET)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Equipos de Protección Individual Eléctricos",
+    "subtopic": "Ensayos Hi-Pot de Rigidez Dieléctrica"
+  },
+  {
+    "id": "ele-tec-12",
+    "sectionId": 10,
+    "number": 72,
+    "text": "En protecciones eléctricas de subestaciones, ¿qué función cumple el relé diferencial porcentual (ANSI 87) en la protección de transformadores de potencia y generadores?",
+    "options": [
+      "Compara vectorialmente la corriente que entra y sale de la zona protegida delimitada por transformadores de corriente (TCs), operando instantáneamente ante fallas internas",
+      "Mide la temperatura del devanado exclusivamente",
+      "Detecta sobretensiones atmosféricas en la línea",
+      "Regula los cambiadores de tomas bajo carga"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bajo la primera ley de Kirchhoff, la corriente neta en una zona sin fallas internas es cero (I_in = I_out). Si existe una falla entre espiras o a tierra, la corriente diferencial (I_diff = |I₁ - I₂|) supera la pendiente porcentual y dispara el interruptor de potencia.",
+    "skill": "Protecciones de Subestaciones Eléctricas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Sistemas de Potencia y Relés de Protección",
+    "subtopic": "Protección Diferencial ANSI 87"
+  },
+  {
+    "id": "ele-tec-13",
+    "sectionId": 10,
+    "number": 73,
+    "text": "En redes de comunicación industrial de campo, ¿qué protocolo serie diferencial multipunto semidúplex (Half-Duplex) de dos hilos (A y B) permite conectar hasta 32 dispositivos a distancias de hasta 1200 metros bajo el estándar RS-485?",
+    "options": [
+      "Modbus RTU sobre RS-485",
+      "Bluetooth Low Energy",
+      "I2C síncrono de placa",
+      "USB 2.0 estándar"
+    ],
+    "correctIndex": 0,
+    "explanation": "RS-485 utiliza señalización diferencial equilibrada (V_A - V_B) con alta inmunidad al ruido electromagnético de modo común de motores y variadores en plantas fabriles.",
+    "skill": "Redes de Comunicación Industrial de Campo",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Buses de Campo y Telemetría",
+    "subtopic": "Estándar RS-485 y Protocolo Modbus RTU"
+  },
+  {
+    "id": "ele-tec-14",
+    "sectionId": 10,
+    "number": 74,
+    "text": "En convertidores electrónicos de potencia para tracción de vehículos eléctricos o inversores solares, ¿qué tecnología de semiconductores de banda ancha (Wide Bandgap - WBG) permite mayores frecuencias de conmutación y menores pérdidas que el silicio convencional?",
+    "options": [
+      "Carburo de Silicio (SiC) y Nitruro de Galio (GaN)",
+      "Germanio policristalino",
+      "Plomo dopado",
+      "Selenio amorfo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los dispositivos SiC y GaN poseen campos de ruptura dieléctrica diez veces mayores que el silicio, permitiendo voltajes de operación superiores a 1200 V con mínimas pérdidas de conmutación y temperaturas de unión de hasta 200 °C.",
+    "skill": "Semiconductores de Potencia Avanzados (WBG)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Electrónica de Potencia Moderna",
+    "subtopic": "Dispositivos de Carburo de Silicio (SiC)"
+  },
+  {
+    "id": "ele-tec-15",
+    "sectionId": 10,
+    "number": 75,
+    "text": "En mantenimiento electromecánico de generadores sincrónicos y motores de corriente continua, ¿qué componente de grafito electrografitado transmite la corriente de excitación rozando continuamente sobre los anillos rozantes o delgas del colector?",
+    "options": [
+      "Escobillas de carbón (carbones)",
+      "Bobina amortiguadora de amortiguamiento",
+      "Cojinete de empuje axial",
+      "Entrehierro laminar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las escobillas de carbón proporcionan contacto eléctrico deslizante con bajo coeficiente de fricción mecánica y adecuada resistencia de contacto para facilitar la conmutación.",
+    "skill": "Máquinas Eléctricas Rotativas con Colector",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Mantenimiento de Motores y Generadores",
+    "subtopic": "Escobillas de Carbón y Anillos Rozantes"
+  },
+  {
+    "id": "ele-tec-16",
+    "sectionId": 10,
+    "number": 76,
+    "text": "En una instalación fotovoltaica conectada a red (On-Grid), ¿qué función de seguridad técnica obligatoria desconecta automáticamente el inversor si se corta el suministro eléctrico de la red de distribución pública?",
+    "options": [
+      "Protección anti-isla (Anti-Islanding)",
+      "Seguimiento del punto de máxima potencia MPPT",
+      "Rectificación síncrona",
+      "Arranque en negro (Black Start)"
+    ],
+    "correctIndex": 0,
+    "explanation": "La protección anti-isla (según norma IEEE 1547 / UL 1741) evita que el generador fotovoltaico continúe energizando un tramo de la red eléctrica local apagada, protegiendo a los linieros de electrocuciones accidentales.",
+    "skill": "Energía Solar y Conexión a Red Eléctrica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Generación Distribuida",
+    "subtopic": "Protección Anti-Isla en Inversores Solares"
+  },
+  {
+    "id": "ele-tec-17",
+    "sectionId": 10,
+    "number": 77,
+    "text": "En análisis de armónicos en redes industriales con analizadores de redes eléctricas clase A, ¿cómo se define la Distorsión Armónica Total de Tensión (THD_V)?",
+    "options": [
+      "La raíz cuadrada de la suma de los cuadrados de todas las tensiones armónicas dividida por la tensión de la componente fundamental (THD_V = √(∑ V_n²) / V₁ × 100%)",
+      "La potencia aparente total entre la frecuencia fundamental",
+      "La corriente de cortocircuito pico",
+      "El factor de cresta cuadrático"
+    ],
+    "correctIndex": 0,
+    "explanation": "El THD (Total Harmonic Distortion) según IEEE 519 cuantifica la deformación de la onda senoidal pura; en baja tensión se exige típicamente un THD_V inferior al 5% para evitar sobrecalentamiento de motores y transformadores.",
+    "skill": "Calidad del Suministro Eléctrico y Armónicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Calidad de Energía",
+    "subtopic": "Tasa de Distorsión Armónica Total (THD)"
+  },
+  {
+    "id": "ele-tec-18",
+    "sectionId": 10,
+    "number": 78,
+    "text": "En motores paso a paso híbridos utilizados en robótica y máquinas CNC, ¿qué técnica de control electrónico divide los pasos mecánicos completos energizando simultáneamente dos fases con corrientes sinusoidales proporcionales?",
+    "options": [
+      "Microstepping (micropasos)",
+      "Arranque en estrella",
+      "Frenado regenerativo",
+      "Modulación en frecuencia pura"
+    ],
+    "correctIndex": 0,
+    "explanation": "El microstepping divide cada paso completo de 1.8° en 1/8, 1/16 o 1/64 de micropaso mediante control PWM de corriente en puente H, eliminando resonancias mecánicas y aumentando la resolución posicional.",
+    "skill": "Control de Motores Paso a Paso y Servomotores",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Robótica y Mecatrónica",
+    "subtopic": "Control por Micropasos (Microstepping)"
+  },
+  {
+    "id": "ele-tec-19",
+    "sectionId": 10,
+    "number": 79,
+    "text": "En el ensayo de rigidez dieléctrica de aceites minerales aislantes según norma ASTM D877 / IEC 60156 con un chispómetro, ¿qué tensión de ruptura promedio mínima a 2.5 mm de separación entre electrodos se exige para aceite nuevo?",
+    "options": [
+      "5 kV",
+      "Mayor a 30 kV (típicamente > 40-50 kV)",
+      "1 kV",
+      "100 V DC"
+    ],
+    "correctIndex": 1,
+    "explanation": "El chispómetro aplica una rampa de tensión ascendente de 2 kV/s hasta que se produce la chispa disruptiva; valores bajos revelan presencia de agua emulsionada o partículas carbonosas en suspensión.",
+    "skill": "Mantenimiento Preventivo de Aceites Aislantes",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Ensayos Dieléctricos de Alta Tensión",
+    "subtopic": "Chispómetro y Tensión de Ruptura"
+  },
+  {
+    "id": "ele-tec-20",
+    "sectionId": 10,
+    "number": 80,
+    "text": "En diseño de circuitos impresos (PCB) de alta velocidad, ¿qué técnica de ruteo de pistas de pares diferenciales (como en USB, HDMI o Ethernet) asegura que ambos conductores tengan exactamente la misma longitud física para evitar desfases temporales (skew)?",
+    "options": [
+      "Ruteo con pistas serpentinas de ajuste de longitud (lenght matching meanders)",
+      "Aislamiento galvánico con optoacopladores lentos",
+      "Eliminación del plano de masa continuo",
+      "Conexión sin condensadores de desacoplo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las curvas serpentinas compensan microdiferencias de longitud geométrica asegurando que las señales diferenciales lleguen al receptor simultáneamente sin distorsión temporal ni emisión de ruido de modo común.",
+    "skill": "Diseño de PCBs de Alta Velocidad (High-Speed PCB Design)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Integridad de Señal en PCBs",
+    "subtopic": "Pares Diferenciales y Ajuste de Longitud"
+  },
+  {
+    "id": "ele-uni-1",
+    "sectionId": 10,
+    "number": 81,
+    "text": "En la teoría electromagnética clásica de James Clerk Maxwell, ¿qué término fundamental introdujo Maxwell en la Ley de Ampère para garantizar la conservación de la carga eléctrica en regímenes variables en el tiempo (∇ × H = J + ∂D/∂t)?",
+    "options": [
+      "Corriente de conducción óhmica",
+      "Corriente de desplazamiento de Maxwell (J_d = ∂D/∂t)",
+      "Potencial magnético vectorial de Coulomb",
+      "Divergencia nula del monopolo magnético"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al tomar la divergencia de la ley de Ampère estática (∇ · (∇ × H) = 0 ≠ ∇ · J = -∂ρ/∂t), Maxwell advirtió la inconsistencia y añadió la corriente de desplazamiento ∂D/∂t, prediciendo la existencia de las ondas electromagnéticas.",
+    "skill": "Ecuaciones de Maxwell y Electrodinámica Clásica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría Electromagnética Avanzada",
+    "subtopic": "Corriente de Desplazamiento de Maxwell"
+  },
+  {
+    "id": "ele-uni-2",
+    "sectionId": 10,
+    "number": 82,
+    "text": "En el análisis de estabilidad de sistemas de control lineales continuos en el plano s, ¿qué criterio algebraico desarrollado por Routh y Hurwitz determina la estabilidad asintótica sin necesidad de calcular explícitamente las raíces del polinomio característico?",
+    "options": [
+      "Criterio de Estabilidad de Routh-Hurwitz",
+      "Diagrama de Bode de fase mínima",
+      "Teorema de convolución de Laplace",
+      "Transformada Z bilineal"
+    ],
+    "correctIndex": 0,
+    "explanation": "El arreglo tabular de Routh analiza los signos de los coeficientes en la primera columna: el número de cambios de signo equivale al número de polos del sistema situados en el semiplano derecho inestable (RHP).",
+    "skill": "Teoría de Control Clásico y Estabilidad",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Ingeniería de Control",
+    "subtopic": "Criterio de Routh-Hurwitz"
+  },
+  {
+    "id": "ele-uni-3",
+    "sectionId": 10,
+    "number": 83,
+    "text": "En el análisis de fallas asimétricas en sistemas eléctricos de potencia trifásicos, ¿qué transformación lineal matricial introducida por C.L. Fortescue en 1918 descompone tres fasores desbalanceados en tres sistemas balanceados de secuencia positiva, negativa y cero?",
+    "options": [
+      "Transformada de Park (d-q-0)",
+      "Componentes Simétricas de Fortescue",
+      "Transformada de Clarke (alfa-beta)",
+      "Matriz de admitancia de barra Y_bus pura"
+    ],
+    "correctIndex": 1,
+    "explanation": "La transformación con el operador a = e^{j120°} desacopla las redes trifásicas asimétricas permitiendo calcular cortocircuitos monofásicos a tierra y bifásicos mediante interconexión de redes de secuencia.",
+    "skill": "Sistemas Eléctricos de Potencia y Componentes Simétricas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Análisis de Redes de Potencia",
+    "subtopic": "Componentes Simétricas de Fortescue"
+  },
+  {
+    "id": "ele-uni-4",
+    "sectionId": 10,
+    "number": 84,
+    "text": "En la teoría del procesamiento digital de señales (DSP), ¿qué teorema fundamental de muestreo formulado por Harry Nyquist y Claude Shannon establece la frecuencia de muestreo mínima requerida para reconstruir perfectamente una señal continua en banda base?",
+    "options": [
+      "La frecuencia de muestreo debe ser estrictamente mayor al doble del ancho de banda máximo de la señal (f_s > 2 · f_max)",
+      "La frecuencia de muestreo debe ser igual a la frecuencia fundamental",
+      "f_s debe ser menor que f_max para evitar el aliasing",
+      "Se requiere muestreo infinito continuo"
+    ],
+    "correctIndex": 0,
+    "explanation": "El teorema de Nyquist-Shannon demuestra que muestrear a f_s < 2 f_max produce aliasing espectral irreversible (solapamiento de réplicas en el dominio de Fourier), requiriendo un filtro analógico pasobajo antialiasing previo.",
+    "skill": "Procesamiento Digital de Señales (DSP)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría de la Información y Señales",
+    "subtopic": "Teorema de Muestreo de Nyquist-Shannon"
+  },
+  {
+    "id": "ele-uni-5",
+    "sectionId": 10,
+    "number": 85,
+    "text": "En la síntesis de filtros activos analógicos, ¿qué aproximación polinomial de filtro clásico optimiza la máxima planicidad de respuesta en magnitud en la banda de paso sin presentar rizado (Butterworth)?",
+    "options": [
+      "Filtro de Chebyshev Tipo I",
+      "Filtro de Butterworth (máxima planicidad)",
+      "Filtro elíptico de Cauer",
+      "Filtro de Bessel-Thomson de retardo de grupo plano"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los filtros de Butterworth ubican sus polos sobre una circunferencia en el semiplano izquierdo de Laplace, anulando las primeras 2n-1 derivadas de la ganancia en ω = 0 para obtener una curva perfectamente suave.",
+    "skill": "Diseño y Síntesis de Filtros Activos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Electrónica Analógica Avanzada",
+    "subtopic": "Aproximación de Butterworth"
+  },
+  {
+    "id": "ele-uni-6",
+    "sectionId": 10,
+    "number": 86,
+    "text": "En la física de dispositivos semiconductores, ¿qué mecanismo cuántico permite el paso de portadores de carga a través de una barrera de potencial de agotamiento ultraestrecha (< 10 nm) fuertemente dopada en un diodo túnel de Esaki?",
+    "options": [
+      "Efecto túnel mecánico cuántico (Fowler-Nordheim / Esaki tunneling)",
+      "Emisión termoiónica de Richardson",
+      "Generación térmica por pares electrón-hueco",
+      "Difusión superficial de Fick"
+    ],
+    "correctIndex": 0,
+    "explanation": "Leo Esaki (Premio Nobel 1973) aprovechó la naturaleza ondulatoria del electrón: a dopajes degenerados la banda de conducción del lado n se solapa con la de valencia del lado p, permitiendo a los electrones atravesar la barrera prohibida exhibiendo resistencia diferencial negativa.",
+    "skill": "Física de Semiconductores y Efecto Túnel Cuántico",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Microelectrónica Cuántica",
+    "subtopic": "Diodo Túnel de Esaki"
+  },
+  {
+    "id": "ele-uni-7",
+    "sectionId": 10,
+    "number": 87,
+    "text": "En la teoría de control en el espacio de estados de sistemas lineales invariantes en el tiempo (LTI: ẋ = Ax + Bu), ¿qué matriz de controlabilidad de Kalman de rango completo n determina si el sistema es completamente controlable?",
+    "options": [
+      "C = [B | AB | A²B | ... | A^{n-1}B]",
+      "O = [C; CA; CA²; ...]",
+      "Matriz de rigidez de Cauchy",
+      "Hessiano de Lyapunov"
+    ],
+    "correctIndex": 0,
+    "explanation": "El criterio de Kalman demuestra que el sistema es controlable si y solo si la matriz de controlabilidad C tiene rango pleno n, lo que garantiza la capacidad de transferir el estado desde cualquier origen a cualquier estado final mediante una entrada u(t).",
+    "skill": "Control Moderno en Espacio de Estados",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría de Sistemas y Control",
+    "subtopic": "Controlabilidad de Kalman"
+  },
+  {
+    "id": "ele-uni-8",
+    "sectionId": 10,
+    "number": 88,
+    "text": "En la física de campos electromagnéticos en cavidades resonantes y guías de onda metálicas rectangulares, ¿cuál es el modo fundamental transversal eléctrico (TE) con la frecuencia de corte más baja?",
+    "options": [
+      "Modo TE₁₀",
+      "Modo TM₁₁",
+      "Modo TEM coaxial",
+      "Modo TE₀₁"
+    ],
+    "correctIndex": 0,
+    "explanation": "En una guía rectangular de dimensiones a × b (con a > b), el modo TE₁₀ posee longitud de onda de corte λ_c = 2a, permitiendo propagación mono-modo sin componente longitudinal de campo eléctrico (E_z = 0).",
+    "skill": "Microondas y Guías de Onda Electromagnéticas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Ingeniería de Microondas",
+    "subtopic": "Modo Fundamental TE10 en Guías Rectangulares"
+  },
+  {
+    "id": "ele-uni-9",
+    "sectionId": 10,
+    "number": 89,
+    "text": "En diseño de circuitos integrados analógicos CMOS, ¿qué configuración de espejo de corriente cascode o Wilson se utiliza preferentemente frente al espejo simple para aumentar la resistencia de salida?",
+    "options": [
+      "El espejo de corriente Cascode (aumenta la resistencia de salida en un factor proporcional a g_m · r_o)",
+      "El inversor digital básico",
+      "El par Darlington bipolar simple",
+      "El oscilador de anillo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al apilar transistores en configuración cascode, la resistencia dinámica de salida vista desde el drenador se multiplica aproximadamente por la ganancia intrínseca g_m r_o, aproximándose a una fuente de corriente ideal.",
+    "skill": "Diseño de Circuitos Integrados CMOS Analógicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Microelectrónica VLSI",
+    "subtopic": "Espejos de Corriente Cascode en CMOS"
+  },
+  {
+    "id": "ele-uni-10",
+    "sectionId": 10,
+    "number": 90,
+    "text": "En la estabilidad transitoria de sistemas eléctricos de potencia ante fallas severas y pérdida de sincronismo en generadores, ¿qué ecuación diferencial no lineal de segundo orden describe la dinámica del ángulo del rotor δ?",
+    "options": [
+      "La Ecuación de Oscilación (Swing Equation: M · d²δ/dt² = P_m - P_e)",
+      "La Ley de Ohm compleja",
+      "La ecuación de Poisson para cargas",
+      "La ecuación de onda acústica"
+    ],
+    "correctIndex": 0,
+    "explanation": "La ecuación de oscilación modela el desbalance entre la potencia mecánica de la turbina P_m y la potencia electromagnética entregada a la red P_e, resolviéndose mediante el Criterio de Áreas Iguales para determinar el tiempo crítico de despeje de falla.",
+    "skill": "Estabilidad Transitoria de Sistemas Eléctricos de Potencia",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Dinámica de Sistemas de Potencia",
+    "subtopic": "Ecuación de Oscilación (Swing Equation)"
+  },
+  {
+    "id": "ele-uni-11",
+    "sectionId": 10,
+    "number": 91,
+    "text": "En el análisis de estabilidad no lineal de Lyapunov para sistemas dinámicos autónomos ẋ = f(x), ¿qué condición suficiente sobre la función escalar de energía V(x) definida positiva garantiza la estabilidad asintótica del origen en el sentido de Lyapunov?",
+    "options": [
+      "Que su derivada temporal a lo largo de las trayectorias del sistema sea estrictamente negativa (V̇(x) = ∇V · f(x) < 0 para todo x ≠ 0)",
+      "Que V(x) sea una constante imaginaria pura",
+      "Que la derivada sea idénticamente positiva",
+      "Que el sistema no tenga puntos de equilibrio"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Segundo Método de Lyapunov (Método Directo) demuestra que si la energía generalizada V(x) decrece monótonamente a lo largo de las trayectorias del sistema (V̇ < 0), el estado converge inevitablemente al punto de equilibrio.",
+    "skill": "Control No Lineal y Estabilidad de Lyapunov",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría de Control No Lineal",
+    "subtopic": "Segundo Método de Lyapunov"
+  },
+  {
+    "id": "ele-uni-12",
+    "sectionId": 10,
+    "number": 92,
+    "text": "En la teoría cuántica de transporte mesoscópico en nanoestructuras semiconductoras y puntos cuánticos, ¿qué fórmula formulada por Rolf Landauer expresa la conductancia eléctrica G en función de las probabilidades de transmisión cuántica T_i de los canales de conducción?",
+    "options": [
+      "Fórmula de Landauer (G = (2e² / h) · ∑ T_i)",
+      "Ley de Ohm macroscópica lineal",
+      "Ecuación de Clausius-Mossotti",
+      "Límite de Mott"
+    ],
+    "correctIndex": 0,
+    "explanation": "Landauer demostró que la resistencia en conductores balísticos unidimensionales no se origina por dispersión de impurezas sino por el contacto con los reservorios, cuantizándose la conductancia en múltiplos del cuanto G₀ = 2e²/h ≈ 77.48 μS.",
+    "skill": "Transporte Cuántico Mesoscópico y Nanotecnología",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Nanoelectrónica Cuántica",
+    "subtopic": "Fórmula de Landauer y Cuantización de la Conductancia"
+  },
+  {
+    "id": "ele-uni-13",
+    "sectionId": 10,
+    "number": 93,
+    "text": "En el diseño de antenas de telecomunicación y teoría electromagnética de radiación, ¿a partir de qué distancia radial r respecto a una antena de mayor dimensión D y longitud de onda λ se inicia la región de campo lejano o zona de Fraunhofer?",
+    "options": [
+      "r ≥ 2 D² / λ",
+      "r = λ / (2π) exclusivamente",
+      "r = D / 2",
+      "r = 0 en el centro de fase"
+    ],
+    "correctIndex": 0,
+    "explanation": "El límite de Fraunhofer r ≥ 2D²/λ garantiza que la diferencia de fase entre ondas esféricas provenientes de los extremos de la apertura y el centro sea menor a 22.5° (π/8 rad), donde el diagrama de radiación angular se vuelve independiente de la distancia.",
+    "skill": "Teoría de Antenas y Radiación Electromagnética",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Ingeniería de Antenas",
+    "subtopic": "Región de Campo Lejano de Fraunhofer"
+  },
+  {
+    "id": "ele-uni-14",
+    "sectionId": 10,
+    "number": 94,
+    "text": "En la teoría de modulación digital moderna (telecomunicaciones 4G/5G y Wi-Fi 6), ¿qué esquema de modulación multiportadora ortogonal divide un canal de banda ancha en miles de subportadoras ortogonales estrechas inmunes a la dispersión temporal por multitrayecto?",
+    "options": [
+      "OFDM (Orthogonal Frequency Division Multiplexing)",
+      "AM con portadora suprimida pura",
+      "Modulación FSK analógica simple",
+      "Conmutación por relés de impulsos"
+    ],
+    "correctIndex": 0,
+    "explanation": "OFDM transforma un canal selectivo en frecuencia en múltiples canales planos en frecuencia sin interferencia intersimbólica (ISI) mediante la inserción de un prefijo cíclico (CP) y el uso de la Transformada Rápida de Fourier (FFT/IFFT).",
+    "skill": "Comunicaciones Digitales Avanzadas y Modulación OFDM",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Sistemas de Telecomunicación",
+    "subtopic": "Multiplexación por División de Frecuencias Ortogonales (OFDM)"
+  },
+  {
+    "id": "ele-uni-15",
+    "sectionId": 10,
+    "number": 95,
+    "text": "En la teoría de la fiabilidad y confiabilidad de sistemas electrónicos complejos, ¿qué curva de tasa de fallos en el tiempo λ(t) describe las tres etapas de vida: fallas prematuras de infancia (mortalidad infantil), tasa de fallos constante por eventos fortuitos, y fallas por envejecimiento o desgaste?",
+    "options": [
+      "La curva de la bañera (Bathtub curve)",
+      "La distribución gaussiana normal pura",
+      "La curva de histéresis magnética",
+      "El círculo unitario de Nyquist"
+    ],
+    "correctIndex": 0,
+    "explanation": "La curva de la bañera modela la fiabilidad: las pruebas de estrés acelerado (burn-in) eliminan fallas tempranas de manufactura, permitiendo que el equipo opere durante su vida útil en la fase de tasa de fallo constante (distribución exponencial).",
+    "skill": "Ingeniería de Confiabilidad y Fiabilidad de Sistemas Electrónicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Confiabilidad y Mantenimiento Avanzado",
+    "subtopic": "Curva de la Bañera de Fiabilidad"
+  },
+  {
+    "id": "ele-uni-16",
+    "sectionId": 10,
+    "number": 96,
+    "text": "En convertidores de potencia resonantes (como el convertidor LLC de medio puente), ¿qué técnica de conmutación suave activa los interruptores de potencia MOSFET cuando la tensión a través de ellos es nula (ZVS) para reducir drásticamente las pérdidas de conmutación a altas frecuencias?",
+    "options": [
+      "Conmutación a Voltaje Cero (Zero Voltage Switching - ZVS)",
+      "Conmutación forzada por tiristor",
+      "Modulación por ancho de pulso duro pura",
+      "Frenado reostático"
+    ],
+    "correctIndex": 0,
+    "explanation": "En ZVS, la corriente inductiva magnetizante descarga la capacitancia parásita de salida del MOSFET (C_oss) antes de que el canal se encienda, eliminando la pérdida de energía E_loss = 1/2 C V² en cada ciclo.",
+    "skill": "Electrónica de Potencia Resonante de Alta Eficiencia",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Convertidores Resonantes",
+    "subtopic": "Técnicas de Conmutación Suave ZVS y ZCS"
+  },
+  {
+    "id": "ele-uni-17",
+    "sectionId": 10,
+    "number": 97,
+    "text": "En la teoría del filtrado óptimo estocástico y estimación de variables de estado ocultas en tiempo real bajo ruido gaussiano blanco, ¿qué algoritmo recursivo predictor-corrector formulado por Rudolf E. Kálmán (1960) minimiza el error cuadrático medio de estimación?",
+    "options": [
+      "Filtro de Kalman",
+      "Filtro adaptativo LMS de Widrow-Hoff",
+      "Filtro de mediana espacial",
+      "Transformada de Hilbert-Huang"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Filtro de Kalman proyecta el estado del sistema mediante matrices de covarianza de ruido de proceso y actualiza ponderadamente la estimación a través de la matriz de Ganancia de Kalman K_k ante cada nueva medición.",
+    "skill": "Estimación de Estado y Filtrado Óptimo de Kalman",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Procesamiento Estocástico de Señales",
+    "subtopic": "Algoritmo del Filtro de Kalman"
+  },
+  {
+    "id": "ele-uni-18",
+    "sectionId": 10,
+    "number": 98,
+    "text": "En la superconductividad aplicada a generadores criogénicos y escáneres de resonancia magnética nuclear (MRI), ¿qué fenómeno cuántico macroscópico expulsa completamente el campo magnético del interior del superconductor (diamagnetismo perfecto B = 0)?",
+    "options": [
+      "Efecto Meissner-Ochsenfeld",
+      "Efecto Hall cuántico fraccionario",
+      "Efecto Josephson de corriente continua",
+      "Efecto Seebeck"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fritz y Heinz London demostraron que por debajo de la temperatura crítica T_c, se inducen supercorrientes de superficie sin resistencia que cancelan exactamente el campo magnético exterior en el volumen interno (apantallamiento de London).",
+    "skill": "Superconductividad y Campos Magnéticos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Materia Condensada y Criogenia",
+    "subtopic": "Efecto Meissner-Ochsenfeld"
+  },
+  {
+    "id": "ele-uni-19",
+    "sectionId": 10,
+    "number": 99,
+    "text": "En el análisis de redes de dos puertos en frecuencias de microondas, ¿qué matriz paramétrica [S] relaciona las ondas de tensión normalizadas incidentes (a) y reflejadas (b) en lugar de tensiones y corrientes absolutas difíciles de medir a gigahercios?",
+    "options": [
+      "Matriz de Parámetros de Dispersión (Parámetros S - Scattering Parameters)",
+      "Matriz de impedancia de circuito Z",
+      "Matriz de admitancia Y",
+      "Matriz de híbridos h"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los parámetros S (S₁₁ reflexión en puerto 1, S₂₁ transmisión/ganancia directa) se miden terminando los puertos en la impedancia característica de referencia Z₀ (50 Ω), evitando cortocircuitos o circuitos abiertos inestables a microondas.",
+    "skill": "Parámetros S y Redes de Microondas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Ingeniería de Radiofrecuencia y Microondas",
+    "subtopic": "Matriz de Dispersión (Parámetros S)"
+  },
+  {
+    "id": "ele-uni-20",
+    "sectionId": 10,
+    "number": 100,
+    "text": "En compatibilidad electromagnética (EMC / EMI) para cumplimiento de normas internacionales (CISPR / FCC), ¿qué transitorio oscilatorio de alta energía y muy corta duración generado por descargas atmosféricas indirectas o maniobras de subestaciones debe soportar un equipo industrial según la norma IEC 61000-4-5?",
+    "options": [
+      "Onda de choque combinada de sobretensión transitoria tipo Surge (1.2/50 μs de tensión y 8/20 μs de corriente)",
+      "Descarga electrostática ESD de 100 picosegundos",
+      "Caída de tensión lenta de 10 segundos",
+      "Armónicos pares permanentes"
+    ],
+    "correctIndex": 0,
+    "explanation": "La norma IEC 61000-4-5 define generadores de ondas combinadas híbridas normalizadas (tiempo de subida 1.2 μs y duración hasta el 50% de 50 μs) ensayando varistores de óxido metálico (MOV) y tubos de descarga de gas (GDT) en la entrada de alimentación.",
+    "skill": "Compatibilidad Electromagnética (EMC) e Inmunidad a Sobretensiones",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Normas Internacionales de Seguridad y EMC",
+    "subtopic": "Ensayos de Sobretensión Transitoria Surge IEC 61000-4-5"
+  }
+]

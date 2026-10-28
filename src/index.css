@@ -1,0 +1,388 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  html.dark body {
+    color: #f8fafc;
+    background-color: #10152B;
+  }
+
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Universal Form Input Text Visibility & High-Contrast Multiplatform Support */
+  input, textarea, select {
+    color: #0f172a;
+    -webkit-text-fill-color: currentColor;
+    color-scheme: light;
+  }
+
+  select option {
+    background-color: #ffffff;
+    color: #0f172a;
+    -webkit-text-fill-color: #0f172a;
+  }
+
+  html.dark input, html.dark textarea, html.dark select {
+    color: #f8fafc;
+    -webkit-text-fill-color: currentColor;
+    color-scheme: dark;
+  }
+
+  html.dark select option {
+    background-color: #10152B;
+    color: #f8fafc;
+    -webkit-text-fill-color: #f8fafc;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #94a3b8;
+    -webkit-text-fill-color: #94a3b8;
+    opacity: 1;
+  }
+
+  html.dark input::placeholder, html.dark textarea::placeholder {
+    color: #64748b;
+    -webkit-text-fill-color: #64748b;
+    opacity: 1;
+  }
+}
+
+.safe-area-pb {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 12px -2px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 24px 2px rgba(99, 102, 241, 0.45);
+  }
+}
+
+@keyframes soundWave {
+  0%, 100% {
+    height: 4px;
+  }
+  50% {
+    height: 16px;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-popIn {
+  animation: popIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.sound-bar-1 {
+  animation: soundWave 0.7s ease-in-out infinite;
+}
+
+.sound-bar-2 {
+  animation: soundWave 0.9s ease-in-out infinite 0.15s;
+}
+
+.sound-bar-3 {
+  animation: soundWave 0.6s ease-in-out infinite 0.3s;
+}
+
+.smooth-transition {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-lift {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.hover-lift:active {
+  transform: translateY(0) scale(0.985);
+}
+
+@keyframes progressShimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+.animate-progress-shimmer {
+  animation: progressShimmer 2.2s infinite ease-in-out;
+}
+
+@keyframes titleDynamicGradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.dynamic-title-gradient {
+  background-size: 200% 200%;
+  animation: titleDynamicGradientFlow 8s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dynamic-glow-transition {
+  transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes subtleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.animate-float {
+  animation: subtleFloat 3s ease-in-out infinite;
+}
+
+:root {
+  --app-bg: #f8fafc;
+  --surface-primary: #ffffff;
+  --surface-secondary: #f1f5f9;
+  --surface-card: #ffffff;
+  --text-primary: #10152B;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-subtle: #e2e8f0;
+  --border-card: #e2e8f0;
+  --accent-primary: #175CD3;
+  --accent-cyan: #0284c7;
+  --accent-violet: #7c3aed;
+  --accent-pink: #db2777;
+  --accent-gold: #d97706;
+}
+
+html.dark {
+  --app-bg: #0b0f19;
+  --surface-primary: #10152B;
+  --surface-secondary: #161F3F;
+  --surface-card: #10152B;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --border-subtle: rgba(101, 216, 255, 0.2);
+  --border-card: rgba(101, 216, 255, 0.25);
+  --accent-primary: #65D8FF;
+  --accent-cyan: #65D8FF;
+  --accent-violet: #A994FF;
+  --accent-pink: #FF78C8;
+  --accent-gold: #FFD166;
+}
+
+/* ========================================================
+   LIQUID GLASS DESIGN SYSTEM (NEXORA FUTURISTIC LIQUID GLASS)
+   Brand Palette:
+   Navy: #10152B | Cyan: #65D8FF | Violet: #A994FF | Pink: #FF78C8 | Gold: #FFD166
+   ======================================================== */
+
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px 0 rgba(16, 21, 43, 0.05);
+}
+
+html.dark .liquid-glass {
+  background: rgba(16, 21, 43, 0.88);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid rgba(101, 216, 255, 0.25);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.55), inset 0 1px 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+.liquid-glass-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px -2px rgba(16, 21, 43, 0.05), 0 2px 6px -1px rgba(16, 21, 43, 0.02);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+html.dark .liquid-glass-card {
+  background: rgba(16, 21, 43, 0.85);
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(101, 216, 255, 0.2);
+  box-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.liquid-glass-card:hover {
+  transform: translateY(-2px);
+  border-color: #cbd5e1;
+  box-shadow: 0 10px 25px -4px rgba(16, 21, 43, 0.08);
+}
+
+html.dark .liquid-glass-card:hover {
+  border-color: rgba(101, 216, 255, 0.5);
+  box-shadow: 0 16px 36px -5px rgba(101, 216, 255, 0.16), 0 10px 14px -6px rgba(169, 148, 255, 0.14);
+}
+
+/* Question Option Item Liquid Glass States */
+.liquid-glass-option {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px 0 rgba(16, 21, 43, 0.03);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #10152B;
+}
+
+.liquid-glass-option:hover {
+  transform: translateY(-1px);
+  border-color: #cbd5e1;
+  background-color: #f8fafc;
+  box-shadow: 0 4px 12px rgba(16, 21, 43, 0.06);
+}
+
+html.dark .liquid-glass-option {
+  background: rgba(16, 21, 43, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+}
+
+html.dark .liquid-glass-option:hover {
+  transform: translateY(-1px);
+  border-color: rgba(101, 216, 255, 0.6);
+  background-color: #161F3F;
+  box-shadow: 0 4px 16px rgba(101, 216, 255, 0.15);
+}
+
+/* Fallback when backdrop-filter is unsupported */
+@supports not (backdrop-filter: blur(1px)) {
+  .liquid-glass, .liquid-glass-card, .liquid-glass-option {
+    background-color: #ffffff !important;
+  }
+  html.dark .liquid-glass, html.dark .liquid-glass-card, html.dark .liquid-glass-option {
+    background-color: #10152B !important;
+  }
+}
+
+.liquid-glass-pill {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(203, 213, 225, 0.7);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+html.dark .liquid-glass-pill {
+  background: rgba(30, 41, 59, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.liquid-glass-button {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-glass-button:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.1));
+  border-color: rgba(101, 216, 255, 0.6);
+  box-shadow: 0 4px 16px rgba(101, 216, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.liquid-glass-button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}

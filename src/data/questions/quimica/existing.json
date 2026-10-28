@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "qui-bas-1",
+    "sectionId": 6,
+    "number": 1,
+    "text": "¿Cuál es el símbolo químico universal del agua y qué átomos componen su molécula?",
+    "options": [
+      "H₂O (2 átomos de hidrógeno y 1 de oxígeno)",
+      "CO₂ (1 de carbono y 2 de oxígeno)",
+      "NaCl (1 de sodio y 1 de cloro)",
+      "O₂ (2 de oxígeno)"
+    ],
+    "correctIndex": 0,
+    "explanation": "El agua está formada por dos átomos de hidrógeno unidos covalentemente a un átomo de oxígeno (H₂O).",
+    "skill": "Fórmulas Químicas Elementales",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sustancias y Compuestos",
+    "subtopic": "Molécula de Agua"
+  },
+  {
+    "id": "qui-bas-2",
+    "sectionId": 6,
+    "number": 2,
+    "text": "¿Qué partícula subatómica con carga eléctrica negativa orbita alrededor del núcleo atómico?",
+    "options": [
+      "El protón",
+      "El neutrón",
+      "El electrón",
+      "El positrón"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los electrones tienen carga negativa (-1e) y masa despreciable comparada con los protones y neutrones nucleares.",
+    "skill": "Estructura Atómica Fundamental",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "El Átomo",
+    "subtopic": "Partículas Subatómicas"
+  },
+  {
+    "id": "qui-bas-3",
+    "sectionId": 6,
+    "number": 3,
+    "text": "¿Cuál es el elemento químico más ligero y abundante del Universo, con número atómico Z = 1?",
+    "options": [
+      "Helio (He)",
+      "Hidrógeno (H)",
+      "Carbono (C)",
+      "Oxígeno (O)"
+    ],
+    "correctIndex": 1,
+    "explanation": "El hidrógeno (H) tiene Z = 1 (1 protón y 1 electrón) y constituye más del 70% de la masa bariónica del cosmos.",
+    "skill": "Tabla Periódica Elemental",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Elementos Químicos",
+    "subtopic": "Hidrógeno"
+  },
+  {
+    "id": "qui-bas-4",
+    "sectionId": 6,
+    "number": 4,
+    "text": "¿Qué tipo de mezcla es el agua con sal completamente disuelta?",
+    "options": [
+      "Mezcla heterogénea",
+      "Mezcla homogénea (solución)",
+      "Compuesto binario puro",
+      "Coloide lechoso"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al disolverse el cloruro de sodio en agua, los iones Na⁺ y Cl⁻ se dispersan a nivel molecular formando una sola fase líquida homogénea.",
+    "skill": "Clasificación de la Materia",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistemas Materiales",
+    "subtopic": "Mezclas Homogéneas"
+  },
+  {
+    "id": "qui-bas-5",
+    "sectionId": 6,
+    "number": 5,
+    "text": "¿Cómo se llama el cambio de estado en el que un sólido pasa directamente a gas sin pasar por el estado líquido?",
+    "options": [
+      "Fusión",
+      "Sublimación (o sublimación progresiva)",
+      "Condensación",
+      "Solidificación"
+    ],
+    "correctIndex": 1,
+    "explanation": "La sublimación es el paso directo de sólido a gas (ej. yodo sólido o hielo seco CO₂ a temperatura ambiente).",
+    "skill": "Cambios de Fase Químicos y Físicos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Estados de Agregación",
+    "subtopic": "Sublimación"
+  },
+  {
+    "id": "qui-bas-6",
+    "sectionId": 6,
+    "number": 6,
+    "text": "¿Cuál es el símbolo químico del hierro en la tabla periódica?",
+    "options": [
+      "Hi",
+      "H",
+      "Fe",
+      "Ir"
+    ],
+    "correctIndex": 2,
+    "explanation": "El símbolo del hierro es Fe, derivado de su nombre en latín ferrum.",
+    "skill": "Nomenclatura y Símbolos de Elementos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Tabla Periódica",
+    "subtopic": "Símbolos Químicos"
+  },
+  {
+    "id": "qui-bas-7",
+    "sectionId": 6,
+    "number": 7,
+    "text": "¿Qué sustancia pura de la tabla periódica es vital para la respiración de los seres humanos y combustión del fuego?",
+    "options": [
+      "Dióxido de carbono",
+      "Gas oxígeno (O₂)",
+      "Gas helio",
+      "Metano"
+    ],
+    "correctIndex": 1,
+    "explanation": "El oxígeno molecular diatómico (O₂) actúa como comburente en reacciones de combustión y como aceptor final de electrones en la respiración celular.",
+    "skill": "Propiedades del Oxígeno",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Elementos y Sustancias",
+    "subtopic": "Oxígeno y Combustión"
+  },
+  {
+    "id": "qui-bas-8",
+    "sectionId": 6,
+    "number": 8,
+    "text": "¿Qué pH tiene el agua pura destilada a 25 °C?",
+    "options": [
+      "0",
+      "7 (neutro)",
+      "14",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "El agua pura tiene una concentración de iones [H⁺] = 10⁻⁷ M, lo que define el pH neutro = 7.",
+    "skill": "Escala de pH",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ácidos y Bases Básicos",
+    "subtopic": "pH Neutro"
+  },
+  {
+    "id": "qui-bas-9",
+    "sectionId": 6,
+    "number": 9,
+    "text": "¿Cómo se denomina la sustancia inicial que se transforma en una reacción química para originar los productos?",
+    "options": [
+      "Catalizador",
+      "Reactivo (o reactante)",
+      "Disolvente",
+      "Soluto"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los reactivos o reactantes son las especies químicas iniciales cuyos enlaces se rompen y reorganizan para generar los productos finales.",
+    "skill": "Concepto de Reacción Química",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Transformaciones Químicas",
+    "subtopic": "Reactivos y Productos"
+  },
+  {
+    "id": "qui-bas-10",
+    "sectionId": 6,
+    "number": 10,
+    "text": "¿Qué compuesto químico de uso cotidiano en la cocina tiene la fórmula molecular NaCl?",
+    "options": [
+      "Azúcar sacarosa",
+      "Bicarbonato de sodio",
+      "Cloruro de sodio (sal común)",
+      "Vinagre blanco"
+    ],
+    "correctIndex": 2,
+    "explanation": "El cloruro de sodio (NaCl) es la sal común o de mesa, un compuesto iónico formado por iones Na⁺ y Cl⁻.",
+    "skill": "Compuestos de Uso Cotidiano",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Química en la Vida Diaria",
+    "subtopic": "Cloruro de Sodio"
+  },
+  {
+    "id": "qui-bas-11",
+    "sectionId": 6,
+    "number": 11,
+    "text": "¿Cuál de los siguientes es un gas noble inerte que se utiliza para inflar globos debido a que no arde y es más liviano que el aire?",
+    "options": [
+      "Hidrógeno",
+      "Helio (He)",
+      "Oxígeno",
+      "Cloro"
+    ],
+    "correctIndex": 1,
+    "explanation": "El helio (He) es un gas noble con capa electrónica completa (dueto estable), no reactivo e ininflamable.",
+    "skill": "Gases Nobles y Reactividad",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Tabla Periódica",
+    "subtopic": "Helio y Gases Nobles"
+  },
+  {
+    "id": "qui-bas-12",
+    "sectionId": 6,
+    "number": 12,
+    "text": "¿Qué método mecánico de separación se utiliza para separar arena insoluble mezclada con agua líquida?",
+    "options": [
+      "Destilación simple",
+      "Filtración",
+      "Cromatografía",
+      "Electrólisis"
+    ],
+    "correctIndex": 1,
+    "explanation": "La filtración retiene las partículas sólidas de arena en el papel filtro mientras deja pasar el agua líquida como filtrado.",
+    "skill": "Técnicas de Separación de Mezclas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Métodos de Separación",
+    "subtopic": "Filtración"
+  },
+  {
+    "id": "qui-bas-13",
+    "sectionId": 6,
+    "number": 13,
+    "text": "¿Cuál es el número de protones que posee un átomo de carbono-12 en su núcleo (Z = 6)?",
+    "options": [
+      "3",
+      "6",
+      "12",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "El número atómico Z indica el número de protones en el núcleo. Para el carbono, Z = 6.",
+    "skill": "Número Atómico y Protones",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Estructura Atómica",
+    "subtopic": "Número Atómico Z"
+  },
+  {
+    "id": "qui-bas-14",
+    "sectionId": 6,
+    "number": 14,
+    "text": "¿Qué tipo de enlace químico se forma cuando dos átomos comparten uno o más pares de electrones de valencia?",
+    "options": [
+      "Enlace iónico",
+      "Enlace covalente",
+      "Enlace metálico",
+      "Enlace de Van der Waals"
+    ],
+    "correctIndex": 1,
+    "explanation": "El enlace covalente se produce por compartición mutua de pares electrónicos entre átomos de electronegatividades similares (generalmente no metales).",
+    "skill": "Tipos de Enlaces Químicos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Enlace Químico",
+    "subtopic": "Enlace Covalente"
+  },
+  {
+    "id": "qui-bas-15",
+    "sectionId": 6,
+    "number": 15,
+    "text": "¿Cómo se denomina la disolución que contiene la máxima cantidad posible de soluto disuelto a una temperatura dada?",
+    "options": [
+      "Disolución diluida",
+      "Disolución saturada",
+      "Disolución coloidal",
+      "Disolución insaturada"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una disolución saturada se encuentra en equilibrio termodinámico con soluto no disuelto a su límite de solubilidad.",
+    "skill": "Solubilidad y Concentración",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Soluciones Acuosas",
+    "subtopic": "Saturación"
+  },
+  {
+    "id": "qui-bas-16",
+    "sectionId": 6,
+    "number": 16,
+    "text": "¿Cuál es el metal líquido a temperatura ambiente (20 °C) utilizado tradicionalmente en termómetros antiguos?",
+    "options": [
+      "Plomo",
+      "Mercurio (Hg)",
+      "Aluminio",
+      "Plata"
+    ],
+    "correctIndex": 1,
+    "explanation": "El mercurio (Hg, Z = 80) es el único metal elemental que permanece en estado líquido a temperatura y presión estándar.",
+    "skill": "Propiedades de los Metales",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Elementos Químicos",
+    "subtopic": "Mercurio"
+  },
+  {
+    "id": "qui-bas-17",
+    "sectionId": 6,
+    "number": 17,
+    "text": "¿Qué gas desprenden las bebidas gaseosas y efervescentes al destapar la botella?",
+    "options": [
+      "Monóxido de carbono",
+      "Dióxido de carbono (CO₂)",
+      "Metano",
+      "Ozono"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las bebidas carbonatadas contienen ácido carbónico en equilibrio con CO₂ disuelto a presión que se libera al despresurizar el envase.",
+    "skill": "Química Cotidiana",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Gases y Soluciones",
+    "subtopic": "Dióxido de Carbono Disuelto"
+  },
+  {
+    "id": "qui-bas-18",
+    "sectionId": 6,
+    "number": 18,
+    "text": "¿Qué partícula subatómica no posee carga eléctrica neta (es neutra) y se localiza en el núcleo atómico?",
+    "options": [
+      "El electrón",
+      "El protón",
+      "El neutrón",
+      "El fotón"
+    ],
+    "correctIndex": 2,
+    "explanation": "El neutrón descubierto por James Chadwick en 1932 no tiene carga eléctrica y estabiliza el núcleo reduciendo la repulsión protónica.",
+    "skill": "Partículas Nucleares",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Estructura Atómica",
+    "subtopic": "Neutrones"
+  },
+  {
+    "id": "qui-bas-19",
+    "sectionId": 6,
+    "number": 19,
+    "text": "¿Cómo se llaman las filas horizontales en la tabla periódica moderna de los elementos?",
+    "options": [
+      "Grupos o familias",
+      "Períodos",
+      "Bloques orbitales",
+      "Series lantanoides"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las 7 filas horizontales son los períodos (indican el número de niveles energéticos principales n) y las columnas verticales son los grupos.",
+    "skill": "Estructura de la Tabla Periódica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Tabla Periódica",
+    "subtopic": "Períodos"
+  },
+  {
+    "id": "qui-bas-20",
+    "sectionId": 6,
+    "number": 20,
+    "text": "¿Cuál es la fórmula química del gas metano, componente principal del gas natural doméstico?",
+    "options": [
+      "CO₂",
+      "CH₄",
+      "NH₃",
+      "C₂H₆"
+    ],
+    "correctIndex": 1,
+    "explanation": "El metano es el hidrocarburo alcano más simple, constituido por un átomo de carbono tetraédrico unido a cuatro hidrógenos (CH₄).",
+    "skill": "Química Orgánica Básica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hidrocarburos",
+    "subtopic": "Metano"
+  },
+  {
+    "id": "qui-int-1",
+    "sectionId": 6,
+    "number": 21,
+    "text": "¿Cuántos moles de átomos de hidrógeno hay en exactamente 2 moles de moléculas de agua (H₂O)?",
+    "options": [
+      "2 moles",
+      "3 moles",
+      "4 moles",
+      "6 moles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cada molécula de H₂O contiene 2 átomos de H. En 2 moles de H₂O hay: 2 moles × 2 = 4 moles de átomos de H.",
+    "skill": "Estequiometría y Concepto de Mol",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Estequiometría",
+    "subtopic": "Cálculo de Moles"
+  },
+  {
+    "id": "qui-int-2",
+    "sectionId": 6,
+    "number": 22,
+    "text": "¿Cuál es la masa molar aproximada del dióxido de carbono (CO₂)? (Masas atómicas: C = 12 g/mol, O = 16 g/mol).",
+    "options": [
+      "28 g/mol",
+      "32 g/mol",
+      "44 g/mol",
+      "56 g/mol"
+    ],
+    "correctIndex": 2,
+    "explanation": "Masa molar del CO₂ = 12 + 2 × (16) = 12 + 32 = 44 g/mol.",
+    "skill": "Masa Molar de Compuestos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Cálculos Químicos",
+    "subtopic": "Masa Molecular"
+  },
+  {
+    "id": "qui-int-3",
+    "sectionId": 6,
+    "number": 23,
+    "text": "En una reacción redox, ¿qué proceso experimenta la sustancia que pierde electrones?",
+    "options": [
+      "Reducción",
+      "Oxidación",
+      "Precipitación",
+      "Neutralización"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por definición electroquímica: la oxidación es la pérdida de electrones (aumento del número de oxidación), mientras que la reducción es la ganancia de electrones.",
+    "skill": "Reacciones de Oxidación-Reducción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Electroquímica",
+    "subtopic": "Concepto de Oxidación"
+  },
+  {
+    "id": "qui-int-4",
+    "sectionId": 6,
+    "number": 24,
+    "text": "¿Qué tipo de enlace se forma entre el sodio (Na, metal alcalino) y el cloro (Cl, no metal halógeno)?",
+    "options": [
+      "Enlace covalente apolar",
+      "Enlace iónico (o electrovalente)",
+      "Enlace metálico",
+      "Enlace peptídico"
+    ],
+    "correctIndex": 1,
+    "explanation": "La gran diferencia de electronegatividad (ΔEN > 2.0) provoca la transferencia completa de un electrón del Na al Cl, formando iones Na⁺ y Cl⁻ atraídos electrostáticamente.",
+    "skill": "Naturaleza del Enlace Iónico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Enlace Químico",
+    "subtopic": "Formación de Compuestos Iónicos"
+  },
+  {
+    "id": "qui-int-5",
+    "sectionId": 6,
+    "number": 25,
+    "text": "¿Cuál es la configuración electrónica en el estado fundamental del átomo de sodio neutro (Z = 11)?",
+    "options": [
+      "1s² 2s² 2p⁶ 3s¹",
+      "1s² 2s² 2p⁶ 3s²",
+      "1s² 2s² 2p⁵ 3s²",
+      "1s² 2s⁸ 3s¹"
+    ],
+    "correctIndex": 0,
+    "explanation": "Siguiendo el principio de Aufbau (orden creciente de energía n+l): 1s² 2s² 2p⁶ 3s¹ (o [Ne] 3s¹), con 1 electrón de valencia.",
+    "skill": "Configuración Electrónica y Regla de Aufbau",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Estructura Atómica",
+    "subtopic": "Configuraciones Electrónicas"
+  },
+  {
+    "id": "qui-int-6",
+    "sectionId": 6,
+    "number": 26,
+    "text": "Al balancear la ecuación química: N₂ + H₂ → NH₃, ¿cuáles son los coeficientes estequiométricos enteros mínimos?",
+    "options": [
+      "1 N₂ + 1 H₂ → 2 NH₃",
+      "1 N₂ + 3 H₂ → 2 NH₃",
+      "2 N₂ + 3 H₂ → 4 NH₃",
+      "1 N₂ + 2 H₂ → 1 NH₃"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para igualar átomos: 1 N₂ aporta 2 átomos de N (dando 2 NH₃). Los 2 NH₃ requieren 6 átomos de H, provistos por 3 H₂. Coeficientes: 1, 3, 2.",
+    "skill": "Balanceo de Ecuaciones Químicas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Reacciones Químicas",
+    "subtopic": "Balanceo por Tanteo"
+  },
+  {
+    "id": "qui-int-7",
+    "sectionId": 6,
+    "number": 27,
+    "text": "¿Cuál de los siguientes ácidos es un ácido binario o hidrácido inorgánico?",
+    "options": [
+      "Ácido sulfúrico (H₂SO₄)",
+      "Ácido clorhídrico (HCl)",
+      "Ácido nítrico (HNO₃)",
+      "Ácido fosfórico (H₃PO₄)"
+    ],
+    "correctIndex": 1,
+    "explanation": "El ácido clorhídrico (HCl) es un hidrácido binario compuesto únicamente por hidrógeno y un no metal halógeno sin oxígeno.",
+    "skill": "Nomenclatura Inorgánica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Ácidos Inorgánicos",
+    "subtopic": "Hidrácidos vs Oxoácidos"
+  },
+  {
+    "id": "qui-int-8",
+    "sectionId": 6,
+    "number": 28,
+    "text": "Según la teoría ácido-base de Brønsted-Lowry, ¿cómo se define una base?",
+    "options": [
+      "Una especie que libera iones OH⁻ exclusivamente",
+      "Una especie capaz de aceptar un protón (ion H⁺)",
+      "Una especie que cede electrones",
+      "Una sal disuelta"
+    ],
+    "correctIndex": 1,
+    "explanation": "En la teoría de Brønsted-Lowry, un ácido es un donador de protones (H⁺) y una base es un aceptor de protones (H⁺).",
+    "skill": "Teorías Ácido-Base",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Ácidos y Bases",
+    "subtopic": "Teoría de Brønsted-Lowry"
+  },
+  {
+    "id": "qui-int-9",
+    "sectionId": 6,
+    "number": 29,
+    "text": "¿Qué ley de los gases postula que a presión y temperatura constantes, el volumen de un gas es directamente proporcional al número de moles (V ∝ n)?",
+    "options": [
+      "Ley de Boyle",
+      "Ley de Charles",
+      "Ley de Avogadro",
+      "Ley de Gay-Lussac"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Ley de Avogadro establece que volúmenes iguales de gases diferentes en idénticas condiciones de P y T contienen el mismo número de moléculas o moles.",
+    "skill": "Leyes de los Gases Ideales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Gases",
+    "subtopic": "Ley de Avogadro"
+  },
+  {
+    "id": "qui-int-10",
+    "sectionId": 6,
+    "number": 30,
+    "text": "¿Qué tipo de reacción química es: 2 H₂O₂ (en presencia de MnO₂) → 2 H₂O + O₂?",
+    "options": [
+      "Reacción de síntesis o combinación",
+      "Reacción de descomposición",
+      "Reacción de desplazamiento simple",
+      "Reacción de doble sustitución"
+    ],
+    "correctIndex": 1,
+    "explanation": "Es una descomposición catalítica, donde un solo reactivo (peróxido de hidrógeno) se fragmenta en dos sustancias más simples.",
+    "skill": "Clasificación de Reacciones Químicas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Cinética y Reacciones",
+    "subtopic": "Reacciones de Descomposición"
+  },
+  {
+    "id": "qui-int-11",
+    "sectionId": 6,
+    "number": 31,
+    "text": "¿Cuál es la molaridad (M) de una solución que contiene 2 moles de soluto disueltos en 4 litros de disolución?",
+    "options": [
+      "0.25 M",
+      "0.50 M",
+      "2.0 M",
+      "8.0 M"
+    ],
+    "correctIndex": 1,
+    "explanation": "Molaridad M = moles de soluto / litros de disolución = 2 mol / 4 L = 0.50 mol/L (0.5 M).",
+    "skill": "Concentración de Disoluciones",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Soluciones",
+    "subtopic": "Molaridad"
+  },
+  {
+    "id": "qui-int-12",
+    "sectionId": 6,
+    "number": 32,
+    "text": "¿Cómo varía el radio atómico de los elementos a lo largo de un período en la tabla periódica (de izquierda a derecha)?",
+    "options": [
+      "Aumenta considerablemente",
+      "Disminuye debido al aumento de la carga nuclear efectiva (Z_eff) que atrae con más fuerza a los electrones externos",
+      "Permanece estrictamente constante",
+      "Primero disminuye y luego se triplica"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al avanzar en un período hacia la derecha, se agregan protones al núcleo sin añadir nuevas capas electrónicas, contrayendo la nube de electrones.",
+    "skill": "Propiedades Periódicas de los Elementos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Tabla Periódica",
+    "subtopic": "Radio Atómico"
+  },
+  {
+    "id": "qui-int-13",
+    "sectionId": 6,
+    "number": 33,
+    "text": "¿Cuál es el número de Avogadro de entidades elementales contenidas en un mol de cualquier sustancia?",
+    "options": [
+      "3.14 × 10⁸",
+      "6.022 × 10²³",
+      "9.81 × 10³",
+      "1.602 × 10⁻¹⁹"
+    ],
+    "correctIndex": 1,
+    "explanation": "La constante de Avogadro N_A = 6.02214076 × 10²³ mol⁻¹ define el número de partículas por mol.",
+    "skill": "Constantes Químicas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Estequiometría",
+    "subtopic": "Número de Avogadro"
+  },
+  {
+    "id": "qui-int-14",
+    "sectionId": 6,
+    "number": 34,
+    "text": "En química orgánica, ¿qué grupo funcional oxigenado caracteriza a los alcoholes como el etanol?",
+    "options": [
+      "Grupo carbonilo (-C=O)",
+      "Grupo hidroxilo (-OH)",
+      "Grupo carboxilo (-COOH)",
+      "Grupo amino (-NH₂)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los alcoholes se caracterizan por la presencia de uno o más grupos hidroxilo (-OH) unidos a carbonos saturados sp³.",
+    "skill": "Grupos Funcionales Orgánicos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Química Orgánica",
+    "subtopic": "Alcoholes y Grupo Hidroxilo"
+  },
+  {
+    "id": "qui-int-15",
+    "sectionId": 6,
+    "number": 35,
+    "text": "¿Qué propiedad coligativa explica por qué se añade sal a las carreteras congeladas para derretir la nieve?",
+    "options": [
+      "Aumento ebulloscópico",
+      "Descenso crioscópico (depresión del punto de congelación)",
+      "Presión osmótica",
+      "Aumento de tensión superficial"
+    ],
+    "correctIndex": 1,
+    "explanation": "El soluto disuelto disminuye el potencial químico del solvente, provocando el descenso crioscópico (ΔT_c = K_c · m · i) y haciendo que el hielo se funda a temperaturas bajo cero.",
+    "skill": "Propiedades Coligativas de las Soluciones",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Fisicoquímica de Soluciones",
+    "subtopic": "Descenso Crioscópico"
+  },
+  {
+    "id": "qui-int-16",
+    "sectionId": 6,
+    "number": 36,
+    "text": "¿Cuál es el estado de oxidación del azufre en el ácido sulfúrico (H₂SO₄)?",
+    "options": [
+      "+2",
+      "+4",
+      "+6",
+      "-2"
+    ],
+    "correctIndex": 2,
+    "explanation": "En H₂SO₄: el H tiene +1 (2 × +1 = +2) y el O tiene -2 (4 × -2 = -8). Para neutralidad: +2 + x + (-8) = 0 → x = +6.",
+    "skill": "Determinación de Estados de Oxidación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Nomenclatura y Redox",
+    "subtopic": "Estados de Oxidación"
+  },
+  {
+    "id": "qui-int-17",
+    "sectionId": 6,
+    "number": 37,
+    "text": "¿Qué postula el Principio de Le Chatelier para un sistema químico en equilibrio dinámico?",
+    "options": [
+      "Que el equilibrio nunca puede ser perturbado.",
+      "Que si un sistema en equilibrio es sometido a una perturbación externa (cambio de temperatura, presión o concentración), el sistema responderá desplazándose en el sentido que contrarreste dicha perturbación.",
+      "Que todas las reacciones reversibles se completan al 100%.",
+      "Que los catalizadores cambian la constante de equilibrio."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Principio de Le Chatelier predice cualitativamente el desplazamiento del equilibrio frente a cambios en las variables de estado.",
+    "skill": "Equilibrio Químico y Principio de Le Chatelier",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Equilibrio Químico",
+    "subtopic": "Principio de Le Chatelier"
+  },
+  {
+    "id": "qui-int-18",
+    "sectionId": 6,
+    "number": 38,
+    "text": "¿Cómo se denomina la energía mínima requerida que deben poseer los reactivos para chocar eficazmente y formar el complejo activado?",
+    "options": [
+      "Energía libre estándar",
+      "Energía de activación (E_a)",
+      "Entalpía de reacción",
+      "Calor de formación"
+    ],
+    "correctIndex": 1,
+    "explanation": "La energía de activación (E_a) según la teoría de colisiones y la ecuación de Arrhenius representa la barrera energética que separa reactivos de productos.",
+    "skill": "Cinética Química y Teoría de Colisiones",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Cinética",
+    "subtopic": "Energía de Activación"
+  },
+  {
+    "id": "qui-int-19",
+    "sectionId": 6,
+    "number": 39,
+    "text": "¿Qué tipo de enlace intermolecular explica el elevado punto de ebullición del fluoruro de hidrógeno (HF), agua (H₂O) y amoníaco (NH₃)?",
+    "options": [
+      "Fuerzas de London",
+      "Puentes de hidrógeno",
+      "Enlaces covalentes coordinados",
+      "Atracciones dipolo inducido"
+    ],
+    "correctIndex": 1,
+    "explanation": "El puente de hidrógeno se forma cuando el hidrógeno está unido covalentemente a átomos pequeños y altamente electronegativos (F, O, N).",
+    "skill": "Fuerzas Intermoleculares",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Estructura Molecular",
+    "subtopic": "Puentes de Hidrógeno"
+  },
+  {
+    "id": "qui-int-20",
+    "sectionId": 6,
+    "number": 40,
+    "text": "¿Cuál es el hidrocarburo aromático más simple con fórmula molecular C₆H₆ y estructura cíclica de resonancia?",
+    "options": [
+      "Ciclohexano",
+      "Benceno",
+      "Tolueno",
+      "Naftaleno"
+    ],
+    "correctIndex": 1,
+    "explanation": "El benceno (C₆H₆) posee un anillo hexagonal plano con 6 electrones pi deslocalizados según la regla de aromaticidad de Hückel (4n+2).",
+    "skill": "Compuestos Aromáticos y Aromaticidad",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Química Orgánica",
+    "subtopic": "Benceno"
+  },
+  {
+    "id": "qui-bac-1",
+    "sectionId": 6,
+    "number": 41,
+    "text": "En una reacción endotérmica donde ΔH° > 0 y ΔS° > 0, ¿bajo qué condiciones de temperatura el proceso es termodinámicamente espontáneo según la ecuación de Gibbs (ΔG° = ΔH° - TΔS°)?",
+    "options": [
+      "A cualquier temperatura",
+      "Solo a temperaturas suficientemente altas (T > ΔH° / ΔS°)",
+      "Solo a temperaturas muy bajas cerca de 0 K",
+      "Nunca es espontáneo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para que ΔG° < 0 con ΔH° > 0 y ΔS° > 0, el término entálpico negativo (-TΔS°) debe superar en magnitud al término endotérmico positivo (+ΔH°), lo cual ocurre a altas temperaturas.",
+    "skill": "Termodinámica Química y Criterio de Espontaneidad de Gibbs",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Termoquímica",
+    "subtopic": "Energía Libre de Gibbs"
+  },
+  {
+    "id": "qui-bac-2",
+    "sectionId": 6,
+    "number": 42,
+    "text": "¿Cuál es la hibridación del átomo de carbono central en la molécula de etino o acetileno (H-C≡C-H)?",
+    "options": [
+      "sp³",
+      "sp²",
+      "sp",
+      "dsp³"
+    ],
+    "correctIndex": 2,
+    "explanation": "En el enlace triple, cada carbono forma dos orbitales híbridos sp lineales (geometría de 180°) para un enlace sigma C-H y un sigma C-C, y dos orbitales p puros que forman dos enlaces pi perpendiculares.",
+    "skill": "Hibridación de Orbitales y Geometría Molecular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Enlace Químico Avanzado",
+    "subtopic": "Hibridación sp"
+  },
+  {
+    "id": "qui-bac-3",
+    "sectionId": 6,
+    "number": 43,
+    "text": "¿Cuál es el pH de una solución acuosa 0.01 M de ácido clorhídrico (HCl), considerando disociación ácida completa?",
+    "options": [
+      "1.0",
+      "2.0",
+      "4.0",
+      "12.0"
+    ],
+    "correctIndex": 1,
+    "explanation": "HCl es un ácido fuerte monoprótico: [H⁺] = 0.01 M = 10⁻² M. pH = -log[H⁺] = -log(10⁻²) = 2.0.",
+    "skill": "Cálculo de pH en Ácidos Fuertes",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio Iónico",
+    "subtopic": "Cálculo de pH"
+  },
+  {
+    "id": "qui-bac-4",
+    "sectionId": 6,
+    "number": 44,
+    "text": "¿Qué ley termoquímica establece que la variación de entalpía total de una reacción química es constante e independiente de la ruta o etapas intermedias seguidas (Ley de aditividad de entalpías)?",
+    "options": [
+      "Ley de Hess",
+      "Ley de Raoult",
+      "Ley de Henry",
+      "Ley de Kirchhoff"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Ley de Germain Hess se fundamenta en que la entalpía es una función de estado termodinámica: el ΔH total depende únicamente de los estados inicial y final.",
+    "skill": "Termoquímica y Ley de Hess",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Termoquímica",
+    "subtopic": "Ley de Hess"
+  },
+  {
+    "id": "qui-bac-5",
+    "sectionId": 6,
+    "number": 45,
+    "text": "En una celda electroquímica galvánica (Pila Daniell), ¿en qué electrodo ocurre la oxidación y cuál es su signo de polaridad?",
+    "options": [
+      "En el cátodo, con polaridad negativa",
+      "En el ánodo, con polaridad negativa en celdas galvánicas",
+      "En el cátodo, con polaridad positiva",
+      "En el puente salino"
+    ],
+    "correctIndex": 1,
+    "explanation": "En toda celda electroquímica, la oxidación ocurre en el ánodo. En una celda galvánica espontánea, el ánodo es el polo negativo porque libera electrones hacia el circuito externo.",
+    "skill": "Electroquímica y Celdas Galvánicas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electroquímica",
+    "subtopic": "Ánodo y Cátodo en Celdas Galvánicas"
+  },
+  {
+    "id": "qui-bac-6",
+    "sectionId": 6,
+    "number": 46,
+    "text": "¿Cuál es el producto de solubilidad K_ps del cloruro de plata (AgCl) si su solubilidad molar en agua pura a 25 °C es s = 1.34 × 10⁻⁵ mol/L?",
+    "options": [
+      "1.34 × 10⁻⁵",
+      "1.80 × 10⁻¹⁰",
+      "2.68 × 10⁻¹⁰",
+      "3.60 × 10⁻¹⁵"
+    ],
+    "correctIndex": 1,
+    "explanation": "AgCl(s) ⇌ Ag⁺(ac) + Cl⁻(ac). K_ps = [Ag⁺][Cl⁻] = s · s = s² = (1.34 × 10⁻⁵)² ≈ 1.80 × 10⁻¹⁰.",
+    "skill": "Equilibrio de Precipitación y Kps",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio Químico",
+    "subtopic": "Producto de Solubilidad"
+  },
+  {
+    "id": "qui-bac-7",
+    "sectionId": 6,
+    "number": 47,
+    "text": "¿Cuál es la ecuación de la constante de equilibrio K_c para la síntesis de Haber-Bosch: N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g)?",
+    "options": [
+      "K_c = [N₂][H₂]³ / [NH₃]²",
+      "K_c = [NH₃]² / ([N₂] · [H₂]³)",
+      "K_c = [NH₃] / ([N₂] · [H₂])",
+      "K_c = 2[NH₃] / ([N₂] + 3[H₂])"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por la Ley de Acción de Masas de Guldberg y Waage, K_c es el producto de las concentraciones de productos elevadas a sus coeficientes dividido por el de reactivos elevados a sus coeficientes.",
+    "skill": "Expresión de Constantes de Equilibrio",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio Químico",
+    "subtopic": "Ley de Acción de Masas"
+  },
+  {
+    "id": "qui-bac-8",
+    "sectionId": 6,
+    "number": 48,
+    "text": "¿Qué tipo de isomería presentan el butan-1-ol y el etoxietano (éter dietílico), que comparten la misma fórmula molecular C₄H₁₀O pero pertenecen a familias químicas distintas?",
+    "options": [
+      "Isomería de cadena",
+      "Isomería de posición",
+      "Isomería de función (o de grupo funcional)",
+      "Enantiomería"
+    ],
+    "correctIndex": 2,
+    "explanation": "Poseen la misma fórmula molecular (C₄H₁₀O) pero grupos funcionales distintos: uno es un alcohol (-OH) y el otro un éter (-O-), por lo que son isómeros de función.",
+    "skill": "Isomería Estructural en Química Orgánica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Química Orgánica",
+    "subtopic": "Isómeros de Función"
+  },
+  {
+    "id": "qui-bac-9",
+    "sectionId": 6,
+    "number": 49,
+    "text": "¿Cuál es el volumen molar que ocupa exactamente 1 mol de cualquier gas ideal en condiciones normales de presión y temperatura (CNPT: 0 °C y 1 atm)?",
+    "options": [
+      "11.2 litros",
+      "22.4 litros",
+      "24.5 litros",
+      "44.8 litros"
+    ],
+    "correctIndex": 1,
+    "explanation": "A partir de P·V = n·R·T: V = (1 mol × 0.0821 atm·L/mol·K × 273.15 K) / 1 atm = 22.414 L/mol.",
+    "skill": "Volumen Molar de Gases Ideales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Gases Ideales",
+    "subtopic": "Volumen Molar en CNPT"
+  },
+  {
+    "id": "qui-bac-10",
+    "sectionId": 6,
+    "number": 50,
+    "text": "¿Qué principio de la mecánica cuántica formulado por Wolfgang Pauli establece que en un átomo no pueden existir dos electrones con los cuatro números cuánticos (n, l, m_l, m_s) idénticos?",
+    "options": [
+      "Regla de Hund",
+      "Principio de Exclusión de Pauli",
+      "Principio de Incertidumbre",
+      "Efecto fotoeléctrico"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Principio de Exclusión de Pauli exige que cada orbital atómico espacial definido por (n, l, m_l) pueda albergar como máximo dos electrones, los cuales deben tener espines opuestos (m_s = +1/2 y -1/2).",
+    "skill": "Números Cuánticos y Principio de Exclusión",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Estructura Atómica Cuántica",
+    "subtopic": "Principio de Pauli"
+  },
+  {
+    "id": "qui-bac-11",
+    "sectionId": 6,
+    "number": 51,
+    "text": "En cinemática química, para una reacción elemental A + B → C, si la ley de velocidad es v = k · [A] · [B]², ¿cuál es el orden total de la reacción?",
+    "options": [
+      "Orden 1",
+      "Orden 2",
+      "Orden 3 (o tercer orden global)",
+      "Orden cero"
+    ],
+    "correctIndex": 2,
+    "explanation": "El orden de reacción global es la suma de los exponentes de concentración en la ecuación de velocidad: orden = 1 + 2 = 3.",
+    "skill": "Cinética Química y Orden de Reacción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Cinética Química",
+    "subtopic": "Orden Global de Reacción"
+  },
+  {
+    "id": "qui-bac-12",
+    "sectionId": 6,
+    "number": 52,
+    "text": "¿Qué propiedad termodinámica cuantifica la afinidad de un átomo neutro gaseoso para captar un electrón y transformarse en un anión monovalente gaseoso (X(g) + e⁻ → X⁻(g))?",
+    "options": [
+      "Energía de ionización",
+      "Afinidad electrónica (o electroafinidad)",
+      "Electronegatividad de Pauling",
+      "Radio iónico"
+    ],
+    "correctIndex": 1,
+    "explanation": "La afinidad electrónica es la energía liberada (o absorbida) cuando un átomo gaseoso en su estado fundamental adiciona un electrón.",
+    "skill": "Propiedades Periódicas Avanzadas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Tabla Periódica",
+    "subtopic": "Afinidad Electrónica"
+  },
+  {
+    "id": "qui-bac-13",
+    "sectionId": 6,
+    "number": 53,
+    "text": "¿Cuál es la geometría molecular de la molécula de amoníaco (NH₃) según la teoría de repulsión de pares de electrones de valencia (RPECV/VSEPR)?",
+    "options": [
+      "Trigonal plana",
+      "Piramidal trigonal",
+      "Tetraédrica perfecta",
+      "En forma de T"
+    ],
+    "correctIndex": 1,
+    "explanation": "El nitrógeno central tiene 4 pares de electrones (3 enlazantes y 1 par no enlazante o solitario). La repulsión del par solitario comprime el ángulo a 107°, originando una geometría piramidal trigonal.",
+    "skill": "Geometría Molecular VSEPR",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Enlace Químico",
+    "subtopic": "Teoría VSEPR"
+  },
+  {
+    "id": "qui-bac-14",
+    "sectionId": 6,
+    "number": 54,
+    "text": "¿Qué disolución amortiguadora o buffer se forma típicamente para resistir variaciones de pH ante el agregado de pequeñas cantidades de ácido o base?",
+    "options": [
+      "Una mezcla de ácido fuerte y base fuerte concentrados",
+      "Una mezcla de un ácido débil y su base conjugada (o una base débil y su ácido conjugado)",
+      "Agua destilada pura con salitre",
+      "Una solución saturada de cloruro de sodio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los buffers contienen un par ácido-base conjugado en equilibrio (ej. CH₃COOH / CH₃COONa) que neutraliza tanto protones H⁺ agregados como iones hidroxilo OH⁻.",
+    "skill": "Soluciones Reguladoras y Efecto Amortiguador",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio Ácido-Base",
+    "subtopic": "Soluciones Amortiguadoras"
+  },
+  {
+    "id": "qui-bac-15",
+    "sectionId": 6,
+    "number": 55,
+    "text": "En química orgánica, ¿qué tipo de reacción ocurre cuando el propeno (CH₃-CH=CH₂) reacciona con gas bromuro de hidrógeno (HBr) para formar principalmente 2-bromopropano según la regla de Markovnikov?",
+    "options": [
+      "Sustitución nucleofílica",
+      "Adición electrofílica",
+      "Eliminación bimolecular",
+      "Condensación aldólica"
+    ],
+    "correctIndex": 1,
+    "explanation": "El enlace pi del alqueno actúa como nucleófilo atacando al H⁺ electrofílico, generando el carbocatión secundario más estable que luego es atrapado por el ion bromuro.",
+    "skill": "Mecanismos de Reacción Orgánica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Química Orgánica",
+    "subtopic": "Adición Electrofílica y Regla de Markovnikov"
+  },
+  {
+    "id": "qui-bac-16",
+    "sectionId": 6,
+    "number": 56,
+    "text": "¿Cuál es la relación matemática entre la constante de equilibrio en presiones (K_p) y la constante en concentraciones (K_c) para reacciones en fase gaseosa?",
+    "options": [
+      "K_p = K_c · (R·T)^{Δn}",
+      "K_p = K_c / (R·T)",
+      "K_p = K_c · P_total",
+      "K_p = K_c siempre"
+    ],
+    "correctIndex": 0,
+    "explanation": "K_p = K_c (RT)^{Δn}, donde Δn es la diferencia estequiométrica de moles de gas entre productos y reactivos: Δn = ∑ n_productos(g) - ∑ n_reactivos(g).",
+    "skill": "Relación Termodinámica entre Kp y Kc",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio Químico",
+    "subtopic": "Relación Kp y Kc"
+  },
+  {
+    "id": "qui-bac-17",
+    "sectionId": 6,
+    "number": 57,
+    "text": "¿Qué propiedad física de los líquidos describe la resistencia interna que opone el fluido a deformarse o fluir debido a la fricción molecular interna?",
+    "options": [
+      "Tensión superficial",
+      "Viscosidad",
+      "Capilaridad",
+      "Presión de vapor"
+    ],
+    "correctIndex": 1,
+    "explanation": "La viscosidad (dinámica o cinemática) mide la resistencia interna de un fluido originada por las fuerzas cohesivas intermoleculares al desplazarse capas de fluido.",
+    "skill": "Propiedades de Líquidos y Reología",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Estados de la Materia",
+    "subtopic": "Viscosidad"
+  },
+  {
+    "id": "qui-bac-18",
+    "sectionId": 6,
+    "number": 58,
+    "text": "¿Qué especie química actúa como electrófilo activo en la reacción de nitración aromática del benceno con mezcla sulfonítrica (HNO₃ / H₂SO₄)?",
+    "options": [
+      "El ion nitrito (NO₂⁻)",
+      "El catión nitronio (NO₂⁺)",
+      "El ion hidronio (H₃O⁺)",
+      "El gas dióxido de nitrógeno"
+    ],
+    "correctIndex": 1,
+    "explanation": "El ácido sulfúrico protona al ácido nítrico, forzando la pérdida de agua para generar el potente electrófilo ion nitronio (O=N⁺=O), que ataca la nube pi aromática del benceno.",
+    "skill": "Sustitución Electrofílica Aromática (SEAr)",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Química Orgánica Superior",
+    "subtopic": "Ion Nitronio y Nitración"
+  },
+  {
+    "id": "qui-bac-19",
+    "sectionId": 6,
+    "number": 59,
+    "text": "¿Cómo se denomina la radiación nuclear compuesta por núcleos de helio formados por dos protones y dos neutrones (⁴₂He²⁺)?",
+    "options": [
+      "Partículas Beta negativas (β⁻)",
+      "Partículas Alfa (α)",
+      "Rayos Gamma (γ)",
+      "Rayos X blandos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las partículas alfa son núcleos ionizados de helio-4 emitidos en desintegraciones nucleares alfa por radionucleidos pesados (ej. Uranio-238, Radio-226).",
+    "skill": "Química Nuclear y Radiactividad",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Química Nuclear",
+    "subtopic": "Desintegración Alfa"
+  },
+  {
+    "id": "qui-bac-20",
+    "sectionId": 6,
+    "number": 60,
+    "text": "¿Cuál es el valor del potencial estándar de reducción E° para el electrodo estándar de hidrógeno (EEH) fijado como referencia universal a 25 °C y 1 atm?",
+    "options": [
+      "-1.00 V",
+      "0.00 V (cero voltios por convención)",
+      "+1.00 V",
+      "+0.76 V"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por convención de la IUPAC, la semirreacción 2 H⁺(ac, 1 M) + 2 e⁻ ⇌ H₂(g, 1 atm) sobre platino platinizado tiene E° = 0.000 V a todas las temperaturas de referencia.",
+    "skill": "Potenciales Estándar de Reducción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electroquímica",
+    "subtopic": "Electrodo Estándar de Hidrógeno"
+  },
+  {
+    "id": "qui-tec-1",
+    "sectionId": 6,
+    "number": 61,
+    "text": "En análisis químico instrumental, ¿qué técnica cuantitativa utiliza la absorción de luz en longitudes de onda específicas para determinar concentraciones de metales traza (Pb, Cd, Cu) atomizados en una llama de acetileno-aire?",
+    "options": [
+      "Espectrometría de Absorción Atómica (AAS)",
+      "Refractometría",
+      "Cromatografía en capa fina",
+      "Titulometría Karl Fischer"
+    ],
+    "correctIndex": 0,
+    "explanation": "La espectrometría de absorción atómica (EAA) mide la atenuación de radiación emitida por una lámpara de cátodo hueco al atravesar una nube de átomos neutros en estado fundamental vaporizados en la llama.",
+    "skill": "Química Analítica Instrumental",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Espectrometría de Absorción Atómica",
+    "subtopic": "Determinación de Metales Pesados"
+  },
+  {
+    "id": "qui-tec-2",
+    "sectionId": 6,
+    "number": 62,
+    "text": "En el tratamiento químico de potabilización de aguas superficiales, ¿qué coagulante inorgánico hidrolizable desestabiliza las cargas electrostáticas coloidales de arcilla para inducir floculación rápida?",
+    "options": [
+      "Sulfato de aluminio (Al₂(SO₄)₃ · 14 H₂O)",
+      "Glucosa anhidra",
+      "Cloruro de potasio",
+      "Alcohol isopropílico"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sulfato de aluminio se hidroliza en agua generando complejos polinucleares con alta carga positiva Al³⁺ que neutralizan el potencial zeta de los coloides negativos, formando flóculos decantables.",
+    "skill": "Tratamiento Químico de Aguas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Fisicoquímica de Aguas",
+    "subtopic": "Coagulación y Floculación"
+  },
+  {
+    "id": "qui-tec-3",
+    "sectionId": 6,
+    "number": 63,
+    "text": "En el ensayo analítico volumétrico de Karl Fischer, ¿qué analito se determina con extraordinaria precisión y selectividad mediante la reducción estequiométrica de yodo por dióxido de azufre en presencia de una base?",
+    "options": [
+      "Grasas totales",
+      "Humedad o agua traza residual",
+      "Metanol libre",
+      "Metales pesados"
+    ],
+    "correctIndex": 1,
+    "explanation": "La titulación Karl Fischer cuantifica agua traza (ppm a %) basándose en la reacción cuantitativa: H₂O + I₂ + SO₂ + 3 RN + CH₃OH → 2 RN·HI + RN·HSO₄CH₃.",
+    "skill": "Control de Calidad Analítico",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química Analítica de Laboratorio",
+    "subtopic": "Determinación de Humedad por Karl Fischer"
+  },
+  {
+    "id": "qui-tec-4",
+    "sectionId": 6,
+    "number": 64,
+    "text": "En procesos químicos industriales, ¿qué catalizador heterogéneo sólido se emplea comúnmente en el proceso de contacto para oxidar dióxido de azufre (SO₂) a trióxido de azufre (SO₃) en la manufactura de ácido sulfúrico?",
+    "options": [
+      "Pentóxido de vanadio (V₂O₅ soportado en sílice)",
+      "Hierro puro en polvo",
+      "Níquel Raney",
+      "Cloruro de sodio"
+    ],
+    "correctIndex": 0,
+    "explanation": "El V₂O₅ promovido con sulfato de potasio opera a 400-450 °C catalizando eficientemente la oxidación reversible 2 SO₂ + O₂ ⇌ 2 SO₃ con rendimientos superiores al 99.5%.",
+    "skill": "Catálisis Heterogénea Industrial",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química Industrial",
+    "subtopic": "Proceso de Contacto y Ácido Sulfúrico"
+  },
+  {
+    "id": "qui-tec-5",
+    "sectionId": 6,
+    "number": 65,
+    "text": "En la galvanotecnia y electrodeposición de recubrimientos protectores de zinc (galvanizado electrolítico), ¿en qué electrodo de la cuba se coloca la pieza metálica de acero a recubrir?",
+    "options": [
+      "En el cátodo conectado al polo negativo de la fuente de corriente continua",
+      "En el ánodo conectado al polo positivo",
+      "En el ánodo de sacrificio sin conexión externa",
+      "Flotando en la superficie del baño"
+    ],
+    "correctIndex": 0,
+    "explanation": "La pieza actúa como cátodo (polo negativo): los cationes metálicos Zn²⁺ de la solución electrolítica migran hacia ella y captan electrones (reducción catódica Zn²⁺ + 2e⁻ → Zn⁰), depositando una película uniforme.",
+    "skill": "Procesos Electroquímicos de Galvanoplastia",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Electroquímica Industrial",
+    "subtopic": "Electrodeposición Catódica"
+  },
+  {
+    "id": "qui-tec-6",
+    "sectionId": 6,
+    "number": 66,
+    "text": "En cromatografía de gases (GC) para análisis de solventes y combustibles, ¿cuál es el detector universal por ionización más utilizado para hidrocarburos y compuestos orgánicos?",
+    "options": [
+      "Detector de Ionización de Llama (FID)",
+      "Detector de Conductividad Térmica (TCD)",
+      "Detector de Captura Electrónica (ECD)",
+      "Fotómetro de llama"
+    ],
+    "correctIndex": 0,
+    "explanation": "El detector FID quema los compuestos eluidos en una micromicro-llama de hidrógeno-aire; los iones de carbono formados son recolectados por electrodos produciendo una corriente proporcional a la masa de carbono orgánico.",
+    "skill": "Cromatografía Instrumental de Gases",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Análisis Instrumental",
+    "subtopic": "Detectores FID en Cromatografía de Gases"
+  },
+  {
+    "id": "qui-tec-7",
+    "sectionId": 6,
+    "number": 67,
+    "text": "En seguridad química de laboratorio según el Sistema Globalmente Armonizado (SGA / GHS), ¿qué información crítica obligatoria describe la naturaleza y severidad del peligro químico (por ejemplo: \"Líquido y vapores muy inflamables\")?",
+    "options": [
+      "Consejos de prudencia (Frases P)",
+      "Indicaciones de peligro (Frases H)",
+      "Número CAS del compuesto",
+      "Pictograma de aviso"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las frases H (Hazard statements) son códigos estandarizados que describen con precisión técnica los peligros físicos, para la salud o para el medio ambiente de los productos químicos.",
+    "skill": "Seguridad Química y Normativa SGA",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Seguridad en el Laboratorio",
+    "subtopic": "Sistema Globalmente Armonizado SGA"
+  },
+  {
+    "id": "qui-tec-8",
+    "sectionId": 6,
+    "number": 68,
+    "text": "En el proceso de polimerización industrial para producir polietileno de alta densidad (HDPE), ¿qué tipo de catalizador de coordinación organometálico basado en titanio y alquilaluminio permite la polimerización estereoespecífica a bajas presiones?",
+    "options": [
+      "Catalizador de Ziegler-Natta",
+      "Ácido sulfúrico fumante",
+      "Peróxido de benzoílo libre",
+      "Platino coloidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los catalizadores de Ziegler-Natta (Karl Ziegler y Giulio Natta, Nobel 1963) permitieron polimerizar olefinas (etileno, propileno) a presiones y temperaturas suaves con control de la tacticidad y linealidad polimérica.",
+    "skill": "Tecnología de Polímeros y Petroquímica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química Macromolecular",
+    "subtopic": "Catalizadores Ziegler-Natta"
+  },
+  {
+    "id": "qui-tec-9",
+    "sectionId": 6,
+    "number": 69,
+    "text": "En la determinación de nitrógeno total en alimentos y fertilizantes por el método de Kjeldahl, ¿cuáles son las tres etapas analíticas secuenciales del procedimiento?",
+    "options": [
+      "Digestión ácida con H₂SO₄, destilación por arrastre de vapor en medio alcalino y titulación ácido-base del amoníaco recolectado",
+      "Filtración al vacío, calcinación en mufla y pesada gravimétrica",
+      "Extracción Soxhlet, evaporación rotavapor y secado",
+      "Precipitación con cloruro de bario y centrifugación"
+    ],
+    "correctIndex": 0,
+    "explanation": "El método Kjeldahl transforma el nitrógeno orgánico en sulfato de amonio con H₂SO₄ caliente (digestión); alcaliniza con NaOH para liberar NH₃ gaseoso (destilación) y titula con ácido valorado para cuantificar proteínas.",
+    "skill": "Métodos Clásicos de Análisis Bromatológico",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Análisis de Alimentos",
+    "subtopic": "Método Kjeldahl"
+  },
+  {
+    "id": "qui-tec-10",
+    "sectionId": 6,
+    "number": 70,
+    "text": "En la industria de refinación de petróleo (downstream), ¿qué proceso químico catalítico de craqueo (FCC) rompe fracciones pesadas de gasóleo al vacío para transformarlas en gasolinas de alto octanaje y olefinas ligeras?",
+    "options": [
+      "Craqueo catalítico en lecho fluido (FCC)",
+      "Hidrotratamiento HDT",
+      "Isomerización de parafinas",
+      "Alquilación con HF"
+    ],
+    "correctIndex": 0,
+    "explanation": "El reactor FCC utiliza microesferas de catalizador de zeolita en suspensión fluidizada a 500 °C para romper enlaces C-C de hidrocarburos de cadena larga mediante mecanismos por carbocationes.",
+    "skill": "Refinación de Hidrocarburos y Petroquímica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Ingeniería Química",
+    "subtopic": "Craqueo Catalítico FCC"
+  },
+  {
+    "id": "qui-tec-11",
+    "sectionId": 6,
+    "number": 71,
+    "text": "En la purificación de principios activos farmacéuticos mediante cristalización por enfriamiento, ¿qué parámetro fisicoquímico define el intervalo metaestable donde no ocurre nucleación espontánea pero sí crecimiento de cristales sembrados?",
+    "options": [
+      "Línea de spinodal",
+      "Zona metaestable de supersaturación",
+      "Punto eutéctico ternario",
+      "Presión osmótica crítica"
+    ],
+    "correctIndex": 1,
+    "explanation": "La anchura de la zona metaestable (MSZW) es la región entre la curva de solubilidad termodinámica y el límite de nucleación primaria espontánea; trabajar en esta zona con siembra asegura cristales uniformes y de alta pureza.",
+    "skill": "Operaciones Unitarias Farmacéuticas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Ingeniería Farmacéutica",
+    "subtopic": "Cristalización Industrial"
+  },
+  {
+    "id": "qui-tec-12",
+    "sectionId": 6,
+    "number": 72,
+    "text": "En la valorización de biomasa y síntesis de biocombustibles, ¿qué reacción química convierte los triglicéridos de aceites vegetales en ésteres metílicos de ácidos grasos (biodiésel) y glicerol empleando metanol y metóxido de sodio como catalizador?",
+    "options": [
+      "Transesterificación alcalina",
+      "Saponificación ácida",
+      "Pirólisis rápida",
+      "Deshidrogenación oxidativa"
+    ],
+    "correctIndex": 0,
+    "explanation": "La transesterificación es una sustitución nucleofílica sobre acilo donde 1 mol de triglicérido reacciona con 3 moles de metanol rindiendo 3 moles de ésteres metílicos (biodiésel) y 1 mol de glicerol como subproducto.",
+    "skill": "Biocombustibles y Química Verde",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Energías Renovables y Biorrefinerías",
+    "subtopic": "Transesterificación de Biodiésel"
+  },
+  {
+    "id": "qui-tec-13",
+    "sectionId": 6,
+    "number": 73,
+    "text": "En el ensayo electroquímico potenciométrico para calibrar un electrodo combinado de vidrio para pH, ¿qué soluciones reguladoras patrón certificadas se utilizan típicamente para una calibración en dos puntos?",
+    "options": [
+      "Soluciones buffer patrón de pH 7.00 y pH 4.01 (o pH 10.01 según el rango de trabajo)",
+      "Ácido sulfúrico al 10% y soda cáustica al 50%",
+      "Agua destilada desgasificada exclusivamente",
+      "Solución de permanganato de potasio"
+    ],
+    "correctIndex": 0,
+    "explanation": "La calibración ajusta la pendiente de Nernst (teóricamente -59.16 mV/pH a 25 °C) y el potencial de asimetría del electrodo utilizando tampones trazables NIST de pH 7.00 (punto cero) y pH 4.00 o 10.00.",
+    "skill": "Potenciometría y Mantenimiento de Sensores",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Metrología Química",
+    "subtopic": "Calibración de pH-metros"
+  },
+  {
+    "id": "qui-tec-14",
+    "sectionId": 6,
+    "number": 74,
+    "text": "En el análisis de corrosión metálica industrial, ¿qué técnica electroquímica mide la corriente de corrosión aplicando pequeñas perturbaciones de potencial (±10 mV) respecto al potencial de circuito abierto?",
+    "options": [
+      "Resistencia de Polarización Lineal (LPR)",
+      "Voltamperometría cíclica rápida",
+      "Culombimetría a corriente constante",
+      "Espectroscopía Mössbauer"
+    ],
+    "correctIndex": 0,
+    "explanation": "La técnica LPR basada en la aproximación de Stern-Geary permite determinar la velocidad de corrosión instantánea in situ en tuberías de plantas químicas a partir de la pendiente ΔE / ΔI.",
+    "skill": "Control y Monitoreo de Corrosión",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Corrosión Industrial",
+    "subtopic": "Resistencia de Polarización Lineal"
+  },
+  {
+    "id": "qui-tec-15",
+    "sectionId": 6,
+    "number": 75,
+    "text": "En el proceso de fabricación del papel kraft, ¿qué licor químico alcalino compuesto principalmente por hidróxido de sodio (NaOH) y sulfuro de sodio (Na₂S) disuelve selectivamente la lignina de la madera?",
+    "options": [
+      "Licor negro concentrado",
+      "Licor blanco activo",
+      "Licor verde caustificado",
+      "Hipoclorito de calcio"
+    ],
+    "correctIndex": 1,
+    "explanation": "El licor blanco es la solución reactiva fresca que digiere las astillas de madera a 170 °C, solubilizando los enlaces éter y carbono-carbono de la lignina y liberando fibras de celulosa intactas.",
+    "skill": "Procesos Químicos de la Celulosa y Papel",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química Industrial de la Madera",
+    "subtopic": "Proceso Kraft y Licores de Cocción"
+  },
+  {
+    "id": "qui-tec-16",
+    "sectionId": 6,
+    "number": 76,
+    "text": "En la determinación gravimétrica de sulfatos en aguas residuales, ¿qué reactivo precipitante se adiciona en medio ácido caliente para precipitar sulfato de bario blanco insoluble (BaSO₄)?",
+    "options": [
+      "Cloruro de bario (BaCl₂)",
+      "Nitrato de plata (AgNO₃)",
+      "Hidróxido de sodio",
+      "Oxalato de amonio"
+    ],
+    "correctIndex": 0,
+    "explanation": "La adición controlada de BaCl₂ precipita cuantitativamente los iones SO₄²⁻ como BaSO₄ cristalino (K_ps ≈ 1.1 × 10⁻¹⁰), el cual se filtra en papel libre de cenizas, se calcina a 800 °C y se pesa.",
+    "skill": "Gravimetría Analítica Clásica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química Analítica Cuantitativa",
+    "subtopic": "Determinación Gravimétrica de Sulfato"
+  },
+  {
+    "id": "qui-tec-17",
+    "sectionId": 6,
+    "number": 77,
+    "text": "En síntesis orgánica industrial, ¿qué proceso electroquímico a gran escala (proceso cloro-álcali) electroliza salmuera acuosa de NaCl utilizando celdas de membrana de intercambio catiónico para producir cloro gas, hidrógeno y soda cáustica?",
+    "options": [
+      "Proceso cloro-álcali con membrana Nafion",
+      "Proceso Solvay de carbonato",
+      "Proceso Ostwald nítrico",
+      "Proceso Hall-Héroult"
+    ],
+    "correctIndex": 0,
+    "explanation": "La membrana polimérica perfluorada (Nafion) permite únicamente el paso de cationes Na⁺ del ánodo al cátodo, impidiendo la mezcla del cloro gas generado en el ánodo con los iones OH⁻ del cátodo.",
+    "skill": "Electroquímica Industrial de Gran Escala",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Industria Cloro-Álcali",
+    "subtopic": "Electrólisis de Salmuera"
+  },
+  {
+    "id": "qui-tec-18",
+    "sectionId": 6,
+    "number": 78,
+    "text": "En cromatografía en capa fina (TLC) para monitorear el avance de una reacción química, ¿cómo se calcula el factor de retardo (R_f) de una mancha de compuesto?",
+    "options": [
+      "R_f = Distancia recorrida por el analito desde el origen / Distancia recorrida por el frente del eluyente",
+      "R_f = Masa molecular del compuesto / Tiempo de retención",
+      "R_f = Volumen de muestra inyectado / Área de la placa",
+      "R_f = Longitud de la cubeta espectrofotométrica"
+    ],
+    "correctIndex": 0,
+    "explanation": "El R_f es una constante adimensional característica de cada sustancia para un sistema eluyente/fase estacionaria dado, definido como R_f = d_soluto / d_frente.",
+    "skill": "Cromatografía Planar en Capa Fina",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Técnicas de Laboratorio Orgánico",
+    "subtopic": "Cálculo de Rf en TLC"
+  },
+  {
+    "id": "qui-tec-19",
+    "sectionId": 6,
+    "number": 79,
+    "text": "En el almacenamiento criogénico y manipulación de gases licuados industriales (nitrógeno líquido a -196 °C), ¿cuál es el peligro técnico prioritario por asfixia en espacios cerrados sin ventilación?",
+    "options": [
+      "La expansión volumétrica extrema de 1 litro de nitrógeno líquido en cerca de 700 litros de gas, desplazando el oxígeno atmosférico por debajo del 18% sin previo aviso olfativo",
+      "La toxicidad corrosiva directa del nitrógeno gaseoso",
+      "La combustión espontánea violenta",
+      "La polimerización explosiva"
+    ],
+    "correctIndex": 0,
+    "explanation": "El nitrógeno es incoloro e inodoro: su rápida vaporización satura el ambiente reduciendo la fracción de oxígeno ambiental por debajo del umbral de hipoxia letal (< 16% O₂) en segundos.",
+    "skill": "Higiene y Seguridad con Criogénicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Seguridad Química Industrial",
+    "subtopic": "Riesgos de Gases Criogénicos"
+  },
+  {
+    "id": "qui-tec-20",
+    "sectionId": 6,
+    "number": 80,
+    "text": "En la manufactura de fertilizantes fosfatados, ¿qué ácido mineral concentrado se hace reaccionar con roca fosfórica insoluble (fluorapatita Ca₅(PO₄)₃F) para producir superfosfato simple o triple?",
+    "options": [
+      "Ácido sulfúrico (H₂SO₄) o ácido fosfórico (H₃PO₄)",
+      "Ácido clorhídrico concentrado",
+      "Ácido acético glacial",
+      "Ácido cianhídrico"
+    ],
+    "correctIndex": 0,
+    "explanation": "La acidulación con H₂SO₄ convierte el fosfato tricálcico insoluble en fosfato monocálcico soluble en agua Ca(H₂PO₄)₂ asimilable por las raíces vegetales.",
+    "skill": "Tecnología de Fertilizantes Químicos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Química de Fertilizantes",
+    "subtopic": "Acidulación de Roca Fosfórica"
+  },
+  {
+    "id": "qui-uni-1",
+    "sectionId": 6,
+    "number": 81,
+    "text": "En química cuántica molecular, ¿qué postula la aproximación adiabática de Born-Oppenheimer al resolver la ecuación de Schrödinger electrónica?",
+    "options": [
+      "Que los electrones tienen espín nulo.",
+      "Que debido a la enorme diferencia de masa entre núcleos y electrones (m_núcleo ≫ m_electrón), los núcleos atómicos pueden considerarse estacionarios respecto al movimiento instantáneo de los electrones.",
+      "Que las moléculas no vibran ni rotan.",
+      "Que todos los enlaces covalentes son puramente electrostáticos."
+    ],
+    "correctIndex": 1,
+    "explanation": "La aproximación de Born-Oppenheimer permite desacoplar la función de onda total molecular en un componente electrónico sobre una superficie de energía potencial (PES) nuclear fija.",
+    "skill": "Química Cuántica Molecular Teórica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Mecánica Cuántica Molecular",
+    "subtopic": "Aproximación de Born-Oppenheimer"
+  },
+  {
+    "id": "qui-uni-2",
+    "sectionId": 6,
+    "number": 82,
+    "text": "En la teoría del funcional de la densidad (DFT) de Hohenberg-Kohn y Kohn-Sham, ¿qué teorema fundamental demuestra que la energía del estado fundamental de un sistema polielectrónico es un funcional unívoco de la densidad electrónica tridimensional ρ(r)?",
+    "options": [
+      "Primer Teorema de Hohenberg-Kohn (1964)",
+      "Teorema de Brillouin",
+      "Lema de Slater",
+      "Regla de Woodward-Hoffmann"
+    ],
+    "correctIndex": 0,
+    "explanation": "El primer teorema de Hohenberg-Kohn demuestra por reducción al absurdo que no pueden existir dos potenciales externos v(r) diferentes que generen la misma densidad electrónica fundamental ρ(r), reduciendo 3N coordenadas espaciales a solo 3.",
+    "skill": "Química Computacional y Teoría DFT",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Fisicoquímica Teórica",
+    "subtopic": "Teoremas de Hohenberg-Kohn"
+  },
+  {
+    "id": "qui-uni-3",
+    "sectionId": 6,
+    "number": 83,
+    "text": "En síntesis orgánica avanzada, ¿qué célebre reacción de acoplamiento cruzado catalizada por paladio(0) forma enlaces carbono-carbono sp²-sp² entre un haluro de arilo y un ácido arilborónico en presencia de una base (Premio Nobel 2010)?",
+    "options": [
+      "Acoplamiento de Suzuki-Miyaura",
+      "Reacción de Diels-Alder",
+      "Condensación de Claisen",
+      "Síntesis de Gabriel"
+    ],
+    "correctIndex": 0,
+    "explanation": "El acoplamiento de Suzuki-Miyaura involucra adición oxidativa del haluro de arilo al Pd(0), transmetalación del arilboronato promovida por base y eliminación reductora para generar diarilos biarílicos.",
+    "skill": "Química Organometálica y Reacciones de Acoplamiento",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Síntesis Orgánica Superior",
+    "subtopic": "Acoplamiento de Suzuki-Miyaura"
+  },
+  {
+    "id": "qui-uni-4",
+    "sectionId": 6,
+    "number": 84,
+    "text": "En la teoría de orbitales moleculares de frontera (FMO) y reglas de Woodward-Hoffmann, ¿qué tipo de cicloadición electrocíclica [4+2] térmica entre un dieno conjugado s-cis y un dienófilo ocurre de forma estereoespecífica suprafacial-suprafacial?",
+    "options": [
+      "Reacción de Diels-Alder",
+      "Transposición de Cope",
+      "Reacción de Wittig",
+      "Cicloadición fotoquímica [2+2]"
+    ],
+    "correctIndex": 0,
+    "explanation": "La cicloadición de Diels-Alder es una reacción pericíclica concertada térmicamente permitida por simetría orbital (4n+2 electrones pi con n=1) que procede a través de un estado de transición aromático de 6 miembros.",
+    "skill": "Reacciones Pericíclicas y Simetría Orbital",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Orgánica Mecanicista",
+    "subtopic": "Reglas de Woodward-Hoffmann"
+  },
+  {
+    "id": "qui-uni-5",
+    "sectionId": 6,
+    "number": 85,
+    "text": "En espectroscopía de resonancia magnética nuclear (RMN de ¹H y ¹³C), ¿a qué fenómeno físico se debe el desdoblamiento fino de señales en multipletes (regla n+1) para núcleos con espín I = 1/2?",
+    "options": [
+      "Al acoplamiento espín-espín escalar indirecto (constante de acoplamiento J) mediado por los electrones de los enlaces químicos adyacentes",
+      "A la polarización circular magnética del solvente",
+      "A la relajación cuadrupolar nuclear",
+      "Al efecto Doppler térmico"
+    ],
+    "correctIndex": 0,
+    "explanation": "El acoplamiento escalar J transmite información sobre el alineamiento cuántico paralelo o antiparalelo de los núcleos vecinos a través de los electrones de enlace según la relación de Karplus.",
+    "skill": "Espectroscopía de RMN Avanzada",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Determinación Estructural Orgánica",
+    "subtopic": "Acoplamiento Espín-Espín en RMN"
+  },
+  {
+    "id": "qui-uni-6",
+    "sectionId": 6,
+    "number": 86,
+    "text": "En termodinámica estadística molecular, ¿cómo se relaciona la constante de equilibrio K_p de una reacción con las funciones de partición moleculares canónicas Q_i de las especies reaccionantes y productos?",
+    "options": [
+      "K_p depende de la razón de las funciones de partición por unidad de volumen corregida por la diferencia de energía de punto cero (ΔE₀) multiplicada por k_B T",
+      "K_p es idéntica a la suma de masas moleculares",
+      "K_p no depende de los estados rotacionales moleculares",
+      "K_p es independiente de la temperatura T"
+    ],
+    "correctIndex": 0,
+    "explanation": "A partir del ensamble canónico, ln K_p = -ΔG°/RT relaciona la constante termodinámica macroscópica con el producto de las funciones de partición traslacionales, rotacionales, vibracionales y electrónicas.",
+    "skill": "Termodinámica Estadística Química",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Fisicoquímica Cuántica",
+    "subtopic": "Funciones de Partición y Equilibrio"
+  },
+  {
+    "id": "qui-uni-7",
+    "sectionId": 6,
+    "number": 87,
+    "text": "En la teoría de transferencia electrónica de Rudolph A. Marcus (Premio Nobel 1992), ¿qué fenómeno contraintuitivo predice que a fuerzas impulsoras termodinámicas muy exotérmicas (-ΔG° > λ), la velocidad de transferencia electrónica disminuye en vez de aumentar?",
+    "options": [
+      "Región normal de Marcus",
+      "Región invertida de Marcus (Marcus inverted region)",
+      "Catástrofe ultravioleta",
+      "Túnel cuántico bariónico"
+    ],
+    "correctIndex": 1,
+    "explanation": "En la región invertida de Marcus, la curva parábola de energía libre de los productos cruza a la de los reactivos a la izquierda del mínimo, haciendo que la energía de activación aumente a mayor exergonicidad.",
+    "skill": "Cinética de Transferencia Electrónica de Marcus",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Fisicoquímica de Procesos Redox",
+    "subtopic": "Región Invertida de Marcus"
+  },
+  {
+    "id": "qui-uni-8",
+    "sectionId": 6,
+    "number": 88,
+    "text": "En química inorgánica y teoría del campo cristalino (CFT) para complejos octaédricos d⁶ de bajo espín (como [Fe(CN)₆]⁴⁻), ¿cuál es la energía de estabilización del campo cristalino (CFSE)?",
+    "options": [
+      "0 Δ_o",
+      "-2.4 Δ_o + 2P",
+      "-0.4 Δ_o",
+      "+1.2 Δ_o"
+    ],
+    "correctIndex": 1,
+    "explanation": "En campo fuerte de bajo espín, los 6 electrones llenan completamente los orbitales t_{2g} inferiores (t_{2g}⁶ e_g⁰). CFSE = 6 × (-0.4 Δ_o) = -2.4 Δ_o más la energía de apareamiento electrónico.",
+    "skill": "Teoría del Campo Cristalino y Complejos de Coordinación",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Inorgánica Avanzada",
+    "subtopic": "CFSE en Complejos Octaédricos"
+  },
+  {
+    "id": "qui-uni-9",
+    "sectionId": 6,
+    "number": 89,
+    "text": "En catálisis asimétrica enantioselectiva, ¿qué ligandos quirales de fósforo bidentados con quiralidad axial atropoisomérica (como BINAP) sintetizados por Ryōji Noyori permiten hidrogenaciones catalíticas con excesos enantioméricos superiores al 99% ee?",
+    "options": [
+      "Ligandos difosfina quirales con eje de simetría C₂ (BINAP)",
+      "Ligandos salinos de cianuro",
+      "Ligandos oxalato planos",
+      "Trifenilfosfina aquiral simple"
+    ],
+    "correctIndex": 0,
+    "explanation": "Noyori demostró que el esqueleto de 1,1'-binaftilo rígido impone un entorno estérico quiral rígido en los centros metálicos de Ru(II) o Rh(I) que discrimina con precisión cuántica las caras enantiotópicas re y si del sustrato.",
+    "skill": "Catálisis Asimétrica y Quiralidad",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Orgánica Avanzada",
+    "subtopic": "Ligandos BINAP e Hidrogenación Asimétrica"
+  },
+  {
+    "id": "qui-uni-10",
+    "sectionId": 6,
+    "number": 90,
+    "text": "En electroquímica fundamental y cinética de electrodos, ¿qué célebre ecuación no lineal relaciona la densidad de corriente eléctrica i con el sobrepotencial de electrodo η considerando las velocidades de transferencia de carga anódica y catódica?",
+    "options": [
+      "Ecuación de Butler-Volmer",
+      "Ecuación de Ilkovic polarográfica",
+      "Ecuación de Debye-Hückel",
+      "Ecuación de Cottrell cronoamperométrica"
+    ],
+    "correctIndex": 0,
+    "explanation": "La ecuación de Butler-Volmer: i = i₀ [exp(α_a F η / RT) - exp(-α_c F η / RT)] gobierna la cinética de transferencia interfacial de carga, aproximándose a la ley de Tafel a sobrepotenciales elevados.",
+    "skill": "Cinética Electroquímica de Transferencia de Carga",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Electroquímica Teórica",
+    "subtopic": "Ecuación de Butler-Volmer"
+  },
+  {
+    "id": "qui-uni-11",
+    "sectionId": 6,
+    "number": 91,
+    "text": "En la teoría ácido-base de Pearson (HSAB: Hard and Soft Acids and Bases), ¿cómo interactúan preferencialmente los ácidos duros y las bases duras frente a los ácidos blandos y bases blandas?",
+    "options": [
+      "Los ácidos duros (poco polarizables, alta densidad de carga) se coordinan preferentemente con bases duras (enlace preferentemente electrostático), y los ácidos blandos (muy polarizables) se coordinan preferentemente con bases blandas (enlace preferentemente covalente)",
+      "Los ácidos duros siempre rechazan a las bases duras",
+      "No existe correlación con la polarizabilidad electrónica",
+      "Solo se aplica a solventes no acuosos"
+    ],
+    "correctIndex": 0,
+    "explanation": "El principio HSAB de Ralph Pearson racionaliza la estabilidad de complejos inorgánicos, selectividad de sustituciones nucleofílicas y solubilidades minerales a través de la densidad de carga y polarizabilidad de los orbitales de frontera.",
+    "skill": "Teoría de Ácidos y Bases Duros y Blandos (HSAB)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Inorgánica Teórica",
+    "subtopic": "Principio HSAB de Pearson"
+  },
+  {
+    "id": "qui-uni-12",
+    "sectionId": 6,
+    "number": 92,
+    "text": "En la teoría del estado de transición (TST) de Eyring-Polanyi para reacciones químicas en fase gas, ¿a partir de qué factores se expresa formalmente la constante cinética k(T)?",
+    "options": [
+      "k(T) = (k_B T / h) · exp(-ΔG^‡ / RT) = (k_B T / h) · exp(ΔS^‡ / R) · exp(-ΔH^‡ / RT)",
+      "k(T) = R · T exclusivamente",
+      "k(T) = h · ν / k_B",
+      "k(T) = ln(ΔH^‡)"
+    ],
+    "correctIndex": 0,
+    "explanation": "La ecuación de Eyring relaciona la velocidad de cruce por el collado de la superficie de energía potencial con la frecuencia fundamental (k_B T / h) y la energía libre de activación del complejo de transición activado.",
+    "skill": "Teoría del Estado de Transición y Cinética Química Superior",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Cinética Química Teórica",
+    "subtopic": "Ecuación de Eyring-Polanyi"
+  },
+  {
+    "id": "qui-uni-13",
+    "sectionId": 6,
+    "number": 93,
+    "text": "En química supramolecular, ¿qué tipo de macrociclos sintéticos diseñados por Charles Pedersen (Premio Nobel 1987) encapsulan selectivamente cationes alcalinos (como K⁺) en una cavidad central mediante interacciones dipolares coordinadas con átomos de oxígeno?",
+    "options": [
+      "Éteres corona (Crown ethers)",
+      "Polietilenos lineales",
+      "Zeolitas alumínicas naturales",
+      "Fullerenos C₆₀"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los éteres corona (como el 18-corona-6 con afinidad estricta por el catión potasio K⁺ de 1.38 Å de radio) dieron nacimiento a la química de reconocimiento molecular y transporte de fase.",
+    "skill": "Química Supramolecular y Reconocimiento Molecular",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Supramolecular",
+    "subtopic": "Éteres Corona y Criptandos"
+  },
+  {
+    "id": "qui-uni-14",
+    "sectionId": 6,
+    "number": 94,
+    "text": "En espectrometría de masas de alta resolución acoplada a fuentes de ionización suave (ESI / MALDI), ¿qué parámetro representa la relación adimensional m/z?",
+    "options": [
+      "La relación entre la masa molecular del ion en unidades de masa atómica unificadas (Da) y su número de cargas elementales z",
+      "La velocidad de fragmentación unimolecular",
+      "El tiempo de vuelo absoluto sin carga",
+      "La constante de ionización de enlace"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los analizadores de masas (TOF, Orbitrap, FT-ICR) separan iones en función estricta de su relación masa/carga (m/z) midiendo campos electromagnéticos deflectores o frecuencias de ciclotrón.",
+    "skill": "Espectrometría de Masas Avanzada (MS)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Análisis Estructural Químico",
+    "subtopic": "Relación Masa/Carga m/z"
+  },
+  {
+    "id": "qui-uni-15",
+    "sectionId": 6,
+    "number": 95,
+    "text": "En la teoría cuántica de orbitales moleculares de Hückel para sistemas pi planos conjugados, ¿cuál es la energía de los orbitales moleculares para el catión alilo lineal (tres carbonos sp² y 2 electrones pi)?",
+    "options": [
+      "E₁ = α + √2 β; E₂ = α; E₃ = α - √2 β",
+      "E = α para los tres orbitales degenerados",
+      "E = 2β en todos los niveles",
+      "E = 0 estrictamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al diagonalizar la matriz secular de Hückel para una cadena alílica de 3 centros con elementos de salto β: las raíces seculares son x = -√2, 0, +√2, rindiendo un orbital enlazante (α + √2β), uno no enlazante (α) y uno antienlazante (α - √2β).",
+    "skill": "Química Cuántica de Hückel",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Física Cuántica",
+    "subtopic": "Método de Hückel y Sistema Alilo"
+  },
+  {
+    "id": "qui-uni-16",
+    "sectionId": 6,
+    "number": 96,
+    "text": "En química organometálica de complejos de metales de transición d, ¿qué regla empírica cuántica deducida por Irving Langmuir predice la estabilidad estequiométrica de complejos diamagnéticos de capa cerrada sumando electrones d del metal y electrones donados por los ligandos?",
+    "options": [
+      "Regla de los 18 electrones",
+      "Regla de las fases de Gibbs",
+      "Regla del octeto simple de Lewis",
+      "Regla de Wade-Mingos para clústeres"
+    ],
+    "correctIndex": 0,
+    "explanation": "La regla de los 18 electrones se basa en el llenado completo de los orbitales de valencia del metal (un orbital s, tres p y cinco d: 1+3+5 = 9 orbitales × 2 = 18 electrones), análoga a la regla del octeto de los elementos ligeros.",
+    "skill": "Química de Coordinación Organometálica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Química Organometálica",
+    "subtopic": "Regla de los 18 Electrones"
+  },
+  {
+    "id": "qui-uni-17",
+    "sectionId": 6,
+    "number": 97,
+    "text": "En la fotoquímica orgánica, ¿qué diagrama de estados energéticos ilustra las transiciones radiantes (fluorescencia, fosforescencia) y no radiantes (conversión interna, cruce intersistemas ISC) entre estados singlete (S) y triplete (T)?",
+    "options": [
+      "Diagrama de Jablonski",
+      "Diagrama de Frost",
+      "Diagrama de Ellingham",
+      "Diagrama de Pourbaix"
+    ],
+    "correctIndex": 0,
+    "explanation": "El diagrama de Aleksander Jabłoński describe cinéticamente la desactivación de estados electrónicos fotoexcitados, incluyendo el cruce intersistemas S₁ → T₁ asistido por acoplamiento espín-órbita.",
+    "skill": "Fotoquímica Física y Fotofísica Molecular",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Fisicoquímica Fotoquímica",
+    "subtopic": "Diagrama de Jablonski"
+  },
+  {
+    "id": "qui-uni-18",
+    "sectionId": 6,
+    "number": 98,
+    "text": "En síntesis de péptidos en fase sólida (SPPS) desarrollada por Robert Bruce Merrifield (Nobel 1984), ¿cuáles son los dos esquemas ortogonales de grupos protectores de la función N-alfa amino más empleados?",
+    "options": [
+      "Estrategia Fmoc / tBu y estrategia Boc / Bzl",
+      "Estrategia metilo / etilo pura",
+      "Protección por acetilación irreversible",
+      "Estrategia con sulfatos inorgánicos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Merrifield revolucionó la síntesis peptídica anclando la cadena al polímero de poliestireno; la estrategia Fmoc (lábil a base suave piperidina) y Boc (lábil a ácido TFA) permiten desprotecciones ortogonales cuantitativas.",
+    "skill": "Síntesis Peptídica y Biopolímeros",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Bioquímica Sintética",
+    "subtopic": "Síntesis en Fase Sólida de Merrifield"
+  },
+  {
+    "id": "qui-uni-19",
+    "sectionId": 6,
+    "number": 99,
+    "text": "En cristalografía de rayos X de macromoléculas biológicas (proteínas y ribosomas), ¿a qué problema fundamental se debe que los detectores registren únicamente las intensidades de difracción |F(hkl)|² pero pierdan la información de fase de las ondas dispersadas?",
+    "options": [
+      "El problema de la fase cristalográfica (Phase Problem)",
+      "La dispersión inelástica de Compton pura",
+      "La aberración cromática del detector",
+      "La refracción de Bragg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para reconstruir la densidad electrónica ρ(r) mediante transformada de Fourier inversa se requieren amplitudes y fases complejas; el problema de la fase se resuelve experimentalmente mediante MAD/SAD con selenometionina o reemplazo molecular.",
+    "skill": "Cristalografía de Rayos X Macromolecular",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Biofísica Estructural",
+    "subtopic": "El Problema de la Fase Cristalográfica"
+  },
+  {
+    "id": "qui-uni-20",
+    "sectionId": 6,
+    "number": 100,
+    "text": "En fisicoquímica de soluciones electrolíticas concentradas, ¿qué teoría desarrollada por Peter Debye y Erich Hückel en 1923 calcula los coeficientes de actividad iónica media γ_± modelando la atmósfera iónica apantalladora a diluciones moderadas?",
+    "options": [
+      "Ley Límite de Debye-Hückel (log γ_± = -A |z₊ z₋| √I)",
+      "Ecuación de estado de Van der Waals",
+      "Modelo de Onsager de polarización",
+      "Ecuación de Flory-Huggins"
+    ],
+    "correctIndex": 0,
+    "explanation": "Debye y Hückel resolvieron la ecuación de Poisson-Boltzmann linealizada para el potencial electrostático alrededor de un ion central, demostrando que las desviaciones del comportamiento ideal dependen de la fuerza iónica I = 1/2 ∑ c_i z_i².",
+    "skill": "Fisicoquímica de Electrolitos en Solución",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Termodinámica de Electrolitos",
+    "subtopic": "Ley Límite de Debye-Hückel"
+  }
+]

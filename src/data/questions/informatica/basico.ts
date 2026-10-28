@@ -1,0 +1,1904 @@
+import { Question } from '../../../types';
+
+export const INFORMATICA_BASICO: Question[] = [
+  {
+    "id": "inf-bas-01",
+    "number": 1,
+    "text": "¿Cuál es la función principal de la memoria RAM (Random Access Memory) en una computadora?",
+    "options": [
+      "Almacenar permanentemente los archivos y el sistema operativo",
+      "Almacenar temporalmente los datos e instrucciones en ejecución",
+      "Suministrar energía eléctrica a la placa base",
+      "Renderizar gráficos tridimensionales de alta calidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La memoria RAM es un almacenamiento volátil de acceso ultra-rápido donde la CPU mantiene los programas y datos en uso mientras el equipo está encendido.",
+    "skill": "Hardware y Arquitectura Básica",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Componentes Fundamentales",
+    "subtopic": "Memoria Principal"
+  },
+  {
+    "id": "inf-bas-02",
+    "number": 2,
+    "text": "¿Qué componente del hardware es conocido habitualmente como el \"cerebro\" de la computadora?",
+    "options": [
+      "El disco duro (HDD/SSD)",
+      "La unidad central de procesamiento (CPU)",
+      "La memoria ROM",
+      "La fuente de poder"
+    ],
+    "correctIndex": 1,
+    "explanation": "La CPU (procesador) ejecuta las instrucciones de los programas informáticos mediante ciclos de captación, decodificación y ejecución de operaciones lógicas y aritméticas.",
+    "skill": "Hardware y CPU",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Arquitectura de Computadoras",
+    "subtopic": "Procesador Central"
+  },
+  {
+    "id": "inf-bas-03",
+    "number": 3,
+    "text": "¿Cuántos bits componen exactamente un byte?",
+    "options": [
+      "4 bits",
+      "8 bits",
+      "16 bits",
+      "32 bits"
+    ],
+    "correctIndex": 1,
+    "explanation": "En informática estándar, un byte se compone de un conjunto ordenado de 8 bits (un octeto), permitiendo representar 256 combinaciones distintas (2^8).",
+    "skill": "Unidades de Información",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Fundamentos Binarios",
+    "subtopic": "Bits y Bytes"
+  },
+  {
+    "id": "inf-bas-04",
+    "number": 4,
+    "text": "¿Cuál de los siguientes es un ejemplo de software de sistema y no de aplicación?",
+    "options": [
+      "Microsoft Word",
+      "Google Chrome",
+      "Sistema Operativo Linux Ubuntu",
+      "Adobe Photoshop"
+    ],
+    "correctIndex": 2,
+    "explanation": "Linux Ubuntu es un sistema operativo que gestiona directamente los recursos de hardware y brinda servicios esenciales a las aplicaciones del usuario.",
+    "skill": "Clasificación de Software",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Sistemas Operativos",
+    "subtopic": "Software de Sistema"
+  },
+  {
+    "id": "inf-bas-05",
+    "number": 5,
+    "text": "¿Cuál de los siguientes periféricos es exclusivamente de entrada de datos?",
+    "options": [
+      "Monitor LED",
+      "Impresora láser",
+      "Teclado alfanumérico",
+      "Altavoz estéreo"
+    ],
+    "correctIndex": 2,
+    "explanation": "El teclado capta señales e interacciones mecánicas del usuario y las introduce al computador en forma de códigos de pulsación.",
+    "skill": "Periféricos",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Hardware Externo",
+    "subtopic": "Dispositivos de Entrada"
+  },
+  {
+    "id": "inf-bas-06",
+    "number": 6,
+    "text": "¿Qué tipo de dispositivo de almacenamiento secundario no tiene partes mecánicas móviles y utiliza celdas de memoria flash?",
+    "options": [
+      "Disco duro mecánico (HDD)",
+      "Unidad de estado sólido (SSD)",
+      "Cinta magnética",
+      "Disquete flexible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las unidades de estado sólido (SSD) emplean chips de memoria flash tipo NAND, brindando velocidades de lectura/escritura muy superiores y mayor tolerancia a impactos mecánicos.",
+    "skill": "Almacenamiento",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Hardware de Almacenamiento",
+    "subtopic": "SSD vs HDD"
+  },
+  {
+    "id": "inf-bas-07",
+    "number": 7,
+    "text": "¿Qué extensión identifica tradicionalmente a los archivos ejecutables nativos en el sistema operativo Microsoft Windows?",
+    "options": [
+      ".pdf",
+      ".exe",
+      ".mp3",
+      ".docx"
+    ],
+    "correctIndex": 1,
+    "explanation": "La extensión .exe (executable) designa programas binarios ejecutables preparados para ser cargados por el subsistema Win32 de Windows.",
+    "skill": "Gestión de Archivos",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Sistemas de Ficheros",
+    "subtopic": "Formatos de Ejecución"
+  },
+  {
+    "id": "inf-bas-08",
+    "number": 8,
+    "text": "¿Cuál es la función del atajo de teclado global Ctrl + C en la gran mayoría de sistemas de escritorio?",
+    "options": [
+      "Cortar el elemento seleccionado",
+      "Copiar el elemento seleccionado al portapapeles",
+      "Pegar el contenido del portapapeles",
+      "Cerrar la aplicación activa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl + C envía una copia del elemento o texto seleccionado al búfer del portapapeles sin eliminar el original de su ubicación.",
+    "skill": "Productividad y SO",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Operaciones Básicas",
+    "subtopic": "Atajos de Teclado"
+  },
+  {
+    "id": "inf-bas-09",
+    "number": 9,
+    "text": "¿Qué navegador web fue desarrollado por la fundación Mozilla bajo un enfoque de código abierto y privacidad?",
+    "options": [
+      "Safari",
+      "Mozilla Firefox",
+      "Internet Explorer",
+      "Microsoft Edge"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mozilla Firefox es un navegador web multiplataforma y libre desarrollado por la corporación y fundación Mozilla.",
+    "skill": "Herramientas de Internet",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Navegación Web",
+    "subtopic": "Navegadores"
+  },
+  {
+    "id": "inf-bas-10",
+    "number": 10,
+    "text": "¿Qué significado tienen las siglas URL en el contexto de internet y redes?",
+    "options": [
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Unified Radio Link",
+      "Unchecked Registry Line"
+    ],
+    "correctIndex": 1,
+    "explanation": "Uniform Resource Locator (Localizador Uniforme de Recursos) es la dirección estandarizada que especifica la ubicación y protocolo de acceso a un recurso en la web.",
+    "skill": "Conceptos de Redes",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Internet y Web",
+    "subtopic": "Direcciones URL"
+  },
+  {
+    "id": "inf-bas-11",
+    "number": 11,
+    "text": "¿Cuál es la principal diferencia entre un archivo con compresión ZIP y su carpeta original sin comprimir?",
+    "options": [
+      "El ZIP ocupa menos espacio en disco o agrupa múltiples ficheros en uno solo",
+      "El ZIP elimina para siempre los datos redundantes sin poder recuperarlos",
+      "El ZIP solo puede contener imágenes de mapa de bits",
+      "El ZIP convierte automáticamente el texto en código ejecutable"
+    ],
+    "correctIndex": 0,
+    "explanation": "El formato ZIP implementa algoritmos de compresión sin pérdida (como Deflate) que reducen el tamaño y facilitan el empaquetado y transferencia de múltiples ficheros.",
+    "skill": "Gestión de Archivos",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Compresión de Datos",
+    "subtopic": "Archivos ZIP"
+  },
+  {
+    "id": "inf-bas-12",
+    "number": 12,
+    "text": "¿Qué protocolo de red garantiza que la comunicación entre tu navegador web y un servidor bancario esté cifrada?",
+    "options": [
+      "HTTP sin cifrado",
+      "FTP plano",
+      "HTTPS (con TLS/SSL)",
+      "Telnet"
+    ],
+    "correctIndex": 2,
+    "explanation": "HTTPS utiliza certificados de seguridad y protocolos TLS/SSL para cifrar el canal de comunicación, protegiendo credenciales y datos confidenciales contra interceptaciones.",
+    "skill": "Seguridad Digital Básica",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Seguridad en Internet",
+    "subtopic": "Protocolo HTTPS"
+  },
+  {
+    "id": "inf-bas-13",
+    "number": 13,
+    "text": "¿Cuál es la función principal de un programa Antivirus en un computador personal?",
+    "options": [
+      "Aumentar la memoria RAM física de la placa madre",
+      "Detectar, bloquear y desinfectar código malicioso (malware)",
+      "Crear gráficos tridimensionales para videojuegos",
+      "Instalar drivers de pantalla automáticamente"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un antivirus analiza firmas heurísticas y comportamientos en tiempo real para neutralizar amenazas como troyanos, gusanos, ransomware y virus informáticos.",
+    "skill": "Ciberseguridad Básica",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Protección de Sistemas",
+    "subtopic": "Antivirus y Malware"
+  },
+  {
+    "id": "inf-bas-14",
+    "number": 14,
+    "text": "¿Qué componente físico de la computadora se encarga de transformar la corriente alterna domiciliaria (110V/220V) en corriente continua de bajo voltaje (12V, 5V, 3.3V)?",
+    "options": [
+      "La placa base",
+      "La fuente de alimentación (Power Supply Unit)",
+      "La tarjeta gráfica dedicada",
+      "El disipador de calor"
+    ],
+    "correctIndex": 1,
+    "explanation": "La fuente de alimentación (PSU) rectifica, filtra y regula la tensión alterna de la red eléctrica a tensiones continuas estables para los circuitos electrónicos.",
+    "skill": "Hardware y Energía",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Componentes de PC",
+    "subtopic": "Fuente de Alimentación"
+  },
+  {
+    "id": "inf-bas-15",
+    "number": 15,
+    "text": "¿Qué puerto de conexión estándar universal ha reemplazado ampliamente a puertos antiguos como serie, paralelo y PS/2?",
+    "options": [
+      "VGA",
+      "USB (Universal Serial Bus)",
+      "DVI-D",
+      "SCSI"
+    ],
+    "correctIndex": 1,
+    "explanation": "El estándar USB unificó la comunicación de periféricos, ofreciendo alimentación eléctrica, sincronización plug and play y alta velocidad en sus sucesivas generaciones.",
+    "skill": "Puertos e Interfaces",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Conectividad de Hardware",
+    "subtopic": "Puertos USB"
+  },
+  {
+    "id": "inf-bas-16",
+    "number": 16,
+    "text": "¿Qué es una \"nube\" informática (Cloud Computing) para un usuario común?",
+    "options": [
+      "Un fenómeno atmosférico que interfiere con el wifi",
+      "Servicios de almacenamiento y procesamiento accesibles mediante internet en centros de datos remotos",
+      "Una memoria USB conectada a un módem casero",
+      "Un programa que solo funciona sin conexión"
+    ],
+    "correctIndex": 1,
+    "explanation": "La computación en la nube ofrece servicios bajo demanda de servidores, almacenamiento, bases de datos y software a través de internet con alta disponibilidad.",
+    "skill": "Servicios en Línea",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Computación en la Nube",
+    "subtopic": "Concepto de Cloud"
+  },
+  {
+    "id": "inf-bas-17",
+    "number": 17,
+    "text": "¿Cuál es la función de la Papelera de Reciclaje en sistemas operativos de escritorio?",
+    "options": [
+      "Eliminar inmediatamente y de manera irreversible el disco duro",
+      "Almacenar temporalmente los archivos eliminados permitiendo su restauración si fue un error",
+      "Formatear unidades flash externas",
+      "Limpiar el polvo físico del ventilador"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Papelera actúa como un amortiguador de seguridad donde los archivos marcados como borrados se retienen hasta que el usuario decida vaciarla definitivamente.",
+    "skill": "Uso del Sistema Operativo",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Manejo del Escritorio",
+    "subtopic": "Papelera y Restauración"
+  },
+  {
+    "id": "inf-bas-18",
+    "number": 18,
+    "text": "¿Qué significa la sigla Wi-Fi comúnmente en la vida cotidiana?",
+    "options": [
+      "Tecnología inalámbrica para conectar dispositivos en una red local según los estándares IEEE 802.11",
+      "Un cable de fibra óptica submarino",
+      "El software antivirus del módem",
+      "Un satélite geoestacionario"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wi-Fi es la denominación comercial de la alianza que certifica productos basados en los estándares de redes inalámbricas de área local (WLAN) IEEE 802.11.",
+    "skill": "Conectividad Inalámbrica",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Redes Locales",
+    "subtopic": "Tecnología Wi-Fi"
+  },
+  {
+    "id": "inf-bas-19",
+    "number": 19,
+    "text": "¿Qué tipo de software es VLC Media Player?",
+    "options": [
+      "Un compilador de lenguaje C++",
+      "Un reproductor multimedia libre y de código abierto",
+      "Un sistema de gestión de bases de datos",
+      "Un firmware de BIOS"
+    ],
+    "correctIndex": 1,
+    "explanation": "VLC es un reproductor multimedia multiplataforma que soporta casi cualquier formato de audio y video sin necesidad de descargar códecs adicionales.",
+    "skill": "Software de Aplicación",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Herramientas de Usuario",
+    "subtopic": "Reproductores Multimedia"
+  },
+  {
+    "id": "inf-bas-20",
+    "number": 20,
+    "text": "¿Por qué es fundamental reiniciar una computadora luego de instalar actualizaciones críticas de seguridad del sistema?",
+    "options": [
+      "Para que la memoria RAM se descargue físicamente",
+      "Para permitir que los nuevos archivos del núcleo (kernel) y controladores reemplacen a los que estaban bloqueados en memoria",
+      "Para cambiar automáticamente la contraseña del usuario",
+      "Para formatear el disco duro"
+    ],
+    "correctIndex": 1,
+    "explanation": "Muchos archivos de bajo nivel del sistema operativo se encuentran en uso constante; reiniciar permite que el gestor de arranque reemplace los binarios antiguos con los parches actualizados.",
+    "skill": "Mantenimiento Preventivo",
+    "difficulty": "Fácil",
+    "sectionId": 1,
+    "educationalLevel": "Básico",
+    "topic": "Sistemas Operativos",
+    "subtopic": "Actualizaciones de Seguridad"
+  },
+  {
+    "id": "inf-bas-21",
+    "sectionId": 1,
+    "number": 21,
+    "text": "¿Cuál es la principal ventaja de una unidad de estado sólido (SSD) frente a un disco duro mecánico tradicional (HDD)?",
+    "options": [
+      "Velocidades de lectura y escritura mucho más rápidas y sin partes mecánicas móviles",
+      "Mayor capacidad de almacenamiento por el mismo costo",
+      "Inmunidad absoluta contra virus informáticos",
+      "Capacidad de almacenar datos sin requerir electricidad durante 500 años"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los SSD utilizan memoria flash NAND sin platos giratorios ni cabezales mecánicos, lo que reduce los tiempos de acceso a microsegundos y acelera radicalmente el arranque y apertura de programas.",
+    "skill": "Almacenamiento Digital",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware de Almacenamiento",
+    "subtopic": "SSD vs HDD"
+  },
+  {
+    "id": "inf-bas-22",
+    "sectionId": 1,
+    "number": 22,
+    "text": "¿Qué componente de hardware se encarga de procesar y renderizar imágenes, animaciones y gráficos 3D aliviando la carga de la CPU?",
+    "options": [
+      "La tarjeta gráfica o GPU (Graphics Processing Unit)",
+      "La tarjeta de red inalámbrica Wi-Fi",
+      "La memoria caché L1",
+      "La unidad óptica de DVD"
+    ],
+    "correctIndex": 0,
+    "explanation": "La GPU es un procesador con miles de núcleos optimizados para cálculo paralelo masivo, especializado en cálculo matricial para gráficos y renderizado.",
+    "skill": "Componentes Gráficos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Arquitectura de Computadoras",
+    "subtopic": "GPU y Tarjetas de Video"
+  },
+  {
+    "id": "inf-bas-23",
+    "sectionId": 1,
+    "number": 23,
+    "text": "¿Cuántos Megabytes (MB) equivalen convencionalmente a 1 Gigabyte (GB) en el sistema binario estándar de computación?",
+    "options": [
+      "1,024 MB",
+      "1,000 MB",
+      "512 MB",
+      "2,048 MB"
+    ],
+    "correctIndex": 0,
+    "explanation": "En la arquitectura digital basada en potencias de dos, 1 GB equivale exactamente a 2¹⁰ = 1,024 MB (Gibibyte/Megabyte binario).",
+    "skill": "Unidades de Información",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistemas de Medida Digital",
+    "subtopic": "Megabytes y Gigabytes"
+  },
+  {
+    "id": "inf-bas-24",
+    "sectionId": 1,
+    "number": 24,
+    "text": "¿Cuál de los siguientes dispositivos de hardware se clasifica como un periférico exclusivamente de entrada?",
+    "options": [
+      "Escáner óptico",
+      "Impresora láser",
+      "Monitor LED",
+      "Altavoces o parlantes"
+    ],
+    "correctIndex": 0,
+    "explanation": "El escáner digitaliza imágenes y documentos físicos enviando datos hacia la computadora (periférico de entrada puro). Las impresoras, monitores y altavoces son periféricos de salida.",
+    "skill": "Periféricos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware Básico",
+    "subtopic": "Dispositivos de Entrada"
+  },
+  {
+    "id": "inf-bas-25",
+    "sectionId": 1,
+    "number": 25,
+    "text": "¿Cuál de los siguientes dispositivos de hardware es un periférico mixto (de entrada y salida simultáneamente)?",
+    "options": [
+      "Pantalla táctil (touchscreen)",
+      "Teclado mecánico",
+      "Mouse óptico",
+      "Proyector multimedia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una pantalla táctil muestra información visual generada por el equipo (salida) y al mismo tiempo captura los toques táctiles del usuario como comandos (entrada).",
+    "skill": "Periféricos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware Básico",
+    "subtopic": "Periféricos Mixtos"
+  },
+  {
+    "id": "inf-bas-26",
+    "sectionId": 1,
+    "number": 26,
+    "text": "¿Qué chip de memoria de solo lectura no volátil contiene el firmware inicial indispensable para arrancar la placa madre y comprobar el hardware (POST)?",
+    "options": [
+      "Chip ROM con BIOS / UEFI",
+      "Memoria RAM DDR4",
+      "Memoria VRAM de video",
+      "Caché L3"
+    ],
+    "correctIndex": 0,
+    "explanation": "La memoria ROM (o Flash ROM) retiene el firmware UEFI/BIOS que inicializa los componentes básicos durante el arranque antes de cargar el sistema operativo.",
+    "skill": "Firmware y BIOS",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Arquitectura de la Placa Madre",
+    "subtopic": "BIOS/UEFI y ROM"
+  },
+  {
+    "id": "inf-bas-27",
+    "sectionId": 1,
+    "number": 27,
+    "text": "¿Qué significa la sigla 'USB' en los puertos y conectores estándar de computadoras y dispositivos móviles?",
+    "options": [
+      "Universal Serial Bus (Bus Universal en Serie)",
+      "Unified System Backup",
+      "Ultra Speed Buffer",
+      "Universal Security Bridge"
+    ],
+    "correctIndex": 0,
+    "explanation": "USB (Universal Serial Bus) es el estándar industrial de buses y conectores para comunicación y suministro de alimentación eléctrica entre computadoras y periféricos.",
+    "skill": "Interfaces y Puertos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Conectividad",
+    "subtopic": "Estándar USB"
+  },
+  {
+    "id": "inf-bas-28",
+    "sectionId": 1,
+    "number": 28,
+    "text": "¿Cuál es la función del Sistema Operativo en una computadora?",
+    "options": [
+      "Administrar los recursos de hardware (CPU, memoria, disco) y servir de intermediario entre el usuario y los programas de aplicación",
+      "Fabricar chips de silicio mediante software",
+      "Eliminar físicamente el polvo del interior del gabinete",
+      "Proteger al usuario de la luz solar"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sistema operativo (como Windows, Linux o macOS) gestiona la memoria, los procesos de la CPU, los archivos y los periféricos, permitiendo la ejecución de las aplicaciones.",
+    "skill": "Sistemas Operativos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Software de Sistema",
+    "subtopic": "Funciones del Sistema Operativo"
+  },
+  {
+    "id": "inf-bas-29",
+    "sectionId": 1,
+    "number": 29,
+    "text": "¿Cuál de los siguientes sistemas operativos es ampliamente reconocido por ser de código abierto (Open Source) y de distribución comunitaria gratuita?",
+    "options": [
+      "Linux (distribuciones como Ubuntu, Debian, Fedora)",
+      "Microsoft Windows 11",
+      "Apple macOS",
+      "Apple iOS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Linux está basado en el núcleo libre creado por Linus Torvalds bajo licencia GPL, permitiendo a cualquier persona inspeccionar, modificar y distribuir su código.",
+    "skill": "Software Libre y Propietario",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistemas Operativos",
+    "subtopic": "Linux y Código Abierto"
+  },
+  {
+    "id": "inf-bas-30",
+    "sectionId": 1,
+    "number": 30,
+    "text": "¿Qué extensión de archivo identifica universalmente a un documento en formato Portable Document Format, diseñado para visualizarse idénticamente en cualquier plataforma?",
+    "options": [
+      ".pdf",
+      ".docx",
+      ".xlsx",
+      ".exe"
+    ],
+    "correctIndex": 0,
+    "explanation": "La extensión .pdf (creada por Adobe) preserva fuentes, formatos, vectores e imágenes exactamente igual en cualquier dispositivo o sistema operativo.",
+    "skill": "Formatos de Archivos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Archivos y Extensiones",
+    "subtopic": "Formato PDF"
+  },
+  {
+    "id": "inf-bas-31",
+    "sectionId": 1,
+    "number": 31,
+    "text": "¿Qué tipo de archivo comprimido que agrupa múltiples carpetas y reduce su tamaño en disco utiliza habitualmente la extensión .zip o .rar?",
+    "options": [
+      "Archivo comprimido (archivo de compresión sin pérdida)",
+      "Archivo de audio digital MP3",
+      "Archivo ejecutable binario de sistema",
+      "Base de datos SQL"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los formatos .zip y .rar aplican algoritmos de compresión sin pérdida (como Deflate) para empaquetar y reducir el tamaño de almacenamiento de uno o varios ficheros.",
+    "skill": "Gestión de Archivos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Archivos y Extensiones",
+    "subtopic": "Compresión ZIP y RAR"
+  },
+  {
+    "id": "inf-bas-32",
+    "sectionId": 1,
+    "number": 32,
+    "text": "¿Cuál es la diferencia fundamental entre un navegador web (web browser) y un motor de búsqueda (search engine)?",
+    "options": [
+      "El navegador es el programa instalado en el equipo que renderiza páginas HTML (ej. Chrome, Firefox), mientras que el buscador es un servicio web que indexa y encuentra información en internet (ej. Google, Bing)",
+      "El navegador busca virus y el motor de búsqueda envía correos",
+      "Son exactamente lo mismo con dos nombres diferentes",
+      "El motor de búsqueda es una pieza de hardware conectada al módem"
+    ],
+    "correctIndex": 0,
+    "explanation": "Navegadores como Chrome, Edge o Safari interpretan HTML, CSS y JavaScript para mostrar páginas; motores como Google o DuckDuckGo rastrean la web para responder consultas.",
+    "skill": "Navegación Web",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Internet y Redes",
+    "subtopic": "Navegadores vs Motores de Búsqueda"
+  },
+  {
+    "id": "inf-bas-33",
+    "sectionId": 1,
+    "number": 33,
+    "text": "¿Qué indica la letra 'S' en el protocolo 'HTTPS' que aparece al inicio de las direcciones web seguras?",
+    "options": [
+      "Secure (Seguro): indica que la comunicación está cifrada mediante protocolos SSL/TLS",
+      "Speed (Velocidad acelerada)",
+      "Server (Servidor dedicado)",
+      "Standard (Estándar global)"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) cifra los datos transmitidos entre el cliente y el servidor mediante TLS, impidiendo que terceros intercepten contraseñas o datos bancarios.",
+    "skill": "Seguridad Web",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad",
+    "subtopic": "Protocolo HTTPS"
+  },
+  {
+    "id": "inf-bas-34",
+    "sectionId": 1,
+    "number": 34,
+    "text": "¿Qué servicio de internet se encarga de traducir nombres de dominio amigables (como www.ejemplo.com) en direcciones numéricas IP (como 192.0.2.1)?",
+    "options": [
+      "DNS (Domain Name System o Sistema de Nombres de Dominio)",
+      "DHCP",
+      "FTP",
+      "HTML"
+    ],
+    "correctIndex": 0,
+    "explanation": "El DNS actúa como la libreta de contactos de internet, resolviendo nombres de host alfanuméricos en las direcciones IP numéricas que utilizan los enrutadores.",
+    "skill": "Servicios de Internet",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Protocolos Básicos",
+    "subtopic": "Sistema DNS"
+  },
+  {
+    "id": "inf-bas-35",
+    "sectionId": 1,
+    "number": 35,
+    "text": "¿En qué consiste el ataque cibernético conocido como 'Phishing'?",
+    "options": [
+      "Suplantar la identidad de una entidad legítima (bancos, empresas) mediante correos o páginas falsas para engañar a la víctima y robarle credenciales confidenciales",
+      "Infectar la placa madre con radiación electromagnética",
+      "Destruir físicamente el teclado con un golpe",
+      "Llenar la memoria RAM con números primos"
+    ],
+    "correctIndex": 0,
+    "explanation": "El phishing es una técnica de ingeniería social donde los estafadores envían enlaces o correos fraudulentos que imitan sitios oficiales para que los usuarios ingresen sus claves voluntariamente.",
+    "skill": "Ingeniería Social",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad",
+    "subtopic": "Ataques de Phishing"
+  },
+  {
+    "id": "inf-bas-36",
+    "sectionId": 1,
+    "number": 36,
+    "text": "¿Qué tipo de software malicioso (malware) cifra los archivos de la víctima y exige el pago de un rescate económico para devolver la clave de descifrado?",
+    "options": [
+      "Ransomware (secuestro de datos)",
+      "Spyware espía",
+      "Adware publicitario",
+      "Gusano de red"
+    ],
+    "correctIndex": 0,
+    "explanation": "El ransomware (como WannaCry) utiliza cifrado asimétrico robusto para bloquear el acceso a documentos y sistemas, extorsionando al afectado a cambio de un rescate en criptomonedas.",
+    "skill": "Tipos de Malware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad",
+    "subtopic": "Ransomware"
+  },
+  {
+    "id": "inf-bas-37",
+    "sectionId": 1,
+    "number": 37,
+    "text": "¿Qué práctica describe la 'Autenticación de Dos Factores' (2FA o MFA)?",
+    "options": [
+      "Requerir dos elementos de comprobación independientes para iniciar sesión (ej. algo que sabes como la contraseña y algo que tienes como un código en el móvil)",
+      "Escribir la contraseña dos veces seguidas en el mismo formulario",
+      "Compartir la contraseña con dos amigos de confianza",
+      "Cambiar la contraseña cada dos minutos"
+    ],
+    "correctIndex": 0,
+    "explanation": "2FA refuerza la seguridad combinando al menos dos factores distintos: conocimiento (contraseña), posesión (teléfono, token físico) o inherencia (huella dactilar, biometría).",
+    "skill": "Control de Acceso",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Seguridad de Cuentas",
+    "subtopic": "Autenticación de Doble Factor (2FA)"
+  },
+  {
+    "id": "inf-bas-38",
+    "sectionId": 1,
+    "number": 38,
+    "text": "En la estrategia de copias de seguridad conocida como la 'Regla 3-2-1', ¿qué significan estos números?",
+    "options": [
+      "Tener 3 copias de los datos, en 2 soportes de almacenamiento diferentes, con 1 copia guardada fuera de las instalaciones (off-site o en la nube)",
+      "Hacer 3 copias al día, durante 2 semanas, con 1 sola persona autorizada",
+      "Guardar los datos en 3 discos idénticos en la misma habitación",
+      "Esperar 3 minutos, reiniciar 2 veces y formatear 1 disco"
+    ],
+    "correctIndex": 0,
+    "explanation": "La regla 3-2-1 es el estándar de oro en respaldos: 3 copias totales, en 2 medios distintos (ej. disco duro interno y NAS externo), y 1 copia fuera del sitio para resistir incendios o robos.",
+    "skill": "Políticas de Respaldo",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Copias de Seguridad",
+    "subtopic": "Regla 3-2-1 de Backup"
+  },
+  {
+    "id": "inf-bas-39",
+    "sectionId": 1,
+    "number": 39,
+    "text": "¿Qué combinación de teclas rápida se utiliza en la gran mayoría de sistemas operativos para copiar un texto o elemento seleccionado al portapapeles?",
+    "options": [
+      "Ctrl + C (o Cmd + C en Mac)",
+      "Ctrl + V",
+      "Ctrl + Z",
+      "Ctrl + X"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ctrl + C copia al portapapeles, Ctrl + V pega el contenido, Ctrl + X corta el elemento y Ctrl + Z deshace la última acción.",
+    "skill": "Atajos de Teclado",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Productividad y Ofimática",
+    "subtopic": "Atajos Estándar"
+  },
+  {
+    "id": "inf-bas-40",
+    "sectionId": 1,
+    "number": 40,
+    "text": "¿Cuál es la función del comando 'Deshacer' accesible mediante el atajo de teclado Ctrl + Z?",
+    "options": [
+      "Revertir la última acción realizada por el usuario en el documento o programa",
+      "Cerrar la ventana activa sin guardar",
+      "Reiniciar la computadora inmediatamente",
+      "Borrar todo el disco duro"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ctrl + Z es el atajo universal para deshacer la última operación registrada en la pila de historial del programa.",
+    "skill": "Atajos de Teclado",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Productividad y Ofimática",
+    "subtopic": "Deshacer con Ctrl Z"
+  },
+  {
+    "id": "inf-bas-41",
+    "sectionId": 1,
+    "number": 41,
+    "text": "¿Qué componente de software se encarga de permitir que el sistema operativo se comunique correctamente con un dispositivo de hardware específico (como una impresora o tarjeta de sonido)?",
+    "options": [
+      "Controlador de dispositivo (Driver)",
+      "Navegador web",
+      "Antivirus residente",
+      "Compilador C++"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un driver o controlador es un programa especializado que traduce las órdenes del sistema operativo al protocolo y señales eléctricas que entiende el periférico de hardware.",
+    "skill": "Gestión de Hardware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Software de Sistema",
+    "subtopic": "Controladores de Dispositivos (Drivers)"
+  },
+  {
+    "id": "inf-bas-42",
+    "sectionId": 1,
+    "number": 42,
+    "text": "¿Cuál es la principal ventaja de utilizar servicios de almacenamiento en la nube (Cloud Storage como Google Drive, OneDrive o Dropbox)?",
+    "options": [
+      "Acceder a los archivos desde cualquier dispositivo con internet y contar con respaldo remoto automático",
+      "No requerir conexión a internet para sincronizar archivos en tiempo real",
+      "Duplicar la memoria RAM física de la computadora",
+      "Impedir que el equipo consuma energía eléctrica"
+    ],
+    "correctIndex": 0,
+    "explanation": "El almacenamiento en la nube guarda los datos en centros de datos remotos seguros, permitiendo sincronización multiplataforma, colaboración en tiempo real y disponibilidad continua.",
+    "skill": "Computación en la Nube",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Servicios Cloud",
+    "subtopic": "Almacenamiento en la Nube"
+  },
+  {
+    "id": "inf-bas-43",
+    "sectionId": 1,
+    "number": 43,
+    "text": "¿Qué dispositivo de red doméstica recibe la señal del proveedor de internet (ISP) y la convierte en paquetes digitales para la red interna de la casa?",
+    "options": [
+      "Módem (modulador-demodulador)",
+      "Hub pasivo",
+      "Impresora de red",
+      "Tarjeta de captura de video"
+    ],
+    "correctIndex": 0,
+    "explanation": "El módem modula y demodula las señales analógicas u ópticas procedentes del cable coaxial, fibra óptica o línea telefónica del proveedor, transformándolas en datos digitales de red.",
+    "skill": "Equipos de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Redes Domésticas",
+    "subtopic": "Módem y Conectividad"
+  },
+  {
+    "id": "inf-bas-44",
+    "sectionId": 1,
+    "number": 44,
+    "text": "¿Qué dispositivo de red se encarga de dirigir el tráfico de datos entre la red local doméstica (LAN) e internet (WAN), asignando direcciones IP privadas a los equipos?",
+    "options": [
+      "Enrutador (Router)",
+      "Monitor HDMI",
+      "Placa de sonido",
+      "Regleta de tomacorrientes"
+    ],
+    "correctIndex": 0,
+    "explanation": "El router interconecta redes distintas y utiliza una tabla de enrutamiento para reenviar los paquetes entre los dispositivos de la casa e internet.",
+    "skill": "Equipos de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Redes Domésticas",
+    "subtopic": "Enrutador o Router"
+  },
+  {
+    "id": "inf-bas-45",
+    "sectionId": 1,
+    "number": 45,
+    "text": "¿Qué protocolo de red asigna automáticamente direcciones IP, máscaras de subred y DNS a los dispositivos que se conectan a una red Wi-Fi sin configuración manual?",
+    "options": [
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "HTTP",
+      "SNMP",
+      "SMTP"
+    ],
+    "correctIndex": 0,
+    "explanation": "DHCP automatiza la configuración de red entregando una dirección IP disponible a cada celular o computadora apenas se enlaza al router.",
+    "skill": "Configuración de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Protocolos de Red",
+    "subtopic": "Protocolo DHCP"
+  },
+  {
+    "id": "inf-bas-46",
+    "sectionId": 1,
+    "number": 46,
+    "text": "¿Cuál es la función de un Firewall (cortafuegos) en una computadora o red?",
+    "options": [
+      "Monitorear y controlar el tráfico de red entrante y saliente según reglas de seguridad predefinidas, bloqueando conexiones no autorizadas",
+      "Apagar el equipo en caso de recalentamiento físico",
+      "Limpiar archivos temporales de navegación",
+      "Aumentar el ancho de banda contratado"
+    ],
+    "correctIndex": 0,
+    "explanation": "El firewall actúa como una barrera defensiva que inspecciona paquetes de datos e impide que intrusos remotos o troyanos abran puertos no autorizados hacia la máquina.",
+    "skill": "Seguridad de Redes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad",
+    "subtopic": "Cortafuegos (Firewall)"
+  },
+  {
+    "id": "inf-bas-47",
+    "sectionId": 1,
+    "number": 47,
+    "text": "¿Qué tipo de software malicioso se oculta dentro de un programa aparentemente útil y legítimo (como un juego descargado gratis) para infectar la computadora al ser ejecutado?",
+    "options": [
+      "Caballo de Troya (Troyano)",
+      "Gusano autorreplicante puro",
+      "Adware inocuo",
+      "Cookie de sesión"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un troyano imita una aplicación inofensiva para convencer al usuario de instalarlo, momento en el cual abre una puerta trasera (backdoor) para el atacante.",
+    "skill": "Tipos de Malware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad",
+    "subtopic": "Caballos de Troya"
+  },
+  {
+    "id": "inf-bas-48",
+    "sectionId": 1,
+    "number": 48,
+    "text": "¿Qué característica distingue a un 'Gusano informático' (Worm) de un virus clásico?",
+    "options": [
+      "El gusano tiene la capacidad de autoreplicarse e infectar otras computadoras a través de la red de forma autónoma sin intervención del usuario",
+      "El gusano necesita estar pegado a un archivo ejecutable que el usuario abra",
+      "El gusano solo daña la impresora física",
+      "El gusano solo funciona en computadoras apagadas"
+    ],
+    "correctIndex": 0,
+    "explanation": "A diferencia del virus que requiere que una persona ejecute un archivo anfitrión infectado, los gusanos explotan vulnerabilidades de red para propagarse solos a miles de equipos conectados.",
+    "skill": "Tipos de Malware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Malware de Red",
+    "subtopic": "Gusanos Informáticos"
+  },
+  {
+    "id": "inf-bas-49",
+    "sectionId": 1,
+    "number": 49,
+    "text": "¿Qué componente de software rastrea en secreto la actividad del usuario, como pulsaciones de teclado (keylogging) o hábitos de navegación, y los transmite a un atacante?",
+    "options": [
+      "Spyware (software espía)",
+      "Freeware",
+      "Shareware",
+      "Firmware"
+    ],
+    "correctIndex": 0,
+    "explanation": "El spyware recopila información personal, contraseñas y datos confidenciales sin consentimiento de la víctima para fines de espionaje o fraude.",
+    "skill": "Amenazas a la Privacidad",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Malware",
+    "subtopic": "Spyware y Keyloggers"
+  },
+  {
+    "id": "inf-bas-50",
+    "sectionId": 1,
+    "number": 50,
+    "text": "¿Cuál es la función del 'Administrador de Tareas' (Task Manager en Windows o Monitor de Actividad en Mac)?",
+    "options": [
+      "Visualizar en tiempo real el consumo de CPU, memoria y disco de cada proceso en ejecución y permitir forzar el cierre de programas bloqueados",
+      "Crear presentaciones de diapositivas animadas",
+      "Formatear unidades extraíbles USB",
+      "Conectar a internet automáticamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Administrador de Tareas monitorea los recursos de hardware utilizados por cada aplicación y servicio, facilitando el diagnóstico y la terminación de programas congelados.",
+    "skill": "Herramientas del Sistema",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistemas Operativos",
+    "subtopic": "Administrador de Tareas"
+  },
+  {
+    "id": "inf-bas-51",
+    "sectionId": 1,
+    "number": 51,
+    "text": "¿Qué tipo de conector de video transmite señales puramente digitales de audio y video de alta definición en un único cable entre computadoras, consolas y televisores?",
+    "options": [
+      "HDMI (High-Definition Multimedia Interface)",
+      "VGA de 15 pines analógico",
+      "Conector RCA de video compuesto",
+      "Puerto serie RS-232"
+    ],
+    "correctIndex": 0,
+    "explanation": "HDMI transporta señales digitales sin compresión tanto de video de alta resolución como de audio multicanal en un solo conector estándar.",
+    "skill": "Puertos de Video",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware y Pantallas",
+    "subtopic": "Interfaz HDMI"
+  },
+  {
+    "id": "inf-bas-52",
+    "sectionId": 1,
+    "number": 52,
+    "text": "¿Qué conector de video analógico antiguo de color azul característico y 15 pines transmite señales de video mediante voltajes RGB continuos?",
+    "options": [
+      "VGA (Video Graphics Array)",
+      "DisplayPort",
+      "DVI-D digital",
+      "HDMI"
+    ],
+    "correctIndex": 0,
+    "explanation": "El estándar VGA de 15 pines es analógico y fue introducido por IBM en 1987, siendo sustituido hoy en día por estándares digitales como HDMI y DisplayPort.",
+    "skill": "Puertos de Video",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Interfaces de Pantalla",
+    "subtopic": "Conector VGA"
+  },
+  {
+    "id": "inf-bas-53",
+    "sectionId": 1,
+    "number": 53,
+    "text": "¿Cuál es la función de la pasta térmica aplicada entre la superficie metálica de la CPU y la base del disipador de calor?",
+    "options": [
+      "Rellenar las microscópicas imperfecciones del aire para maximizar la conducción térmica hacia el disipador",
+      "Pegar permanentemente el procesador para que nunca pueda desmontarse",
+      "Conducir electricidad entre la CPU y el ventilador",
+      "Aislar térmicamente el procesador para que retenga calor"
+    ],
+    "correctIndex": 0,
+    "explanation": "El aire es un pésimo conductor térmico. La pasta térmica de silicona con óxidos metálicos elimina las burbujas microscópicas de aire garantizando una transferencia eficiente de calor.",
+    "skill": "Refrigeración de Hardware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Mantenimiento de Computadoras",
+    "subtopic": "Pasta Térmica"
+  },
+  {
+    "id": "inf-bas-54",
+    "sectionId": 1,
+    "number": 54,
+    "text": "¿Qué síntoma típico presenta una computadora cuya CPU sufre de estrangulamiento térmico (Thermal Throttling) por exceso de temperatura?",
+    "options": [
+      "El procesador reduce automáticamente su frecuencia de reloj y rendimiento para no quemarse, provocando lentitud extrema o apagados repentinos",
+      "La pantalla se vuelve de color blanco brillante",
+      "El disco duro borra los archivos personales",
+      "El volumen del audio se silencia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cuando los sensores internos de la CPU detectan temperaturas críticas (ej. > 90-100 °C), el circuito de protección reduce el voltaje y los GHz para bajar el calor, degradando el desempeño.",
+    "skill": "Diagnóstico de Hardware",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Protección Térmica",
+    "subtopic": "Thermal Throttling"
+  },
+  {
+    "id": "inf-bas-55",
+    "sectionId": 1,
+    "number": 55,
+    "text": "¿Qué tipo de software permite a los usuarios crear y manipular hojas de cálculo con celdas organizadas en filas y columnas que realizan cálculos matemáticos automáticos (como Microsoft Excel)?",
+    "options": [
+      "Software de hoja de cálculo (Spreadsheet)",
+      "Procesador de texto simple",
+      "Gestor de bases de datos noSQL",
+      "Software de edición vectorial"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las hojas de cálculo organizan información numérica y de texto en matrices de celdas interconectadas con fórmulas algebraicas y funciones estadísticas.",
+    "skill": "Ofimática Básica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Software de Aplicación",
+    "subtopic": "Hojas de Cálculo"
+  },
+  {
+    "id": "inf-bas-56",
+    "sectionId": 1,
+    "number": 56,
+    "text": "En una hoja de cálculo como Excel o Google Sheets, ¿con qué carácter obligatorio debe comenzar cualquier fórmula o cálculo en una celda?",
+    "options": [
+      "El signo igual (=)",
+      "El signo numeral (#)",
+      "El signo dólar ($)",
+      "El signo arroba (@)"
+    ],
+    "correctIndex": 0,
+    "explanation": "El signo igual (=) indica al intérprete de la hoja de cálculo que el texto subsiguiente es una expresión o fórmula que debe ser calculada y no una simple cadena de texto.",
+    "skill": "Uso de Hojas de Cálculo",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Fórmulas en Hojas de Cálculo",
+    "subtopic": "Sintaxis de Fórmulas"
+  },
+  {
+    "id": "inf-bas-57",
+    "sectionId": 1,
+    "number": 57,
+    "text": "¿Qué función cumple el símbolo de dólar ($) en una referencia de celda en una hoja de cálculo (ej. $A$1)?",
+    "options": [
+      "Fijar la columna y fila como referencia absoluta para que no cambie al copiar o arrastrar la fórmula",
+      "Formatear automáticamente la celda como moneda en dólares",
+      "Multiplicar el valor por la tasa de cambio oficial",
+      "Ocultar la celda a usuarios no administradores"
+    ],
+    "correctIndex": 0,
+    "explanation": "El signo $ congela la posición (referencia absoluta); al copiar la fórmula a otras filas o columnas, la celda referenciada $A$1 permanece fija sin desplazarse.",
+    "skill": "Fórmulas Avanzadas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hojas de Cálculo",
+    "subtopic": "Referencias Absolutas"
+  },
+  {
+    "id": "inf-bas-58",
+    "sectionId": 1,
+    "number": 58,
+    "text": "¿Qué tipo de lenguaje se utiliza para estructurar el contenido de las páginas web mediante etiquetas como <p>, <h1>, <div> y <a>?",
+    "options": [
+      "HTML (HyperText Markup Language)",
+      "CSS",
+      "Python",
+      "SQL"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTML es el lenguaje de marcado estándar de la World Wide Web que define la estructura semántica, los encabezados, párrafos, enlaces e imágenes de un documento web.",
+    "skill": "Tecnologías Web Básicas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Desarrollo Web",
+    "subtopic": "Lenguaje HTML"
+  },
+  {
+    "id": "inf-bas-59",
+    "sectionId": 1,
+    "number": 59,
+    "text": "¿Qué tecnología se emplea junto con HTML para definir el diseño visual, colores, fuentes tipográficas y disposición espacial de una página web?",
+    "options": [
+      "CSS (Cascading Style Sheets)",
+      "PHP",
+      "C++",
+      "Java"
+    ],
+    "correctIndex": 0,
+    "explanation": "CSS (Hojas de Estilo en Cascada) se encarga de la presentación visual y estética, separando el diseño del contenido estructurado en HTML.",
+    "skill": "Tecnologías Web Básicas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Desarrollo Web",
+    "subtopic": "Hojas de Estilo CSS"
+  },
+  {
+    "id": "inf-bas-60",
+    "sectionId": 1,
+    "number": 60,
+    "text": "¿Qué lenguaje de programación se ejecuta nativamente en los navegadores web para dotar de interactividad dinámica a las páginas (animaciones, validación de formularios, eventos)?",
+    "options": [
+      "JavaScript",
+      "C#",
+      "Cobol",
+      "Fortran"
+    ],
+    "correctIndex": 0,
+    "explanation": "JavaScript es el lenguaje de programación estándar del lado cliente que se ejecuta en los motores de los navegadores (como V8), permitiendo interfaces web interactivas.",
+    "skill": "Tecnologías Web Básicas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Desarrollo Web",
+    "subtopic": "JavaScript en el Navegador"
+  },
+  {
+    "id": "inf-bas-61",
+    "sectionId": 1,
+    "number": 61,
+    "text": "¿Qué es una 'Cookie' en el contexto de la navegación en la web?",
+    "options": [
+      "Un pequeño archivo de texto almacenado en el navegador por un sitio web para recordar información de sesión, preferencias o rastreo",
+      "Un virus que infecta los ventiladores del equipo",
+      "Una contraseña maestra que desbloquea cualquier servidor",
+      "Un periférico de hardware para cargar el móvil"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las cookies son pequeños fragmentos de datos que los sitios envían al navegador para mantener al usuario autenticado, recordar artículos en el carrito de compras y personalizar la experiencia.",
+    "skill": "Navegación Web",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Privacidad y Navegación",
+    "subtopic": "Cookies Web"
+  },
+  {
+    "id": "inf-bas-62",
+    "sectionId": 1,
+    "number": 62,
+    "text": "¿Qué significa 'Modo Incógnito' o 'Navegación Privada' en un navegador web?",
+    "options": [
+      "El navegador no guarda el historial de navegación, cookies ni datos de formularios en el disco local de la computadora al cerrar la sesión",
+      "Convierte la conexión a internet en 100% invisible para el proveedor de internet y la policía",
+      "Bloquea la cámara web mediante una tapa física",
+      "Impide que los sitios web descarguen imágenes"
+    ],
+    "correctIndex": 0,
+    "explanation": "El modo privado evita que se guarde rastro local en la máquina (útil en cibercafés o equipos compartidos), pero NO oculta la actividad ante el proveedor de internet ni ante los servidores remotos.",
+    "skill": "Privacidad en Navegadores",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Navegación Web",
+    "subtopic": "Modo Incógnito"
+  },
+  {
+    "id": "inf-bas-63",
+    "sectionId": 1,
+    "number": 63,
+    "text": "¿Qué tecnología inalámbrica de corto alcance (hasta unos 10 metros) se utiliza habitualmente para conectar auriculares, teclados y ratones a una computadora o teléfono?",
+    "options": [
+      "Bluetooth",
+      "Infrarrojo satelital",
+      "Wi-Fi 6E de largo alcance",
+      "Fibra óptica monomodo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bluetooth es un estándar de red de área personal inalámbrica (WPAN) que opera en la banda ISM de 2.4 GHz, ideal para comunicación de bajo consumo entre periféricos cercanos.",
+    "skill": "Conectividad Inalámbrica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Redes Inalámbricas",
+    "subtopic": "Tecnología Bluetooth"
+  },
+  {
+    "id": "inf-bas-64",
+    "sectionId": 1,
+    "number": 64,
+    "text": "¿Cuál es la función principal de la tarjeta de red (NIC - Network Interface Card) en una computadora?",
+    "options": [
+      "Permitir la conexión física o inalámbrica de la computadora a una red de datos local o a internet",
+      "Almacenar el sistema operativo en memoria Flash",
+      "Suministrar energía a los puertos USB",
+      "Acelerar los gráficos de los videojuegos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La tarjeta de interfaz de red (NIC) implementa los circuitos electrónicos de nivel físico y de enlace para transmitir tramas de datos por cable Ethernet o antenas de radio Wi-Fi.",
+    "skill": "Hardware de Conectividad",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Tarjetas de Red",
+    "subtopic": "Interfaz NIC"
+  },
+  {
+    "id": "inf-bas-65",
+    "sectionId": 1,
+    "number": 65,
+    "text": "¿Qué dirección física única e irrepetible de 48 bits grabada de fábrica identifica a cada tarjeta de red en el mundo?",
+    "options": [
+      "Dirección MAC (Media Access Control)",
+      "Dirección IP lógica",
+      "Puerto TCP",
+      "Máscara de subred"
+    ],
+    "correctIndex": 0,
+    "explanation": "La dirección MAC es el identificador de hardware único asignado a la NIC en la capa de enlace (ej. 00:1A:2B:3C:4D:5E), utilizado para enviar tramas dentro de la misma red local.",
+    "skill": "Identificación de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Redes Locales",
+    "subtopic": "Dirección MAC"
+  },
+  {
+    "id": "inf-bas-66",
+    "sectionId": 1,
+    "number": 66,
+    "text": "¿Qué tipo de conector modular estándar de 8 pines se utiliza universalmente en los cables de red Ethernet de par trenzado (categoría 5e, 6, etc.)?",
+    "options": [
+      "Conector RJ-45",
+      "Conector RJ-11 telefónico",
+      "Conector USB Tipo B",
+      "Conector Jack de 3.5 mm"
+    ],
+    "correctIndex": 0,
+    "explanation": "El conector RJ-45 (Registered Jack 45) de 8 contactos es el estándar universal para cables de red UTP/STP en redes cableadas Ethernet.",
+    "skill": "Cableado Estructurado",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Conectores de Red",
+    "subtopic": "Conector RJ-45"
+  },
+  {
+    "id": "inf-bas-67",
+    "sectionId": 1,
+    "number": 67,
+    "text": "¿Qué característica define a una red de computadoras clasificada como LAN (Local Area Network)?",
+    "options": [
+      "Cubre un área geográfica limitada y cercana, como una habitación, una oficina o un edificio escolar",
+      "Conecta países y continentes a través de cables submarinos",
+      "Está compuesta exclusivamente por satélites espaciales",
+      "Funciona únicamente sin cables de cobre"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una red de área local (LAN) interconecta computadoras en un espacio físico restringido (hogar, colegio, empresa), ofreciendo altas velocidades de transferencia a bajo costo.",
+    "skill": "Tipos de Redes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Clasificación de Redes",
+    "subtopic": "Red de Área Local (LAN)"
+  },
+  {
+    "id": "inf-bas-68",
+    "sectionId": 1,
+    "number": 68,
+    "text": "¿Qué tipo de red geográfica interconecta múltiples ciudades, países o continentes enteros (siendo el mayor ejemplo internet)?",
+    "options": [
+      "WAN (Wide Area Network o Red de Área Extensa)",
+      "PAN (Personal Area Network)",
+      "LAN",
+      "CAN"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una WAN abarca grandes extensiones geográficas interconectando múltiples LANs mediante enlaces de fibra óptica, radioenlaces y satélites gestionados por proveedores de telecomunicaciones.",
+    "skill": "Tipos de Redes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Clasificación de Redes",
+    "subtopic": "Red WAN"
+  },
+  {
+    "id": "inf-bas-69",
+    "sectionId": 1,
+    "number": 69,
+    "text": "¿Cuál es la función del comando 'Ping' ejecutado en la consola de comandos del sistema operativo?",
+    "options": [
+      "Comprobar la conectividad de red con otro equipo remoto y medir el tiempo de respuesta (latencia en milisegundos)",
+      "Formatear la tarjeta madre",
+      "Acelerar la descarga de videos",
+      "Imprimir una página de prueba en papel"
+    ],
+    "correctIndex": 0,
+    "explanation": "El comando ping envía paquetes de solicitud de eco ICMP al destino; si este responde, confirma que hay conexión activa y calcula la latencia de ida y vuelta (Round-Trip Time).",
+    "skill": "Diagnóstico de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Comandos de Red",
+    "subtopic": "Comando Ping e ICMP"
+  },
+  {
+    "id": "inf-bas-70",
+    "sectionId": 1,
+    "number": 70,
+    "text": "¿Qué comando de consola en Windows muestra la configuración IP detallada de todos los adaptadores de red de la máquina (dirección IPv4, máscara y puerta de enlace)?",
+    "options": [
+      "ipconfig",
+      "format c:",
+      "dir /s",
+      "taskkill"
+    ],
+    "correctIndex": 0,
+    "explanation": "ipconfig (o 'ifconfig' / 'ip addr' en Linux y macOS) lista los parámetros de red activos asignados a cada interfaz física o inalámbrica de la computadora.",
+    "skill": "Diagnóstico de Red",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Comandos del Sistema",
+    "subtopic": "Comando ipconfig"
+  },
+  {
+    "id": "inf-bas-71",
+    "sectionId": 1,
+    "number": 71,
+    "text": "¿Qué problema ocurre si se apaga bruscamente una computadora desconectando el cable de corriente mientras el sistema operativo está escribiendo archivos en el disco?",
+    "options": [
+      "Corrupción del sistema de archivos y pérdida o daño de los documentos que se estaban guardando",
+      "Descarga de la batería del reloj a cero inmediatamente",
+      "Inversión de los píxeles del monitor",
+      "Eliminación física del firmware de la BIOS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un corte súbito de energía interrumpe transacciones en disco a medio escribir, dejando tablas de asignación (como NTFS o ext4) corruptas y requiriendo herramientas de reparación de disco (como chkdsk).",
+    "skill": "Mantenimiento del Sistema",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Integridad de Archivos",
+    "subtopic": "Apagado Correcto del Sistema"
+  },
+  {
+    "id": "inf-bas-72",
+    "sectionId": 1,
+    "number": 72,
+    "text": "¿Qué equipo de respaldo eléctrico contiene baterías internas que suministran energía continua instantánea durante unos minutos ante un corte de luz para guardar el trabajo y apagar el equipo con seguridad?",
+    "options": [
+      "UPS (o SAI - Sistema de Alimentación Ininterrumpida)",
+      "Estabilizador de voltaje simple",
+      "Transformador de aislamiento",
+      "Regleta multitoma con fusible"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una UPS conmuta a su inversor de batería en milisegundos tras una interrupción de suministro eléctrico, evitando que servidores y computadoras se apaguen súbitamente.",
+    "skill": "Protección Eléctrica de Equipos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware y Energía",
+    "subtopic": "Sistemas UPS / SAI"
+  },
+  {
+    "id": "inf-bas-73",
+    "sectionId": 1,
+    "number": 73,
+    "text": "¿Qué tipo de software antivirus busca detectar y eliminar malware comparando el código de los archivos con una base de datos conocida de firmas?",
+    "options": [
+      "Antivirus basado en firmas",
+      "Compilador Just-In-Time",
+      "Software de renderizado 3D",
+      "Optimizador de memoria RAM"
+    ],
+    "correctIndex": 0,
+    "explanation": "La detección por firmas calcula un hash o patrón binario del archivo sospechoso y lo coteja con un catálogo mundial de virus conocidos previamente clasificados por laboratorios de seguridad.",
+    "skill": "Seguridad y Antivirus",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Antivirus",
+    "subtopic": "Detección por Firmas"
+  },
+  {
+    "id": "inf-bas-74",
+    "sectionId": 1,
+    "number": 74,
+    "text": "¿Qué tipo de análisis utiliza un antivirus avanzado para detectar virus nuevos o variantes desconocidas observando comportamientos sospechosos (como intentos de modificar el registro de inicio o inyectar código)?",
+    "options": [
+      "Análisis heurístico y de comportamiento",
+      "Análisis de peso de archivo simple",
+      "Escaneo de colores de iconos",
+      "Prueba de continuidad con multímetro"
+    ],
+    "correctIndex": 0,
+    "explanation": "El análisis heurístico examina qué intenta hacer el programa en un entorno seguro (sandbox); si exhibe patrones típicos de malware, lo bloquea preventivamente aunque su firma no esté en la base de datos.",
+    "skill": "Seguridad y Antivirus",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Antivirus Modernos",
+    "subtopic": "Análisis Heurístico"
+  },
+  {
+    "id": "inf-bas-75",
+    "sectionId": 1,
+    "number": 75,
+    "text": "¿Qué protocolo de correo electrónico se utiliza comúnmente para el ENVÍO de mensajes desde un cliente de correo hacia el servidor?",
+    "options": [
+      "SMTP (Simple Mail Transfer Protocol)",
+      "POP3",
+      "IMAP",
+      "HTTP"
+    ],
+    "correctIndex": 0,
+    "explanation": "SMTP (puerto 25, 465 o 587) es el protocolo de transporte estándar dedicado exclusivamente a transferir y despachar correos electrónicos entre clientes y servidores.",
+    "skill": "Protocolos de Correo",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Servicios de Internet",
+    "subtopic": "Protocolo SMTP"
+  },
+  {
+    "id": "inf-bas-76",
+    "sectionId": 1,
+    "number": 76,
+    "text": "¿Cuál es la principal diferencia entre el protocolo de recepción de correo IMAP y el protocolo antiguo POP3?",
+    "options": [
+      "IMAP sincroniza los correos manteniéndolos en el servidor para acceder desde múltiples dispositivos a la vez, mientras que POP3 tradicionalmente descarga los correos borrándolos del servidor",
+      "POP3 permite videollamadas en directo e IMAP solo texto",
+      "IMAP solo funciona con cables de cobre",
+      "POP3 no requiere contraseña de acceso"
+    ],
+    "correctIndex": 0,
+    "explanation": "Con IMAP cualquier cambio (leído, borrado, carpetas) se refleja en el servidor y en todos los dispositivos conectados; POP3 descarga el buzón localmente en un único equipo.",
+    "skill": "Protocolos de Correo",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Servicios de Internet",
+    "subtopic": "IMAP vs POP3"
+  },
+  {
+    "id": "inf-bas-77",
+    "sectionId": 1,
+    "number": 77,
+    "text": "¿Qué componente de hardware almacena permanentemente la fecha y hora de la computadora y la configuración de la BIOS mediante una pequeña pila de botón tipo CR2032?",
+    "options": [
+      "Reloj de tiempo real (RTC) con memoria CMOS",
+      "La tarjeta de video",
+      "La fuente de poder ATX",
+      "La memoria caché L2"
+    ],
+    "correctIndex": 0,
+    "explanation": "La pila de botón de litio CR2032 alimenta el circuito RTC y la memoria volátil CMOS en la placa madre para que el reloj no se atrase cuando el equipo se desenchufa de la pared.",
+    "skill": "Hardware de la Placa Madre",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Arquitectura de Computadoras",
+    "subtopic": "Pila CMOS y Reloj RTC"
+  },
+  {
+    "id": "inf-bas-78",
+    "sectionId": 1,
+    "number": 78,
+    "text": "¿Qué significa que un sistema operativo o un procesador tenga una arquitectura de 64 bits (x86-64 / x64) en comparación con una antigua de 32 bits (x86)?",
+    "options": [
+      "Puede direccionar y utilizar más de 4 GB de memoria RAM de forma nativa y procesar enteros de 64 bits por ciclo",
+      "Consume el doble de corriente de la batería",
+      "Solo puede ejecutar un programa a la vez",
+      "Tiene 64 núcleos de procesador físicos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un sistema de 32 bits solo puede direccionar 2³² bytes = 4 GB de RAM teóricos. La arquitectura de 64 bits admite hasta 16 exabytes de memoria RAM y registros de mayor ancho de banda.",
+    "skill": "Arquitectura de Sistemas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Microprocesadores",
+    "subtopic": "Sistemas de 32 bits vs 64 bits"
+  },
+  {
+    "id": "inf-bas-79",
+    "sectionId": 1,
+    "number": 79,
+    "text": "¿Qué tipo de software libre permite redistribuir el programa original pero exige que cualquier modificación conserve la misma licencia abierta de origen (Copyleft)?",
+    "options": [
+      "Software bajo licencias con Copyleft (como la GNU General Public License - GPL)",
+      "Software de dominio público sin restricciones",
+      "Software propietario comercial cerrado",
+      "Software bajo licencia permisiva MIT"
+    ],
+    "correctIndex": 0,
+    "explanation": "El concepto de Copyleft acuñado por Richard Stallman garantiza que cualquier obra derivada conserve obligatoriamente las mismas libertades de acceso al código fuente para siempre.",
+    "skill": "Licencias de Software",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Software Libre",
+    "subtopic": "Licencia GPL y Copyleft"
+  },
+  {
+    "id": "inf-bas-80",
+    "sectionId": 1,
+    "number": 80,
+    "text": "¿Cuál es la función del proceso de desfragmentación de disco en los discos duros mecánicos (HDD)?",
+    "options": [
+      "Reorganizar los bloques dispersos de cada archivo en sectores físicos contiguos para reducir el movimiento de los cabezales y acelerar la lectura",
+      "Borrar todos los virus del sector de arranque",
+      "Aumentar el espacio físico libre del disco al doble",
+      "Enfriar la temperatura de los platos magnéticos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Con el uso continuo, los archivos se dividen en fragmentos en distintas pistas del HDD; desfragmentar los une secuencialmente. (¡Ojo! En discos SSD nunca se debe desfragmentar porque desgasta inútilmente las celdas flash).",
+    "skill": "Mantenimiento de Discos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistemas de Archivos",
+    "subtopic": "Desfragmentación de Discos Mecánicos"
+  },
+  {
+    "id": "inf-bas-81",
+    "sectionId": 1,
+    "number": 81,
+    "text": "¿Por qué NO se debe realizar desfragmentación en unidades de estado sólido (SSD)?",
+    "options": [
+      "Porque los SSD no tienen partes mecánicas móviles y la desfragmentación somete las celdas flash NAND a escrituras innecesarias que acortan su vida útil",
+      "Porque la desfragmentación borra la BIOS del equipo",
+      "Porque la memoria flash se congela",
+      "Porque los SSD no admiten sistemas de archivos"
+    ],
+    "correctIndex": 0,
+    "explanation": "El tiempo de acceso a cualquier celda de un SSD es prácticamente uniforme e instantáneo. Desfragmentar consume ciclos de borrado/escritura de las celdas NAND sin aportar ninguna mejora de velocidad.",
+    "skill": "Mantenimiento de SSDs",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Unidades SSD",
+    "subtopic": "Desgaste de Celdas Flash y Desfragmentación"
+  },
+  {
+    "id": "inf-bas-82",
+    "sectionId": 1,
+    "number": 82,
+    "text": "¿Qué comando TRIM incorporado en los sistemas operativos modernos optimiza el rendimiento y vida útil de los SSD al informar qué bloques de datos ya no están en uso y pueden borrarse internamente?",
+    "options": [
+      "Comando TRIM",
+      "Comando FORMAT",
+      "Comando SCANDISK",
+      "Comando FDISK"
+    ],
+    "correctIndex": 0,
+    "explanation": "TRIM permite al sistema operativo notificar al controlador del SSD los bloques lógicos eliminados, facilitando el recolector de basura (garbage collection) interno en segundo plano.",
+    "skill": "Tecnología de Almacenamiento",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Optimización de SSDs",
+    "subtopic": "Comando TRIM"
+  },
+  {
+    "id": "inf-bas-83",
+    "sectionId": 1,
+    "number": 83,
+    "text": "¿Qué interfaz física ultrarrápida que utiliza el bus PCI Express (PCIe) se emplea comúnmente en los SSDs modernos de formato M.2?",
+    "options": [
+      "NVMe (Non-Volatile Memory Express)",
+      "SATA III de 6 Gbps",
+      "IDE / PATA de cinta ancha",
+      "SCSI paralelo"
+    ],
+    "correctIndex": 0,
+    "explanation": "NVMe fue diseñado expresamente para memoria no volátil, comunicándose directamente con las líneas PCIe del procesador con anchos de banda de más de 7,000 MB/s, superando con creces el límite de 600 MB/s de SATA.",
+    "skill": "Buses de Almacenamiento",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Almacenamiento de Alto Rendimiento",
+    "subtopic": "Protocolo NVMe y Formato M.2"
+  },
+  {
+    "id": "inf-bas-84",
+    "sectionId": 1,
+    "number": 84,
+    "text": "¿Qué certificación de eficiencia energética para fuentes de poder de PC (PSU) garantiza que al menos el 80% de la energía de la pared se aprovecha sin desperdiciarse en calor residual?",
+    "options": [
+      "Certificación 80 PLUS (Bronze, Silver, Gold, Platinum, Titanium)",
+      "Norma ISO 9001",
+      "Clasificación Energy Star para monitores",
+      "Sello de agua ecológico"
+    ],
+    "correctIndex": 0,
+    "explanation": "El estándar 80 PLUS certifica que la fuente tiene una eficiencia mínima del 80% con cargas del 20%, 50% y 100%, reduciendo el consumo eléctrico y la generación de calor en el interior del chasis.",
+    "skill": "Fuentes de Alimentación",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hardware y Eficiencia",
+    "subtopic": "Certificación 80 PLUS"
+  },
+  {
+    "id": "inf-bas-85",
+    "sectionId": 1,
+    "number": 85,
+    "text": "¿Cuál es el propósito del software de máquina virtual (como VirtualBox o VMware)?",
+    "options": [
+      "Emular por software una computadora completa para ejecutar uno o más sistemas operativos invitados dentro del sistema operativo anfitrión",
+      "Limpiar físicamente los componentes de la torre",
+      "Mejorar la conexión a internet cambiando de proveedor",
+      "Transformar una laptop en una impresora 3D"
+    ],
+    "correctIndex": 0,
+    "explanation": "La virtualización crea instancias aisladas de hardware virtualizado sobre las cuales se instalan sistemas operativos distintos (ej. tener una máquina virtual Linux dentro de Windows) para pruebas o servidores.",
+    "skill": "Virtualización Básica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Software de Virtualización",
+    "subtopic": "Máquinas Virtuales"
+  },
+  {
+    "id": "inf-bas-86",
+    "sectionId": 1,
+    "number": 86,
+    "text": "¿Qué función cumple el Administrador de Dispositivos en el sistema operativo Windows?",
+    "options": [
+      "Permite listar todo el hardware conectado, actualizar controladores, habilitar o deshabilitar periféricos y detectar fallos marcados con signos amarillos de advertencia",
+      "Comprar componentes de hardware en tiendas virtuales",
+      "Aumentar la memoria RAM mediante descargas de internet",
+      "Calibrar la velocidad del mouse exclusivamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Es el panel central de diagnóstico de hardware en Windows: un icono amarillo con signo de admiración indica que el controlador del dispositivo falta o tiene un conflicto de recursos.",
+    "skill": "Administración del Sistema",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Herramientas de Windows",
+    "subtopic": "Administrador de Dispositivos"
+  },
+  {
+    "id": "inf-bas-87",
+    "sectionId": 1,
+    "number": 87,
+    "text": "¿Qué tipo de memoria caché integrada directamente en el procesador tiene la menor latencia y la mayor velocidad de acceso?",
+    "options": [
+      "Memoria Caché L1 (Nivel 1)",
+      "Memoria Caché L3 (Nivel 3)",
+      "Memoria RAM externa",
+      "Memoria virtual en disco"
+    ],
+    "correctIndex": 0,
+    "explanation": "La caché L1 es la más cercana a los núcleos de ejecución de la CPU; es sumamente reducida (ej. 32-64 KB por núcleo) pero responde en apenas 1 a 4 ciclos de reloj.",
+    "skill": "Jerarquía de Memoria",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Arquitectura de Procesadores",
+    "subtopic": "Caché L1, L2 y L3"
+  },
+  {
+    "id": "inf-bas-88",
+    "sectionId": 1,
+    "number": 88,
+    "text": "¿Qué fenómeno indeseado en programación ocurre cuando un programa reserva memoria RAM dinámicamente y olvida liberarla al terminar de usarla, acumulando memoria progresivamente hasta agotar los recursos del sistema?",
+    "options": [
+      "Fuga de memoria (Memory Leak)",
+      "Desbordamiento de pila (Stack Overflow)",
+      "Inyección de dependencias",
+      "Sobrecalentamiento del procesador"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un memory leak se produce cuando punteros u objetos quedan desreferenciados sin devolverse al sistema operativo, haciendo que el consumo de RAM del proceso crezca continuamente hasta provocar lentitud o caída.",
+    "skill": "Gestión de Memoria",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Conceptos de Programación",
+    "subtopic": "Fugas de Memoria (Memory Leaks)"
+  },
+  {
+    "id": "inf-bas-89",
+    "sectionId": 1,
+    "number": 89,
+    "text": "¿Cuál es el valor binario del número decimal 10?",
+    "options": [
+      "1010",
+      "1100",
+      "1001",
+      "1111"
+    ],
+    "correctIndex": 0,
+    "explanation": "10 en binario: 1×8 + 0×4 + 1×2 + 0×1 = 8 + 2 = 10 (1010₂).",
+    "skill": "Sistemas de Numeración",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Aritmética Binaria",
+    "subtopic": "Conversión Decimal a Binario"
+  },
+  {
+    "id": "inf-bas-90",
+    "sectionId": 1,
+    "number": 90,
+    "text": "¿A qué número decimal equivale el número binario 1111?",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "1×8 + 1×4 + 1×2 + 1×1 = 8 + 4 + 2 + 1 = 15.",
+    "skill": "Sistemas de Numeración",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Aritmética Binaria",
+    "subtopic": "Conversión Binario a Decimal"
+  },
+  {
+    "id": "inf-bas-91",
+    "sectionId": 1,
+    "number": 91,
+    "text": "¿Cuántos caracteres alfanuméricos distintos se utilizan en el sistema de numeración hexadecimal (Base 16)?",
+    "options": [
+      "16 caracteres (del 0 al 9 y las letras de la A a la F)",
+      "10 dígitos numéricos",
+      "8 caracteres (del 0 al 7)",
+      "32 caracteres"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sistema hexadecimal utiliza los dígitos 0-9 para los valores 0 a 9, y las letras A, B, C, D, E, F para representar los valores del 10 al 15.",
+    "skill": "Sistemas de Numeración",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Sistema Hexadecimal",
+    "subtopic": "Caracteres en Base 16"
+  },
+  {
+    "id": "inf-bas-92",
+    "sectionId": 1,
+    "number": 92,
+    "text": "¿Por qué los programadores e ingenieros informáticos utilizan con tanta frecuencia el sistema hexadecimal para representar direcciones de memoria y colores RGB?",
+    "options": [
+      "Porque exactamente un dígito hexadecimal representa de forma compacta un cuarteto de 4 bits (nibble), y dos dígitos hexadecimales representan exactamente un byte de 8 bits (ej. 0xFF = 255)",
+      "Porque ocupa menos espacio en la pantalla del monitor",
+      "Porque los cables de red solo transmiten números en base 16",
+      "Porque fue inventado por el fundador de Microsoft"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un byte de 8 bits varía de 00000000 a 11111111 en binario, lo cual se abrevia limpiamente con solo dos caracteres hexadecimales de 0x00 a 0xFF.",
+    "skill": "Representación de Datos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Hexadecimal en Computación",
+    "subtopic": "Relación Hexadecimal y Bytes"
+  },
+  {
+    "id": "inf-bas-93",
+    "sectionId": 1,
+    "number": 93,
+    "text": "¿Qué código estándar de caracteres asigna un número numérico de 7 u 8 bits a cada letra, dígito y símbolo del teclado en inglés?",
+    "options": [
+      "ASCII (American Standard Code for Information Interchange)",
+      "JPEG",
+      "MP4",
+      "HTML5"
+    ],
+    "correctIndex": 0,
+    "explanation": "ASCII estandarizó en 1963 la codificación de 128 caracteres básicos (por ejemplo, el código 65 para la letra 'A' mayúscula y 97 para la 'a' minúscula).",
+    "skill": "Codificación de Caracteres",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Representación de Texto",
+    "subtopic": "Código ASCII"
+  },
+  {
+    "id": "inf-bas-94",
+    "sectionId": 1,
+    "number": 94,
+    "text": "¿Qué estándar moderno de codificación universal de caracteres fue creado para representar todos los alfabetos del mundo (incluyendo español con tildes, chino, árabe y emojis)?",
+    "options": [
+      "Unicode (con esquemas de codificación como UTF-8)",
+      "ASCII estándar de 7 bits",
+      "Código Morse internacional",
+      "EBCDIC de IBM"
+    ],
+    "correctIndex": 0,
+    "explanation": "Unicode asigna un punto de código único a más de 149,000 caracteres de todas las lenguas modernas y antiguas. UTF-8 es el formato dominante en la web por su compatibilidad hacia atrás con ASCII.",
+    "skill": "Codificación de Caracteres",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Codificación Universal",
+    "subtopic": "Estándar Unicode y UTF-8"
+  },
+  {
+    "id": "inf-bas-95",
+    "sectionId": 1,
+    "number": 95,
+    "text": "¿Qué tipo de lenguaje de programación de bajo nivel utiliza mnemónicos legibles por humanos (como MOV, ADD, JMP) que se corresponden directamente uno a uno con las instrucciones de la máquina?",
+    "options": [
+      "Lenguaje Ensamblador (Assembly)",
+      "Python",
+      "JavaScript",
+      "SQL"
+    ],
+    "correctIndex": 0,
+    "explanation": "El lenguaje ensamblador proporciona una representación textual directa de los opcodes del procesador; un programa llamado ensamblador lo traduce al código binario de la máquina.",
+    "skill": "Niveles de Lenguajes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Lenguajes de Programación",
+    "subtopic": "Lenguaje Ensamblador"
+  },
+  {
+    "id": "inf-bas-96",
+    "sectionId": 1,
+    "number": 96,
+    "text": "¿Cuál es la diferencia fundamental entre un lenguaje de programación compilado (como C++) y uno interpretado (como Python)?",
+    "options": [
+      "El compilador traduce todo el código fuente de antemano a código binario ejecutable independiente; el intérprete lee y ejecuta las instrucciones línea por línea en tiempo real",
+      "Los lenguajes compilados solo funcionan en teléfonos móviles",
+      "Los lenguajes interpretados no admiten variables numéricas",
+      "El compilador es un hardware y el intérprete un periférico de salida"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los lenguajes compilados generan binarios optimizados de alta velocidad de ejecución (archivos .exe o elf); los interpretados ofrecen portabilidad y desarrollo ágil a costa de menor velocidad en bucles intensivos.",
+    "skill": "Paradigmas de Ejecución",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Compilación vs Interpretación",
+    "subtopic": "Compiladores e Intérpretes"
+  },
+  {
+    "id": "inf-bas-97",
+    "sectionId": 1,
+    "number": 97,
+    "text": "¿Qué componente de software traduce el código intermedio (Bytecode) en una máquina virtual multiplataforma para permitir que un programa funcione en cualquier sistema operativo (como en Java)?",
+    "options": [
+      "La Máquina Virtual de Java (JVM - Java Virtual Machine)",
+      "El navegador Chrome",
+      "El gestor de arranque GRUB",
+      "El chip de sonido"
+    ],
+    "correctIndex": 0,
+    "explanation": "Java compila el código fuente a 'bytecode' (.class). La JVM específica de cada sistema operativo interpreta y compila en caliente (JIT) ese bytecode al código de máquina nativo bajo el lema 'Escribe una vez, ejecuta en cualquier parte'.",
+    "skill": "Máquinas Virtuales de Lenguaje",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Plataforma Java",
+    "subtopic": "Entorno JVM y Bytecode"
+  },
+  {
+    "id": "inf-bas-98",
+    "sectionId": 1,
+    "number": 98,
+    "text": "¿Cuál es la función del comando 'cd' (Change Directory) en los intérpretes de comandos de terminal (como CMD, PowerShell o Bash)?",
+    "options": [
+      "Cambiar el directorio o carpeta de trabajo activa en la consola",
+      "Crear un nuevo disco virtual",
+      "Cerrar la sesión de usuario",
+      "Copiar archivos de música a un disco compacto"
+    ],
+    "correctIndex": 0,
+    "explanation": "El comando 'cd' (change directory) navega entre las diferentes carpetas del árbol de directorios del sistema de archivos.",
+    "skill": "Línea de Comandos Básica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Terminal y Consola",
+    "subtopic": "Comando cd"
+  },
+  {
+    "id": "inf-bas-99",
+    "sectionId": 1,
+    "number": 99,
+    "text": "¿Qué comando en sistemas Unix/Linux muestra la lista de archivos y subcarpetas contenidos en el directorio actual?",
+    "options": [
+      "ls",
+      "dir (en Windows)",
+      "pwd",
+      "mkdir"
+    ],
+    "correctIndex": 0,
+    "explanation": "El comando 'ls' (list) enumera el contenido del directorio en sistemas Linux/macOS, equivalente al comando 'dir' en el intérprete de comandos de Windows.",
+    "skill": "Línea de Comandos Básica",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Comandos de Terminal",
+    "subtopic": "Comando ls y dir"
+  },
+  {
+    "id": "inf-bas-100",
+    "sectionId": 1,
+    "number": 100,
+    "text": "¿Por qué es crucial mantener actualizados los programas y el sistema operativo mediante parches de seguridad?",
+    "options": [
+      "Porque los parches corrigen vulnerabilidades de seguridad recién descubiertas que los ciberdelincuentes podrían explotar para infectar o tomar control del equipo",
+      "Para cambiar automáticamente el fondo de pantalla",
+      "Para que el disco duro gire más despacio y ahorre agua",
+      "Porque la ley prohíbe usar versiones que tengan más de un mes de creadas"
+    ],
+    "correctIndex": 0,
+    "explanation": "La inmensa mayoría de ataques exitosos aprovechan brechas de seguridad conocidas (CVEs) para las cuales los fabricantes ya publicaron parches correctivos.",
+    "skill": "Higiene Digital y Mantenimiento",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Ciberseguridad Preventiva",
+    "subtopic": "Parches de Seguridad"
+  }
+];

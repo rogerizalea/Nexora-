@@ -1,0 +1,1912 @@
+{
+  "Básico": [
+    {
+      "id": "len-bas-1",
+      "sectionId": 2,
+      "number": 1,
+      "text": "¿Cuál de las siguientes palabras es un sustantivo propio y debe escribirse siempre con mayúscula inicial?",
+      "options": [
+        "río",
+        "montaña",
+        "Amazonas",
+        "continente"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amazonas es el nombre propio de un río y región geográfica. \"Río\", \"montaña\" y \"continente\" son sustantivos comunes.",
+      "skill": "Clasificación de Sustantivos",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Gramática",
+      "subtopic": "Sustantivos Propios y Comunes"
+    },
+    {
+      "id": "len-bas-2",
+      "sectionId": 2,
+      "number": 2,
+      "text": "¿Por qué la palabra \"árbol\" lleva tilde según las reglas generales de acentuación?",
+      "options": [
+        "Porque es una palabra aguda terminada en vocal",
+        "Porque es una palabra llana (grave) terminada en una consonante distinta de n o s",
+        "Porque es una palabra esdrújula",
+        "Porque tiene un hiato acentual"
+      ],
+      "correctIndex": 1,
+      "explanation": "La palabra ár-bol tiene su acento prosódico en la penúltima sílaba (llana o grave) y termina en la consonante \"l\" (diferente de \"n\" o \"s\"), por lo que debe llevar tilde ortográfica obligatoria.",
+      "skill": "Reglas de Acentuación Ortográfica",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Palabras Graves"
+    },
+    {
+      "id": "len-bas-3",
+      "sectionId": 2,
+      "number": 3,
+      "text": "¿Cuál es el antónimo de la palabra \"efímero\"?",
+      "options": [
+        "Pasajero",
+        "Duradero",
+        "Breve",
+        "Fugaz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Efímero significa que dura muy poco tiempo o es pasajero. Su antónimo directo es duradero o permanente.",
+      "skill": "Relaciones Semánticas",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Vocabulario",
+      "subtopic": "Antónimos"
+    },
+    {
+      "id": "len-bas-4",
+      "sectionId": 2,
+      "number": 4,
+      "text": "¿Cuál de las siguientes palabras está correctamente separada en sílabas?",
+      "options": [
+        "con-cien-cia",
+        "co-ncien-cia",
+        "con-ci-en-cia",
+        "co-nc-ien-cia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La separación correcta es con-cien-cia. En \"cien\" y \"cia\" hay diptongos (\"ie\" e \"ia\"), por lo que las vocales permanecen en la misma sílaba.",
+      "skill": "División Silábica y Diptongos",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Separación Silábica"
+    },
+    {
+      "id": "len-bas-5",
+      "sectionId": 2,
+      "number": 5,
+      "text": "En la oración \"El veloz caballo saltó la cerca\", ¿cuál es el adjetivo calificativo?",
+      "options": [
+        "caballo",
+        "saltó",
+        "veloz",
+        "cerca"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Veloz\" es el adjetivo que califica al sustantivo \"caballo\", indicando una característica o cualidad del mismo.",
+      "skill": "Categorías Gramaticales",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Gramática",
+      "subtopic": "El Adjetivo"
+    },
+    {
+      "id": "len-bas-6",
+      "sectionId": 2,
+      "number": 6,
+      "text": "¿Qué signo de puntuación se utiliza para señalar una pausa breve dentro de una oración y para separar elementos de una enumeración?",
+      "options": [
+        "El punto y coma",
+        "Los dos puntos",
+        "La coma",
+        "El punto seguido"
+      ],
+      "correctIndex": 2,
+      "explanation": "La coma (,) indica una pausa breve y se emplea comúnmente para separar elementos de una serie o enumeración.",
+      "skill": "Uso de Signos de Puntuación",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Puntuación",
+      "subtopic": "La Coma"
+    },
+    {
+      "id": "len-bas-7",
+      "sectionId": 2,
+      "number": 7,
+      "text": "¿Cuál de los siguientes verbos está conjugado en tiempo futuro del modo indicativo?",
+      "options": [
+        "comió",
+        "canta",
+        "escribirá",
+        "vivía"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Escribirá\" expresa una acción que ocurrirá con posterioridad al momento presente (tiempo futuro). \"Comió\" es pretérito perfecto, \"canta\" es presente y \"vivía\" es pretérito imperfecto.",
+      "skill": "Conjugación Verbal",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Gramática",
+      "subtopic": "Tiempos Verbales"
+    },
+    {
+      "id": "len-bas-8",
+      "sectionId": 2,
+      "number": 8,
+      "text": "¿Cuál de las siguientes palabras es esdrújula y por tanto siempre lleva tilde?",
+      "options": [
+        "médico",
+        "canción",
+        "pared",
+        "ventana"
+      ],
+      "correctIndex": 0,
+      "explanation": "La palabra mé-di-co lleva el acento en la antepenúltima sílaba (esdrújula). Todas las palabras esdrújulas llevan tilde sin excepción en español.",
+      "skill": "Acentuación de Palabras Esdrújulas",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Palabras Esdrújulas"
+    },
+    {
+      "id": "len-bas-9",
+      "sectionId": 2,
+      "number": 9,
+      "text": "¿Cuál es el sinónimo más adecuado para la palabra \"diligente\"?",
+      "options": [
+        "Perezoso",
+        "Hacendoso",
+        "Descuidado",
+        "Lento"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diligente describe a una persona trabajadora, cuidadosa y rápida en el cumplimiento de sus labores; su sinónimo es hacendoso o aplicado.",
+      "skill": "Vocabulario y Sinónimos",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Semántica",
+      "subtopic": "Sinónimos"
+    },
+    {
+      "id": "len-bas-10",
+      "sectionId": 2,
+      "number": 10,
+      "text": "En la oración \"Ellos leyeron un libro interesante\", ¿cuál es el sujeto de la oración?",
+      "options": [
+        "Ellos",
+        "leyeron",
+        "un libro",
+        "interesante"
+      ],
+      "correctIndex": 0,
+      "explanation": "El sujeto es el pronombre \"Ellos\", quien concuerda en persona y número con el núcleo del predicado (\"leyeron\", 3ª persona del plural).",
+      "skill": "Estructura Oracional Básica",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Sintaxis",
+      "subtopic": "El Sujeto"
+    },
+    {
+      "id": "len-bas-11",
+      "sectionId": 2,
+      "number": 11,
+      "text": "¿Cuál de las siguientes opciones presenta un uso correcto de las letras \"b\" y \"v\"?",
+      "options": [
+        "movilidad",
+        "mobilidad",
+        "mobibilidad",
+        "movilidat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Se escribe \"movilidad\" con \"v\" (derivado de móvil) y terminación \"-idad\".",
+      "skill": "Ortografía Grafémica",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Uso de B y V"
+    },
+    {
+      "id": "len-bas-12",
+      "sectionId": 2,
+      "number": 12,
+      "text": "¿Qué tipo de texto tiene como propósito principal guiar al lector paso a paso para realizar una tarea, como una receta o un manual de armado?",
+      "options": [
+        "Texto instructivo",
+        "Texto narrativo",
+        "Texto lírico",
+        "Texto dramático"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los textos instructivos entregan indicaciones secuenciales y ordenadas para llevar a cabo una actividad o funcionamiento específico.",
+      "skill": "Tipología Textual",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Tipos de Textos",
+      "subtopic": "Textos Instructivos"
+    },
+    {
+      "id": "len-bas-13",
+      "sectionId": 2,
+      "number": 13,
+      "text": "¿Cuál es el núcleo del predicado en la oración \"Los pájaros cantan alegremente al amanecer\"?",
+      "options": [
+        "cantan",
+        "pájaros",
+        "alegremente",
+        "amanecer"
+      ],
+      "correctIndex": 0,
+      "explanation": "El núcleo del predicado verbal siempre es un verbo conjugado, en este caso \"cantan\".",
+      "skill": "Análisis Sintáctico Elemental",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Sintaxis",
+      "subtopic": "Núcleo del Predicado"
+    },
+    {
+      "id": "len-bas-14",
+      "sectionId": 2,
+      "number": 14,
+      "text": "¿Qué palabra contiene un hiato (separación de vocales en sílabas distintas)?",
+      "options": [
+        "pa-ís",
+        "cuer-po",
+        "via-je",
+        "ai-re"
+      ],
+      "correctIndex": 0,
+      "explanation": "En \"pa-ís\" se produce un hiato acentual formado por una vocal abierta átona (\"a\") y una vocal cerrada tónica con tilde (\"í\"), que se pronuncian en sílabas separadas.",
+      "skill": "Hiatos y Diptongos",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Fonética y Ortografía",
+      "subtopic": "Hiatos"
+    },
+    {
+      "id": "len-bas-15",
+      "sectionId": 2,
+      "number": 15,
+      "text": "¿Cuál es el plural correcto de la palabra \"lápiz\"?",
+      "options": [
+        "lápices",
+        "lápizes",
+        "lapices",
+        "lápizs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las palabras terminadas en \"z\" forman su plural cambiando la \"z\" por \"c\" y agregando \"-es\": lápiz -> lápices (manteniendo la tilde porque sigue siendo esdrújula).",
+      "skill": "Formación del Plural",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Morfología",
+      "subtopic": "Plural de palabras en Z"
+    },
+    {
+      "id": "len-bas-16",
+      "sectionId": 2,
+      "number": 16,
+      "text": "En la frase \"Había una vez en un lejano bosque...\", ¿a qué género literario corresponde tradicionalmente este inicio?",
+      "options": [
+        "Narrativo (cuento popular)",
+        "Dramático (teatro)",
+        "Lírico (poesía)",
+        "Didáctico (ensayo)"
+      ],
+      "correctIndex": 0,
+      "explanation": "La fórmula \"Había una vez\" es la apertura canónica de los relatos narrativos infantiles o cuentos tradicionales.",
+      "skill": "Géneros Literarios",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Literatura",
+      "subtopic": "El Cuento"
+    },
+    {
+      "id": "len-bas-17",
+      "sectionId": 2,
+      "number": 17,
+      "text": "¿Cuál de las siguientes palabras debe escribirse con \"c\" y no con \"s\"?",
+      "options": [
+        "canción",
+        "pasión",
+        "ilusión",
+        "tensión"
+      ],
+      "correctIndex": 0,
+      "explanation": "Se escriben con \"-ción\" las palabras derivadas de verbos terminados en \"-ar\" o palabras afines con \"t\" o \"d\" (cantar -> canción). Pasión, ilusión y tensión derivan de verbos con \"s\" (pasivo, iluso, tenso).",
+      "skill": "Ortografía de C, S y Z",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Terminaciones -ción y -sión"
+    },
+    {
+      "id": "len-bas-18",
+      "sectionId": 2,
+      "number": 18,
+      "text": "¿Cuál de los siguientes enunciados es una oración unimembre (que no tiene sujeto ni predicado separados)?",
+      "options": [
+        "¡Qué hermoso día!",
+        "Los niños juegan en el parque.",
+        "El sol brilla intensamente.",
+        "Ella lee un poema."
+      ],
+      "correctIndex": 0,
+      "explanation": "\"¡Qué hermoso día!\" es una oración unimembre o interjeccional, ya que no se puede dividir en sujeto y predicado.",
+      "skill": "Tipos de Oraciones",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Sintaxis",
+      "subtopic": "Oraciones Unimembres"
+    },
+    {
+      "id": "len-bas-19",
+      "sectionId": 2,
+      "number": 19,
+      "text": "¿Cuál es el significado literal de la expresión \"estar en las nubes\"?",
+      "options": [
+        "Estar físicamente suspendido en la atmósfera",
+        "Estar distraído o pensando en otra cosa",
+        "Tener frío por la lluvia",
+        "Estar muy alegre"
+      ],
+      "correctIndex": 0,
+      "explanation": "El significado literal (denotativo) refiere al estado físico en el cielo entre nubes, a diferencia de su significado figurado (connotativo), que alude a estar distraído.",
+      "skill": "Lenguaje Denotativo y Connotativo",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Semántica",
+      "subtopic": "Denotación y Connotación"
+    },
+    {
+      "id": "len-bas-20",
+      "sectionId": 2,
+      "number": 20,
+      "text": "¿Qué palabra completa correctamente la oración: \"Ayer mi hermano ______ un regalo\"?",
+      "options": [
+        "recibió",
+        "recivió",
+        "recivio",
+        "recibio"
+      ],
+      "correctIndex": 0,
+      "explanation": "El verbo recibir se escribe con \"b\" y en 3ª persona del pretérito perfecto simple lleva tilde en la última sílaba: \"recibió\".",
+      "skill": "Conjugación y Ortografía Verbal",
+      "difficulty": "Fácil",
+      "educationalLevel": "Básico",
+      "topic": "Ortografía",
+      "subtopic": "Reglas de la B"
+    }
+  ],
+  "Intermedio": [
+    {
+      "id": "len-int-1",
+      "sectionId": 2,
+      "number": 21,
+      "text": "¿A qué género literario pertenece una obra escrita en prosa que relata una historia de ficción extensa con personajes y trama desarrollados?",
+      "options": [
+        "Novela (Género Narrativo)",
+        "Ensayo (Género Didáctico)",
+        "Tragedia (Género Dramático)",
+        "Oda (Género Lírico)"
+      ],
+      "correctIndex": 0,
+      "explanation": "La novela es la forma narrativa extensa por excelencia en prosa, con desarrollo de personajes y conflicto.",
+      "skill": "Teoría Literaria",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Literatura",
+      "subtopic": "Géneros Literarios"
+    },
+    {
+      "id": "len-int-2",
+      "sectionId": 2,
+      "number": 22,
+      "text": "En la oración: \"El profesor entregó las notas a los estudiantes\", ¿cuál es el objeto directo (complemento directo)?",
+      "options": [
+        "El profesor",
+        "las notas",
+        "a los estudiantes",
+        "entregó"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Las notas\" responde a la pregunta ¿qué entregó el profesor? y puede sustituirse por el pronombre \"las\" (\"El profesor las entregó a los estudiantes\"). \"A los estudiantes\" es el objeto indirecto.",
+      "skill": "Sintaxis Oracional",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Sintaxis",
+      "subtopic": "Complemento Directo"
+    },
+    {
+      "id": "len-int-3",
+      "sectionId": 2,
+      "number": 23,
+      "text": "¿Qué tipo de conector es \"sin embargo\" en la oración: \"Estudió toda la noche; sin embargo, no aprobó el examen\"?",
+      "options": [
+        "Conector de oposición o adversativo",
+        "Conector de causa",
+        "Conector temporal",
+        "Conector de adición"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Sin embargo\" introduce un contraste o limitación respecto a la proposición previa; es un conector adversativo o contraargumentativo.",
+      "skill": "Cohesión y Conectores Textuales",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Redacción",
+      "subtopic": "Conectores Lógicos"
+    },
+    {
+      "id": "len-int-4",
+      "sectionId": 2,
+      "number": 24,
+      "text": "¿Cuál de las siguientes oraciones es compuesta coordinada copulativa?",
+      "options": [
+        "El viento soplaba fuerte y la lluvia caía sin cesar.",
+        "Si vienes temprano, iremos al cine.",
+        "El libro que me prestaste es fascinante.",
+        "Aunque llovió, fuimos al parque."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está formada por dos proposiciones unidas por la conjunción copulativa \"y\", manteniendo independencia sintáctica.",
+      "skill": "Clasificación de Oraciones Compuestas",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Sintaxis",
+      "subtopic": "Oraciones Coordinadas"
+    },
+    {
+      "id": "len-int-5",
+      "sectionId": 2,
+      "number": 25,
+      "text": "¿Qué figura retórica se encuentra en la frase: \"Tus ojos son dos luceros que iluminan mi camino\"?",
+      "options": [
+        "Metáfora",
+        "Hipérbole",
+        "Personificación",
+        "Símil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Es una metáfora pura, ya que identifica directamente un término real (ojos) con uno imaginario (luceros) sin nexos comparativos como \"como\".",
+      "skill": "Figuras Literarias",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Literatura",
+      "subtopic": "Recursos Estilísticos"
+    },
+    {
+      "id": "len-int-6",
+      "sectionId": 2,
+      "number": 26,
+      "text": "¿Cuál es la diferencia entre las palabras homófonas \"tubo\" y \"tuvo\"?",
+      "options": [
+        "\"Tubo\" es una pieza cilíndrica hueca y \"tuvo\" es forma del verbo tener",
+        "\"Tubo\" es del verbo tener y \"tuvo\" es un objeto",
+        "Ambas son formas del verbo tener",
+        "Ambas son sustantivos"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Tubo\" con b es el objeto hueco cilíndrico, mientras que \"tuvo\" con v es la tercera persona singular del pretérito del verbo tener.",
+      "skill": "Homofonía y Ortografía",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Semántica",
+      "subtopic": "Palabras Homófonas"
+    },
+    {
+      "id": "len-int-7",
+      "sectionId": 2,
+      "number": 27,
+      "text": "¿Cuál es la idea principal de un párrafo expositivo?",
+      "options": [
+        "La proposición central que sintetiza el contenido esencial del párrafo",
+        "Un ejemplo secundario que amplía un dato",
+        "La primera palabra con que empieza el párrafo",
+        "Una anécdota anecdótica"
+      ],
+      "correctIndex": 0,
+      "explanation": "La idea principal es la tesis o afirmación central de la que dependen todas las oraciones secundarias explicativas.",
+      "skill": "Comprensión Lectora",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Comprensión Textual",
+      "subtopic": "Idea Principal"
+    },
+    {
+      "id": "len-int-8",
+      "sectionId": 2,
+      "number": 28,
+      "text": "¿En qué caso se debe colocar punto y coma (;)?",
+      "options": [
+        "Para separar proposiciones yuxtapuestas extensas que ya contienen comas internas",
+        "Al final de cualquier oración",
+        "Antes de abrir un paréntesis",
+        "Después de un signo de interrogación"
+      ],
+      "correctIndex": 0,
+      "explanation": "El punto y coma se usa para jerarquizar pausas en periodos complejos donde los miembros ya contienen comas.",
+      "skill": "Normativa de Puntuación",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Puntuación",
+      "subtopic": "El Punto y Coma"
+    },
+    {
+      "id": "len-int-9",
+      "sectionId": 2,
+      "number": 29,
+      "text": "¿Cuál es la voz pasiva correspondiente a la oración activa: \"El arquitecto diseñó el nuevo edificio\"?",
+      "options": [
+        "El nuevo edificio fue diseñado por el arquitecto.",
+        "El arquitecto ha diseñado el edificio.",
+        "El edificio diseñará el arquitecto.",
+        "El nuevo edificio era para el arquitecto."
+      ],
+      "correctIndex": 0,
+      "explanation": "En voz pasiva el objeto directo (\"el nuevo edificio\") pasa a ser sujeto paciente, el verbo adopta forma perifrástica \"fue diseñado\" y el sujeto activo pasa a complemento agente (\"por el arquitecto\").",
+      "skill": "Transformación a Voz Pasiva",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Sintaxis",
+      "subtopic": "Voz Activa y Pasiva"
+    },
+    {
+      "id": "len-int-10",
+      "sectionId": 2,
+      "number": 30,
+      "text": "¿Qué fenómeno semántico se produce cuando una sola palabra posee múltiples significados vinculados por un origen común, como \"banco\" (entidad financiera, asiento)?",
+      "options": [
+        "Polisemia",
+        "Sinonimia",
+        "Antonimia",
+        "Hiperonimia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La polisemia ocurre cuando una misma palabra tiene varias acepciones o significados relacionados.",
+      "skill": "Semántica Léxica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Semántica",
+      "subtopic": "Polisemia"
+    },
+    {
+      "id": "len-int-11",
+      "sectionId": 2,
+      "number": 31,
+      "text": "¿Cuál de las siguientes oraciones contiene una proposición subordinada adjetiva (o de relativo)?",
+      "options": [
+        "El joven que ganó la beca viajará a París.",
+        "Dijo que vendría mañana por la tarde.",
+        "Iremos al parque cuando termine la lluvia.",
+        "Estudió mucho para obtener el título."
+      ],
+      "correctIndex": 0,
+      "explanation": "\"que ganó la beca\" complementa directamente al sustantivo \"joven\" como un adjetivo calificativo.",
+      "skill": "Subordinación Adjetiva",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Sintaxis",
+      "subtopic": "Oraciones Subordinadas"
+    },
+    {
+      "id": "len-int-12",
+      "sectionId": 2,
+      "number": 32,
+      "text": "¿Cuál es la función del lenguaje predominante en la frase: \"¡Cierra la puerta inmediatamente!\"?",
+      "options": [
+        "Función apelativa o conativa",
+        "Función emotiva o expresiva",
+        "Función poética o estética",
+        "Función metalingüística"
+      ],
+      "correctIndex": 0,
+      "explanation": "La función apelativa busca influir en la conducta del receptor mediante mandatos, órdenes o ruegos.",
+      "skill": "Funciones del Lenguaje de Jakobson",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Comunicación",
+      "subtopic": "Funciones del Lenguaje"
+    },
+    {
+      "id": "len-int-13",
+      "sectionId": 2,
+      "number": 33,
+      "text": "¿Cuál es el pretérito pluscuamperfecto del modo indicativo del verbo \"cantar\" para la primera persona del singular (yo)?",
+      "options": [
+        "yo había cantado",
+        "yo hube cantado",
+        "yo canté",
+        "yo cantaba"
+      ],
+      "correctIndex": 0,
+      "explanation": "El pluscuamperfecto se compone con el copretérito del verbo haber (\"había\") + participio (\"cantado\"): \"había cantado\".",
+      "skill": "Morfología Verbal Compuesta",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Gramática",
+      "subtopic": "Tiempos Compuestos"
+    },
+    {
+      "id": "len-int-14",
+      "sectionId": 2,
+      "number": 34,
+      "text": "¿Qué recurso retórico consiste en la exageración intencionada de la realidad para impresionar al lector, como en \"Lloró ríos de lágrimas\"?",
+      "options": [
+        "Hipérbole",
+        "Metáfora",
+        "Antítesis",
+        "Oxímoron"
+      ],
+      "correctIndex": 0,
+      "explanation": "La hipérbole magnifica o disminuye excesivamente aquello de lo que se habla con fines expresivos.",
+      "skill": "Figuras Retóricas",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Literatura",
+      "subtopic": "Hipérbole"
+    },
+    {
+      "id": "len-int-15",
+      "sectionId": 2,
+      "number": 35,
+      "text": "¿Cuál es el significado del prefijo de origen griego \"bio-\" en palabras como biología, biósfera y biografía?",
+      "options": [
+        "Vida",
+        "Tierra",
+        "Tiempo",
+        "Libro"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Bio-\" procede del griego βίος (bíos) y significa \"vida\".",
+      "skill": "Etimología Grecolatina",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Morfología",
+      "subtopic": "Prefijos Griegos"
+    },
+    {
+      "id": "len-int-16",
+      "sectionId": 2,
+      "number": 36,
+      "text": "¿Cuál de las siguientes opciones contiene un vicio del lenguaje denominado pleonasmo o redundancia?",
+      "options": [
+        "Subir arriba para ver el paisaje",
+        "Caminar por la acera",
+        "Beber agua fresca",
+        "Escribir una carta formal"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Subir arriba\" añade palabras innecesarias para el sentido, ya que el verbo subir intrínsecamente implica ir hacia arriba.",
+      "skill": "Corrección Idiomática",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Redacción",
+      "subtopic": "Vicios del Lenguaje"
+    },
+    {
+      "id": "len-int-17",
+      "sectionId": 2,
+      "number": 37,
+      "text": "En una narración, ¿cómo se denomina al narrador que cuenta los hechos en primera persona siendo el protagonista de la historia?",
+      "options": [
+        "Narrador protagonista (autodiegético)",
+        "Narrador omnisciente",
+        "Narrador testigo",
+        "Narrador en segunda persona"
+      ],
+      "correctIndex": 0,
+      "explanation": "El narrador protagonista habla en primera persona (\"yo\") y es el centro de las vivencias del relato.",
+      "skill": "Teoría de la Narrativa",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Literatura",
+      "subtopic": "Tipos de Narrador"
+    },
+    {
+      "id": "len-int-18",
+      "sectionId": 2,
+      "number": 38,
+      "text": "¿Qué palabra debe llevar tilde diacrítica para diferenciar el pronombre personal del artículo determinante?",
+      "options": [
+        "Él (pronombre) / El (artículo)",
+        "Ti / Tí",
+        "Fe / Fé",
+        "Dio / Dió"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Él\" lleva tilde diacrítica cuando funciona como pronombre personal (\"Él vino\"), frente al artículo \"el\" (\"el libro\"). Ti, fe y dio nunca llevan tilde.",
+      "skill": "Tilde Diacrítica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Ortografía",
+      "subtopic": "Acentuación Diacrítica"
+    },
+    {
+      "id": "len-int-19",
+      "sectionId": 2,
+      "number": 39,
+      "text": "¿Qué estructura lógica suele seguir un texto argumentativo clásico?",
+      "options": [
+        "Tesis inicial, cuerpo argumentativo y conclusión",
+        "Nudo, desenlace y epílogo",
+        "Índice, dedicatoria y agradecimiento",
+        "Pregunta, respuesta y glosario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El texto argumentativo presenta una tesis o postura inicial, la sustenta con argumentos y contraargumentos, y cierra con una conclusión reafirmatoria.",
+      "skill": "Estructura Textual Argumentativa",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Tipología Textual",
+      "subtopic": "El Ensayo Argumentativo"
+    },
+    {
+      "id": "len-int-20",
+      "sectionId": 2,
+      "number": 40,
+      "text": "¿Cuál de las siguientes palabras compuestas está correctamente escrita sin guion según la RAE?",
+      "options": [
+        "decimoséptimo",
+        "décimoséptimo",
+        "décimo-séptimo",
+        "decimo séptimo"
+      ],
+      "correctIndex": 0,
+      "explanation": "En palabras compuestas unificadas sin guion, el primer elemento pierde su tilde si la tenía (décimo -> decimo), conservándose solo en el segundo si corresponde: decimoséptimo.",
+      "skill": "Acentuación de Palabras Compuestas",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Intermedio",
+      "topic": "Ortografía",
+      "subtopic": "Palabras Compuestas"
+    }
+  ],
+  "Bachillerato": [
+    {
+      "id": "len-bac-1",
+      "sectionId": 2,
+      "number": 41,
+      "text": "¿A qué movimiento literario ecuatoriano e hispanoamericano pertenece la novela indigenista \"Huasipungo\" (1934) de Jorge Icaza?",
+      "options": [
+        "Realismo Social de los años 30",
+        "Modernismo poético",
+        "Romanticismo del siglo XIX",
+        "Vanguardismo ultraísta"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Huasipungo\" es la obra cumbre del Realismo Social ecuatoriano, denunciando la explotación inhumana del indígena en la hacienda serrana.",
+      "skill": "Literatura Ecuatoriana e Hispanoamericana",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Realismo Social Ecuatoriano"
+    },
+    {
+      "id": "len-bac-2",
+      "sectionId": 2,
+      "number": 42,
+      "text": "En la oración: \"A pesar de que llovía torrencialmente, asistieron puntualmente a la ceremonia\", ¿qué tipo de proposición subordinada se presenta?",
+      "options": [
+        "Subordinada adverbial concesiva",
+        "Subordinada sustantiva de objeto directo",
+        "Subordinada adverbial causal",
+        "Subordinada adjetiva especificativa"
+      ],
+      "correctIndex": 0,
+      "explanation": "La locución \"a pesar de que\" introduce una dificultad u objeción que no impide el cumplimiento de la acción principal, característica de las subordinadas concesivas.",
+      "skill": "Sintaxis Compleja",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Sintaxis",
+      "subtopic": "Subordinadas Concesivas"
+    },
+    {
+      "id": "len-bac-3",
+      "sectionId": 2,
+      "number": 43,
+      "text": "¿Cuál es la obra cumbre del escritor colombiano Gabriel García Márquez que consolidó el realismo mágico en el Boom Latinoamericano?",
+      "options": [
+        "Cien años de soledad",
+        "La ciudad y los perros",
+        "Rayuela",
+        "Pedro Páramo"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Cien años de soledad\" (1967) es la obra icónica del realismo mágico y del Boom de la literatura hispanoamericana universal.",
+      "skill": "Literatura Latinoamericana",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "El Boom Latinoamericano"
+    },
+    {
+      "id": "len-bac-4",
+      "sectionId": 2,
+      "number": 44,
+      "text": "Según las normas APA (7.ª edición), ¿cómo debe formatearse la cita entre paréntesis de un trabajo con dos autores dentro del texto?",
+      "options": [
+        "(García & Martínez, 2021)",
+        "(García y Martínez 2021)",
+        "(García et al., 2021)",
+        "(García - Martínez: 2021)"
+      ],
+      "correctIndex": 0,
+      "explanation": "En citas parentéticas según normas APA 7.ª edición, se unen los apellidos con el signo ampersand (&) seguido del año: (García & Martínez, 2021).",
+      "skill": "Normas de Citación Académica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Investigación y Escritura Académica",
+      "subtopic": "Normas APA"
+    },
+    {
+      "id": "len-bac-5",
+      "sectionId": 2,
+      "number": 45,
+      "text": "¿Qué figura retórica consiste en contraponer dos ideas o términos de significación contraria, como en \"Es tan corto el amor y es tan largo el olvido\"?",
+      "options": [
+        "Antítesis",
+        "Paradoja",
+        "Metáfora",
+        "Sinestesia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La antítesis contrapone términos contrarios (corto/largo, amor/olvido) para realzar el contraste conceptual.",
+      "skill": "Recursos Estilísticos Avanzados",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Antítesis"
+    },
+    {
+      "id": "len-bac-6",
+      "sectionId": 2,
+      "number": 46,
+      "text": "¿Quién es el máximo exponente del Modernismo hispanoamericano, autor del libro de poemas y cuentos \"Azul...\" (1888)?",
+      "options": [
+        "Rubén Darío",
+        "José Martí",
+        "Pablo Neruda",
+        "Jorge Luis Borges"
+      ],
+      "correctIndex": 0,
+      "explanation": "El poeta nicaragüense Rubén Darío inició el movimiento modernista con la publicación de \"Azul...\" en 1888.",
+      "skill": "Historia Literaria",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Modernismo Hispanoamericano"
+    },
+    {
+      "id": "len-bac-7",
+      "sectionId": 2,
+      "number": 47,
+      "text": "¿Qué propiedad textual asegura que las oraciones de un párrafo estén gramaticalmente conectadas mediante pronombres, elipsis y marcadores del discurso?",
+      "options": [
+        "Cohesión",
+        "Coherencia",
+        "Adecuación",
+        "Extensión"
+      ],
+      "correctIndex": 0,
+      "explanation": "La cohesión es la propiedad sintáctica y léxica superficial que articula los enunciados entre sí (frente a la coherencia, que es semántica y global).",
+      "skill": "Propiedades del Texto",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Redacción",
+      "subtopic": "Cohesión Textual"
+    },
+    {
+      "id": "len-bac-8",
+      "sectionId": 2,
+      "number": 48,
+      "text": "¿Qué poeta ecuatoriano integró la célebre \"Generación Decapitada\" del modernismo a inicios del siglo XX?",
+      "options": [
+        "Medardo Ángel Silva",
+        "Juan Montalvo",
+        "Jorge Icaza",
+        "José Joaquín de Olmedo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Medardo Ángel Silva, junto con Arturo Borja, Ernesto Noboa y Caamaño y Humberto Fierro, integró la llamada Generación Decapitada.",
+      "skill": "Literatura Ecuatoriana",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Generación Decapitada"
+    },
+    {
+      "id": "len-bac-9",
+      "sectionId": 2,
+      "number": 49,
+      "text": "¿Cuál es la función del conector \"por consiguiente\" en un discurso argumentativo?",
+      "options": [
+        "Introducir una conclusión o consecuencia lógica",
+        "Añadir información secundaria",
+        "Expresar una condición",
+        "Ejemplificar una idea previa"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Por consiguiente\" es un conector consecutivo o ilativo que da paso a la deducción derivada de los argumentos anteriores.",
+      "skill": "Conectores Argumentativos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Redacción",
+      "subtopic": "Conectores Consecutivos"
+    },
+    {
+      "id": "len-bac-10",
+      "sectionId": 2,
+      "number": 50,
+      "text": "En la métrica poética española clásica, ¿cómo se denomina el verso de once sílabas métricas?",
+      "options": [
+        "Endecasílabo",
+        "Octosílabo",
+        "Alejandrino",
+        "Decasílabo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El verso de once sílabas métricas es el endecasílabo, propio del soneto y de la poesía renacentista y barroca.",
+      "skill": "Métrica Española",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Métrica y Versificación"
+    },
+    {
+      "id": "len-bac-11",
+      "sectionId": 2,
+      "number": 51,
+      "text": "¿Qué tipo de falacia argumentativa se comete al atacar a la persona que emite una postura en lugar de refutar sus argumentos?",
+      "options": [
+        "Falacia ad hominem",
+        "Falacia ad verecundiam",
+        "Falacia ad populum",
+        "Falacia ad baculum"
+      ],
+      "correctIndex": 0,
+      "explanation": "La falacia ad hominem (\"contra el hombre\") descalifica la credibilidad o moral de la persona emisora eludiendo el argumento de fondo.",
+      "skill": "Lógica Argumentativa y Falacias",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Pensamiento Crítico",
+      "subtopic": "Falacias Informales"
+    },
+    {
+      "id": "len-bac-12",
+      "sectionId": 2,
+      "number": 52,
+      "text": "¿Cuál de las siguientes obras es una epopeya fundamental de la literatura clásica universal atribuida a Homero?",
+      "options": [
+        "La Ilíada",
+        "La Eneida",
+        "El Cantar de mio Cid",
+        "La Divina Comedia"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"La Ilíada\" y \"La Odisea\" son las dos grandes epopeyas griegas atribuidas a Homero (siglo VIII a. C.). La Eneida es de Virgilio y La Divina Comedia es de Dante.",
+      "skill": "Literatura Universal Clásica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Epopeya Griega"
+    },
+    {
+      "id": "len-bac-13",
+      "sectionId": 2,
+      "number": 53,
+      "text": "¿Cuál es la función sintáctica del pronombre \"se\" en la oración: \"Se divulgaron los resultados oficiales\"?",
+      "options": [
+        "Marca de pasiva refleja",
+        "Pronombre reflexivo",
+        "Pronombre recíproco",
+        "Signo de impersonalidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "El sujeto paciente es \"los resultados oficiales\" (concuerda en plural con el verbo \"se divulgaron\"), por lo que es una construcción pasiva refleja.",
+      "skill": "Valores Gramaticales de \"Se\"",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Sintaxis",
+      "subtopic": "Pasiva Refleja"
+    },
+    {
+      "id": "len-bac-14",
+      "sectionId": 2,
+      "number": 54,
+      "text": "¿Qué ensayo célebre de Juan Montalvo cuestionó duramente la tiranía de Gabriel García Moreno y dio origen a la frase \"Mi pluma lo mató\"?",
+      "options": [
+        "La dictadura perpetua",
+        "Las Catilinarias",
+        "Siete tratados",
+        "Geometría moral"
+      ],
+      "correctIndex": 0,
+      "explanation": "En el panfleto \"La dictadura perpetua\" (1874), Montalvo denunció el régimen autoritario de García Moreno.",
+      "skill": "Ensayística Ecuatoriana",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Juan Montalvo"
+    },
+    {
+      "id": "len-bac-15",
+      "sectionId": 2,
+      "number": 55,
+      "text": "¿Qué recurso retórico consiste en atribuir sensaciones de un sentido corporal a otro diferente, como en \"un agrio sonido\" o \"un color chillón\"?",
+      "options": [
+        "Sinestesia",
+        "Metonimia",
+        "Oxímoron",
+        "Elipsis"
+      ],
+      "correctIndex": 0,
+      "explanation": "La sinestesia mezcla impresiones de sentidos distintos (oído y gusto en \"agrio sonido\", vista y oído en \"color chillón\").",
+      "skill": "Figuras Retóricas",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Sinestesia"
+    },
+    {
+      "id": "len-bac-16",
+      "sectionId": 2,
+      "number": 56,
+      "text": "¿Qué autor español del Siglo de Oro escribió la novela cumbre \"Don Quijote de la Mancha\"?",
+      "options": [
+        "Miguel de Cervantes Saavedra",
+        "Lope de Vega",
+        "Francisco de Quevedo",
+        "Pedro Calderón de la Barca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Miguel de Cervantes Saavedra publicó la primera parte de Don Quijote en 1605 y la segunda en 1615.",
+      "skill": "Siglo de Oro Español",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Cervantes y el Quijote"
+    },
+    {
+      "id": "len-bac-17",
+      "sectionId": 2,
+      "number": 57,
+      "text": "¿Qué modo verbal se emplea obligatoriamente para expresar deseos, dudas, hipótesis o acciones irreales, como en \"Ojalá apruebe el examen\"?",
+      "options": [
+        "Modo subjuntivo",
+        "Modo indicativo",
+        "Modo imperativo",
+        "Modo condicional"
+      ],
+      "correctIndex": 0,
+      "explanation": "El modo subjuntivo expresa la subjetividad del hablante (deseo, temor, duda, probabilidad o hipótesis).",
+      "skill": "Modos Verbales",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Gramática",
+      "subtopic": "El Subjuntivo"
+    },
+    {
+      "id": "len-bac-18",
+      "sectionId": 2,
+      "number": 58,
+      "text": "¿Cuál es la figura literaria presente en los versos: \"Por ti el silencio de la selva umbrosa, / por ti la esquividad y apartamiento\"?",
+      "options": [
+        "Anáfora",
+        "Hipérbaton",
+        "Epíteto",
+        "Polisíndeton"
+      ],
+      "correctIndex": 0,
+      "explanation": "La anáfora consiste en la repetición deliberada de una o más palabras al inicio de versos o enunciados sucesivos (\"Por ti... / por ti...\").",
+      "skill": "Figuras de Repetición",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "Anáfora"
+    },
+    {
+      "id": "len-bac-19",
+      "sectionId": 2,
+      "number": 59,
+      "text": "¿Qué distingue a una paráfrasis correcta de un plagio involuntario en un texto académico?",
+      "options": [
+        "Reelaborar la idea con léxico y sintaxis propios citando la fuente original",
+        "Cambiar únicamente un par de sinónimos sin citar",
+        "Copiar el párrafo entre comillas sin autor",
+        "Traducir el texto de otro idioma sin atribuirlo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Una paráfrasis académica válida requiere comprender la idea, reescribirla con palabras y estructura propias y referenciar la autoría original.",
+      "skill": "Integridad Académica y Paráfrasis",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Escritura Académica",
+      "subtopic": "Uso Ético de Fuentes"
+    },
+    {
+      "id": "len-bac-20",
+      "sectionId": 2,
+      "number": 60,
+      "text": "¿A qué subgénero dramático corresponde una obra de tono grave cuyo desenlace es inevitablemente trágico y donde el protagonista sucumbe a un destino fatal?",
+      "options": [
+        "Tragedia",
+        "Comedia",
+        "Entremés",
+        "Farsa"
+      ],
+      "correctIndex": 0,
+      "explanation": "La tragedia clásica griega y moderna enfrenta al héroe contra un destino fatal e insalvable que culmina en su ruina o muerte.",
+      "skill": "Subgéneros Dramáticos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Bachillerato",
+      "topic": "Literatura",
+      "subtopic": "La Tragedia"
+    }
+  ],
+  "Técnico": [
+    {
+      "id": "len-tec-1",
+      "sectionId": 2,
+      "number": 61,
+      "text": "En la redacción de un informe técnico de mantenimiento industrial, ¿cuál de los siguientes enunciados cumple con el criterio de objetividad y precisión profesional?",
+      "options": [
+        "El motor parece que hace un ruido raro porque está bastante viejo.",
+        "El motor trifásico M-02 presenta una vibración anómala de 7.2 mm/s en el rodamiento delantero, superando el límite de la norma ISO 10816.",
+        "El motor no sirve para nada y se dañó por culpa de un descuido feo.",
+        "Hay que cambiar el motor rapidito antes de que explote."
+      ],
+      "correctIndex": 1,
+      "explanation": "La redacción técnica exige datos verificables, codificación unívoca del equipo (M-02), magnitudes físicas exactas (7.2 mm/s) y contraste contra normas industriales.",
+      "skill": "Redacción de Informes Técnicos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Comunicación Técnica",
+      "subtopic": "Objetividad y Precisión"
+    },
+    {
+      "id": "len-tec-2",
+      "sectionId": 2,
+      "number": 62,
+      "text": "En un manual de operaciones de maquinaria pesada, ¿cuál es el propósito de un recuadro encabezado con la palabra \"PELIGRO\" (DANGER)?",
+      "options": [
+        "Indicar una situación de riesgo inminente que, si no se evita, causará la muerte o lesiones graves irreversibles.",
+        "Brindar un consejo de productividad para ahorrar combustible.",
+        "Indicar una sugerencia opcional de limpieza.",
+        "Recordar el horario de almuerzo del operario."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según las normas de seguridad técnica ANSI Z535 / ISO 3864, \"PELIGRO\" alerta sobre riesgos inminentes de muerte o daño corporal irreversible.",
+      "skill": "Interpretación de Señalética y Manuales Técnicos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Seguridad Industrial",
+      "subtopic": "Avisos de Advertencia"
+    },
+    {
+      "id": "len-tec-3",
+      "sectionId": 2,
+      "number": 63,
+      "text": "¿Qué documento administrativo oficial redacta un técnico para dejar constancia formal del estado en que se entrega y recibe un lote de maquinaria o repuestos?",
+      "options": [
+        "Acta de Entrega-Recepción",
+        "Memorando de felicitación",
+        "Ensayo crítico",
+        "Carta de renuncia"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Acta de Entrega-Recepción es el instrumento legal que certifica formalmente el inventario, estado operativo y conformidad de los bienes transferidos.",
+      "skill": "Documentación Técnica y Administrativa",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Gestión Documental",
+      "subtopic": "Actas de Entrega"
+    },
+    {
+      "id": "len-tec-4",
+      "sectionId": 2,
+      "number": 64,
+      "text": "En un correo electrónico corporativo dirigido a un cliente externo para solicitar aprobación de un presupuesto, ¿cuál es el registro lingüístico apropiado?",
+      "options": [
+        "Formal y cortés",
+        "Coloquial e informal",
+        "Vulgar o callejero",
+        "Poético y rimado"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comunicación corporativa con clientes requiere un registro formal, respetuoso, conciso y orientado a objetivos comerciales claros.",
+      "skill": "Comunicación Corporativa",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Redacción Profesional",
+      "subtopic": "Correos Formales"
+    },
+    {
+      "id": "len-tec-5",
+      "sectionId": 2,
+      "number": 65,
+      "text": "¿Qué sección de un manual técnico describe paso a paso cómo detectar y corregir las causas de una falla de funcionamiento?",
+      "options": [
+        "Guía de resolución de problemas (Troubleshooting)",
+        "Glosario de abreviaturas",
+        "Carta de presentación de la gerencia",
+        "Condiciones de la garantía legal"
+      ],
+      "correctIndex": 0,
+      "explanation": "La sección de troubleshooting o diagnóstico de fallas presenta tablas de síntomas, causas probables y acciones correctivas recomendadas.",
+      "skill": "Estructura de Manuales de Taller",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Documentación Técnica",
+      "subtopic": "Guías de Diagnóstico"
+    },
+    {
+      "id": "len-tec-6",
+      "sectionId": 2,
+      "number": 66,
+      "text": "Al redactar la bitácora diaria de operaciones en una planta de tratamiento, ¿qué información esencial debe registrarse en cada turno?",
+      "options": [
+        "Fecha, hora, parámetros operativos registrados, anomalías detectadas, acciones ejecutadas y firma de responsabilidad.",
+        "Solo la hora de salida del personal.",
+        "Opiniones personales sobre el clima y comentarios generales.",
+        "El menú del comedor de la empresa."
+      ],
+      "correctIndex": 0,
+      "explanation": "La bitácora técnica requiere trazabilidad exacta: datos temporales, variables de proceso, eventos atípicos y firma del responsable del turno.",
+      "skill": "Registro en Bitácoras Industriales",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Mantenimiento y Calidad",
+      "subtopic": "Bitácora Operativa"
+    },
+    {
+      "id": "len-tec-7",
+      "sectionId": 2,
+      "number": 67,
+      "text": "¿Cuál de las siguientes abreviaturas técnicas corresponde a \"Procedimiento Operativo Estandarizado\"?",
+      "options": [
+        "POE (o SOP en inglés)",
+        "PDF",
+        "RAM",
+        "USB"
+      ],
+      "correctIndex": 0,
+      "explanation": "POE (Procedimiento Operativo Estandarizado) o SOP (Standard Operating Procedure) documenta cómo ejecutar una operación de forma reproducible.",
+      "skill": "Terminología y Abreviaturas Industriales",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Gestión de la Calidad",
+      "subtopic": "Procedimientos Estandarizados"
+    },
+    {
+      "id": "len-tec-8",
+      "sectionId": 2,
+      "number": 68,
+      "text": "En una ficha técnica de un producto químico industrial, ¿qué documento estandarizado contiene la información de primeros auxilios, toxicidad y medidas contra incendios?",
+      "options": [
+        "FDS / HDS (Ficha de Datos de Seguridad / Hoja de Datos de Seguridad)",
+        "Factura comercial",
+        "Orden de compra",
+        "Catálogo publicitario"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Ficha de Datos de Seguridad (FDS o MSDS/HDS) es obligatoria por normativa internacional para el manejo seguro de sustancias químicas.",
+      "skill": "Interpretación de Normas de Seguridad Química",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Seguridad Industrial",
+      "subtopic": "Fichas de Seguridad"
+    },
+    {
+      "id": "len-tec-9",
+      "sectionId": 2,
+      "number": 69,
+      "text": "Al elaborar un Procedimiento Técnico de Trabajo Seguro (PTTS), ¿en qué modo y tiempo verbal se redactan preferentemente las instrucciones operativas?",
+      "options": [
+        "Imperativo o infinitivo claro y directo",
+        "Pretérito pluscuamperfecto del subjuntivo",
+        "Futuro perfecto",
+        "Condicional simple con dudas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las instrucciones operativas se redactan en infinitivo (\"Verificar la presión...\") o imperativo (\"Verifique la presión...\"), garantizando claridad y mandato unívoco.",
+      "skill": "Redacción de Protocolos de Trabajo",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Redacción Técnica",
+      "subtopic": "Modo Imperativo en Procedimientos"
+    },
+    {
+      "id": "len-tec-10",
+      "sectionId": 2,
+      "number": 70,
+      "text": "¿Qué término técnico designa el plan formal que establece los objetivos, recursos, cronograma y responsables para mantener la operatividad de los equipos?",
+      "options": [
+        "Plan de Mantenimiento Preventivo",
+        "Memorando disciplinario",
+        "Cotización de venta",
+        "Folletos promocionales"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Plan de Mantenimiento Preventivo es el documento maestro de ingeniería de planta que programa las inspecciones periódicas.",
+      "skill": "Planificación Técnica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Mantenimiento Industrial",
+      "subtopic": "Planes Operativos"
+    },
+    {
+      "id": "len-tec-11",
+      "sectionId": 2,
+      "number": 71,
+      "text": "En un diagrama de flujo de procesos industriales bajo norma ISO/ANSI, ¿qué representa el símbolo con forma de rombo?",
+      "options": [
+        "Una decisión o condición que bifurca el flujo (Sí / No)",
+        "El inicio o fin del proceso",
+        "Una operación manual simple",
+        "Un archivo impreso"
+      ],
+      "correctIndex": 0,
+      "explanation": "En diagramas de flujo, el rombo representa una decisión lógica con dos o más rutas alternativas de salida.",
+      "skill": "Lectura de Diagramas de Flujo",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Organización Industrial",
+      "subtopic": "Diagramas de Procesos"
+    },
+    {
+      "id": "len-tec-12",
+      "sectionId": 2,
+      "number": 72,
+      "text": "¿Cuál es la función principal del \"Resumen Ejecutivo\" en un informe técnico de evaluación de proyectos?",
+      "options": [
+        "Presentar de forma concisa los hallazgos principales, conclusiones y recomendaciones clave para tomadores de decisiones.",
+        "Agradecer a los familiares del autor.",
+        "Listar todas las fórmulas matemáticas sin texto explicativo.",
+        "Reemplazar al índice analítico."
+      ],
+      "correctIndex": 0,
+      "explanation": "El resumen ejecutivo sintetiza los aspectos críticos del informe para directivos que requieren tomar decisiones rápidas sin leer el documento entero.",
+      "skill": "Estructura de Informes Técnicos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Comunicación Técnica",
+      "subtopic": "Resumen Ejecutivo"
+    },
+    {
+      "id": "len-tec-13",
+      "sectionId": 2,
+      "number": 73,
+      "text": "¿Qué error de redacción técnica se comete en la frase: \"Se instalaron los cables y luego se prendió la máquina sin saber si estaba bien o mal\"?",
+      "options": [
+        "Ambigüedad y falta de rigor metodológico",
+        "Uso excesivo de tecnicismos",
+        "Exceso de datos numéricos",
+        "Vocabulario arcaico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La frase evidencia informalidad (\"se prendió\") e imprecisión total (\"sin saber si estaba bien o mal\"), violando los principios de control de calidad.",
+      "skill": "Corrección de Estilo Técnico",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Redacción Técnica",
+      "subtopic": "Ambigüedad en Reportes"
+    },
+    {
+      "id": "len-tec-14",
+      "sectionId": 2,
+      "number": 74,
+      "text": "¿Cómo se denomina la comunicación escrita interna entre departamentos de una misma institución para transmitir instrucciones, decisiones o convocatorias breves?",
+      "options": [
+        "Memorando (Memo)",
+        "Novela corta",
+        "Boletín oficial del Estado",
+        "Carta notariada"
+      ],
+      "correctIndex": 0,
+      "explanation": "El memorando es el documento ágil por excelencia para la comunicación formal interdepartamental dentro de una empresa.",
+      "skill": "Documentación Interna de Empresa",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Comunicación Organizacional",
+      "subtopic": "El Memorando"
+    },
+    {
+      "id": "len-tec-15",
+      "sectionId": 2,
+      "number": 75,
+      "text": "Al redactar una solicitud formal a una entidad pública para obtener un permiso de funcionamiento, ¿qué fórmula de saludo y despedida es la más adecuada?",
+      "options": [
+        "De mi consideración: / Atentamente,",
+        "¡Hola amigo!: / Nos vemos,",
+        "Estimado pana: / Cuídate mucho,",
+        "Querido público: / Hasta siempre,"
+      ],
+      "correctIndex": 0,
+      "explanation": "El tratamiento \"De mi consideración:\" y el cierre \"Atentamente,\" cumplen con las normas diplomáticas y administrativas formales.",
+      "skill": "Redacción de Oficios y Trámites",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Redacción Administrativa",
+      "subtopic": "Tratamiento Protocolar"
+    },
+    {
+      "id": "len-tec-16",
+      "sectionId": 2,
+      "number": 76,
+      "text": "En una auditoría de calidad ISO 9001, ¿qué documento formal registra una \"No Conformidad\"?",
+      "options": [
+        "Un Reporte de No Conformidad (RNC) que describe el incumplimiento de un requisito específico de la norma o proceso.",
+        "Un recibo de pago de caja chica.",
+        "Una felicitación escrita en cartelera.",
+        "Una tarjeta de presentación comercial."
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reporte de No Conformidad (RNC) es el registro auditable que evidencia una desviación respecto a los estándares de calidad.",
+      "skill": "Auditoría y Gestión de Calidad",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Sistemas de Calidad",
+      "subtopic": "No Conformidades"
+    },
+    {
+      "id": "len-tec-17",
+      "sectionId": 2,
+      "number": 77,
+      "text": "¿Qué ventaja tiene utilizar listas con viñetas o numeración ordenada en manuales técnicos frente a párrafos largos y continuos?",
+      "options": [
+        "Mejora la legibilidad, facilita la rápida localización de pasos y reduce el error humano en tareas críticas.",
+        "Hace que el documento sea más poético.",
+        "Aumenta el número de páginas innecesariamente.",
+        "Oculta la falta de datos técnicos."
+      ],
+      "correctIndex": 0,
+      "explanation": "La estructuración en listas secuenciales o puntos clave optimiza la ergonomía visual y la velocidad de comprensión del operario.",
+      "skill": "Diseño y Formato de Documentos Técnicos",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Comunicación Visual",
+      "subtopic": "Estructuración Visual"
+    },
+    {
+      "id": "len-tec-18",
+      "sectionId": 2,
+      "number": 78,
+      "text": "¿Cuál es la función del \"Glosario de Términos\" al final de un proyecto técnico especializado?",
+      "options": [
+        "Definir los tecnicismos, siglas y conceptos especializados para asegurar una interpretación inequívoca por parte de cualquier lector.",
+        "Presentar la biografía del autor del proyecto.",
+        "Hacer un listado de las empresas proveedoras de insumos.",
+        "Detallar los costos financieros del proyecto."
+      ],
+      "correctIndex": 0,
+      "explanation": "El glosario estandariza el vocabulario técnico para evitar malas interpretaciones en la ejecución del proyecto.",
+      "skill": "Claridad Terminológica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Metodología Técnica",
+      "subtopic": "Glosarios Técnicos"
+    },
+    {
+      "id": "len-tec-19",
+      "sectionId": 2,
+      "number": 79,
+      "text": "En la redacción de una orden de trabajo (OT), ¿qué elemento es indispensable para garantizar el control presupuestario y de repuestos?",
+      "options": [
+        "El código de parte exacto, la cantidad requerida y el centro de costo asignado.",
+        "El color favorito del técnico asignado.",
+        "Una anécdota sobre el cliente.",
+        "La marca de lápiz utilizada para llenar la orden."
+      ],
+      "correctIndex": 0,
+      "explanation": "Para la contabilidad de costos y gestión de almacén, la OT debe consignar el número de parte exacto, unidades y código de imputación presupuestaria.",
+      "skill": "Gestión de Órdenes de Trabajo",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Administración del Mantenimiento",
+      "subtopic": "Órdenes de Trabajo"
+    },
+    {
+      "id": "len-tec-20",
+      "sectionId": 2,
+      "number": 80,
+      "text": "¿Qué principio de redacción técnica se infringe cuando en un mismo documento se llama indistintamente al mismo componente \"presostato\", \"interruptor de presión\", \"relevador neumático\" y \"sensor de aire\" sin aclaración previa?",
+      "options": [
+        "Principio de consistencia y uniformidad terminológica",
+        "Principio de brevedad",
+        "Principio de confidencialidad",
+        "Principio de legalidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La consistencia terminológica exige utilizar un mismo vocablo estandarizado a lo largo de todo el texto para evitar confusiones en los técnicos.",
+      "skill": "Coherencia Terminológica",
+      "difficulty": "Intermedio",
+      "educationalLevel": "Técnico",
+      "topic": "Redacción Técnica",
+      "subtopic": "Consistencia Léxica"
+    }
+  ],
+  "Universitario": [
+    {
+      "id": "len-uni-1",
+      "sectionId": 2,
+      "number": 81,
+      "text": "En la teoría pragmática de los actos de habla de J. L. Austin y John Searle, ¿qué constituye el \"acto ilocutivo\"?",
+      "options": [
+        "La intención o fuerza convencional con que se emite el enunciado (prometer, ordenar, afirmar, advertir).",
+        "La simple emisión física de sonidos o palabras (acto locutivo).",
+        "El efecto psicológico o consecuencia real que se produce en el oyente (acto perlocutivo).",
+        "El error sintáctico cometido por el hablante."
+      ],
+      "correctIndex": 0,
+      "explanation": "El acto ilocutivo es la dimensión intencional y convencional del acto de habla: lo que se hace al decir algo (hacer una promesa, dar una orden, declarar).",
+      "skill": "Pragmática Lingüística",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Lingüística Teórica",
+      "subtopic": "Teoría de los Actos de Habla"
+    },
+    {
+      "id": "len-uni-2",
+      "sectionId": 2,
+      "number": 82,
+      "text": "En el marco de la lingüística estructural de Ferdinand de Saussure, ¿cómo se define el \"signo lingüístico\"?",
+      "options": [
+        "Una entidad psíquica biplánica compuesta indisociablemente por un significante (imagen acústica) y un significado (concepto).",
+        "La relación directa entre una palabra escrita y el objeto material en el mundo exterior.",
+        "Un código genético transmitido biológicamente sin convención social.",
+        "Una traducción literal entre dos idiomas diferentes."
+      ],
+      "correctIndex": 0,
+      "explanation": "Saussure definió el signo lingüístico como la unión de dos caras inseparables: el significante (huella psíquica del sonido) y el significado (concepto mental abstracto).",
+      "skill": "Estructuralismo Saussureano",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Lingüística General",
+      "subtopic": "Naturaleza del Signo"
+    },
+    {
+      "id": "len-uni-3",
+      "sectionId": 2,
+      "number": 83,
+      "text": "En el Análisis Crítico del Discurso (ACD) de Teun van Dijk y Norman Fairclough, ¿cuál es el objeto primordial de estudio?",
+      "options": [
+        "Cómo el abuso de poder, la dominación y la desigualdad social se reproducen o legitiman a través del lenguaje y el texto.",
+        "Únicamente la métrica y rima de los poemas barrocos.",
+        "La corrección ortográfica de los artículos de periódicos.",
+        "La velocidad de lectura mecánica de los estudiantes."
+      ],
+      "correctIndex": 0,
+      "explanation": "El ACD investiga las relaciones intrínsecas entre el discurso, las estructuras de poder institucional, la ideología y la desigualdad social.",
+      "skill": "Análisis Crítico del Discurso",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Sociolingüística",
+      "subtopic": "Discurso y Poder"
+    },
+    {
+      "id": "len-uni-4",
+      "sectionId": 2,
+      "number": 84,
+      "text": "En la teoría dialógica de Mijaíl Bajtín, ¿qué concepto describe la presencia simultánea de múltiples voces, conciencias y puntos de vista ideológicos independientes en una novela como las de Dostoievski?",
+      "options": [
+        "Polifonía",
+        "Monologismo",
+        "Soliloquio",
+        "Catarsis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bajtín introdujo el concepto de polifonía para designar la coexistencia de voces plenamente válidas y autónomas en el tejido novelesco.",
+      "skill": "Teoría Literaria y Bajtiniana",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Crítica Literaria",
+      "subtopic": "Polifonía y Dialogismo"
+    },
+    {
+      "id": "len-uni-5",
+      "sectionId": 2,
+      "number": 85,
+      "text": "¿Qué filósofo formuló el Principio de Cooperación y las cuatro máximas conversacionales (cantidad, cualidad, relación y manera) que explican las implicaturas pragmáticas?",
+      "options": [
+        "H. Paul Grice",
+        "Noam Chomsky",
+        "Jacques Derrida",
+        "Michel Foucault"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paul Grice desarrolló la teoría de las máximas conversacionales para explicar cómo los interlocutores infieren significados no explícitos (implicaturas).",
+      "skill": "Pragmática y Conversación",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Pragmática",
+      "subtopic": "Máximas de Grice"
+    },
+    {
+      "id": "len-uni-6",
+      "sectionId": 2,
+      "number": 86,
+      "text": "En la Gramática Generativa de Noam Chomsky, ¿qué postula la hipótesis del \"Dispositivo de Adquisición del Lenguaje\" (LAD) y la Gramática Universal?",
+      "options": [
+        "Que el ser humano posee una facultad biológicamente innata que contiene los principios y parámetros comunes a todas las lenguas naturales.",
+        "Que el lenguaje se adquiere exclusivamente por imitación conductista pasiva de los adultos.",
+        "Que cada lengua tiene una gramática totalmente independiente sin ninguna base cognitiva común.",
+        "Que el lenguaje solo surge a través de la escritura alfabética formal."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chomsky sostiene el innatismo lingüístico: los niños nacen con una dotación genética universal (Gramática Universal) que madura al exponerse a la lengua materna.",
+      "skill": "Lingüística Cognitiva y Generativismo",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Gramática Generativa",
+      "subtopic": "Gramática Universal"
+    },
+    {
+      "id": "len-uni-7",
+      "sectionId": 2,
+      "number": 87,
+      "text": "En la semiótica de Charles Sanders Peirce, ¿cómo se clasifica un signo que mantiene una relación de contigüidad física o causal directa con su objeto (por ejemplo, el humo que indica fuego)?",
+      "options": [
+        "Índice",
+        "Ícono",
+        "Símbolo",
+        "Arquetipo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Para Peirce, el índice tiene conexión física real con el objeto referido (humo-fuego, huella-pie), a diferencia del ícono (semejanza) y el símbolo (convención arbitraria).",
+      "skill": "Semiótica Peirceana",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Semiótica",
+      "subtopic": "Tipología del Signo"
+    },
+    {
+      "id": "len-uni-8",
+      "sectionId": 2,
+      "number": 88,
+      "text": "¿Qué filósofo posestructuralista propuso el método de la \"Desconstrucción\" para evidenciar las aporías, contradicciones y jerarquías binarias ocultas en los textos filosóficos y literarios?",
+      "options": [
+        "Jacques Derrida",
+        "Gilles Deleuze",
+        "Jean-Paul Sartre",
+        "Jürgen Habermas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jacques Derrida desarrolló la desconstrucción para desarticular el logocentrismo y las oposiciones binarias jerarquizadas de la tradición occidental.",
+      "skill": "Teoría Crítica Posestructuralista",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Filosofía del Lenguaje",
+      "subtopic": "Desconstrucción"
+    },
+    {
+      "id": "len-uni-9",
+      "sectionId": 2,
+      "number": 89,
+      "text": "En la narratología de Gérard Genette, ¿cómo se denomina la discordancia temporal entre el orden cronológico de los acontecimientos de la historia y el orden en que son contados en el relato?",
+      "options": [
+        "Anacronía (analepsis o prolepsis)",
+        "Isocronía",
+        "Focalización cero",
+        "Diégesis pura"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las anacronías son saltos temporales en la narración: analepsis (retrospección o flashback) y prolepsis (anticipación o flashforward).",
+      "skill": "Narratología Formal",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Teoría Literaria",
+      "subtopic": "Tiempo Narrativo"
+    },
+    {
+      "id": "len-uni-10",
+      "sectionId": 2,
+      "number": 90,
+      "text": "¿Qué escuela de pensamiento literario de inicios del siglo XX, liderada por Shklovski y Jakobson, acuñó el término \"extrañamiento\" (ostranenie) como rasgo definitorio de la literariedad?",
+      "options": [
+        "Formalismo Ruso",
+        "Nueva Crítica anglosajona",
+        "Crítica Psicoanalítica",
+        "Estética de la Recepción"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Formalismo Ruso postuló que el arte desautomatiza la percepción cotidiana haciéndola extraña (extrañamiento) mediante procedimientos formales.",
+      "skill": "Formalismo Ruso",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Teoría Literaria",
+      "subtopic": "El Extrañamiento"
+    },
+    {
+      "id": "len-uni-11",
+      "sectionId": 2,
+      "number": 91,
+      "text": "¿Qué concepto de Roland Barthes en su célebre ensayo de 1967 proclama el fin de la tiranía del autor biográfico para situar la producción de sentido en el lector?",
+      "options": [
+        "La muerte del autor",
+        "El grado cero de la escritura",
+        "El placer del texto",
+        "La mitología cotidiana"
+      ],
+      "correctIndex": 0,
+      "explanation": "Barthes proclamó \"la muerte del autor\" para enfatizar que la escritura nace de un tejido intertextual que solo se actualiza en el acto de lectura.",
+      "skill": "Teoría Literaria Posmoderna",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Crítica Literaria",
+      "subtopic": "Rol del Lector"
+    },
+    {
+      "id": "len-uni-12",
+      "sectionId": 2,
+      "number": 92,
+      "text": "En semántica lógica, ¿cuál es la distinción fundamental propuesta por Gottlob Frege en su ensayo de 1892 \"Über Sinn und Bedeutung\"?",
+      "options": [
+        "Sentido (modo de presentación del objeto) y Referencia (el objeto real designado).",
+        "Significante y significado.",
+        "Sintaxis y morfología.",
+        "Lengua y habla."
+      ],
+      "correctIndex": 0,
+      "explanation": "Frege distinguió entre Sinn (sentido: \"el lucero matutino\" y \"el lucero vespertino\") y Bedeutung (referencia: el planeta Venus en ambos casos).",
+      "skill": "Semántica Filosófica",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Filosofía del Lenguaje",
+      "subtopic": "Sentido y Referencia"
+    },
+    {
+      "id": "len-uni-13",
+      "sectionId": 2,
+      "number": 93,
+      "text": "En la teoría sociolingüística de William Labov, ¿qué fenómeno describe el cambio sistemático de una variable fonética según el nivel de formalidad y la clase social del hablante?",
+      "options": [
+        "Variación sociolingüística y estratificación estilística",
+        "Inmutabilidad fonémica",
+        "Degeneración dialectal",
+        "Pidginización espontánea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Labov demostró mediante estudios empíricos cuantitativos que las variantes lingüísticas covarían con la estratificación socioeconómica y el estilo.",
+      "skill": "Sociolingüística Cuantitativa",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Sociolingüística",
+      "subtopic": "Variación y Cambio"
+    },
+    {
+      "id": "len-uni-14",
+      "sectionId": 2,
+      "number": 94,
+      "text": "¿Qué autor y teórico propuso el concepto de \"Intertextualidad\" a partir de las ideas de Bajtín para señalar que todo texto se construye como mosaico de citas de otros textos?",
+      "options": [
+        "Julia Kristeva",
+        "Umberto Eco",
+        "Tzvetan Todorov",
+        "Paul Ricoeur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Julia Kristeva acuñó el término intertextualidad en 1967 al analizar la transposición dialógica de textos en el espacio literario.",
+      "skill": "Teoría de la Intertextualidad",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Teoría Literaria",
+      "subtopic": "Intertextualidad"
+    },
+    {
+      "id": "len-uni-15",
+      "sectionId": 2,
+      "number": 95,
+      "text": "En la teoría de la argumentación jurídica y filosófica de Stephen Toulmin, ¿cuál es el componente que legitima el paso lógico desde los datos (datos/evidencias) hasta la conclusión (tesis)?",
+      "options": [
+        "La garantía (Warrant)",
+        "El respaldo (Backing)",
+        "La reserva (Rebuttal)",
+        "El calificador modal (Qualifier)"
+      ],
+      "correctIndex": 0,
+      "explanation": "En el modelo de Toulmin, la garantía (Warrant) es la regla o principio general que autoriza inferir la conclusión a partir de los datos aportados.",
+      "skill": "Lógica Argumentativa Formal",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Teoría de la Argumentación",
+      "subtopic": "Modelo de Toulmin"
+    },
+    {
+      "id": "len-uni-16",
+      "sectionId": 2,
+      "number": 96,
+      "text": "¿Qué fenómeno lingüístico de contacto de lenguas se produce cuando dos lenguas coexisten en una comunidad pero una goza de prestigio sociopolítico formal (gobierno, educación) y la otra queda relegada a ámbitos domésticos?",
+      "options": [
+        "Diglosia",
+        "Bilingüismo simétrico",
+        "Alternancia de código aleatoria",
+        "Isoglosia dialectal"
+      ],
+      "correctIndex": 0,
+      "explanation": "La diglosia (Charles Ferguson) describe la asignación jerárquica y funcionalmente asimétrica de dos variedades en una misma sociedad.",
+      "skill": "Sociolingüística de Contacto",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Contacto de Lenguas",
+      "subtopic": "Diglosia y Bilingüismo"
+    },
+    {
+      "id": "len-uni-17",
+      "sectionId": 2,
+      "number": 97,
+      "text": "En el ensayo canónico de Edward Said \"Orientalismo\" (1978), ¿qué mecanismo epistemológico y discursivo se denuncia?",
+      "options": [
+        "La construcción de una imagen distorsionada y subordinada de Oriente al servicio de la dominación imperialista de Occidente.",
+        "La superioridad literaria de la lengua árabe clásica.",
+        "Un tratado lingüístico sobre lenguas semíticas.",
+        "La defensa del colonialismo como proceso civilizatorio."
+      ],
+      "correctIndex": 0,
+      "explanation": "Said analiza cómo la erudición occidental produjo un discurso ontológico que subordinó a los pueblos colonizados legitimando el poder hegemónico.",
+      "skill": "Estudios Poscoloniales",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Teoría Crítica",
+      "subtopic": "Poscolonialismo"
+    },
+    {
+      "id": "len-uni-18",
+      "sectionId": 2,
+      "number": 98,
+      "text": "En la semántica cognitiva de George Lakoff y Mark Johnson (\"Metaphors We Live By\"), ¿qué se sostiene sobre las metáforas conceptuales?",
+      "options": [
+        "Que no son meros adornos poéticos, sino esquemas cognitivos fundamentales mediante los cuales pensamos y estructuramos nuestra realidad.",
+        "Que las metáforas son errores patológicos del lenguaje.",
+        "Que solo los poetas pueden usar metáforas conceptuales.",
+        "Que la mente humana piensa en código binario sin metáforas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lakoff y Johnson demostraron que el sistema conceptual humano es de naturaleza metafórica en su experiencia cotidiana (ej. \"el tiempo es dinero\").",
+      "skill": "Lingüística Cognitiva",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Semántica Cognitiva",
+      "subtopic": "Metáforas Conceptuales"
+    },
+    {
+      "id": "len-uni-19",
+      "sectionId": 2,
+      "number": 99,
+      "text": "¿Cómo se denomina en tipología lingüística a aquellas lenguas donde las palabras se forman acumulando morfemas claramente delimitables con significados únicos invariables (por ejemplo, el turco o el quechua)?",
+      "options": [
+        "Lenguas aglutinantes",
+        "Lenguas flexivas o fusionales",
+        "Lenguas aislantes o analíticas",
+        "Lenguas polisintéticas incorporantes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las lenguas aglutinantes encadenan afijos discretos donde cada morfema expresa un solo rasgo gramatical sin fusionarse fonológicamente.",
+      "skill": "Tipología Lingüística y Morfología",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Tipología Lingüística",
+      "subtopic": "Morfología Comparada"
+    },
+    {
+      "id": "len-uni-20",
+      "sectionId": 2,
+      "number": 100,
+      "text": "En la teoría de la relevancia de Dan Sperber y Deirdre Wilson, ¿cuál es el principio cognitivo rector de la comunicación humana?",
+      "options": [
+        "Los seres humanos buscan maximizar los efectos cognitivos positivos minimizando el esfuerzo de procesamiento mental necesario.",
+        "Seguir ciegamente las reglas sintácticas tradicionales de la Real Academia.",
+        "Emitir la mayor cantidad posible de información sin importar el contexto.",
+        "Evitar cualquier ambigüedad utilizando exclusivamente lenguaje matemático."
+      ],
+      "correctIndex": 0,
+      "explanation": "La teoría de la relevancia plantea que un estímulo es relevante cuando genera un cambio cognitivo con el menor costo de procesamiento mental.",
+      "skill": "Teoría de la Relevancia",
+      "difficulty": "Desafiante",
+      "educationalLevel": "Universitario",
+      "topic": "Pragmática Cognitiva",
+      "subtopic": "Relevancia y Comunicación"
+    }
+  ]
+}

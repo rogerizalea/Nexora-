@@ -1,0 +1,1913 @@
+import { Question } from '../../types';
+
+/**
+ * BANCO OFICIAL DE PREGUNTAS: INGLÉS
+ * 100 Reactivos Verificados Pedagógicamente:
+ * - 20 Básico
+ * - 20 Intermedio
+ * - 20 Bachillerato
+ * - 20 Técnico
+ * - 20 Universitario
+ */
+export const QUESTIONS_INGLES: Question[] = [
+  {
+    "id": "ing-bas-1",
+    "sectionId": 8,
+    "number": 1,
+    "text": "Choose the correct form of the verb \"to be\" to complete the sentence: \"She ___ a dedicated student at the academy.\"",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanation": "In present simple, third person singular pronouns (he, she, it) require the verb form \"is\".",
+    "skill": "Verb To Be Present Simple",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Basic Grammar",
+    "subtopic": "Present Simple of Be"
+  },
+  {
+    "id": "ing-bas-2",
+    "sectionId": 8,
+    "number": 2,
+    "text": "What is the correct English translation of the greeting: \"Buenos días\"?",
+    "options": [
+      "Good night",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Good morning\" is the standard formal and informal greeting used from dawn until midday (12:00 PM).",
+    "skill": "Basic Everyday Greetings",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Greetings and Expressions"
+  },
+  {
+    "id": "ing-bas-3",
+    "sectionId": 8,
+    "number": 3,
+    "text": "Complete the sentence with the appropriate subject pronoun: \"___ are playing soccer in the park.\" (talking about Tom and Jerry)",
+    "options": [
+      "He",
+      "She",
+      "They",
+      "It"
+    ],
+    "correctIndex": 2,
+    "explanation": "The third person plural subject pronoun for two or more individuals (Tom and Jerry) is \"They\".",
+    "skill": "Subject Pronouns",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Personal Pronouns"
+  },
+  {
+    "id": "ing-bas-4",
+    "sectionId": 8,
+    "number": 4,
+    "text": "What is the plural form of the noun \"child\"?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childrens",
+      "Childes"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Child\" has an irregular plural in English: \"children\" (without adding an extra \"s\").",
+    "skill": "Irregular Plural Nouns",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Morphology",
+    "subtopic": "Plural Nouns"
+  },
+  {
+    "id": "ing-bas-5",
+    "sectionId": 8,
+    "number": 5,
+    "text": "Choose the correct indefinite article: \"I eat ___ apple every morning.\"",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "some"
+    ],
+    "correctIndex": 1,
+    "explanation": "The indefinite article \"an\" is used before words that begin with a vowel sound (such as \"apple\").",
+    "skill": "Articles A and An",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Indefinite Articles"
+  },
+  {
+    "id": "ing-bas-6",
+    "sectionId": 8,
+    "number": 6,
+    "text": "Which word is the opposite (antonym) of \"hot\"?",
+    "options": [
+      "Warm",
+      "Cold",
+      "Boiling",
+      "Sunny"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Cold\" is the direct antonym of \"hot\" regarding temperature.",
+    "skill": "Basic Antonyms",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Opposites"
+  },
+  {
+    "id": "ing-bas-7",
+    "sectionId": 8,
+    "number": 7,
+    "text": "Complete the question: \"___ is your favorite book?\" - \"My favorite book is Don Quixote.\"",
+    "options": [
+      "Where",
+      "What",
+      "When",
+      "Who"
+    ],
+    "correctIndex": 1,
+    "explanation": "The question word \"What\" is used to ask for specific information about things or objects.",
+    "skill": "Wh- Question Words",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Syntax",
+    "subtopic": "Question Formation"
+  },
+  {
+    "id": "ing-bas-8",
+    "sectionId": 8,
+    "number": 8,
+    "text": "Select the correct possessive adjective: \"We love ___ school because the teachers are great.\"",
+    "options": [
+      "our",
+      "their",
+      "your",
+      "its"
+    ],
+    "correctIndex": 0,
+    "explanation": "The possessive adjective corresponding to the subject pronoun \"We\" is \"our\".",
+    "skill": "Possessive Adjectives",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Possessives"
+  },
+  {
+    "id": "ing-bas-9",
+    "sectionId": 8,
+    "number": 9,
+    "text": "What time is it if someone says: \"It is half past four\"?",
+    "options": [
+      "4:15",
+      "4:30",
+      "4:45",
+      "5:30"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Half past four\" means 30 minutes past 4 o'clock, which is 4:30.",
+    "skill": "Telling the Time in English",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Everyday Language",
+    "subtopic": "Clock and Time"
+  },
+  {
+    "id": "ing-bas-10",
+    "sectionId": 8,
+    "number": 10,
+    "text": "Choose the correct preposition of place: \"The book is ___ the table.\" (resting on top of its surface)",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "under"
+    ],
+    "correctIndex": 1,
+    "explanation": "The preposition \"on\" indicates position on a horizontal or vertical surface.",
+    "skill": "Prepositions of Place",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Prepositions In, On, At"
+  },
+  {
+    "id": "ing-bas-11",
+    "sectionId": 8,
+    "number": 11,
+    "text": "Which of the following numbers in words corresponds to 75?",
+    "options": [
+      "Sixty-five",
+      "Seventy-five",
+      "Eighty-five",
+      "Fifty-seven"
+    ],
+    "correctIndex": 1,
+    "explanation": "75 is written as \"seventy-five\" with a hyphen between the tens and units.",
+    "skill": "Cardinal Numbers",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Numbers"
+  },
+  {
+    "id": "ing-bas-12",
+    "sectionId": 8,
+    "number": 12,
+    "text": "Complete the sentence in the negative form: \"I ___ like spicy food.\"",
+    "options": [
+      "does not",
+      "am not",
+      "do not",
+      "is not"
+    ],
+    "correctIndex": 2,
+    "explanation": "In present simple negative with \"I\", we use the auxiliary \"do not\" (or \"don't\") before the base verb.",
+    "skill": "Present Simple Negative",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Auxiliary Verbs"
+  },
+  {
+    "id": "ing-bas-13",
+    "sectionId": 8,
+    "number": 13,
+    "text": "Which color do you get if you mix blue and yellow?",
+    "options": [
+      "Red",
+      "Green",
+      "Purple",
+      "Orange"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mixing the primary colors blue and yellow produces the secondary color green.",
+    "skill": "Basic Vocabulary of Colors",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Colors"
+  },
+  {
+    "id": "ing-bas-14",
+    "sectionId": 8,
+    "number": 14,
+    "text": "Choose the correct day that comes after Wednesday:",
+    "options": [
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correctIndex": 1,
+    "explanation": "The chronological order of weekdays is Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+    "skill": "Days of the Week",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Calendar"
+  },
+  {
+    "id": "ing-bas-15",
+    "sectionId": 8,
+    "number": 15,
+    "text": "Complete with the correct demonstrative pronoun: \"___ is my new bicycle right here beside me.\"",
+    "options": [
+      "This",
+      "That",
+      "These",
+      "Those"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"This\" is the singular demonstrative used for an object physically close to the speaker.",
+    "skill": "Demonstrative Pronouns",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "This, That, These, Those"
+  },
+  {
+    "id": "ing-bas-16",
+    "sectionId": 8,
+    "number": 16,
+    "text": "What is the past simple form of the regular verb \"watch\"?",
+    "options": [
+      "Watching",
+      "Watched",
+      "Watches",
+      "Wotched"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regular verbs form their past simple by adding the suffix \"-ed\" to the base form: watch → watched.",
+    "skill": "Regular Past Simple Verbs",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Verb Tenses",
+    "subtopic": "Past Simple Affirmative"
+  },
+  {
+    "id": "ing-bas-17",
+    "sectionId": 8,
+    "number": 17,
+    "text": "Select the word that represents a member of the nuclear family:",
+    "options": [
+      "Window",
+      "Brother",
+      "Kitchen",
+      "Notebook"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Brother\" denotes a male sibling within family relationships.",
+    "skill": "Family Vocabulary",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Family Members"
+  },
+  {
+    "id": "ing-bas-18",
+    "sectionId": 8,
+    "number": 18,
+    "text": "Complete: \"How ___ apples are there in the basket?\"",
+    "options": [
+      "much",
+      "many",
+      "long",
+      "often"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"How many\" is used with plural countable nouns (such as apples). \"How much\" is used with uncountable nouns.",
+    "skill": "Quantifiers Many and Much",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Countable vs Uncountable"
+  },
+  {
+    "id": "ing-bas-19",
+    "sectionId": 8,
+    "number": 19,
+    "text": "Which animal is known in English as \"the king of the jungle\"?",
+    "options": [
+      "Elephant",
+      "Lion",
+      "Bear",
+      "Monkey"
+    ],
+    "correctIndex": 1,
+    "explanation": "The lion (Panthera leo) is popularly referred to in English literature as \"the king of the jungle\".",
+    "skill": "Animals Vocabulary",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Vocabulary",
+    "subtopic": "Animals"
+  },
+  {
+    "id": "ing-bas-20",
+    "sectionId": 8,
+    "number": 20,
+    "text": "Complete the short answer: \"Can you swim?\" - \"Yes, I ___.\"",
+    "options": [
+      "do",
+      "am",
+      "can",
+      "have"
+    ],
+    "correctIndex": 2,
+    "explanation": "Questions starting with the modal verb \"Can\" require \"can\" in the affirmative short answer: \"Yes, I can.\"",
+    "skill": "Modal Verb Can and Short Answers",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Grammar",
+    "subtopic": "Modal Verbs"
+  },
+  {
+    "id": "ing-int-1",
+    "sectionId": 8,
+    "number": 21,
+    "text": "Complete the sentence with the correct past continuous form: \"While Mark ___ for the bus, it began to rain heavily.\"",
+    "options": [
+      "is waiting",
+      "was waiting",
+      "waited",
+      "has waited"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past continuous (was/were + verb-ing) describes an action that was in progress in the past when another shorter event interrupted it in past simple.",
+    "skill": "Past Continuous vs Past Simple",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Grammar",
+    "subtopic": "Past Narrative Tenses"
+  },
+  {
+    "id": "ing-int-2",
+    "sectionId": 8,
+    "number": 22,
+    "text": "Choose the correct First Conditional sentence describing a real future possibility:",
+    "options": [
+      "If it rains tomorrow, we will stay at home.",
+      "If it will rain tomorrow, we stay at home.",
+      "If it rained tomorrow, we would stayed at home.",
+      "If it rain tomorrow, we stay home."
+    ],
+    "correctIndex": 0,
+    "explanation": "First Conditional structure: If + present simple, ... will + base verb. \"If it rains tomorrow, we will stay at home.\"",
+    "skill": "First Conditional",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Conditionals",
+    "subtopic": "Real Conditions"
+  },
+  {
+    "id": "ing-int-3",
+    "sectionId": 8,
+    "number": 23,
+    "text": "Complete with the present perfect: \"They ___ in this city since 2018.\"",
+    "options": [
+      "lived",
+      "have lived",
+      "are living",
+      "were living"
+    ],
+    "correctIndex": 1,
+    "explanation": "The present perfect (have/has + past participle) is used with \"since\" to indicate an action that started in the past and continues into the present.",
+    "skill": "Present Perfect with Since and For",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Verb Tenses",
+    "subtopic": "Present Perfect Simple"
+  },
+  {
+    "id": "ing-int-4",
+    "sectionId": 8,
+    "number": 24,
+    "text": "What is the correct comparative form of the adjective \"comfortable\"?",
+    "options": [
+      "Comfortabler",
+      "More comfortable",
+      "Most comfortable",
+      "As comfortable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Long adjectives with three or more syllables form their comparative by placing \"more\" before the adjective.",
+    "skill": "Comparative Adjectives",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Grammar",
+    "subtopic": "Comparatives and Superlatives"
+  },
+  {
+    "id": "ing-int-5",
+    "sectionId": 8,
+    "number": 25,
+    "text": "Select the sentence that correctly uses the modal verb of deduction in the present:",
+    "options": [
+      "She must be at home; her car is parked in the driveway.",
+      "She can to be at home.",
+      "She musts be at home.",
+      "She should to be at home."
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Must + base verb\" expresses strong logical deduction or certainty based on clear evidence.",
+    "skill": "Modals of Deduction",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Modal Verbs",
+    "subtopic": "Must, Might, Can't"
+  },
+  {
+    "id": "ing-int-6",
+    "sectionId": 8,
+    "number": 26,
+    "text": "Which preposition correctly completes the phrase: \"She has been interested ___ astronomy since childhood\"?",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "with"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dependent preposition following the adjective \"interested\" is always \"in\".",
+    "skill": "Dependent Prepositions",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Vocabulary and Grammar",
+    "subtopic": "Adjective + Preposition"
+  },
+  {
+    "id": "ing-int-7",
+    "sectionId": 8,
+    "number": 27,
+    "text": "Choose the correct passive voice version of: \"The chef cooked a delicious dinner.\"",
+    "options": [
+      "A delicious dinner was cooked by the chef.",
+      "A delicious dinner is cooked by the chef.",
+      "A delicious dinner has been cooked by the chef.",
+      "A delicious dinner were cooked by the chef."
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple passive structure: Subject + was/were + past participle. \"A delicious dinner was cooked by the chef.\"",
+    "skill": "Passive Voice in Past Simple",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Voice",
+    "subtopic": "Active vs Passive Voice"
+  },
+  {
+    "id": "ing-int-8",
+    "sectionId": 8,
+    "number": 28,
+    "text": "What does the phrasal verb \"give up\" mean in the sentence: \"Never give up on your dreams\"?",
+    "options": [
+      "Deliver a gift",
+      "Surrender or quit trying",
+      "Climb upwards",
+      "Postpone an event"
+    ],
+    "correctIndex": 1,
+    "explanation": "The idiomatic phrasal verb \"give up\" means to abandon, surrender, or cease an effort.",
+    "skill": "Common Phrasal Verbs",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Vocabulary",
+    "subtopic": "Phrasal Verbs"
+  },
+  {
+    "id": "ing-int-9",
+    "sectionId": 8,
+    "number": 29,
+    "text": "Complete with the correct relative pronoun: \"The scientist ___ discovered the vaccine received an international award.\"",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "where"
+    ],
+    "correctIndex": 1,
+    "explanation": "The relative pronoun \"who\" (or \"that\") refers to people as the subject of the relative clause.",
+    "skill": "Defining Relative Clauses",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Complex Sentences",
+    "subtopic": "Relative Pronouns"
+  },
+  {
+    "id": "ing-int-10",
+    "sectionId": 8,
+    "number": 30,
+    "text": "Identify the sentence with correct word order for adverbs of frequency:",
+    "options": [
+      "He goes always to the library on Mondays.",
+      "He always goes to the library on Mondays.",
+      "Always he goes to the library on Mondays.",
+      "He goes to the library always on Mondays."
+    ],
+    "correctIndex": 1,
+    "explanation": "Adverbs of frequency (always, often, usually, never) are placed before the main verb, but after the verb \"to be\".",
+    "skill": "Position of Adverbs of Frequency",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Syntax",
+    "subtopic": "Adverb Placement"
+  },
+  {
+    "id": "ing-int-11",
+    "sectionId": 8,
+    "number": 31,
+    "text": "Complete the Second Conditional sentence: \"If I ___ a million dollars, I would travel around the world.\"",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Second conditional for hypothetical present/future situations: If + past simple, ... would + base verb.",
+    "skill": "Second Conditional Hypotheses",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Conditionals",
+    "subtopic": "Hypothetical Conditions"
+  },
+  {
+    "id": "ing-int-12",
+    "sectionId": 8,
+    "number": 32,
+    "text": "Choose the correct question tag: \"You haven't seen my glasses anywhere, ___?\"",
+    "options": [
+      "do you",
+      "have you",
+      "haven't you",
+      "did you"
+    ],
+    "correctIndex": 1,
+    "explanation": "Negative main clauses with \"haven't\" take an affirmative question tag with the same auxiliary: \"have you?\".",
+    "skill": "Question Tags",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Conversational Grammar",
+    "subtopic": "Tag Questions"
+  },
+  {
+    "id": "ing-int-13",
+    "sectionId": 8,
+    "number": 33,
+    "text": "What is the past participle form of the irregular verb \"write\"?",
+    "options": [
+      "Wrote",
+      "Written",
+      "Writing",
+      "Writed"
+    ],
+    "correctIndex": 1,
+    "explanation": "The principal parts are write (infinitive) - wrote (past simple) - written (past participle).",
+    "skill": "Irregular Verb Forms",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Morphology",
+    "subtopic": "Past Participles"
+  },
+  {
+    "id": "ing-int-14",
+    "sectionId": 8,
+    "number": 34,
+    "text": "Complete with the correct quantifier: \"We have ___ milk left, so we don't need to buy any today.\"",
+    "options": [
+      "few",
+      "a little",
+      "many",
+      "a few"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"A little\" is used with uncountable nouns (like milk) to indicate a sufficient small quantity.",
+    "skill": "Quantifiers A Little vs A Few",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Grammar",
+    "subtopic": "Quantifiers"
+  },
+  {
+    "id": "ing-int-15",
+    "sectionId": 8,
+    "number": 35,
+    "text": "Which conjunction expresses contrast between two ideas?",
+    "options": [
+      "Although",
+      "Because",
+      "Therefore",
+      "Moreover"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Although\" is a subordinating conjunction of concession used to connect contrasting clauses.",
+    "skill": "Linking Words and Connectors",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Discourse Markers",
+    "subtopic": "Concession and Contrast"
+  },
+  {
+    "id": "ing-int-16",
+    "sectionId": 8,
+    "number": 36,
+    "text": "Complete the reported speech sentence: \"I will call you tomorrow,\" David said. → David said that he ___ call me the next day.",
+    "options": [
+      "will",
+      "would",
+      "can",
+      "must"
+    ],
+    "correctIndex": 1,
+    "explanation": "In indirect reported speech with a past reporting verb, \"will\" shifts back to \"would\" (backshift of tenses).",
+    "skill": "Reported Speech Backshift",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Reported Speech",
+    "subtopic": "Tense Shifts"
+  },
+  {
+    "id": "ing-int-17",
+    "sectionId": 8,
+    "number": 37,
+    "text": "Select the sentence that correctly uses a gerund as the object of a preposition:",
+    "options": [
+      "She is tired of working long hours every weekend.",
+      "She is tired of to work long hours.",
+      "She is tired of work long hours.",
+      "She is tired of worked long hours."
+    ],
+    "correctIndex": 0,
+    "explanation": "Verbs following any preposition must take the gerund form (-ing): \"tired of working\".",
+    "skill": "Gerunds after Prepositions",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Verb Patterns",
+    "subtopic": "Gerund vs Infinitive"
+  },
+  {
+    "id": "ing-int-18",
+    "sectionId": 8,
+    "number": 38,
+    "text": "What is the meaning of the idiom \"piece of cake\"?",
+    "options": [
+      "A delicious birthday dessert",
+      "Something very easy to accomplish",
+      "An expensive purchase",
+      "A difficult challenge"
+    ],
+    "correctIndex": 1,
+    "explanation": "The colloquial English idiom \"a piece of cake\" means a task that is effortless or simple to achieve.",
+    "skill": "Idiomatic Expressions",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Idioms",
+    "subtopic": "Everyday Idioms"
+  },
+  {
+    "id": "ing-int-19",
+    "sectionId": 8,
+    "number": 39,
+    "text": "Complete with the correct modal verb of obligation: \"In most countries, drivers ___ carry a valid driver's license.\"",
+    "options": [
+      "might",
+      "must",
+      "could",
+      "would"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Must\" expresses strong legal or moral obligation imposed by law or authority.",
+    "skill": "Modals of Obligation and Law",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Modal Verbs",
+    "subtopic": "Must vs Have to"
+  },
+  {
+    "id": "ing-int-20",
+    "sectionId": 8,
+    "number": 40,
+    "text": "Choose the correct form to complete the sentence: \"By the time we arrived at the cinema, the film ___ already started.\"",
+    "options": [
+      "has",
+      "had",
+      "was",
+      "is"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past perfect (had + past participle) indicates an event that occurred before another event in the past.",
+    "skill": "Past Perfect Simple",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Narrative Tenses",
+    "subtopic": "Past Perfect Before Past Simple"
+  },
+  {
+    "id": "ing-bac-1",
+    "sectionId": 8,
+    "number": 41,
+    "text": "Complete the Third Conditional sentence: \"If they ___ the earlier train, they would not have missed the opening ceremony.\"",
+    "options": [
+      "took",
+      "had taken",
+      "have taken",
+      "would take"
+    ],
+    "correctIndex": 1,
+    "explanation": "Third conditional for counterfactual past scenarios: If + past perfect (had taken), ... would have + past participle.",
+    "skill": "Third Conditional Counterfactuals",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Advanced Conditionals",
+    "subtopic": "Third Conditional"
+  },
+  {
+    "id": "ing-bac-2",
+    "sectionId": 8,
+    "number": 42,
+    "text": "Which inversion structure correctly emphasizes the rarity of an event: \"Rarely ___ such an extraordinary scientific discovery.\"",
+    "options": [
+      "we have witnessed",
+      "have we witnessed",
+      "we witnessed have",
+      "did witnessed we"
+    ],
+    "correctIndex": 1,
+    "explanation": "When a negative or restrictive adverb (rarely, seldom, hardly) starts a sentence for emphasis, subject-auxiliary inversion is mandatory: Rarely + auxiliary (have) + subject (we) + verb (witnessed).",
+    "skill": "Inversion after Negative Adverbials",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Advanced Syntax and Stylistics",
+    "subtopic": "Inverted Sentence Structures"
+  },
+  {
+    "id": "ing-bac-3",
+    "sectionId": 8,
+    "number": 43,
+    "text": "Complete with the appropriate subjunctive form: \"The committee recommended that the proposal ___ thoroughly reviewed before implementation.\"",
+    "options": [
+      "is",
+      "be",
+      "was",
+      "being"
+    ],
+    "correctIndex": 1,
+    "explanation": "The mandative subjunctive in formal English following verbs like recommend, suggest, demand requires the base form of the verb (be) for all persons.",
+    "skill": "The Mandative Subjunctive in Formal English",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Advanced Grammar",
+    "subtopic": "Mandative Subjunctive"
+  },
+  {
+    "id": "ing-bac-4",
+    "sectionId": 8,
+    "number": 44,
+    "text": "What nuance of meaning distinguishes \"used to live\" from \"is used to living\" in English?",
+    "options": [
+      "\"Used to live\" indicates a past habit or state that no longer exists; \"is used to living\" indicates being accustomed or acclimated to a present living condition.",
+      "They are interchangeable in all formal contexts.",
+      "\"Used to live\" expresses the future.",
+      "\"Is used to living\" expresses regret."
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Used to + base verb\" refers to past discontinued states/habits; \"be used to + -ing\" expresses familiarity and habituation.",
+    "skill": "Used to vs Be Used to vs Get Used to",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Grammar and Aspect",
+    "subtopic": "Habitual Aspect"
+  },
+  {
+    "id": "ing-bac-5",
+    "sectionId": 8,
+    "number": 45,
+    "text": "Choose the correct participle clause to replace: \"Because she felt exhausted after the flight, Maria went straight to bed.\"",
+    "options": [
+      "Feeling exhausted after the flight, Maria went straight to bed.",
+      "Felt exhausted after the flight, Maria went straight to bed.",
+      "Having feel exhausted after the flight, Maria went straight to bed.",
+      "To feel exhausted after the flight, Maria went straight to bed."
+    ],
+    "correctIndex": 0,
+    "explanation": "A present participle clause (verb-ing) can explain the cause or reason for the action in the main clause when both share the same subject.",
+    "skill": "Participle Clauses of Reason",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Complex Syntax",
+    "subtopic": "Participle Clauses"
+  },
+  {
+    "id": "ing-bac-6",
+    "sectionId": 8,
+    "number": 46,
+    "text": "Select the sentence containing a correct Mixed Conditional (hypothetical past condition with present consequence):",
+    "options": [
+      "If I had studied medicine back then, I would be a doctor today.",
+      "If I studied medicine back then, I am a doctor today.",
+      "If I would have studied medicine, I was a doctor today.",
+      "If I have studied medicine, I would have been a doctor."
+    ],
+    "correctIndex": 0,
+    "explanation": "Mixed conditional (Type 3 + Type 2): If + past perfect (past condition), ... would + base verb (present result): \"If I had studied medicine, I would be a doctor today.\"",
+    "skill": "Mixed Conditionals",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Conditionals",
+    "subtopic": "Past Condition with Present Result"
+  },
+  {
+    "id": "ing-bac-7",
+    "sectionId": 8,
+    "number": 47,
+    "text": "What is the rhetorical function of a cleft sentence like: \"What impressed the examiners most was his analytical precision\"?",
+    "options": [
+      "To ask a direct question about impressions",
+      "To focus and emphasize a specific piece of information within the clause",
+      "To express doubt and hesitation",
+      "To turn an active clause into passive voice"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wh-cleft sentences (and it-clefts) divide a clause into two parts to place strong thematic focus or pragmatic prominence on the highlighted element.",
+    "skill": "Cleft Sentences and Information Packaging",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Discourse and Pragmatics",
+    "subtopic": "Wh-Cleft Sentences"
+  },
+  {
+    "id": "ing-bac-8",
+    "sectionId": 8,
+    "number": 48,
+    "text": "Complete with the appropriate future perfect continuous: \"By next December, Dr. Jenkins ___ research on stem cells for two decades.\"",
+    "options": [
+      "will conduct",
+      "will have been conducting",
+      "is conducting",
+      "would conduct"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future perfect continuous (will have been + verb-ing) projects forward to a future deadline and emphasizes the ongoing duration of an activity up to that point.",
+    "skill": "Future Perfect Continuous Tense",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Advanced Verb Tenses",
+    "subtopic": "Future Aspect"
+  },
+  {
+    "id": "ing-bac-9",
+    "sectionId": 8,
+    "number": 49,
+    "text": "Choose the idiom that means to avoid making a clear decision or remain neutral in a dispute:",
+    "options": [
+      "To sit on the fence",
+      "To bite the bullet",
+      "To burn the midnight oil",
+      "To spill the beans"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"To sit on the fence\" is an idiomatic metaphor meaning to delay or avoid choosing between two opposing sides in a debate.",
+    "skill": "Advanced Figurative Idioms",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Idiomatic Language",
+    "subtopic": "Metaphorical Idioms"
+  },
+  {
+    "id": "ing-bac-10",
+    "sectionId": 8,
+    "number": 50,
+    "text": "In academic writing, which cohesive device best introduces an elaboration that clarifies a preceding assertion?",
+    "options": [
+      "Namely (or that is to say)",
+      "On the contrary",
+      "Nevertheless",
+      "Notwithstanding"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Namely\" (or \"that is to say\" / \"specifically\") is used in formal prose to provide precise clarification or identification of what has just been mentioned.",
+    "skill": "Academic Discourse Connectors",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Academic Writing",
+    "subtopic": "Clarification Markers"
+  },
+  {
+    "id": "ing-bac-11",
+    "sectionId": 8,
+    "number": 51,
+    "text": "Complete with the correct modal perfect of past speculation: \"The streets are completely dry; it ___ rained last night.\"",
+    "options": [
+      "must have",
+      "can't have (or couldn't have)",
+      "should have",
+      "might have"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Can't have + past participle\" expresses strong certainty that a past event was impossible based on current physical evidence.",
+    "skill": "Modals of Past Deduction",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Modal Verbs",
+    "subtopic": "Can't Have + Participle"
+  },
+  {
+    "id": "ing-bac-12",
+    "sectionId": 8,
+    "number": 52,
+    "text": "Identify the sentence featuring correct fronting of prepositional phrase with full subject-verb inversion:",
+    "options": [
+      "Down the slope rushed the mountain bikers.",
+      "Down the slope the mountain bikers rushed.",
+      "Down the slope did rush the mountain bikers.",
+      "Rushed down the slope the mountain bikers."
+    ],
+    "correctIndex": 0,
+    "explanation": "In descriptive literary prose, locative and directional prepositional phrases at the start of a clause trigger full subject-verb inversion with intransitive verbs of motion.",
+    "skill": "Locative Inversion and Stylistic Fronting",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Literary Stylistics",
+    "subtopic": "Full Inversion"
+  },
+  {
+    "id": "ing-bac-13",
+    "sectionId": 8,
+    "number": 53,
+    "text": "Complete the sentence with the correct nominalization: \"The sudden ___ of the stock market led to widespread financial panic.\"",
+    "options": [
+      "collapse",
+      "collapsing",
+      "collapsed",
+      "collapsibility"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Collapse\" serves here as a formal noun functioning as the head of the noun phrase preceded by the adjective \"sudden\".",
+    "skill": "Nominalization in Formal Registers",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Morphology and Register",
+    "subtopic": "Nominal Structures"
+  },
+  {
+    "id": "ing-bac-14",
+    "sectionId": 8,
+    "number": 54,
+    "text": "What is the precise grammatical status of \"having finished\" in: \"Having finished the experiment, the researchers analyzed the data\"?",
+    "options": [
+      "Gerund subject",
+      "Perfect participle clause showing anteriority",
+      "Infinitive of purpose",
+      "Passive voice predicate"
+    ],
+    "correctIndex": 1,
+    "explanation": "The perfect participle (\"having + past participle\") explicitly marks an action completed before the action in the main clause took place.",
+    "skill": "Perfect Participles and Sequence of Events",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Complex Syntax",
+    "subtopic": "Perfect Participle"
+  },
+  {
+    "id": "ing-bac-15",
+    "sectionId": 8,
+    "number": 55,
+    "text": "Choose the sentence that correctly conveys concession with \"however\" acting as an adverb modifying an adjective:",
+    "options": [
+      "However difficult the challenge may seem, we must persevere.",
+      "However, difficult the challenge may seem, we must persevere.",
+      "The challenge however difficult may seem we must persevere.",
+      "However is difficult the challenge we must persevere."
+    ],
+    "correctIndex": 0,
+    "explanation": "\"However + adjective/adverb + subject + verb\" functions as a concessive subordinate clause equivalent to \"no matter how difficult\".",
+    "skill": "Concessive Structures with However",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Advanced Syntax",
+    "subtopic": "However + Adjective"
+  },
+  {
+    "id": "ing-bac-16",
+    "sectionId": 8,
+    "number": 56,
+    "text": "What does the phrasal verb \"bring about\" mean in academic and political texts?",
+    "options": [
+      "To carry an object inside",
+      "To cause or produce a significant change",
+      "To persuade someone gradually",
+      "To cancel a scheduled conference"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"To bring about\" is a transitive phrasal verb meaning to cause, generate, or initiate a major transformation.",
+    "skill": "Formal Academic Phrasal Verbs",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Academic Vocabulary",
+    "subtopic": "Causative Phrasal Verbs"
+  },
+  {
+    "id": "ing-bac-17",
+    "sectionId": 8,
+    "number": 57,
+    "text": "Select the sentence that correctly expresses regret about a past action using \"wish\":",
+    "options": [
+      "I wish I had accepted that scholarship offer when I had the chance.",
+      "I wish I accepted that scholarship offer when I had the chance.",
+      "I wish I have accepted that scholarship offer.",
+      "I wish I would accept that scholarship offer back then."
+    ],
+    "correctIndex": 0,
+    "explanation": "To express regret about an unchangeable past situation, \"wish + past perfect\" (had accepted) is required.",
+    "skill": "Wishes and Regrets in the Past",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Subjunctive and Hypothetical Meaning",
+    "subtopic": "Wish + Past Perfect"
+  },
+  {
+    "id": "ing-bac-18",
+    "sectionId": 8,
+    "number": 58,
+    "text": "Complete with the appropriate preposition: \"The technological breakthrough was accomplished ___ the expense of considerable environmental degradation.\"",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "with"
+    ],
+    "correctIndex": 0,
+    "explanation": "The established idiomatic collocation is \"at the expense of\", meaning resulting in harm or loss to something else.",
+    "skill": "Fixed Prepositional Idioms",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Collocations",
+    "subtopic": "At the expense of"
+  },
+  {
+    "id": "ing-bac-19",
+    "sectionId": 8,
+    "number": 59,
+    "text": "Which word completes the collocation: \"The board reached a ___ decision after three hours of intense deliberation\"?",
+    "options": [
+      "unanimous",
+      "monumental",
+      "distinctive",
+      "solitary"
+    ],
+    "correctIndex": 0,
+    "explanation": "A \"unanimous decision\" is an established institutional collocation meaning a decision agreed upon by all members without exception.",
+    "skill": "Formal Collocations",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Academic Vocabulary",
+    "subtopic": "Institutional Collocations"
+  },
+  {
+    "id": "ing-bac-20",
+    "sectionId": 8,
+    "number": 60,
+    "text": "Choose the correct punctuation and conjunction to link two closely related independent clauses expressing cause without a semicolon:",
+    "options": [
+      "The expedition was postponed, for the weather conditions had deteriorated rapidly.",
+      "The expedition was postponed, because the weather conditions had deteriorated rapidly, therefore.",
+      "The expedition was postponed for the weather had, deteriorated.",
+      "The expedition was postponed; for the weather had deteriorated."
+    ],
+    "correctIndex": 0,
+    "explanation": "In literary English, the coordinating conjunction \"for\" preceded by a comma links two independent clauses and provides the reason or explanation.",
+    "skill": "Coordinating Conjunctions in Complex Prose",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Punctuation and Syntax",
+    "subtopic": "Coordinating Conjunction For"
+  },
+  {
+    "id": "ing-tec-1",
+    "sectionId": 8,
+    "number": 61,
+    "text": "In software engineering documentation, what does the acronym API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Protocol Integration",
+      "Algorithmic Processing Instruction",
+      "Advanced Peripheral Interconnect"
+    ],
+    "correctIndex": 0,
+    "explanation": "An Application Programming Interface (API) is a formal set of protocols and subroutine definitions enabling distinct software programs to interact.",
+    "skill": "Technical IT Acronyms and Architecture",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Computer Science English",
+    "subtopic": "Software Engineering Terminology"
+  },
+  {
+    "id": "ing-tec-2",
+    "sectionId": 8,
+    "number": 62,
+    "text": "In electrical safety schematics, which term describes an intentional conductive path that safely disperses stray currents into the earth?",
+    "options": [
+      "Short circuit",
+      "Grounding (or earthing)",
+      "Impedance matching",
+      "Thermal runaway"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grounding (earthing) provides an alternate physical path for fault currents directly into the ground, triggering protective circuit breakers.",
+    "skill": "Electrical Engineering Vocabulary",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Technical English",
+    "subtopic": "Safety and Earthing"
+  },
+  {
+    "id": "ing-tec-3",
+    "sectionId": 8,
+    "number": 63,
+    "text": "In manufacturing quality control, what does the acronym QA/QC stand for?",
+    "options": [
+      "Quality Assurance and Quality Control",
+      "Quantitative Analysis and Qualitative Calculation",
+      "Quarterly Assessment and Quick Correction",
+      "Query Automation and Queue Command"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quality Assurance (QA) focuses on defect prevention in the process, while Quality Control (QC) focuses on detecting defects in the final product.",
+    "skill": "Industrial Quality Management",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Manufacturing Terminology",
+    "subtopic": "QA and QC"
+  },
+  {
+    "id": "ing-tec-4",
+    "sectionId": 8,
+    "number": 64,
+    "text": "In networking and telecommunications, what is \"latency\"?",
+    "options": [
+      "The maximum volume of data transmitted per second",
+      "The time delay required for a data packet to travel from its source to its destination across a network",
+      "The physical strength of optical cables",
+      "The cryptographic encryption standard"
+    ],
+    "correctIndex": 1,
+    "explanation": "Latency refers to propagation and processing delays in data transmission, typically measured in milliseconds (ms).",
+    "skill": "Data Communications Terminology",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Networking",
+    "subtopic": "Network Performance Metrics"
+  },
+  {
+    "id": "ing-tec-5",
+    "sectionId": 8,
+    "number": 65,
+    "text": "Which verb is used in technical manuals to indicate taking a mechanical assembly apart into its individual components?",
+    "options": [
+      "To dismantle (or disassemble)",
+      "To assemble",
+      "To calibrate",
+      "To solder"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"To disassemble\" or \"to dismantle\" means to separate an apparatus or machine into its constituent parts for inspection or maintenance.",
+    "skill": "Maintenance Technical Verbs",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Mechanical Engineering English",
+    "subtopic": "Assembly and Disassembly"
+  },
+  {
+    "id": "ing-tec-6",
+    "sectionId": 8,
+    "number": 66,
+    "text": "In industrial safety datasheets (SDS), what does the warning \"PPE required\" mean for technicians?",
+    "options": [
+      "Personal Protective Equipment (such as helmets, goggles, and gloves) must be worn",
+      "Permanent Power Enabled",
+      "Pre-Production Evaluation completed",
+      "Product Performance Examination"
+    ],
+    "correctIndex": 0,
+    "explanation": "Personal Protective Equipment (PPE) encompasses specialized safety gear designed to shield workers against physical, chemical, or electrical hazards.",
+    "skill": "Occupational Health and Safety Standards",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Industrial Safety",
+    "subtopic": "PPE Requirements"
+  },
+  {
+    "id": "ing-tec-7",
+    "sectionId": 8,
+    "number": 67,
+    "text": "In computer programming, what is a \"deadlock\"?",
+    "options": [
+      "A high-speed cryptographic algorithm",
+      "A state in which two or more concurrent processes are unable to proceed because each is waiting for the other to release a shared resource",
+      "An unplugged Ethernet cable",
+      "A syntax error in compiling code"
+    ],
+    "correctIndex": 1,
+    "explanation": "A deadlock occurs in concurrent computing when processes enter circular wait conditions holding exclusive resource locks.",
+    "skill": "Concurrent Computing Terminology",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Operating Systems English",
+    "subtopic": "Concurrency and Deadlocks"
+  },
+  {
+    "id": "ing-tec-8",
+    "sectionId": 8,
+    "number": 68,
+    "text": "In technical specifications, what does \"tolerance\" refer to when machining a precision steel cylinder?",
+    "options": [
+      "The total weight of the cylinder",
+      "The permissible limit or allowable variation in a physical dimension or property",
+      "The thermal conductivity coefficient",
+      "The tensile fracture point"
+    ],
+    "correctIndex": 1,
+    "explanation": "Engineering tolerance specifies the allowable deviation (e.g. ±0.02 mm) from a nominal dimension to guarantee interchangeability.",
+    "skill": "Metrology and Machining Tolerances",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Mechanical Engineering",
+    "subtopic": "Geometric Dimensioning and Tolerancing"
+  },
+  {
+    "id": "ing-tec-9",
+    "sectionId": 8,
+    "number": 69,
+    "text": "In database management systems (DBMS), what does the acronym ACID stand for regarding transactional integrity?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Automated Client Interface Design",
+      "Active Cache Indexed Database",
+      "Asynchronous Component Integration Directive"
+    ],
+    "correctIndex": 0,
+    "explanation": "ACID guarantees that database transactions are processed reliably, preserving database integrity even in the event of system crashes.",
+    "skill": "Database Architecture Vocabulary",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Information Systems",
+    "subtopic": "ACID Properties"
+  },
+  {
+    "id": "ing-tec-10",
+    "sectionId": 8,
+    "number": 70,
+    "text": "Which technical adjective describes a system or component that continues operating without interruption when one of its sub-elements fails?",
+    "options": [
+      "Fault-tolerant",
+      "Volatile",
+      "Aqueous",
+      "Corrosive"
+    ],
+    "correctIndex": 0,
+    "explanation": "A fault-tolerant system is designed with hardware or software redundancy to sustain continuous availability despite internal subsystem failures.",
+    "skill": "System Reliability Engineering",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Systems Engineering",
+    "subtopic": "Fault Tolerance"
+  },
+  {
+    "id": "ing-tec-11",
+    "sectionId": 8,
+    "number": 71,
+    "text": "In telecommunications, what does \"bandwidth\" designate?",
+    "options": [
+      "The physical thickness of a coaxial cable",
+      "The maximum rate of data transfer across a given path or frequency spectrum per unit of time",
+      "The weight of a radio antenna",
+      "The acoustic volume of a speaker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bandwidth denotes the data capacity of a channel, expressed in Hertz for analog signals or bits per second (bps) for digital streams.",
+    "skill": "Telecommunications Terminology",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Network Architecture",
+    "subtopic": "Channel Bandwidth"
+  },
+  {
+    "id": "ing-tec-12",
+    "sectionId": 8,
+    "number": 72,
+    "text": "In electronics, what is the role of a \"rectifier\"?",
+    "options": [
+      "To convert alternating current (AC) into direct current (DC)",
+      "To amplify radio signals",
+      "To store electrostatic charge",
+      "To cool down microprocessors"
+    ],
+    "correctIndex": 0,
+    "explanation": "A rectifier uses diodes (e.g., in bridge configuration) to allow unidirectional current flow, transforming alternating voltage into pulsating direct voltage.",
+    "skill": "Electronic Circuit Components",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Electronics Engineering",
+    "subtopic": "Rectification Circuits"
+  },
+  {
+    "id": "ing-tec-13",
+    "sectionId": 8,
+    "number": 73,
+    "text": "What does the term \"bottleneck\" signify when analyzing industrial assembly line throughput?",
+    "options": [
+      "A bottle storage area",
+      "A stage in the process whose limited capacity restricts the total operational output of the entire system",
+      "An automated packaging conveyor",
+      "A quality certificate"
+    ],
+    "correctIndex": 1,
+    "explanation": "In operations research, a bottleneck is the slowest workstation that dictates the cycle time and maximum production capacity of a line.",
+    "skill": "Industrial Operations and Throughput",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Operations Management",
+    "subtopic": "Bottleneck Analysis"
+  },
+  {
+    "id": "ing-tec-14",
+    "sectionId": 8,
+    "number": 74,
+    "text": "In heating, ventilation, and air conditioning (HVAC), what does the acronym HVAC stand for?",
+    "options": [
+      "Heating, Ventilation, and Air Conditioning",
+      "High Voltage Alternating Current",
+      "Hydraulic Valve Automated Controller",
+      "Heavy Vehicle Air Compressor"
+    ],
+    "correctIndex": 0,
+    "explanation": "HVAC systems regulate indoor environmental conditions, thermal comfort, and air filtration in residential and industrial facilities.",
+    "skill": "HVAC Technical English",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Building Services Engineering",
+    "subtopic": "HVAC Systems"
+  },
+  {
+    "id": "ing-tec-15",
+    "sectionId": 8,
+    "number": 75,
+    "text": "In cyber security, what is a \"phishing\" attack?",
+    "options": [
+      "A hardware failure in network switches",
+      "A social engineering deception where attackers masquerade as trustworthy entities to trick users into revealing sensitive credentials",
+      "A routine antivirus update",
+      "A data compression protocol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phishing exploits psychological manipulation via fraudulent emails, spoofed domains, or messages to obtain passwords or banking details.",
+    "skill": "Cybersecurity Vocabulary",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Information Security",
+    "subtopic": "Social Engineering"
+  },
+  {
+    "id": "ing-tec-16",
+    "sectionId": 8,
+    "number": 76,
+    "text": "In material science, what property is tested by measuring a material's ability to resist indentation or surface scratching?",
+    "options": [
+      "Hardness",
+      "Ductility",
+      "Thermal expansion",
+      "Electrical resistivity"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hardness (tested via Rockwell, Brinell, or Vickers scales) quantifies mechanical resistance to localized plastic deformation.",
+    "skill": "Materials Testing Terminology",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Materials Science",
+    "subtopic": "Mechanical Hardness"
+  },
+  {
+    "id": "ing-tec-17",
+    "sectionId": 8,
+    "number": 77,
+    "text": "In automotive engineering, what is the function of the ECU?",
+    "options": [
+      "Engine Control Unit (electronic microprocessor that controls engine actuators and fuel injection timing)",
+      "Emergency Cooling Utility",
+      "Electrical Current Unleasher",
+      "Exhaust Cleaning Valve"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ECU processes real-time sensor feedback (MAF, O₂, RPM) to compute optimal fuel injection duration and ignition timing.",
+    "skill": "Automotive Electronics Technical English",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Automotive Engineering",
+    "subtopic": "Engine Control Units"
+  },
+  {
+    "id": "ing-tec-18",
+    "sectionId": 8,
+    "number": 78,
+    "text": "In software development workflows, what does \"continuous integration\" (CI) entail?",
+    "options": [
+      "Frequently merging code changes from all developers into a shared central repository accompanied by automated building and testing",
+      "Never releasing updates to users",
+      "Writing documentation on paper",
+      "Manually inspecting every line of code without automation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Continuous Integration automates code compilation, unit testing, and linting upon each commit to catch regressions immediately.",
+    "skill": "DevOps and Software Engineering Practices",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "DevOps Terminology",
+    "subtopic": "Continuous Integration"
+  },
+  {
+    "id": "ing-tec-19",
+    "sectionId": 8,
+    "number": 79,
+    "text": "What is a \"heatsink\" in electronic hardware assemblies?",
+    "options": [
+      "A passive heat exchanger that dissipates thermal energy away from high-power electronic components into the surrounding air",
+      "A water reservoir for boilers",
+      "A high-voltage fuse",
+      "An insulating rubber gasket"
+    ],
+    "correctIndex": 0,
+    "explanation": "Heatsinks feature thermal conductive metals (aluminum or copper) with extended fin geometries to enhance convective heat dissipation.",
+    "skill": "Thermal Management in Electronics",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Hardware Engineering",
+    "subtopic": "Heatsinks and Thermal Interfaces"
+  },
+  {
+    "id": "ing-tec-20",
+    "sectionId": 8,
+    "number": 80,
+    "text": "In project management, what does the term \"milestone\" represent?",
+    "options": [
+      "A physical stone marking highway distances",
+      "A significant scheduled point or achievement marking the completion of a major phase or deliverable in a project",
+      "The total cost of building materials",
+      "A daily coffee break"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Gantt charts and project planning, a milestone is a zero-duration event that marks the completion of a key deliverable or stage.",
+    "skill": "Technical Project Management",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Técnico",
+    "topic": "Project Engineering",
+    "subtopic": "Project Milestones"
+  },
+  {
+    "id": "ing-uni-1",
+    "sectionId": 8,
+    "number": 81,
+    "text": "In formal linguistics, what does the Sapir-Whorf Hypothesis (linguistic relativity) postulate regarding the interface between language and cognition?",
+    "options": [
+      "That all human languages share an innate Universal Grammar hardwired into the cerebral cortex",
+      "That the semantic structure and lexical categories of a particular language influence or determine the cognitive perceptions and worldviews of its native speakers",
+      "That language acquisition is governed strictly by behavioral Skinnerian reinforcement",
+      "That writing systems precede oral phonology in evolutionary time"
+    ],
+    "correctIndex": 1,
+    "explanation": "The principle of linguistic relativity posits that differences in linguistic encodings of space, time, or color categorize mental representations and affect cognitive habits.",
+    "skill": "Linguistic Relativity and Sociolinguistics",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Theoretical Linguistics",
+    "subtopic": "Sapir-Whorf Hypothesis"
+  },
+  {
+    "id": "ing-uni-2",
+    "sectionId": 8,
+    "number": 82,
+    "text": "In literary theory, what critical concept coined by Mikhail Bakhtin denotes the coexistence of multiple distinct voices, perspectives, and sociolinguistic registers within a novelistic narrative without being subordinated to a monologic authorial voice?",
+    "options": [
+      "Polyphony (or heteroglossia)",
+      "Intentional fallacy",
+      "Structuralist synchronic closure",
+      "Objective correlative"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bakhtin formulated \"polyphony\" in his analysis of Dostoevsky to describe novels composed of independent, unmerged voices engaged in continuous dialogism.",
+    "skill": "Narratology and Literary Criticism",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Literary Theory",
+    "subtopic": "Bakhtinian Dialogism and Polyphony"
+  },
+  {
+    "id": "ing-uni-3",
+    "sectionId": 8,
+    "number": 83,
+    "text": "In English generative syntax, what does the X-bar theory (X̄ theory) formulate regarding universal phrase structure across natural languages?",
+    "options": [
+      "That all phrases across syntactic categories share a hierarchical tripartite template consisting of a specifier, intermediate X-bar projection, and a lexical head with its complement",
+      "That adjectives always follow nouns in deep structure",
+      "That verbs cannot assign theta-roles to arguments",
+      "That language consists exclusively of linear word strings without hierarchical branching"
+    ],
+    "correctIndex": 0,
+    "explanation": "X-bar theory within Chomskyan generative grammar models uniform structural representations for NP, VP, AP, and PP via recursive binary branching projections [XP → Spec, X'; X' → X, Comp].",
+    "skill": "Generative Syntax and Phrase Structure",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Theoretical Syntax",
+    "subtopic": "X-Bar Theory"
+  },
+  {
+    "id": "ing-uni-4",
+    "sectionId": 8,
+    "number": 84,
+    "text": "In historical linguistics, what systematic series of phonological vowel shifts occurred in Middle to Early Modern English (15th–18th centuries) where all long vowels raised in articulation or diphthongized?",
+    "options": [
+      "Grimm's Law",
+      "The Great Vowel Shift",
+      "Verner's Law",
+      "The High German Consonant Shift"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Great Vowel Shift transformed the phonological system of English long vowels (e.g. /iː/ became /aɪ/ as in \"time\", /uː/ became /aʊ/ as in \"house\"), explaining modern spelling-pronunciation discrepancies.",
+    "skill": "Historical Phonology of the English Language",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "History of the English Language",
+    "subtopic": "The Great Vowel Shift"
+  },
+  {
+    "id": "ing-uni-5",
+    "sectionId": 8,
+    "number": 85,
+    "text": "In academic discourse and epistemological rhetoric, what is \"hedging\"?",
+    "options": [
+      "Using assertive dogmatic assertions to silence academic opposition",
+      "Employing cautious, tentative language (such as modal verbs, adverbs like \"presumably\", or qualifiers) to modulate the certitude and scope of scientific claims and avoid absolute overgeneralization",
+      "Translating texts into rhyming verse",
+      "Plagiarizing secondary literature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hedging devices (e.g. \"evidence suggests that\", \"may indicate\", \"arguably\") allow researchers to express epistemic modesty and protect claims against outright falsification.",
+    "skill": "Epistemic Modality and Academic Hedging",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Academic Writing and Rhetoric",
+    "subtopic": "Hedging in Research Papers"
+  },
+  {
+    "id": "ing-uni-6",
+    "sectionId": 8,
+    "number": 86,
+    "text": "In postcolonial literary studies, what critical term articulated by Homi K. Bhabha describes the ambivalent strategy where colonized subjects imitate the culture, language, and manners of the colonizer, producing a resemblance that is \"almost the same, but not quite\"?",
+    "options": [
+      "Orientalist essentialism",
+      "Colonial mimicry",
+      "Subaltern silence",
+      "Binary opposition"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bhabha argued that colonial mimicry disrupts colonial authority from within: by imitating the imperial master, the colonized subject produces an ironic mockery that exposes the fissures of colonial hegemony.",
+    "skill": "Postcolonial Theory and Discourse Analysis",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Postcolonial Studies",
+    "subtopic": "Mimicry and Hybridity in Bhabha"
+  },
+  {
+    "id": "ing-uni-7",
+    "sectionId": 8,
+    "number": 87,
+    "text": "In semantics and philosophy of language, what fundamental distinction did Gottlob Frege establish in 1892 regarding the meaning of expressions (such as \"the morning star\" and \"the evening star\")?",
+    "options": [
+      "The distinction between Sense (Sinn) and Reference (Bedeutung)",
+      "The distinction between signifier and signified",
+      "The distinction between performance and competence",
+      "The distinction between langue and parole"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frege demonstrated that while \"the morning star\" and \"the evening star\" share the same referent (the planet Venus), they possess distinct senses (modes of presentation), explaining why identity statements can be informative.",
+    "skill": "Philosophy of Language and Formal Semantics",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Semantics",
+    "subtopic": "Fregean Sense and Reference"
+  },
+  {
+    "id": "ing-uni-8",
+    "sectionId": 8,
+    "number": 88,
+    "text": "In pragmatics, what four conversational maxims did H.P. Grice identify as underlying the overarching Cooperative Principle in rational human discourse?",
+    "options": [
+      "Maxims of Quantity, Quality, Relation, and Manner",
+      "Maxims of Form, Substance, Purity, and Elegance",
+      "Maxims of Speed, Volume, Pitch, and Tone",
+      "Maxims of Emotion, Logic, Rhetoric, and Ethos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Grice's Cooperative Principle posits that interlocutors assume contributions are as informative as required (Quantity), truthful (Quality), relevant (Relation), and clear/orderly (Manner).",
+    "skill": "Pragmatics and Conversational Implicature",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Pragmatics",
+    "subtopic": "Gricean Maxims"
+  },
+  {
+    "id": "ing-uni-9",
+    "sectionId": 8,
+    "number": 89,
+    "text": "In the poetry of the English Renaissance, what verse form consists of unrhymed lines of iambic pentameter, utilized extensively by William Shakespeare and John Milton?",
+    "options": [
+      "Alexandrine stanza",
+      "Blank verse",
+      "Heroic couplet",
+      "Spenserian stanza"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blank verse features ten syllables per line arranged in five unstressed-stressed metric feet (da-DUM da-DUM da-DUM da-DUM da-DUM) without end rhyme, providing solemn rhythmic flexibility.",
+    "skill": "English Poetics and Versification",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Renaissance Literature",
+    "subtopic": "Blank Verse and Iambic Pentameter"
+  },
+  {
+    "id": "ing-uni-10",
+    "sectionId": 8,
+    "number": 90,
+    "text": "In systemic functional linguistics (SFL) developed by M.A.K. Halliday, what three overarching metafunctions of language operate simultaneously in every communicative text?",
+    "options": [
+      "Ideational, Interpersonal, and Textual metafunctions",
+      "Phonetic, Morphological, and Syntactic levels",
+      "Literal, Allegorical, and Moral senses",
+      "Nominal, Verbal, and Adjectival domains"
+    ],
+    "correctIndex": 0,
+    "explanation": "Halliday posited that language concurrently encodes experiences of the external world (ideational), enacts social relationships and speaker attitudes (interpersonal), and creates cohesive flow (textual).",
+    "skill": "Systemic Functional Linguistics (SFL)",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Functional Grammar",
+    "subtopic": "Hallidayan Metafunctions"
+  },
+  {
+    "id": "ing-uni-11",
+    "sectionId": 8,
+    "number": 91,
+    "text": "In corpus linguistics, what statistical measure quantifies the strength of lexical association between two co-occurring words compared to their chance frequency across a vast text corpus?",
+    "options": [
+      "Mutual Information (MI score) and T-score",
+      "Standard deviation exclusively",
+      "Levenshtein edit distance",
+      "Word count percentage"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Mutual Information score (MI) evaluates whether two collocations (e.g. \"commit suicide\", \"stark naked\") co-occur with probability significantly higher than random statistical expectation.",
+    "skill": "Corpus Linguistics and Collocational Analysis",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Applied Linguistics",
+    "subtopic": "Collocation Metrics in Corpora"
+  },
+  {
+    "id": "ing-uni-12",
+    "sectionId": 8,
+    "number": 92,
+    "text": "In deconstructionist literary philosophy articulated by Jacques Derrida, what neologism denotes the concept that words can never achieve final presence of meaning, because meaning is both continually differing and indefinitely deferred along an endless chain of signifiers?",
+    "options": [
+      "Différance",
+      "Aporia",
+      "Logocentrism",
+      "Episteme"
+    ],
+    "correctIndex": 0,
+    "explanation": "Derrida's différance (combining the French verbs différer: to differ and to defer) destabilizes structuralist claims to fixed foundational signifieds.",
+    "skill": "Deconstruction and Post-Structuralism",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Critical Theory",
+    "subtopic": "Derridean Différance"
+  },
+  {
+    "id": "ing-uni-13",
+    "sectionId": 8,
+    "number": 93,
+    "text": "In phonetics and phonology, what acoustic phenomenon occurs when a vocalic or consonantal sound is modified in articulation to become more phonetically similar to a neighboring segment (such as \"in-put\" pronounced as [ˈɪmpʊt])?",
+    "options": [
+      "Assimilation",
+      "Dissimilation",
+      "Metathesis",
+      "Epenthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Anticipatory regressive assimilation causes the alveolar nasal /n/ to assimilate to the bilabial place of articulation of the following /p/, yielding the bilabial nasal [m].",
+    "skill": "Phonological Processes and Coarticulation",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Phonology",
+    "subtopic": "Assimilation"
+  },
+  {
+    "id": "ing-uni-14",
+    "sectionId": 8,
+    "number": 94,
+    "text": "In English morphology, what morphological process creates the words \"brunch\" (breakfast + lunch) and \"smog\" (smoke + fog)?",
+    "options": [
+      "Blending (portmanteau words)",
+      "Clipping",
+      "Back-formation",
+      "Conversion (zero derivation)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blending fuses the non-morphemic parts of two words together, typically taking the onset of the first and the rime/coda of the second.",
+    "skill": "Word-Formation Processes in English",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Morphology",
+    "subtopic": "Blending and Portmanteaus"
+  },
+  {
+    "id": "ing-uni-15",
+    "sectionId": 8,
+    "number": 95,
+    "text": "In translation studies, what concept formulated by Lawrence Venuti critiques the Anglo-American publishing tradition of producing transparent, fluent translations that erase the cultural and linguistic strangeness of the foreign source text?",
+    "options": [
+      "Domestication (vs. Foreignization)",
+      "Dynamic equivalence",
+      "Skopos theory",
+      "Transcreation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Venuti advocated foreignizing translation strategies to resist ethnocentric domestication, allowing the target reader to experience the linguistic otherness of the original author.",
+    "skill": "Translation Theory and Cultural Studies",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Translation Studies",
+    "subtopic": "Domestication vs Foreignization"
+  },
+  {
+    "id": "ing-uni-16",
+    "sectionId": 8,
+    "number": 96,
+    "text": "In psycholinguistics, what clinical condition characterized by fluent but grammatically distorted speech and impaired auditory comprehension results from focal lesions in the posterior superior temporal gyrus of the left cerebral hemisphere?",
+    "options": [
+      "Broca's aphasia",
+      "Wernicke's aphasia (receptive aphasia)",
+      "Conduction aphasia",
+      "Global apraxia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wernicke's aphasia involves fluent, effortless speech that lacks semantic coherence (word salad and neologisms) paired with severe comprehension deficits.",
+    "skill": "Neurolinguistics and Language Pathology",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Psycholinguistics",
+    "subtopic": "Wernicke's Aphasia"
+  },
+  {
+    "id": "ing-uni-17",
+    "sectionId": 8,
+    "number": 97,
+    "text": "In literary Modernism, what narrative technique popularized by James Joyce and Virginia Woolf attempts to render the continuous, unedited, nonlinear flow of interior thoughts, sensory impressions, and memories in a character's mind?",
+    "options": [
+      "Stream of consciousness",
+      "Dramatic monologue",
+      "Omniscient third-person moralizing",
+      "Allegorical framing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stream of consciousness breaks conventional syntactical and chronological conventions to mimic associative cognitive processing in real time.",
+    "skill": "Modernist Narrative Techniques",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "20th Century English Literature",
+    "subtopic": "Stream of Consciousness"
+  },
+  {
+    "id": "ing-uni-18",
+    "sectionId": 8,
+    "number": 98,
+    "text": "In speech act theory established by J.L. Austin and John Searle, what dimension of an utterance represents the actual consequential effect produced upon the feelings, thoughts, or actions of the hearer (such as persuasion, intimidation, or amusement)?",
+    "options": [
+      "Locutionary act",
+      "Illocutionary force",
+      "Perlocutionary effect",
+      "Performative utterance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Austin dissected speech acts into: locution (the literal utterance), illocution (the intended conventional act: promising, ordering), and perlocution (the psychological/behavioral effect realized in the hearer).",
+    "skill": "Speech Act Theory and Austinian Pragmatics",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Pragmatics and Language Philosophy",
+    "subtopic": "Perlocutionary Effects"
+  },
+  {
+    "id": "ing-uni-19",
+    "sectionId": 8,
+    "number": 99,
+    "text": "In historical sociolinguistics, what prestigious dialect of Early Modern London English, championed by William Caxton's printing press and bureaucratic chancery, served as the primary foundation for Standard Modern English?",
+    "options": [
+      "Northumbrian Old English",
+      "Chancery Standard (East Midlands dialect)",
+      "Wessex West Saxon dialect",
+      "Cornish Celtic dialect"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chancery Standard, established by civil clerks of the court in Westminster and disseminated by Caxton's printing presses, homogenized regional orthography and morphology into standard literary English.",
+    "skill": "Standardization of the English Language",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "History of English",
+    "subtopic": "Chancery Standard"
+  },
+  {
+    "id": "ing-uni-20",
+    "sectionId": 8,
+    "number": 100,
+    "text": "In cognitive linguistics pioneered by George Lakoff and Mark Johnson, what theoretical framework demonstrates that everyday conceptual reasoning is grounded in embodied physical metaphors (such as \"ARGUMENT IS WAR\" or \"TIME IS MONEY\")?",
+    "options": [
+      "Conceptual Metaphor Theory (CMT)",
+      "Generative Phonology",
+      "Behaviorist Conditioning",
+      "Logical Positivism"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lakoff and Johnson demonstrated in \"Metaphors We Live By\" that metaphors are not mere poetic ornaments, but foundational cognitive mappings from concrete sensorimotor source domains to abstract target domains.",
+    "skill": "Cognitive Linguistics and Embodied Cognition",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Cognitive Semantics",
+    "subtopic": "Conceptual Metaphor Theory"
+  }
+];

@@ -1,0 +1,1913 @@
+import { Question } from '../../types';
+
+/**
+ * BANCO OFICIAL DE PREGUNTAS: RAZONAMIENTO LÓGICO Y ABSTRACTO
+ * 100 Reactivos Verificados Pedagógicamente:
+ * - 20 Básico
+ * - 20 Intermedio
+ * - 20 Bachillerato
+ * - 20 Técnico
+ * - 20 Universitario
+ */
+export const QUESTIONS_RAZONAMIENTO: Question[] = [
+  {
+    "id": "raz-bas-1",
+    "sectionId": 3,
+    "number": 1,
+    "text": "¿Qué número continúa la serie numérica: 4, 8, 12, 16, ___?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "La serie avanza con un patrón aditivo constante de +4: 4 (+4) = 8, 8 (+4) = 12, 12 (+4) = 16, 16 (+4) = 20.",
+    "skill": "Series Numéricas Aritméticas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Progresiones Aritméticas Simples"
+  },
+  {
+    "id": "raz-bas-2",
+    "sectionId": 3,
+    "number": 2,
+    "text": "Completa la analogía: \"Pájaro es a Nido como Abeja es a ___\".",
+    "options": [
+      "Flor",
+      "Colmena",
+      "Miel",
+      "Vuelo"
+    ],
+    "correctIndex": 1,
+    "explanation": "La relación analógica es de animal a su refugio o hábitat construido. El pájaro habita en el nido y la abeja en la colmena.",
+    "skill": "Analogías Verbales de Hábitat",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Verbal",
+    "subtopic": "Relaciones Analógicas"
+  },
+  {
+    "id": "raz-bas-3",
+    "sectionId": 3,
+    "number": 3,
+    "text": "Identifica la palabra que NO pertenece al grupo: Manzana, Pera, Lechuga, Plátano.",
+    "options": [
+      "Manzana",
+      "Pera",
+      "Lechuga",
+      "Plátano"
+    ],
+    "correctIndex": 2,
+    "explanation": "Manzana, pera y plátano son frutas botánicas y dulces; la lechuga es una hortaliza de hoja.",
+    "skill": "Clasificación y Discriminación Categorial",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Lógico",
+    "subtopic": "Intrusos Categoriales"
+  },
+  {
+    "id": "raz-bas-4",
+    "sectionId": 3,
+    "number": 4,
+    "text": "Si todos los gatos tienen bigotes y Félix es un gato, ¿qué conclusión es necesariamente verdadera?",
+    "options": [
+      "Félix tiene bigotes",
+      "Félix maúlla de noche",
+      "Todos los animales con bigotes son Félix",
+      "Félix caza ratones"
+    ],
+    "correctIndex": 0,
+    "explanation": "Por deducción silogística directa (Modus Ponens): Premisa mayor: Todos los gatos tienen bigotes. Premisa menor: Félix es un gato. Conclusión: Félix tiene bigotes.",
+    "skill": "Deducción Lógica Simple",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Lógica Proposicional",
+    "subtopic": "Silogismos Categóricos"
+  },
+  {
+    "id": "raz-bas-5",
+    "sectionId": 3,
+    "number": 5,
+    "text": "¿Qué letra sigue en la secuencia alfabética: B, D, F, H, ___?",
+    "options": [
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "correctIndex": 1,
+    "explanation": "El patrón omite una letra entre cada elemento: B, (c), D, (e), F, (g), H, (i), J.",
+    "skill": "Series Alfabéticas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Secuencias de Letras"
+  },
+  {
+    "id": "raz-bas-6",
+    "sectionId": 3,
+    "number": 6,
+    "text": "En una carrera, David llegó antes que Luis, y Carlos llegó después de Luis. ¿Quién llegó en primer lugar entre los tres?",
+    "options": [
+      "Luis",
+      "Carlos",
+      "David",
+      "Llegaron al mismo tiempo"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ordenando de primero a último: David > Luis > Carlos. Por tanto, David llegó en primer lugar.",
+    "skill": "Ordenamiento Lineal",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Relacional",
+    "subtopic": "Orden Temporal y Posicional"
+  },
+  {
+    "id": "raz-bas-7",
+    "sectionId": 3,
+    "number": 7,
+    "text": "¿Cuál es el valor que falta en la relación: 2 es a 4 como 5 es a ___ (relación de doble)?",
+    "options": [
+      "7",
+      "10",
+      "15",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "El segundo término es el doble del primero (2 × 2 = 4). Aplicando la misma regla: 5 × 2 = 10.",
+    "skill": "Analogías Numéricas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Relaciones de Proporcionalidad"
+  },
+  {
+    "id": "raz-bas-8",
+    "sectionId": 3,
+    "number": 8,
+    "text": "Si giras una aguja del reloj 90 grados en sentido horario desde las 12, ¿hacia qué número apuntará?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una esfera de reloj tiene 360 grados divididos en 12 horas (30 grados por hora). Un giro horario de 90° equivale a 3 horas: 12 + 3 = 3.",
+    "skill": "Razonamiento Espacial y Rotación",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Rotaciones Angulares"
+  },
+  {
+    "id": "raz-bas-9",
+    "sectionId": 3,
+    "number": 9,
+    "text": "¿Qué figura completa la serie lógica: Círculo blanco, Círculo negro, Cuadrado blanco, Cuadrado negro, Triángulo blanco, ___?",
+    "options": [
+      "Triángulo blanco",
+      "Triángulo negro",
+      "Círculo blanco",
+      "Rombo negro"
+    ],
+    "correctIndex": 1,
+    "explanation": "El patrón agrupa figuras geométricas de 2 en 2 alternando color blanco y negro: círculos (blanco, negro), cuadrados (blanco, negro), triángulos (blanco, negro).",
+    "skill": "Secuencias de Patrones Geométricos",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Patrones Bicolores"
+  },
+  {
+    "id": "raz-bas-10",
+    "sectionId": 3,
+    "number": 10,
+    "text": "Si ayer fue martes, ¿qué día será pasado mañana?",
+    "options": [
+      "Jueves",
+      "Viernes",
+      "Sábado",
+      "Domingo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Si ayer fue martes, hoy es miércoles. Mañana será jueves, y pasado mañana será viernes.",
+    "skill": "Razonamiento Cronológico",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Lógica Temporal",
+    "subtopic": "Línea de Días"
+  },
+  {
+    "id": "raz-bas-11",
+    "sectionId": 3,
+    "number": 11,
+    "text": "¿Qué número continúa la serie: 1, 3, 9, 27, ___?",
+    "options": [
+      "54",
+      "81",
+      "72",
+      "90"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cada número es el triple del anterior (multiplicación por 3): 1 × 3 = 3, 3 × 3 = 9, 9 × 3 = 27, 27 × 3 = 81.",
+    "skill": "Series Numéricas Geométricas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Progresiones Geométricas"
+  },
+  {
+    "id": "raz-bas-12",
+    "sectionId": 3,
+    "number": 12,
+    "text": "Completa la relación: \"Médico es a Hospital como Maestro es a ___\".",
+    "options": [
+      "Libro",
+      "Escuela",
+      "Alumno",
+      "Pizarrón"
+    ],
+    "correctIndex": 1,
+    "explanation": "La relación es sujeto profesional con su lugar típico de trabajo. El médico trabaja en el hospital y el maestro en la escuela.",
+    "skill": "Analogías de Agente y Lugar",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Verbal",
+    "subtopic": "Analogías Profesionales"
+  },
+  {
+    "id": "raz-bas-13",
+    "sectionId": 3,
+    "number": 13,
+    "text": "Si Ana es más alta que Beatriz y Beatriz es más alta que Carmen, ¿quién es la más baja de las tres?",
+    "options": [
+      "Ana",
+      "Beatriz",
+      "Carmen",
+      "Tienen igual estatura"
+    ],
+    "correctIndex": 2,
+    "explanation": "Orden de estaturas de mayor a menor: Ana > Beatriz > Carmen. Por lo tanto, Carmen es la más baja.",
+    "skill": "Transitividad y Comparación",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Lógico",
+    "subtopic": "Desigualdades Transitivas"
+  },
+  {
+    "id": "raz-bas-14",
+    "sectionId": 3,
+    "number": 14,
+    "text": "¿Cuál es el intruso en este conjunto de figuras: Triángulo, Cuadrado, Rectángulo, Cubo?",
+    "options": [
+      "Triángulo",
+      "Cuadrado",
+      "Rectángulo",
+      "Cubo"
+    ],
+    "correctIndex": 3,
+    "explanation": "Triángulo, cuadrado y rectángulo son figuras bidimensionales (2D); el cubo es un cuerpo geométrico tridimensional (3D).",
+    "skill": "Clasificación Geométrica Dimensional",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Dimensión Espacial 2D vs 3D"
+  },
+  {
+    "id": "raz-bas-15",
+    "sectionId": 3,
+    "number": 15,
+    "text": "¿Qué número continúa la secuencia: 50, 45, 40, 35, ___?",
+    "options": [
+      "30",
+      "25",
+      "20",
+      "32"
+    ],
+    "correctIndex": 0,
+    "explanation": "Patrón descendente con resta fija de -5: 50 - 5 = 45, 45 - 5 = 40, 40 - 5 = 35, 35 - 5 = 30.",
+    "skill": "Series Numéricas Decrecientes",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Patrones de Sustracción"
+  },
+  {
+    "id": "raz-bas-16",
+    "sectionId": 3,
+    "number": 16,
+    "text": "Si un objeto rueda sobre una mesa hacia el norte y luego gira 180 grados, ¿hacia qué punto cardinal se dirige?",
+    "options": [
+      "Este",
+      "Oeste",
+      "Sur",
+      "Noreste"
+    ],
+    "correctIndex": 2,
+    "explanation": "Un giro de 180° invierte exactamente el sentido de la dirección. Lo opuesto del norte es el sur.",
+    "skill": "Orientación Cardinal y Vectores",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Puntos Cardinales"
+  },
+  {
+    "id": "raz-bas-17",
+    "sectionId": 3,
+    "number": 17,
+    "text": "Completa la serie alfanumérica: A1, B2, C3, D4, ___",
+    "options": [
+      "E4",
+      "E5",
+      "F5",
+      "D5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avanzan simultáneamente la letra consecutiva (A, B, C, D, E) y el número consecutivo (1, 2, 3, 4, 5). El siguiente es E5.",
+    "skill": "Series Mixtas Alfanuméricas",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Coordinación Alfanumérica"
+  },
+  {
+    "id": "raz-bas-18",
+    "sectionId": 3,
+    "number": 18,
+    "text": "En una hilera de 5 árboles, el pino está en el centro exacto. ¿Cuántos árboles hay a cada lado del pino?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Si hay 5 árboles en total y el pino está en el centro (posición 3), a su izquierda hay 2 árboles (posiciones 1 y 2) y a su derecha hay 2 (posiciones 4 y 5).",
+    "skill": "Simetría Posicional",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Lógica Matemática",
+    "subtopic": "Posicionamiento Central"
+  },
+  {
+    "id": "raz-bas-19",
+    "sectionId": 3,
+    "number": 19,
+    "text": "¿Cuál es el sinónimo de causa en la relación causa-efecto?",
+    "options": [
+      "Consecuencia",
+      "Origen o motivo",
+      "Resultado",
+      "Finalidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La causa es el principio, motivo o razón que genera un efecto o resultado.",
+    "skill": "Relaciones de Causalidad",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Lógico",
+    "subtopic": "Causa y Efecto"
+  },
+  {
+    "id": "raz-bas-20",
+    "sectionId": 3,
+    "number": 20,
+    "text": "Si 1 caja contiene 2 estuches, y cada estuche contiene 3 lápices, ¿cuántos lápices hay en total en la caja?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiplicación escalonada: 1 caja × 2 estuches × 3 lápices = 6 lápices en total.",
+    "skill": "Conteo Combinatorio Básico",
+    "difficulty": "Fácil",
+    "educationalLevel": "Básico",
+    "topic": "Razonamiento Cuantitativo",
+    "subtopic": "Problemas Multiplicativos de Contenedores"
+  },
+  {
+    "id": "raz-int-1",
+    "sectionId": 3,
+    "number": 21,
+    "text": "¿Qué número continúa la sucesión: 2, 3, 5, 8, 12, 17, ___?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "correctIndex": 2,
+    "explanation": "Las diferencias entre términos sucesivos aumentan de uno en uno: +1, +2, +3, +4, +5, +6. El siguiente paso es 17 + 6 = 23.",
+    "skill": "Sucesiones Polinomiales de Segundo Orden",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Diferencias Progresivas"
+  },
+  {
+    "id": "raz-int-2",
+    "sectionId": 3,
+    "number": 22,
+    "text": "Si se sabe que: \"Ningún reptil vuela\" y \"El cocodrilo es un reptil\", ¿cuál es la conclusión válida?",
+    "options": [
+      "Algunos reptiles vuelan",
+      "El cocodrilo no vuela",
+      "Todos los reptiles son cocodrilos",
+      "El cocodrilo puede volar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por el silogismo clásico en modo Cesare: Premisa universal negativa: Ningún reptil vuela. Premisa particular afirmativa: El cocodrilo es un reptil. Conclusión: El cocodrilo no vuela.",
+    "skill": "Silogismos Cuantificacionales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Lógica Categórica",
+    "subtopic": "Deducciones Universales Negativas"
+  },
+  {
+    "id": "raz-int-3",
+    "sectionId": 3,
+    "number": 23,
+    "text": "¿Qué número completa la matriz 2x2: [Fila 1: 3, 9] [Fila 2: 4, ?] si la relación horizontal es el cuadrado del número?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "En la fila 1: 3² = 9. En la fila 2 aplicando la misma función potencial: 4² = 16.",
+    "skill": "Matrices Numéricas de Relación Exponencial",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Matrices de Figuras y Números"
+  },
+  {
+    "id": "raz-int-4",
+    "sectionId": 3,
+    "number": 24,
+    "text": "Un reloj se adelanta 3 minutos cada 2 horas. ¿Cuántos minutos se habrá adelantado al cabo de 24 horas continuas?",
+    "options": [
+      "18 minutos",
+      "24 minutos",
+      "36 minutos",
+      "48 minutos"
+    ],
+    "correctIndex": 2,
+    "explanation": "En 24 horas hay 24 / 2 = 12 intervalos de dos horas. Por tanto, el adelanto total es 12 × 3 minutos = 36 minutos.",
+    "skill": "Razonamiento Proporcional Temporal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Matemático",
+    "subtopic": "Problemas de Relojes y Tasas"
+  },
+  {
+    "id": "raz-int-5",
+    "sectionId": 3,
+    "number": 25,
+    "text": "En un grupo de 30 estudiantes, 18 juegan fútbol y 15 juegan baloncesto. Si 5 juegan ambos deportes, ¿cuántos no juegan ninguno de los dos?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Por el principio de inclusión-exclusión: Total que juega al menos uno = 18 + 15 - 5 = 28. Los que no juegan ninguno son 30 - 28 = 2 estudiantes.",
+    "skill": "Diagramas de Venn y Conjuntos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Teoría de Conjuntos",
+    "subtopic": "Cardinalidad e Inclusión-Exclusión"
+  },
+  {
+    "id": "raz-int-6",
+    "sectionId": 3,
+    "number": 26,
+    "text": "¿Cuál es la vista superior de un cono apoyado sobre su base circular?",
+    "options": [
+      "Un triángulo isósceles",
+      "Un círculo con un punto central en el vértice",
+      "Un rectángulo",
+      "Una elipse vacía"
+    ],
+    "correctIndex": 1,
+    "explanation": "Desde arriba (planta), la base circular se proyecta como una circunferencia y la cúspide se proyecta como un punto central exacto.",
+    "skill": "Proyecciones Ortogonales Diédricas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Vistas de Cuerpos Geométricos"
+  },
+  {
+    "id": "raz-int-7",
+    "sectionId": 3,
+    "number": 27,
+    "text": "¿Qué letra sigue en la secuencia: Z, W, T, Q, ___?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las letras retroceden 3 posiciones en el alfabeto estándar: Z (-3) = W, W (-3) = T, T (-3) = Q, Q (-3) = N.",
+    "skill": "Series Alfabéticas Regresivas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Verbal",
+    "subtopic": "Secuencias Alfabéticas"
+  },
+  {
+    "id": "raz-int-8",
+    "sectionId": 3,
+    "number": 28,
+    "text": "Si \"P implica Q\" es verdadera y sabemos que \"Q es falsa\", ¿qué podemos concluir sobre P?",
+    "options": [
+      "P es verdadera",
+      "P es necesariamente falsa",
+      "P puede ser verdadera o falsa",
+      "No se puede saber"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por la regla del Modus Tollens: Si (P → Q) y ¬Q, entonces necesariamente ¬P (P es falsa). Si P fuera verdadera con Q falsa, la implicación sería falsa.",
+    "skill": "Lógica Proposicional y Modus Tollens",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Lógica Simbólica",
+    "subtopic": "Condicionales y Negación"
+  },
+  {
+    "id": "raz-int-9",
+    "sectionId": 3,
+    "number": 29,
+    "text": "En una mesa redonda de 4 asientos se sientan A, B, C y D. Si A está frente a C, y B está a la derecha de A, ¿quién está a la izquierda de A?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "Nadie"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los 4 asientos circulares: Frente a A está C. A la derecha de A está B. En el asiento restante (a la izquierda de A) se sienta obligatoriamente D.",
+    "skill": "Ordenamiento Circular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Distribución Circular"
+  },
+  {
+    "id": "raz-int-10",
+    "sectionId": 3,
+    "number": 30,
+    "text": "¿Qué número continúa la serie de Fibonacci: 1, 1, 2, 3, 5, 8, 13, ___?",
+    "options": [
+      "18",
+      "20",
+      "21",
+      "24"
+    ],
+    "correctIndex": 2,
+    "explanation": "En la sucesión de Fibonacci, cada término es la suma de los dos precedentes: 8 + 13 = 21.",
+    "skill": "Sucesión de Fibonacci",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Sucesiones Recurrentes"
+  },
+  {
+    "id": "raz-int-11",
+    "sectionId": 3,
+    "number": 31,
+    "text": "Si 6 obreros construyen una cerca en 12 horas, ¿cuántas horas tardarán 4 obreros trabajando al mismo ritmo?",
+    "options": [
+      "8 horas",
+      "16 horas",
+      "18 horas",
+      "20 horas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Es una proporcionalidad inversa: a menos obreros, más tiempo. Constante de obra = 6 × 12 = 72 horas-hombre. Para 4 obreros: 72 / 4 = 18 horas.",
+    "skill": "Regla de Tres Inversa",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Matemático",
+    "subtopic": "Proporcionalidad Inversa"
+  },
+  {
+    "id": "raz-int-12",
+    "sectionId": 3,
+    "number": 32,
+    "text": "Identifica la figura que resulta de rotar una \"L\" mayúscula 180° en el plano.",
+    "options": [
+      "Una L invertida apuntando hacia arriba a la derecha",
+      "Una L invertida apuntando hacia abajo a la izquierda (gamma reflejada)",
+      "Una T",
+      "Una V"
+    ],
+    "correctIndex": 1,
+    "explanation": "La rotación de 180° invierte tanto el eje vertical como el horizontal: la barra vertical queda hacia abajo y la horizontal apunta hacia la izquierda.",
+    "skill": "Rotación Bidimensional en el Plano",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Transformaciones Isométricas"
+  },
+  {
+    "id": "raz-int-13",
+    "sectionId": 3,
+    "number": 33,
+    "text": "¿Cuál es el valor que falta en la relación: 4 es a 64 como 5 es a ___ (relación cúbica)?",
+    "options": [
+      "100",
+      "125",
+      "150",
+      "250"
+    ],
+    "correctIndex": 1,
+    "explanation": "El segundo término es el cubo del primero: 4³ = 64. Aplicando la misma relación: 5³ = 125.",
+    "skill": "Analogías de Potenciación Cúbica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Funciones Cúbicas"
+  },
+  {
+    "id": "raz-int-14",
+    "sectionId": 3,
+    "number": 34,
+    "text": "Tres amigos, Juan, Pedro y Mario, tienen profesiones distintas: abogado, médico e ingeniero. Juan no es médico ni ingeniero. Pedro no es médico. ¿Qué profesión tiene Mario?",
+    "options": [
+      "Abogado",
+      "Médico",
+      "Ingeniero",
+      "Profesor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Juan no es médico ni ingeniero, por lo tanto Juan es el abogado. Pedro no es médico, así que debe ser el ingeniero. Por eliminación, Mario es el médico.",
+    "skill": "Tablas de Doble Entrada y Descarte Lógico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Lógica Deductiva",
+    "subtopic": "Acertijos de Correspondencia Unívoca"
+  },
+  {
+    "id": "raz-int-15",
+    "sectionId": 3,
+    "number": 35,
+    "text": "¿Cuántos triángulos hay en total en una figura compuesta por un triángulo grande dividido verticalmente en dos por su altura mediana?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hay 2 triángulos pequeños individuales (izquierdo y derecho) y 1 triángulo grande compuesto por la unión de ambos. Total = 3 triángulos.",
+    "skill": "Conteo de Figuras Geométricas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Conteo Combinatorio de Formas"
+  },
+  {
+    "id": "raz-int-16",
+    "sectionId": 3,
+    "number": 36,
+    "text": "Si la suma de tres números enteros consecutivos es 45, ¿cuál es el número intermedio?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sean los números (x - 1), x, (x + 1). Su suma es 3x = 45, de donde x = 15. Los tres números son 14, 15 y 16.",
+    "skill": "Ecuaciones y Razonamiento Algebraico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Cuantitativo",
+    "subtopic": "Enteros Consecutivos"
+  },
+  {
+    "id": "raz-int-17",
+    "sectionId": 3,
+    "number": 37,
+    "text": "¿Qué patrón sigue la serie alternada: 3, 10, 5, 12, 7, 14, ___?",
+    "options": [
+      "8",
+      "9",
+      "11",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Son dos series entrelazadas: los términos impares (1º, 3º, 5º, 7º) van sumando +2: 3, 5, 7, 9. Los pares suman +2: 10, 12, 14. El término 7º corresponde a 7 + 2 = 9.",
+    "skill": "Series Entrelazadas o Alternadas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Sucesiones Duales"
+  },
+  {
+    "id": "raz-int-18",
+    "sectionId": 3,
+    "number": 38,
+    "text": "Si todos los metales conducen la electricidad y el mercurio es un metal, ¿qué afirmación se deduce con certeza absoluta?",
+    "options": [
+      "El mercurio conduce la electricidad",
+      "El mercurio es sólido a temperatura ambiente",
+      "Todos los conductores son metales",
+      "Ninguna de las anteriores"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deducción categórica universal: Todo A es B; C es A; por tanto C es B. El mercurio conduce la electricidad.",
+    "skill": "Deducción Categorial Silogística",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Lógica Formal",
+    "subtopic": "Silogismos Válidos"
+  },
+  {
+    "id": "raz-int-19",
+    "sectionId": 3,
+    "number": 39,
+    "text": "¿Cuál es el doble del tercio de 36?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "El tercio de 36 es 36 / 3 = 12. El doble de 12 es 12 × 2 = 24.",
+    "skill": "Operaciones Fraccionarias Encadenadas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Cuantitativo",
+    "subtopic": "Fracciones de Cantidades"
+  },
+  {
+    "id": "raz-int-20",
+    "sectionId": 3,
+    "number": 40,
+    "text": "Si una figura tiene simetría axial respecto a un espejo vertical, la mano derecha de una persona se refleja como:",
+    "options": [
+      "Una mano derecha idéntica",
+      "Una mano con apariencia de mano izquierda (quiralidad invertida)",
+      "Un pie",
+      "Un brazo superior"
+    ],
+    "correctIndex": 1,
+    "explanation": "La reflexión especular respecto a un plano invierte la quiralidad (orientación espacial), transformando una mano diestra en una siniestra aparente.",
+    "skill": "Simetría Axial y Quiralidad",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Intermedio",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Reflexión Especular"
+  },
+  {
+    "id": "raz-bac-1",
+    "sectionId": 3,
+    "number": 41,
+    "text": "Dada la proposición condicional \"Si llueve, entonces el suelo está mojado\", ¿cuál es su proposición contrapositiva lógicamente equivalente?",
+    "options": [
+      "Si el suelo está mojado, entonces llueve.",
+      "Si no llueve, el suelo no está mojado.",
+      "Si el suelo no está mojado, entonces no llueve.",
+      "Llueve siempre que el suelo no esté mojado."
+    ],
+    "correctIndex": 2,
+    "explanation": "La contrapositiva de una implicación (p → q) es (¬q → ¬p). Ambas proposiciones poseen exactamente la misma tabla de verdad en lógica proposicional clásica.",
+    "skill": "Equivalencias Lógicas y Contraposición",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Lógica Matemática",
+    "subtopic": "Contrapositiva y Condicionales"
+  },
+  {
+    "id": "raz-bac-2",
+    "sectionId": 3,
+    "number": 42,
+    "text": "¿Qué número continúa la serie: 1, 4, 10, 22, 46, ___?",
+    "options": [
+      "88",
+      "92",
+      "94",
+      "96"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cada término sigue la regla recursiva: el doble del término anterior más 2 [a_(n+1) = 2a_n + 2]: 1×2+2=4; 4×2+2=10; 10×2+2=22; 22×2+2=46; 46×2+2=94.",
+    "skill": "Sucesiones Recurrentes Mixtas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Numérico",
+    "subtopic": "Relaciones de Recurrencia Lineal"
+  },
+  {
+    "id": "raz-bac-3",
+    "sectionId": 3,
+    "number": 43,
+    "text": "En un torneo de ajedrez con 8 participantes en sistema de todos contra todos (round-robin), ¿cuántas partidas se disputarán en total?",
+    "options": [
+      "28",
+      "32",
+      "56",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "Es una combinación de 8 elementos tomados de 2 en 2: C(8, 2) = (8 × 7) / (2 × 1) = 56 / 2 = 28 partidas.",
+    "skill": "Combinatoria y Conteo de Enlaces",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Combinatoria",
+    "subtopic": "Combinaciones sin Repetición"
+  },
+  {
+    "id": "raz-bac-4",
+    "sectionId": 3,
+    "number": 44,
+    "text": "¿Cuál es la negación lógica formal de la proposición cuantificada: \"Todos los estudiantes aprobaron el examen\"?",
+    "options": [
+      "Ningún estudiante aprobó el examen.",
+      "Todos los estudiantes reprobaron el examen.",
+      "Existe al menos un estudiante que no aprobó el examen.",
+      "La mayoría de estudiantes reprobó el examen."
+    ],
+    "correctIndex": 2,
+    "explanation": "Por la ley de De Morgan para cuantificadores lógicos: ¬(∀x P(x)) ≡ ∃x ¬P(x). La negación de un cuantificador universal afirmativo es un particular negativo.",
+    "skill": "Cuantificadores Universales y Existenciales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Lógica de Predicados",
+    "subtopic": "Leyes de De Morgan para Cuantificadores"
+  },
+  {
+    "id": "raz-bac-5",
+    "sectionId": 3,
+    "number": 45,
+    "text": "Un cubo sólido de madera de 3x3x3 cm pintado de rojo por fuera se corta en 27 cubitos de 1x1x1 cm. ¿Cuántos cubitos tendrán exactamente dos caras pintadas de rojo?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los cubos con 2 caras pintadas se ubican en las aristas (excluyendo los 8 vértices). Un cubo tiene 12 aristas, y en cada arista de 3 cm hay exactamente 1 cubito central: 12 × 1 = 12 cubitos.",
+    "skill": "Geometría Espacial y Descomposición Cúbica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Cubos Pintados y Particiones"
+  },
+  {
+    "id": "raz-bac-6",
+    "sectionId": 3,
+    "number": 46,
+    "text": "Si la probabilidad de que ocurra el evento A es 0.6 y la del evento B independiente de A es 0.5, ¿cuál es la probabilidad de que ocurran ambos eventos simultáneamente (A ∩ B)?",
+    "options": [
+      "0.1",
+      "0.3",
+      "0.55",
+      "1.1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para eventos estadísticamente independientes, la regla del producto establece que P(A ∩ B) = P(A) × P(B) = 0.6 × 0.5 = 0.30.",
+    "skill": "Probabilidad de Eventos Independientes",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Probabilidad y Estadística",
+    "subtopic": "Regla del Producto"
+  },
+  {
+    "id": "raz-bac-7",
+    "sectionId": 3,
+    "number": 47,
+    "text": "¿Qué patrón sigue la matriz de números: Fila 1: [2, 5, 10]; Fila 2: [3, 10, 29]; Fila 3: [4, 17, ?]?",
+    "options": [
+      "48",
+      "64",
+      "66",
+      "68"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para cada fila x: Columna 1 = x; Columna 2 = x² + 1; Columna 3 = x³ + 2. En la fila 3 con x = 4: 4³ + 2 = 64 + 2 = 66.",
+    "skill": "Matrices Polinómicas No Lineales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Relaciones Funcionales Matriciales"
+  },
+  {
+    "id": "raz-bac-8",
+    "sectionId": 3,
+    "number": 48,
+    "text": "Dada la falacia: \"Esta medicina cura el resfriado porque a mí me funcionó cuando la tomé la semana pasada\", ¿qué tipo de falacia lógica se comete?",
+    "options": [
+      "Falacia ad verecundiam (apelación a la autoridad)",
+      "Falacia de generalización apresurada o evidencia anecdótica",
+      "Falacia ad hominem",
+      "Falacia de petición de principio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Se infiere una ley médica universal a partir de un único caso no representativo e incontrolado (muestra de n=1), lo cual constituye evidencia anecdótica y generalización apresurada.",
+    "skill": "Identificación de Falacias Argumentativas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Epistemología y Pensamiento Crítico",
+    "subtopic": "Falacias Informales"
+  },
+  {
+    "id": "raz-bac-9",
+    "sectionId": 3,
+    "number": 49,
+    "text": "En una urna con 4 bolas rojas y 6 bolas azules, se extraen dos bolas consecutivamente sin reemplazo. ¿Cuál es la probabilidad de que la primera sea roja y la segunda azul?",
+    "options": [
+      "4/15",
+      "12/45",
+      "24/90",
+      "4/15 (simplificada: 24/90 = 4/15)"
+    ],
+    "correctIndex": 3,
+    "explanation": "P(1ª Roja) = 4/10. Quedan 9 bolas en la urna (4-1=3 rojas y 6 azules). P(2ª Azul | 1ª Roja) = 6/9. P(Total) = (4/10) × (6/9) = 24/90 = 4/15.",
+    "skill": "Probabilidad Condicional sin Reposición",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Probabilidad",
+    "subtopic": "Muestreo sin Reemplazo"
+  },
+  {
+    "id": "raz-bac-10",
+    "sectionId": 3,
+    "number": 50,
+    "text": "¿Cuál es el desarrollo plano de un cilindro recto cerrado?",
+    "options": [
+      "Un rectángulo y un círculo",
+      "Un rectángulo y dos círculos congruentes en lados opuestos",
+      "Un triángulo y un círculo",
+      "Dos rectángulos y un círculo"
+    ],
+    "correctIndex": 1,
+    "explanation": "La superficie lateral de un cilindro se desenrolla en un rectángulo de base 2πr y altura h, junto con dos tapas circulares de radio r.",
+    "skill": "Desarrollos Planos de Cuerpos Redondos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Geometría Descriptiva"
+  },
+  {
+    "id": "raz-bac-11",
+    "sectionId": 3,
+    "number": 51,
+    "text": "Si definimos la operación matemática personalizada a ⊗ b = a² - 2b + 1, ¿cuál es el resultado de 4 ⊗ 3?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sustituyendo a = 4 y b = 3: 4² - 2(3) + 1 = 16 - 6 + 1 = 11.",
+    "skill": "Operadores Matemáticos Arbitrarios",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Simbólico",
+    "subtopic": "Operaciones Binarias Definidas"
+  },
+  {
+    "id": "raz-bac-12",
+    "sectionId": 3,
+    "number": 52,
+    "text": "¿Qué término continúa la sucesión alfanumérica: 2A, 5C, 10F, 17J, ___?",
+    "options": [
+      "24N",
+      "26Ñ",
+      "26O",
+      "28P"
+    ],
+    "correctIndex": 2,
+    "explanation": "Parte numérica: n² + 1 para n=1,2,3,4,5: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26. Parte alfabética avanza +1, +2, +3, +4, +5 posiciones: A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O. Resultado: 26O.",
+    "skill": "Series Alfanuméricas Compuestas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Abstracto",
+    "subtopic": "Patrones Cuadráticos y Alfabéticos"
+  },
+  {
+    "id": "raz-bac-13",
+    "sectionId": 3,
+    "number": 53,
+    "text": "Si la proposición \"p ∨ q\" es falsa, ¿cuáles son los valores de verdad individuales de p y q?",
+    "options": [
+      "p es verdadera y q es falsa",
+      "p es falsa y q es verdadera",
+      "Ambas deben ser necesariamente falsas",
+      "Ambas son verdaderas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Por la tabla de verdad de la disyunción lógica inclusiva, p ∨ q es falsa únicamente cuando ambos operandos son simultáneamente falsos (p = F y q = F).",
+    "skill": "Tablas de Verdad de la Disyunción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Lógica Proposicional",
+    "subtopic": "Conectivos Lógicos"
+  },
+  {
+    "id": "raz-bac-14",
+    "sectionId": 3,
+    "number": 54,
+    "text": "Un tren que viaja a 90 km/h tarda 20 segundos en atravesar completamente un túnel de 300 metros. ¿Cuál es la longitud del tren?",
+    "options": [
+      "150 metros",
+      "200 metros",
+      "250 metros",
+      "300 metros"
+    ],
+    "correctIndex": 1,
+    "explanation": "Velocidad en m/s: 90 × (1000/3600) = 25 m/s. Distancia total recorrida = velocidad × tiempo = 25 m/s × 20 s = 500 metros. Distancia = longitud del túnel + longitud del tren: 500 = 300 + L_tren → L_tren = 200 m.",
+    "skill": "Problemas de Móviles y Cinemática Deductiva",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Físico-Matemático",
+    "subtopic": "Cruces de Trenes y Longitudes"
+  },
+  {
+    "id": "raz-bac-15",
+    "sectionId": 3,
+    "number": 55,
+    "text": "¿Cuál es el número de diagonales que pueden trazarse en un polígono convexo de 7 lados (heptágono)?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fórmula de diagonales de un polígono de n lados: D = n(n - 3) / 2. Para n = 7: D = 7(7 - 3) / 2 = 7(4) / 2 = 14 diagonales.",
+    "skill": "Geometría Deductiva y Combinatoria Poligonal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Geometría Analítica y Plana",
+    "subtopic": "Diagonales de Polígonos"
+  },
+  {
+    "id": "raz-bac-16",
+    "sectionId": 3,
+    "number": 56,
+    "text": "En una clase de 40 alumnos, el 70% aprobó Matemáticas y el 80% aprobó Física. ¿Cuál es el número mínimo de alumnos que aprobaron ambas materias?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "28"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alumnos que aprobaron Matemáticas: 0.70 × 40 = 28. Alumnos que aprobaron Física: 0.80 × 40 = 32. Total de aprobaciones acumuladas = 28 + 32 = 60. Como hay 40 alumnos, por el principio del palomar o exceso de suma: Mínimo intersección = 60 - 40 = 20 alumnos.",
+    "skill": "Principio del Palomar y Cotas de Conjuntos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Teoría de Conjuntos",
+    "subtopic": "Solapamiento Mínimo"
+  },
+  {
+    "id": "raz-bac-17",
+    "sectionId": 3,
+    "number": 57,
+    "text": "Identifica el patrón lógico que determina la validez de un argumento formal inductivo frente a uno deductivo:",
+    "options": [
+      "El inductivo va de premisas particulares a conclusiones probables; el deductivo va de premisas generales a conclusiones necesariamente verdaderas.",
+      "El inductivo siempre es matemáticamente exacto.",
+      "El deductivo nunca requiere premisas verdaderas.",
+      "No existe diferencia formal entre inducción y deducción."
+    ],
+    "correctIndex": 0,
+    "explanation": "En el razonamiento deductivo, si las premisas son verdaderas, la conclusión se sigue con necesidad lógica absoluta. En el inductivo, las premisas particulares respaldan una conclusión con un grado de probabilidad o plausibilidad.",
+    "skill": "Epistemología del Razonamiento Científico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Método Científico y Lógica",
+    "subtopic": "Inducción vs Deducción"
+  },
+  {
+    "id": "raz-bac-18",
+    "sectionId": 3,
+    "number": 58,
+    "text": "¿Cuál es la probabilidad de obtener al menos un número 6 al lanzar dos dados honestos estándar de 6 caras?",
+    "options": [
+      "1/6",
+      "11/36",
+      "1/3",
+      "12/36"
+    ],
+    "correctIndex": 1,
+    "explanation": "Usamos el evento complementario (no sacar ningún 6 en ninguno de los dos dados): P(ningún 6) = (5/6) × (5/6) = 25/36. P(al menos un 6) = 1 - 25/36 = 11/36.",
+    "skill": "Probabilidad por Evento Complementario",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Probabilidad Clásica",
+    "subtopic": "Regla del Complemento"
+  },
+  {
+    "id": "raz-bac-19",
+    "sectionId": 3,
+    "number": 59,
+    "text": "¿Qué figura completa la analogía geométrica: Círculo inscrito en cuadrado es a Cuadrado inscrito en círculo, como Esfera inscrita en cubo es a ___?",
+    "options": [
+      "Cilindro inscrito en cono",
+      "Cubo inscrito en esfera",
+      "Pirámide inscrita en prisma",
+      "Toroide circunscrito"
+    ],
+    "correctIndex": 1,
+    "explanation": "La relación analógica es de inversión de inclusión geométrica (figura curva dentro de polígono pasa a polígono dentro de figura curva) proyectada de dos dimensiones a tres dimensiones.",
+    "skill": "Analogías Espaciales Tridimensionales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Razonamiento Espacial",
+    "subtopic": "Isomorfismos Dimensionales"
+  },
+  {
+    "id": "raz-bac-20",
+    "sectionId": 3,
+    "number": 60,
+    "text": "Si f(x) es una función estrictamente creciente en todo su dominio real y f(2) = 5, ¿cuál de las siguientes desigualdades es indiscutiblemente cierta?",
+    "options": [
+      "f(1) > 5",
+      "f(3) > 5",
+      "f(0) = 5",
+      "f(4) < 5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por definición de función estrictamente creciente: si x₁ < x₂, entonces f(x₁) < f(x₂). Como 2 < 3, necesariamente f(2) < f(3), es decir, 5 < f(3) o f(3) > 5.",
+    "skill": "Monotonía de Funciones Matemáticas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Cálculo y Funciones",
+    "subtopic": "Propiedades de Monotonía"
+  },
+  {
+    "id": "raz-tec-1",
+    "sectionId": 3,
+    "number": 61,
+    "text": "En un sistema lógico digital con compuertas, ¿cuál es la salida de una compuerta NAND si sus dos entradas están en estado alto (1 lógico, 1 lógico)?",
+    "options": [
+      "1 (Alto)",
+      "0 (Bajo)",
+      "Alta impedancia (Z)",
+      "Indeterminado"
+    ],
+    "correctIndex": 1,
+    "explanation": "La función AND produce 1 cuando ambas entradas son 1. La compuerta NAND niega la salida de la AND: ¬(1 ∧ 1) = ¬1 = 0.",
+    "skill": "Lógica Booleana y Compuertas Digitales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Electrónica Digital",
+    "subtopic": "Compuertas Lógicas Fundamentales"
+  },
+  {
+    "id": "raz-tec-2",
+    "sectionId": 3,
+    "number": 62,
+    "text": "En un tren de engranajes compuesto, la rueda motriz A tiene 20 dientes y gira a 600 RPM en sentido horario. Ésta engrana directamente con la rueda B de 60 dientes. ¿A qué velocidad y en qué sentido gira la rueda B?",
+    "options": [
+      "200 RPM en sentido antihorario",
+      "1800 RPM en sentido horario",
+      "200 RPM en sentido horario",
+      "300 RPM en sentido antihorario"
+    ],
+    "correctIndex": 0,
+    "explanation": "Relación de transmisión cinemática: N_B = N_A × (Z_A / Z_B) = 600 × (20 / 60) = 200 RPM. Al engranar exteriormente de forma directa, el sentido de rotación siempre se invierte (de horario a antihorario).",
+    "skill": "Cinemática de Mecanismos y Engranajes",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Mecánica Técnica",
+    "subtopic": "Relaciones de Transmisión de Engranajes"
+  },
+  {
+    "id": "raz-tec-3",
+    "sectionId": 3,
+    "number": 63,
+    "text": "En un algoritmo de búsqueda binaria sobre una lista ordenada de 128 elementos, ¿cuál es el número máximo de comparaciones requeridas en el peor caso?",
+    "options": [
+      "7",
+      "8",
+      "64",
+      "128"
+    ],
+    "correctIndex": 0,
+    "explanation": "La complejidad temporal de la búsqueda binaria es O(log₂ n). Para n = 128 = 2⁷, log₂(128) = 7 comparaciones máximas.",
+    "skill": "Análisis Asintótico y Búsqueda Binaria",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Estructuras de Datos y Algoritmos",
+    "subtopic": "Complejidad Logarítmica"
+  },
+  {
+    "id": "raz-tec-4",
+    "sectionId": 3,
+    "number": 64,
+    "text": "En la lectura técnica de un calibrador pie de rey (vernier) con resolución de 0.05 mm, si el cero del nonio supera los 14 mm en la regla fija y la línea 6 del nonio coincide exactamente con una división de la escala principal, ¿cuál es la medida leída?",
+    "options": [
+      "14.06 mm",
+      "14.30 mm",
+      "14.60 mm",
+      "14.12 mm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lectura = Escala principal + (división del nonio coincidente × resolución) = 14 mm + (6 × 0.05 mm) = 14 mm + 0.30 mm = 14.30 mm.",
+    "skill": "Metrología Dimensional Técnica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Metrología y Taller",
+    "subtopic": "Calibrador Vernier"
+  },
+  {
+    "id": "raz-tec-5",
+    "sectionId": 3,
+    "number": 65,
+    "text": "En un circuito serie con tres resistencias de 10 Ω, 20 Ω y 30 Ω conectadas a una fuente de 120 V, ¿cuál es la caída de tensión en la resistencia de 20 Ω?",
+    "options": [
+      "20 V",
+      "40 V",
+      "60 V",
+      "80 V"
+    ],
+    "correctIndex": 1,
+    "explanation": "Resistencia equivalente total = 10 + 20 + 30 = 60 Ω. Corriente total I = V / R_total = 120 V / 60 Ω = 2 A. Caída en R₂ = I × R₂ = 2 A × 20 Ω = 40 V.",
+    "skill": "Análisis de Circuitos Eléctricos Serie",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Electrotecnia",
+    "subtopic": "Divisores de Tensión y Ley de Ohm"
+  },
+  {
+    "id": "raz-tec-6",
+    "sectionId": 3,
+    "number": 66,
+    "text": "En una prensa hidráulica ideal, el émbolo menor tiene un área de 5 cm² y el émbolo mayor tiene un área de 100 cm². Si se aplica una fuerza de 50 N en el émbolo menor, ¿qué fuerza se genera en el émbolo mayor?",
+    "options": [
+      "500 N",
+      "1000 N",
+      "2000 N",
+      "250 N"
+    ],
+    "correctIndex": 1,
+    "explanation": "Por el Principio de Pascal: F₁ / A₁ = F₂ / A₂ → F₂ = F₁ × (A₂ / A₁) = 50 N × (100 cm² / 5 cm²) = 50 N × 20 = 1000 N.",
+    "skill": "Mecánica de Fluidos y Principio de Pascal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Oleohidráulica",
+    "subtopic": "Multiplicadores de Fuerza Hidráulica"
+  },
+  {
+    "id": "raz-tec-7",
+    "sectionId": 3,
+    "number": 67,
+    "text": "¿Cuál es la simplificación de la expresión booleana F = A·B + A·B̄ según las leyes del álgebra de Boole?",
+    "options": [
+      "A",
+      "B",
+      "A + B",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factorizando el término común A: F = A · (B + B̄). Dado que en álgebra booleana (B + B̄) = 1 (ley del complemento), tenemos F = A · 1 = A.",
+    "skill": "Álgebra de Boole y Reducción Lógica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Diseño Lógico",
+    "subtopic": "Postulados de Boole"
+  },
+  {
+    "id": "raz-tec-8",
+    "sectionId": 3,
+    "number": 68,
+    "text": "En el dibujo técnico mecánico, ¿qué tipo de línea normalizada ISO se utiliza para representar aristas y contornos ocultos de una pieza?",
+    "options": [
+      "Línea continua gruesa",
+      "Línea de trazos finos (segmentada)",
+      "Línea fina de trazo y punto",
+      "Línea a mano alzada"
+    ],
+    "correctIndex": 1,
+    "explanation": "Según la norma técnica ISO 128, los contornos y aristas ocultas a la vista en una proyección se grafican obligatoriamente con línea de trazos finos interrumpidos.",
+    "skill": "Normalización de Dibujo Técnico ISO",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Expresión Gráfica",
+    "subtopic": "Tipos de Línea Normalizados"
+  },
+  {
+    "id": "raz-tec-9",
+    "sectionId": 3,
+    "number": 69,
+    "text": "Si un sensor térmico emite una señal analógica de 4 a 20 mA proporcional a una temperatura de 0 a 100 °C, ¿qué temperatura corresponde a una lectura de 12 mA?",
+    "options": [
+      "40 °C",
+      "50 °C",
+      "60 °C",
+      "75 °C"
+    ],
+    "correctIndex": 1,
+    "explanation": "El rango de señal es de 20 - 4 = 16 mA. La corriente de 12 mA se ubica a (12 - 4) = 8 mA sobre el mínimo, lo que representa exactamente el 50% de la escala (8/16 = 0.50). El 50% de 100 °C es 50 °C.",
+    "skill": "Instrumentación Industrial y Escalamiento de Señales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Control Automático",
+    "subtopic": "Lazos de Corriente 4-20 mA"
+  },
+  {
+    "id": "raz-tec-10",
+    "sectionId": 3,
+    "number": 70,
+    "text": "En un sistema neumático, ¿qué elemento direccional permite el paso del aire comprimido en un solo sentido y bloquea completamente el flujo en sentido contrario?",
+    "options": [
+      "Válvula de estrangulamiento",
+      "Válvula antirretorno (check)",
+      "Válvula de alivio de presión",
+      "Regulador de caudal bidireccional"
+    ],
+    "correctIndex": 1,
+    "explanation": "La válvula antirretorno (o válvula check) contiene un obturador accionado por resorte que sella mecánicamente el conducto ante un reflujo inverso, garantizando unidireccionalidad.",
+    "skill": "Circuitos Neumáticos y Simbología",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Neumática Industrial",
+    "subtopic": "Válvulas de Bloqueo"
+  },
+  {
+    "id": "raz-tec-11",
+    "sectionId": 3,
+    "number": 71,
+    "text": "En una red de computadoras con máscara de subred 255.255.255.0 (/24), ¿cuántas direcciones IP útiles para hosts se pueden asignar como máximo en dicha subred?",
+    "options": [
+      "256",
+      "255",
+      "254",
+      "252"
+    ],
+    "correctIndex": 2,
+    "explanation": "Una máscara /24 dispone de 8 bits de host (2⁸ = 256 direcciones teóricas). Se deben restar siempre 2 direcciones reservadas: la dirección de red (.0) y la de difusión o broadcast (.255). Por tanto, 256 - 2 = 254 hosts útiles.",
+    "skill": "Subnetting y Direccionamiento IP",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Redes de Datos",
+    "subtopic": "Cálculo de Direcciones IPv4"
+  },
+  {
+    "id": "raz-tec-12",
+    "sectionId": 3,
+    "number": 72,
+    "text": "Un motor eléctrico trifásico de inducción tiene 4 polos y se alimenta con una frecuencia de red de 60 Hz. ¿Cuál es su velocidad de sincronismo del campo magnético giratorio?",
+    "options": [
+      "1200 RPM",
+      "1500 RPM",
+      "1800 RPM",
+      "3600 RPM"
+    ],
+    "correctIndex": 2,
+    "explanation": "Velocidad de sincronismo: N_s = (120 × f) / P = (120 × 60) / 4 = 7200 / 4 = 1800 RPM.",
+    "skill": "Máquinas Eléctricas Rotativas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Electrotecnia de Potencia",
+    "subtopic": "Motores Asíncronos Trifásicos"
+  },
+  {
+    "id": "raz-tec-13",
+    "sectionId": 3,
+    "number": 73,
+    "text": "En un diagrama de flujo de programación de procesos, ¿qué forma geométrica estándar representa una toma de decisión condicional (if / else)?",
+    "options": [
+      "Rectángulo",
+      "Rombo",
+      "Óvalo o elipse",
+      "Paralelogramo"
+    ],
+    "correctIndex": 1,
+    "explanation": "En las normas ANSI/ISO para diagramas de flujo, el rombo representa bifurcaciones lógicas de decisión condicional con salidas según se cumpla o no la condición.",
+    "skill": "Lógica Algorítmica y Diagramación de Flujo",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Programación Estructurada",
+    "subtopic": "Simbología de Flujo ANSI"
+  },
+  {
+    "id": "raz-tec-14",
+    "sectionId": 3,
+    "number": 74,
+    "text": "En el ensayo no destructivo de tintas penetrantes sobre una soldadura metálica, ¿qué principio físico permite que el líquido revelador extraiga la tinta acumulada dentro de una fisura superficial?",
+    "options": [
+      "Gravedad",
+      "Capilaridad",
+      "Efecto Joule",
+      "Magnetorresistencia"
+    ],
+    "correctIndex": 1,
+    "explanation": "El fenómeno de capilaridad, producto de la tensión superficial y las fuerzas interfaciales de adhesión entre el revelador en polvo y la tinta, hace ascender el líquido del fondo de la grieta a la superficie visual.",
+    "skill": "Control de Calidad y Ensayos No Destructivos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Metalmecánica y Soldadura",
+    "subtopic": "Líquidos Penetrantes"
+  },
+  {
+    "id": "raz-tec-15",
+    "sectionId": 3,
+    "number": 75,
+    "text": "En un sistema de almacenamiento de datos RAID 1 con 2 discos duros de 2 TB cada uno, ¿cuál es la capacidad total de almacenamiento útil accesible para el usuario?",
+    "options": [
+      "1 TB",
+      "2 TB",
+      "4 TB",
+      "3 TB"
+    ],
+    "correctIndex": 1,
+    "explanation": "El RAID 1 funciona por duplicación exacta en espejo (mirroring). Toda la información se graba simultáneamente en ambos discos para redundancia contra fallos, disponiendo de la capacidad de un solo disco (2 TB).",
+    "skill": "Arquitectura de Almacenamiento y Redundancia",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Sistemas Informáticos",
+    "subtopic": "Arreglos RAID"
+  },
+  {
+    "id": "raz-tec-16",
+    "sectionId": 3,
+    "number": 76,
+    "text": "En un sistema de control de lazo cerrado, ¿qué elemento compara el valor deseado (setpoint) con el valor real de la variable de proceso para generar la señal de error?",
+    "options": [
+      "El actuador final",
+      "El comparador o sumador restador",
+      "El sensor de retroalimentación",
+      "La planta física"
+    ],
+    "correctIndex": 1,
+    "explanation": "El comparador resta la señal retroalimentada por el sensor respecto a la referencia (e = r - y), enviando el error resultante al controlador para tomar acciones correctivas.",
+    "skill": "Teoría Clásica de Control Automático",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Automatización Industrial",
+    "subtopic": "Lazos de Retroalimentación Negativa"
+  },
+  {
+    "id": "raz-tec-17",
+    "sectionId": 3,
+    "number": 77,
+    "text": "Si una polea motriz de 100 mm de diámetro gira a 1400 RPM y acciona mediante una correa una polea conducida de 200 mm de diámetro, ¿cuál es la velocidad de giro de la polea conducida?",
+    "options": [
+      "700 RPM",
+      "1400 RPM",
+      "2800 RPM",
+      "350 RPM"
+    ],
+    "correctIndex": 0,
+    "explanation": "La relación de diámetros es D₁ × N₁ = D₂ × N₂. Por tanto, N₂ = (D₁ / D₂) × N₁ = (100 / 200) × 1400 = 0.5 × 1400 = 700 RPM.",
+    "skill": "Transmisión por Correas y Poleas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Mecánica de Taller",
+    "subtopic": "Cálculo Cinemático de Poleas"
+  },
+  {
+    "id": "raz-tec-18",
+    "sectionId": 3,
+    "number": 78,
+    "text": "En un autómata programable (PLC), ¿qué significan las siglas Ladder Logic (KOP / LD)?",
+    "options": [
+      "Lenguaje estructurado de texto en C++",
+      "Lenguaje gráfico de diagrama de contactos en escalera",
+      "Lista secuencial de instrucciones de bajo nivel",
+      "Lenguaje de bloques de funciones digitales"
+    ],
+    "correctIndex": 1,
+    "explanation": "El diagrama de escalera (Ladder Logic) es el estándar industrial gráfico (IEC 61131-3) basado en la lógica de relés electromagnéticos con dos rieles de alimentación y peldaños de contactos y bobinas.",
+    "skill": "Programación de PLCs Industriales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Automatización y Robótica",
+    "subtopic": "Norma IEC 61131-3"
+  },
+  {
+    "id": "raz-tec-19",
+    "sectionId": 3,
+    "number": 79,
+    "text": "En una instalación eléctrica domiciliaria, ¿cuál es la función primordial del interruptor diferencial (disyuntor diferencial)?",
+    "options": [
+      "Proteger los conductores exclusivamente contra cortocircuitos de alta corriente.",
+      "Detectar corrientes de fuga a tierra para proteger la vida humana contra contactos indirectos y electrocución.",
+      "Elevar el factor de potencia.",
+      "Regular el voltaje de red a 220 V constantes."
+    ],
+    "correctIndex": 1,
+    "explanation": "El interruptor diferencial mide el equilibrio magnético vectorial entre la corriente de fase que entra y la de neutro que retorna. Si existe una diferencia superior al umbral (típicamente 30 mA), abre el circuito de inmediato para evitar la fibrilación ventricular humana.",
+    "skill": "Seguridad Eléctrica y Protecciones",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Instalaciones Eléctricas",
+    "subtopic": "Protección Diferencial"
+  },
+  {
+    "id": "raz-tec-20",
+    "sectionId": 3,
+    "number": 80,
+    "text": "¿Qué propiedad termodinámica de un fluido refrigerante permite absorber calor latente del interior de una cámara de refrigeración en el evaporador?",
+    "options": [
+      "Su calor latente de vaporización a baja presión",
+      "Su conductividad eléctrica",
+      "Su densidad estática",
+      "Su viscosidad cinemática"
+    ],
+    "correctIndex": 0,
+    "explanation": "En el evaporador, el refrigerante líquido a baja presión hierve (se evapora), absorbiendo una gran cantidad de energía térmica en forma de calor latente de cambio de fase de los alimentos o aire circundante.",
+    "skill": "Termodinámica de Ciclos Frigoríficos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Técnico",
+    "topic": "Climatización y Refrigeración",
+    "subtopic": "Ciclo de Compresión de Vapor"
+  },
+  {
+    "id": "raz-uni-1",
+    "sectionId": 3,
+    "number": 81,
+    "text": "En la teoría axiomática de conjuntos de Zermelo-Fraenkel (ZFC), ¿cuál es la paradoja lógica que demostró que el esquema ingenuo de comprensión irrestricta conducía a contradicciones formales insolubles?",
+    "options": [
+      "La paradoja de Banach-Tarski",
+      "La paradoja de Russell",
+      "La paradoja de Cantor",
+      "La paradoja de Curry"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bertrand Russell demostró en 1901 que el conjunto R = {x | x ∉ x} conduce a la contradicción R ∈ R ↔ R ∉ R, refutando el axioma de comprensión irrestricta de Frege y fundamentando la axiomatización rigurosa de Zermelo-Fraenkel.",
+    "skill": "Fundamentos Epistemológicos de las Matemáticas",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría Axiomática de Conjuntos",
+    "subtopic": "Paradoja de Russell y ZFC"
+  },
+  {
+    "id": "raz-uni-2",
+    "sectionId": 3,
+    "number": 82,
+    "text": "En la lógica matemática de primer orden, ¿qué establece el Primer Teorema de Incompletitud de Kurt Gödel (1931)?",
+    "options": [
+      "Que todo sistema formal axiomático consistente que contenga a la aritmética elemental es capaz de demostrar la verdad o falsedad de todas sus proposiciones.",
+      "Que en cualquier sistema axiomático recursivo, consistente y suficientemente rico para incluir la aritmética de Peano, existen proposiciones verdaderas que son indemostrables dentro del propio sistema.",
+      "Que los números reales son numerables.",
+      "Que toda máquina de Turing siempre se detiene en un número finito de pasos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Gödel demostró mediante la aritmetización de la sintaxis (números de Gödel) que ningún sistema formal consistente que cubra la aritmética puede ser completo: siempre existen verdades aritméticas que no admiten deducción formal dentro del cálculo axiomático.",
+    "skill": "Metamatemática y Teoremas de Gödel",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Lógica Matemática Avanzada",
+    "subtopic": "Incompletitud de Gödel"
+  },
+  {
+    "id": "raz-uni-3",
+    "sectionId": 3,
+    "number": 83,
+    "text": "En la teoría de complejidad computacional, ¿cómo se define la clase de problemas NP-completo?",
+    "options": [
+      "Problemas resolubles en tiempo polinomial determinista O(n^k).",
+      "Problemas que pertenecen a NP y a los cuales se puede reducir en tiempo polinomial cualquier otro problema perteneciente a NP.",
+      "Problemas indecidibles por una máquina universal de Turing.",
+      "Problemas que solo admiten soluciones exponenciales O(2^n)."
+    ],
+    "correctIndex": 1,
+    "explanation": "Por el Teorema de Cook-Levin, un problema L es NP-completo si L ∈ NP y para todo L' ∈ NP existe una reducción polinomial de Karp tal que L' ≤_p L. Son los problemas computacionales más difíciles dentro de NP.",
+    "skill": "Complejidad Computacional Teórica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Ciencias de la Computación Teórica",
+    "subtopic": "Clases P, NP y Reducciones de Karp"
+  },
+  {
+    "id": "raz-uni-4",
+    "sectionId": 3,
+    "number": 84,
+    "text": "En la teoría de juegos no cooperativos, ¿cómo se define formalmente un equilibrio de Nash para n jugadores?",
+    "options": [
+      "Una combinación de estrategias donde se maximiza la suma colectiva de pagos sociales.",
+      "Un perfil estratégico en el cual ningún jugador tiene incentivos para desviar unilateralmente su estrategia mientras los demás mantengan las suyas.",
+      "Una estrategia pura que domina estrictamente a todas las demás para cualquier jugada ajena.",
+      "Un juego de suma cero donde todos los pagos finales son nulos."
+    ],
+    "correctIndex": 1,
+    "explanation": "En un equilibrio de Nash, cada jugador elige la mejor respuesta posible a las estrategias seleccionadas por sus rivales, por lo que ninguna desviación unilateral produce un pago estrictamente mayor.",
+    "skill": "Teoría de Juegos y Optimización Estratégica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Microeconomía y Teoría de Juegos",
+    "subtopic": "Equilibrio de Nash"
+  },
+  {
+    "id": "raz-uni-5",
+    "sectionId": 3,
+    "number": 85,
+    "text": "En inferencia bayesiana avanzada, si la probabilidad a priori P(θ) pertenece a la misma familia de distribuciones de probabilidad que la distribución a posteriori P(θ|x), ¿cómo se denomina técnicamente a dicha familia a priori?",
+    "options": [
+      "Distribución no informativa",
+      "Priori conjugada",
+      "Distribución de máxima entropía",
+      "Verosimilitud marginal"
+    ],
+    "correctIndex": 1,
+    "explanation": "En el paradigma estadístico bayesiano, una distribución a priori se denomina conjugada respecto a una función de verosimilitud dada cuando la distribución a posteriori resultante pertenece a la misma familia paramétrica.",
+    "skill": "Estadística Bayesiana Avanzada",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Estadística Matemática",
+    "subtopic": "Prioris Conjugadas"
+  },
+  {
+    "id": "raz-uni-6",
+    "sectionId": 3,
+    "number": 86,
+    "text": "En el álgebra lineal sobre espacios vectoriales de dimensión finita, ¿qué establece el Teorema de la Dimensión (Teorema del Rango-Nulidad) para una transformación lineal T: V → W?",
+    "options": [
+      "dim(V) = rango(T) + dim(W)",
+      "dim(V) = dim(Ker(T)) + dim(Im(T))",
+      "dim(Ker(T)) = dim(Im(T))",
+      "rango(T) = dim(V) × dim(W)"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Teorema Fundamental de las Transformaciones Lineales establece que para un espacio V de dimensión finita, dim(V) = nulidad(T) + rango(T), donde nulidad es dim(Ker(T)) y rango es dim(Im(T)).",
+    "skill": "Espacios Vectoriales y Transformaciones Lineales",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Álgebra Lineal Abstracta",
+    "subtopic": "Teorema del Rango-Nulidad"
+  },
+  {
+    "id": "raz-uni-7",
+    "sectionId": 3,
+    "number": 87,
+    "text": "En topología general, ¿cómo se define formalmente que un espacio topológico X sea compacto según el criterio de Heine-Borel/Bourbaki?",
+    "options": [
+      "Que todo subconjunto propio de X sea cerrado y acotado.",
+      "Que de todo recubrimiento abierto de X se pueda extraer un subrecubrimiento finito.",
+      "Que no contenga agujeros homológicos.",
+      "Que exista una biyección continua con el conjunto de los números enteros."
+    ],
+    "correctIndex": 1,
+    "explanation": "La definición universal de compacidad topológica establece que para cualquier colección {U_α} de conjuntos abiertos tal que X ⊆ ⋃ U_α, existe un subconjunto finito de índices {α₁, ..., α_k} que todavía recubre a X.",
+    "skill": "Topología General y Espacios Métricos",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Análisis Matemático y Topología",
+    "subtopic": "Compacidad Topológica"
+  },
+  {
+    "id": "raz-uni-8",
+    "sectionId": 3,
+    "number": 88,
+    "text": "En teoría de grafos, ¿cuál es la condición necesaria y suficiente establecida por Leonhard Euler para que un grafo conexo no dirigido admita un circuito euleriano cerrado?",
+    "options": [
+      "Que el grafo sea bipartito completo.",
+      "Que todos los vértices del grafo tengan grado par.",
+      "Que contenga exactamente dos vértices de grado impar.",
+      "Que el número de aristas sea igual al número de vértices menos uno."
+    ],
+    "correctIndex": 1,
+    "explanation": "En el famoso problema de los puentes de Königsberg (1736), Euler demostró que un grafo conexo tiene un circuito cerrado que recorre cada arista exactamente una vez si y solo si todo vértice tiene valencia (grado) estrictamente par.",
+    "skill": "Teoría de Grafos y Topología Combinatoria",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Matemática Discreta",
+    "subtopic": "Grafos Eulerianos"
+  },
+  {
+    "id": "raz-uni-9",
+    "sectionId": 3,
+    "number": 89,
+    "text": "En física teórica y termodinámica estadística, ¿cómo se relaciona matemáticamente la entropía macroscópica S con el número de microestados accesibles Ω según la fórmula de Ludwig Boltzmann grabada en su tumba?",
+    "options": [
+      "S = k_B · ln(Ω)",
+      "S = k_B · Ω²",
+      "S = ħ · dΩ/dt",
+      "S = Q / T²"
+    ],
+    "correctIndex": 0,
+    "explanation": "La ecuación fundamental de la mecánica estadística postula que la entropía termodinámica S es proporcional al logaritmo natural del volumen del espacio fásico accesible: S = k_B ln Ω, donde k_B es la constante de Boltzmann.",
+    "skill": "Mecánica Estadística y Entropía Fásica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Física Estadística",
+    "subtopic": "Definición Microcanónica de Entropía"
+  },
+  {
+    "id": "raz-uni-10",
+    "sectionId": 3,
+    "number": 90,
+    "text": "En la teoría de la computabilidad, ¿qué demostró Alan Turing en 1936 respecto al Problema de la Parada (Halting Problem)?",
+    "options": [
+      "Que toda máquina de Turing determinista puede simularse en tiempo sublineal.",
+      "Que es formalmente indecidible: no existe un algoritmo computable universal capaz de determinar si un programa arbitrario se detendrá o entrará en bucle infinito.",
+      "Que la aritmética es finitamente axiomatizable.",
+      "Que P = NP para grafos planos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Mediante un argumento de diagonalización cantoreana autoreferencial, Turing demostró que suponer la existencia de un procedimiento algorítmico universal H(M, w) que decida la detención conduce a una contradicción lógica insuperable.",
+    "skill": "Teoría de la Computabilidad y Decidibilidad",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Informática Teórica",
+    "subtopic": "Problema de la Parada de Turing"
+  },
+  {
+    "id": "raz-uni-11",
+    "sectionId": 3,
+    "number": 91,
+    "text": "En teoría de la información de Claude Shannon, ¿cuál es la entropía de información H(X) en bits de una fuente binaria con probabilidades p = 0.5 y (1 - p) = 0.5?",
+    "options": [
+      "0 bits",
+      "0.5 bits",
+      "1 bit",
+      "2 bits"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fórmula de Shannon: H(X) = - ∑ p_i log₂(p_i) = - [0.5 log₂(0.5) + 0.5 log₂(0.5)] = - [0.5(-1) + 0.5(-1)] = 1 bit de máxima incertidumbre.",
+    "skill": "Teoría de la Información de Shannon",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Cibernética y Comunicaciones",
+    "subtopic": "Entropía de la Información"
+  },
+  {
+    "id": "raz-uni-12",
+    "sectionId": 3,
+    "number": 92,
+    "text": "En la filosofía de la ciencia de Karl Popper, ¿cuál es el criterio demarcatorio distintivo que separa el conocimiento científico empírico de la metafísica o las pseudociencias?",
+    "options": [
+      "El verificacionismo inductivo exhaustivo",
+      "El principio de falsabilidad o refutabilidad empírica",
+      "El consenso de pares académicos",
+      "La formalización axiomática geométrica"
+    ],
+    "correctIndex": 1,
+    "explanation": "Popper sostuvo que un enunciado o teoría adquiere estatus científico si formula predicciones empíricas arriesgadas susceptibles de ser contrastadas y potencialmente refutadas o falsadas por observaciones empíricas.",
+    "skill": "Filosofía de la Ciencia y Epistemología",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Epistemología Científica",
+    "subtopic": "Falsacionismo Popperiano"
+  },
+  {
+    "id": "raz-uni-13",
+    "sectionId": 3,
+    "number": 93,
+    "text": "En el cálculo de variaciones, ¿qué ecuación diferencial fundamental enuncia las condiciones de extremalidad para que una funcional integral J[y] = ∫ L(x, y, y') dx sea estacionaria?",
+    "options": [
+      "Ecuación de Poisson",
+      "Ecuación de Euler-Lagrange",
+      "Ecuación de Navier-Stokes",
+      "Ecuación de Hamilton-Jacobi"
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición necesaria de primer orden para la anulación de la primera variación funcional δJ = 0 conduce a la célebre ecuación de Euler-Lagrange: ∂L/∂y - d/dx(∂L/∂y') = 0.",
+    "skill": "Cálculo Variacional y Mecánica Analítica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Matemática Aplicada",
+    "subtopic": "Ecuaciones de Euler-Lagrange"
+  },
+  {
+    "id": "raz-uni-14",
+    "sectionId": 3,
+    "number": 94,
+    "text": "En mecánica cuántica, ¿qué consecuencia fundamental deduce el Teorema de No Clonación (No-cloning theorem) postulado por Wootters, Zurek y Dieks?",
+    "options": [
+      "Que las partículas cuánticas decaen exponencialmente.",
+      "Que es físicamente imposible crear una copia idéntica e independiente de un estado cuántico superpuesto desconocido sin destruirlo.",
+      "Que la energía del vacío debe ser idénticamente cero.",
+      "Que el espín electrónico solo toma valores enteros."
+    ],
+    "correctIndex": 1,
+    "explanation": "Debido a la estricta linealidad de los operadores unitarios de evolución en el espacio de Hilbert cuántico U(ψ ⊗ |0⟩) = ψ ⊗ ψ, es algebraicamente imposible que un operador clone estados no ortogonales arbitrarios.",
+    "skill": "Información Cuántica y Mecánica Cuántica",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Física Cuántica",
+    "subtopic": "Teorema de No Clonación"
+  },
+  {
+    "id": "raz-uni-15",
+    "sectionId": 3,
+    "number": 95,
+    "text": "En teoría de números, ¿qué conjetura fundamental afirma que todo número entero par estrictamente mayor que 2 puede expresarse como la suma de dos números primos?",
+    "options": [
+      "La Hipótesis de Riemann",
+      "La Conjetura de Goldbach",
+      "El Último Teorema de Fermat",
+      "La Conjetura de Collatz"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Conjetura Fuerte de Christian Goldbach (formulada en 1742 en carta a Euler) postula que 2n = p + q para todo n > 1 con p, q primos, manteniéndose como uno de los grandes problemas abiertos.",
+    "skill": "Teoría Analítica de Números",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Aritmética Superior",
+    "subtopic": "Conjetura de Goldbach"
+  },
+  {
+    "id": "raz-uni-16",
+    "sectionId": 3,
+    "number": 96,
+    "text": "En análisis real avanzado, ¿qué establece el Teorema del Valor Medio de Cauchy para dos funciones continuas f y g derivables en (a, b) con g'(x) ≠ 0?",
+    "options": [
+      "[f(b) - f(a)] / [g(b) - g(a)] = f'(c) / g'(c) para algún c ∈ (a, b)",
+      "f(b) - f(a) = f'(c)(b - a) exclusivamente",
+      "f(x) = g(x) en todo el intervalo",
+      "La integral de f es igual a la derivada de g"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Teorema Generalizado de Cauchy extiende el Teorema de Lagrange: existe c en (a, b) tal que [f(b) - f(a)] g'(c) = [g(b) - g(a)] f'(c), constituyendo el fundamento analítico de la Regla de L'Hôpital.",
+    "skill": "Cálculo Diferencial Teórico Riguroso",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Análisis Real",
+    "subtopic": "Teorema de Cauchy y L'Hôpital"
+  },
+  {
+    "id": "raz-uni-17",
+    "sectionId": 3,
+    "number": 97,
+    "text": "En criptografía asimétrica moderna, ¿en qué problema matemático de alta complejidad computacional se basa la seguridad del criptosistema RSA?",
+    "options": [
+      "En la dificultad de calcular logaritmos discretos en curvas elípticas.",
+      "En la intratabilidad computacional de factorizar números enteros compuestos muy grandes en sus factores primos.",
+      "En el ordenamiento de matrices dispersas.",
+      "En la inversión de transformadas rápidas de Fourier."
+    ],
+    "correctIndex": 1,
+    "explanation": "La seguridad de RSA descansa en el problema de factorización de enteros: mientras multiplicar dos primos p y q es instantáneo O(log² n), recuperar p y q a partir de su producto n = pq no tiene algoritmo polinomial clásico conocido.",
+    "skill": "Criptografía y Complejidad Aritmética",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Criptología y Seguridad",
+    "subtopic": "Factorización de Primos y RSA"
+  },
+  {
+    "id": "raz-uni-18",
+    "sectionId": 3,
+    "number": 98,
+    "text": "En optimización convexa, ¿cómo se denominan formalmente las condiciones necesarias y suficientes para la optimalidad global de un problema de programación no lineal diferenciable con restricciones de desigualdad?",
+    "options": [
+      "Condiciones de Cauchy-Riemann",
+      "Condiciones de Karush-Kuhn-Tucker (KKT)",
+      "Condiciones de contorno de Dirichlet",
+      "Ecuaciones de Navier"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las condiciones KKT generalizan los multiplicadores de Lagrange a problemas con restricciones de desigualdad (g_i(x) ≤ 0) mediante condiciones de holgura complementaria (μ_i g_i(x) = 0).",
+    "skill": "Optimización Convexa y Multiplicadores",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Investigación de Operaciones",
+    "subtopic": "Condiciones KKT"
+  },
+  {
+    "id": "raz-uni-19",
+    "sectionId": 3,
+    "number": 99,
+    "text": "En la teoría de probabilidades axiomática de Andréi Kolmogórov, ¿qué estructura algebraica sobre los subconjuntos del espacio muestral Ω se requiere para definir rigurosamente una medida de probabilidad P?",
+    "options": [
+      "Un grupo abeliano",
+      "Una σ-álgebra (sigma-álgebra)",
+      "Un anillo conmutativo",
+      "Un retículo booleano finito"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los axiomas de Kolmogórov (1933) exigen que los sucesos observables formen una σ-álgebra F cerrada bajo complementación y uniones numerables, sobre la cual la medida P cumple P(Ω)=1 y aditividad numerable.",
+    "skill": "Teoría de la Medida y Probabilidad Axiomática",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Teoría de la Medida",
+    "subtopic": "Axiomática de Kolmogórov"
+  },
+  {
+    "id": "raz-uni-20",
+    "sectionId": 3,
+    "number": 100,
+    "text": "En neurocomputación y modelos de aprendizaje profundo (Deep Learning), ¿a qué fenómeno matemático adverso se debe que las redes neuronales recurrentes clásicas (RNN) no puedan retener dependencias temporales de muy largo plazo?",
+    "options": [
+      "Al sobrecalentamiento térmico del silicio.",
+      "Al problema del desvanecimiento o explosión del gradiente (vanishing / exploding gradient) al propagar derivadas por retropropagación a través del tiempo.",
+      "A la convergencia instantánea a mínimos globales.",
+      "A la ausencia de capas convolucionales."
+    ],
+    "correctIndex": 1,
+    "explanation": "Al aplicar backpropagation through time (BPTT), la regla de la cadena multiplica matrices jacobianas W repetidas veces. Si los valores propios son menores que 1, el gradiente decae exponencialmente a 0, impidiendo la actualización de pesos en pasos iniciales.",
+    "skill": "Inteligencia Artificial Teórica y Aprendizaje Profundo",
+    "difficulty": "Desafiante",
+    "educationalLevel": "Universitario",
+    "topic": "Aprendizaje Automático",
+    "subtopic": "Desvanecimiento del Gradiente en RNN"
+  }
+];

@@ -1,0 +1,1904 @@
+import { Question } from '../../../types';
+
+export const BIOLOGIA_BACHILLERATO: Question[] = [
+  {
+    "id": "bio-bac-1",
+    "sectionId": 7,
+    "number": 41,
+    "text": "En la respiración celular mitocondrial, ¿cuál es el aceptor final de electrones en la cadena de transporte electrónico de la membrana interna?",
+    "options": [
+      "El NAD⁺",
+      "El oxígeno molecular (O₂), que se reduce a agua (H₂O)",
+      "El citocromo c",
+      "El piruvato"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Complejo IV (citocromo c oxidasa) transfiere 4 electrones y 4 protones a una molécula de O₂, reduciéndola a dos moléculas de agua.",
+    "skill": "Fosforilación Oxidativa y Cadena Respiratoria",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioenergética Celular",
+    "subtopic": "Aceptor Final de Electrones"
+  },
+  {
+    "id": "bio-bac-2",
+    "sectionId": 7,
+    "number": 42,
+    "text": "¿Qué proceso genético meiótico en el paquiteno de la profase I genera recombinación genética al intercambiar segmentos de cromátidas no hermanas entre cromosomas homólogos?",
+    "options": [
+      "Citocinesis",
+      "Entrecruzamiento o crossing-over en quiasmas",
+      "Segregación al azar de cromátidas",
+      "Disyunción anafásica"
+    ],
+    "correctIndex": 1,
+    "explanation": "El crossing-over mediado por el complejo sinaptonémico intercambia alelos maternos y paternos, generando combinaciones alélicas únicas.",
+    "skill": "Meiosis y Recombinación Genética",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética",
+    "subtopic": "Crossing-over en Paquiteno"
+  },
+  {
+    "id": "bio-bac-3",
+    "sectionId": 7,
+    "number": 43,
+    "text": "¿Cuál es la función del ARN de transferencia (ARNt) en la traducción ribosómica?",
+    "options": [
+      "Almacenar la información en el nucléolo",
+      "Transportar aminoácidos específicos hacia el ribosoma apareando su triplete anticodón con el codón del ARNm",
+      "Catalizar el corte de intrones en el espliceosoma",
+      "Iniciar la transcripción en el promotor"
+    ],
+    "correctIndex": 1,
+    "explanation": "El ARNt decodifica el mensaje genético mediante su bucle de anticodón complementario al codón del ARNm en el sitio A del ribosoma.",
+    "skill": "Traducción Proteica y ARNt",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Molecular",
+    "subtopic": "Función del ARNt"
+  },
+  {
+    "id": "bio-bac-4",
+    "sectionId": 7,
+    "number": 44,
+    "text": "¿Qué estructura embrionaria primaria de los cordados induce el desarrollo del tubo neural durante la neurulación en vertebrados?",
+    "options": [
+      "El celoma secundario",
+      "La notocorda (mesodermo axial)",
+      "El endodermo del vitelo",
+      "El blastocele"
+    ],
+    "correctIndex": 1,
+    "explanation": "La notocorda emite señales moleculares inductivas (como Sonic Hedgehog y Noggin) que inducen al ectodermo dorsal a plegarse en el tubo neural.",
+    "skill": "Embriología y Neurulación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología del Desarrollo",
+    "subtopic": "Notocorda e Inducción Neural"
+  },
+  {
+    "id": "bio-bac-5",
+    "sectionId": 7,
+    "number": 45,
+    "text": "¿Qué postula la Hipótesis Quimiosmótica formulada por Peter Mitchell (Premio Nobel 1978) sobre la síntesis de ATP en mitocondrias y cloroplastos?",
+    "options": [
+      "El ATP se forma por colisiones térmicas de fosfato inorgánico libre.",
+      "La energía liberada por el flujo de electrones se almacena en forma de un gradiente electroquímico de protones (fuerza protón-motriz) a través de la membrana que impulsa la ATP sintasa rotatoria.",
+      "Los electrones se unen directamente al ADP para fosforilarlo.",
+      "La fotosíntesis no requiere membranas lipídicas."
+    ],
+    "correctIndex": 1,
+    "explanation": "Mitchell demostró que el bombeo de protones crea una diferencia de potencial eléctrico (Δψ) y de pH (ΔpH) que activa la subunidad catalítica F₁-ATPasa.",
+    "skill": "Fosforilación Quimiosmótica de Mitchell",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioenergética",
+    "subtopic": "Fuerza Protón-Motriz"
+  },
+  {
+    "id": "bio-bac-6",
+    "sectionId": 7,
+    "number": 46,
+    "text": "En genética molecular, ¿qué complejo ribonucleoproteico nuclear cataliza el corte y empalme (splicing) para eliminar intrones no codificantes del pre-ARNm eucariota?",
+    "options": [
+      "El proteasoma 26S",
+      "El espliceosoma (spliceosome formado por snRNPs)",
+      "El complejo RISC de ARN interferente",
+      "El nucleosoma de histonas"
+    ],
+    "correctIndex": 1,
+    "explanation": "El espliceosoma reconoce secuencias consenso en los extremos 5' y 3' de los intrones mediante snRNPs (U1, U2, U4, U5, U6) liberando el intrón en estructura de lazo.",
+    "skill": "Procesamiento del ARN y Splicing",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Molecular",
+    "subtopic": "Espliceosoma"
+  },
+  {
+    "id": "bio-bac-7",
+    "sectionId": 7,
+    "number": 47,
+    "text": "¿Cómo se denomina la muerte celular programada fisiológica mediada por la activación de una cascada de proteasas intracelulares llamadas caspasas?",
+    "options": [
+      "Necrosis accidental por lisis",
+      "Apoptosis",
+      "Autólisis putrefacta",
+      "Gangrena húmeda"
+    ],
+    "correctIndex": 1,
+    "explanation": "La apoptosis es un proceso activo y regulado genéticamente sin inflamación circundante, con condensación de cromatina y formación de cuerpos apoptóticos.",
+    "skill": "Muerte Celular Programada",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Celular",
+    "subtopic": "Apoptosis y Caspasas"
+  },
+  {
+    "id": "bio-bac-8",
+    "sectionId": 7,
+    "number": 48,
+    "text": "¿Cuál es el principal neurotransmisor excitatorio del sistema nervioso central de los mamíferos?",
+    "options": [
+      "GABA (ácido gamma-aminobutírico)",
+      "Glutamato (o ácido glutámico)",
+      "Glicina",
+      "Dopamina inhibitoria"
+    ],
+    "correctIndex": 1,
+    "explanation": "El glutamato actúa sobre receptores ionotrópicos (AMPA, NMDA, kainato) despolarizando la membrana postsináptica mediante entrada de Na⁺ y Ca²⁺.",
+    "skill": "Neurotransmisión Sináptica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Neurobiología",
+    "subtopic": "Glutamato"
+  },
+  {
+    "id": "bio-bac-9",
+    "sectionId": 7,
+    "number": 49,
+    "text": "¿Qué tipo de aislamiento reproductivo precigótico ocurre cuando dos especies simpátricas se reproducen en diferentes estaciones del año o momentos del día?",
+    "options": [
+      "Aislamiento mecánico",
+      "Aislamiento temporal o estacional",
+      "Aislamiento etológico o conductual",
+      "Inviabilidad de los híbridos"
+    ],
+    "correctIndex": 1,
+    "explanation": "El aislamiento temporal impide el apareamiento al no coincidir los picos de fertilidad, floración o cortejo en el tiempo.",
+    "skill": "Especiación y Mecanismos de Aislamiento",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Evolución",
+    "subtopic": "Aislamiento Temporal"
+  },
+  {
+    "id": "bio-bac-10",
+    "sectionId": 7,
+    "number": 50,
+    "text": "¿Qué orgánulo celular contiene la enzima catalasa para descomponer el peróxido de hidrógeno tóxico (H₂O₂) en agua y oxígeno?",
+    "options": [
+      "El lisosoma primario",
+      "El peroxisoma",
+      "El centrosoma",
+      "El nucléolo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los peroxisomas participan en la beta-oxidación de ácidos grasos de cadena muy larga y metabolizan especies reactivas de oxígeno mediante catalasa: 2 H₂O₂ → 2 H₂O + O₂.",
+    "skill": "Orgánulos Peroxisomales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Citología",
+    "subtopic": "Peroxisomas y Catalasa"
+  },
+  {
+    "id": "bio-bac-11",
+    "sectionId": 7,
+    "number": 51,
+    "text": "¿Cuál es el efecto fisiológico principal de la hormona vegetal auxina (ácido indol-3-acético, AIA) en el fototropismo del tallo?",
+    "options": [
+      "Inhibir el crecimiento radicular",
+      "Migrar hacia el lado sombreado del tallo y estimular el alargamiento celular promoviendo la curvatura hacia la fuente de luz",
+      "Inducir la abscisión inmediata de frutos",
+      "Cerrar los estomas en sequía"
+    ],
+    "correctIndex": 1,
+    "explanation": "Según la teoría de Went y Cholodny, las auxinas se redistribuyen al lado no iluminado activando bombas de protones que ablandan la pared celular (crecimiento ácido).",
+    "skill": "Fitohormonas y Tropismos Vegetales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Vegetal",
+    "subtopic": "Auxinas y Fototropismo"
+  },
+  {
+    "id": "bio-bac-12",
+    "sectionId": 7,
+    "number": 52,
+    "text": "¿Qué estructura especializada de la nefrona yuxtamedular permite establecer el gradiente osmótico medular hiperosmótico mediante un mecanismo de contracorriente?",
+    "options": [
+      "La cápsula de Bowman",
+      "El Asa de Henle",
+      "El túbulo contorneado proximal",
+      "El glomérulo de Malpighi"
+    ],
+    "correctIndex": 1,
+    "explanation": "La rama descendente permeable al agua y la rama ascendente impermeable al agua pero con transporte activo de Na⁺/K⁺/2Cl⁻ multiplican el gradiente osmótico medular hasta 1200 mOsm/L.",
+    "skill": "Fisiología Renal y Concentración de Orina",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Aparato Renal",
+    "subtopic": "Asa de Henle y Multiplicación por Contracorriente"
+  },
+  {
+    "id": "bio-bac-13",
+    "sectionId": 7,
+    "number": 53,
+    "text": "¿Qué enzima retroviral transcribe el genoma de ARN vírico de cadena positiva a una doble hebra de ADN provírico complementario?",
+    "options": [
+      "ARN polimerasa II",
+      "Transcriptasa inversa (ADN polimerasa dependiente de ARN)",
+      "Integrasa",
+      "Endonucleasa Cas9"
+    ],
+    "correctIndex": 1,
+    "explanation": "La transcriptasa inversa del VIH sintetiza ADNc a partir del ARN vírico, incorporándolo posteriormente al genoma de la célula huésped mediante la integrasa.",
+    "skill": "Virología Molecular y Retrovirus",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Microbiología",
+    "subtopic": "Transcriptasa Inversa"
+  },
+  {
+    "id": "bio-bac-14",
+    "sectionId": 7,
+    "number": 54,
+    "text": "¿Cuál es la función del surfactante pulmonar secretado por los neumocitos tipo II en los alvéolos humanos?",
+    "options": [
+      "Facilitar la entrada de monóxido de carbono",
+      "Reducir la tensión superficial alveolar impidiendo el colapso pulmonar (atelectasia) al final de la espiración",
+      "Producir moco espeso bactericida",
+      "Oxigenar directamente el plasma"
+    ],
+    "correctIndex": 1,
+    "explanation": "El surfactante (rico en dipalmitoilfosfatidilcolina) disminuye la tensión superficial en la interfaz aire-líquido alveolar según la ley de Laplace (P = 2T/r).",
+    "skill": "Fisiología Pulmonar y Surfactante",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Humana",
+    "subtopic": "Surfactante Alveolar"
+  },
+  {
+    "id": "bio-bac-15",
+    "sectionId": 7,
+    "number": 55,
+    "text": "¿Cómo se denomina la técnica biotecnológica de edición genómica precisa basada en un ARN guía y una endonucleasa bacteriana descubierta por Charpentier y Doudna?",
+    "options": [
+      "Microarrays de ADN",
+      "CRISPR-Cas9",
+      "Secuenciación de Sanger",
+      "Southern blot"
+    ],
+    "correctIndex": 1,
+    "explanation": "CRISPR-Cas9 permite cortar secuencias diana de ADN especificadas por un ARN guía de 20 nucleótidos, permitiendo la deleción, corrección o inserción precisa de genes.",
+    "skill": "Biotecnología y Edición Genética CRISPR",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biotecnología Molecular",
+    "subtopic": "Sistema CRISPR-Cas9"
+  },
+  {
+    "id": "bio-bac-16",
+    "sectionId": 7,
+    "number": 56,
+    "text": "¿Qué ley de la ecología formulada por Justus von Liebig establece que el crecimiento y rendimiento de las plantas no está determinado por los recursos abundantes sino por el recurso esencial más escaso?",
+    "options": [
+      "Ley del diezmo ecológico",
+      "Ley del Mínimo de Liebig",
+      "Ley de tolerancia de Shelford",
+      "Principio de Gause"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Ley del Mínimo ilustrada con el barril de Liebig demuestra que el nutriente más deficiente actúa como factor limitante del desarrollo biológico.",
+    "skill": "Ecología Teórica y Factores Limitantes",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ecología",
+    "subtopic": "Ley del Mínimo de Liebig"
+  },
+  {
+    "id": "bio-bac-17",
+    "sectionId": 7,
+    "number": 57,
+    "text": "¿Qué tipo de células inmunitarias fagocíticas tisulares derivan de los monocitos circulantes en sangre y actúan como células presentadoras de antígeno profesionales?",
+    "options": [
+      "Eritrocitos maduros",
+      "Macrófagos",
+      "Células cebadas basófilas",
+      "Plaquetas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los macrófagos fagocitan restos celulares y patógenos, procesando fragmentos peptídicos que presentan en moléculas MHC-II a linfocitos T cooperadores CD4⁺.",
+    "skill": "Inmunología Celular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sistema Inmunitario",
+    "subtopic": "Macrófagos y Presentación Antigénica"
+  },
+  {
+    "id": "bio-bac-18",
+    "sectionId": 7,
+    "number": 58,
+    "text": "¿Cuál es el destino metabólico del piruvato en el citosol en condiciones anaeróbicas en las células musculares esqueléticas humanas durante ejercicio extenuante?",
+    "options": [
+      "Oxidación a Acetil-CoA en mitocondrias",
+      "Fermentación láctica reduciéndose a lactato por la enzima lactato deshidrogenasa (LDH)",
+      "Conversión en etanol y CO₂",
+      "Polimerización en celulosa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La reducción de piruvato a lactato por la LDH regenera NAD⁺ a partir de NADH, permitiendo que la glucólisis continúe produciendo 2 ATP por glucosa.",
+    "skill": "Metabolismo Anaeróbico y Fermentación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioquímica Celular",
+    "subtopic": "Fermentación Láctica"
+  },
+  {
+    "id": "bio-bac-19",
+    "sectionId": 7,
+    "number": 59,
+    "text": "¿Qué región heterocromática terminal de los cromosomas lineales eucariotas protege los extremos del ADN contra la degradación y acortamiento replicativo en cada división celular?",
+    "options": [
+      "El centrómero acrocéntrico",
+      "El telómero",
+      "El cinetocoro interno",
+      "El locus promotor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los telómeros están compuestos por repeticiones en tándem no codificantes (TTAGGG en vertebrados) y un complejo proteico shelterina, acortándose con el envejecimiento celular.",
+    "skill": "Citogenética Molecular y Telómeros",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética",
+    "subtopic": "Telómeros y Envejecimiento Celular"
+  },
+  {
+    "id": "bio-bac-20",
+    "sectionId": 7,
+    "number": 60,
+    "text": "¿Qué tipo de enlace covalente estabiliza la estructura terciaria de muchas proteínas secretadas uniendo covalentemente dos residuos de cisteína distantes en la cadena polipeptídica?",
+    "options": [
+      "Enlace peptídico amida",
+      "Puente disulfuro (-S-S-)",
+      "Enlace éster fosfórico",
+      "Interacción hidrofóbica apolar"
+    ],
+    "correctIndex": 1,
+    "explanation": "La oxidación de dos grupos tiol (-SH) de residuos de cisteína forma un puente disulfuro covalente que estabiliza el plegamiento nativo frente a la desnaturalización.",
+    "skill": "Estructura Terciaria de Proteínas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioquímica Estructural",
+    "subtopic": "Puentes Disulfuro"
+  },
+  {
+    "id": "bio-bac-21",
+    "sectionId": 7,
+    "number": 21,
+    "text": "En la glucólisis citoplásmica, ¿cuál es la ganancia neta de moléculas de ATP por cada molécula de glucosa que se oxida a dos moléculas de piruvato mediante fosforilación a nivel de sustrato?",
+    "options": [
+      "4 ATP netos",
+      "32 ATP netos",
+      "0 ATP netos",
+      "2 ATP netos (se invierten 2 ATP y se generan 4 ATP)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La glucólisis invierte 2 ATP en la fase de activación (hexoquinasa y PFK-1) y sintetiza 4 ATP en la fase de rendimiento (fosfoglicerato quinasa y piruvato quinasa), rindiendo 2 ATP netos y 2 NADH.",
+    "skill": "Bioenergética Celular y Glucólisis",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respiración Celular",
+    "subtopic": "Balance de la Glucólisis"
+  },
+  {
+    "id": "bio-bac-22",
+    "sectionId": 7,
+    "number": 22,
+    "text": "¿Qué modelo propusieron François Jacob y Jacques Monod en 1961 para explicar la regulación génica transcripcional inducida por lactosa en Escherichia coli?",
+    "options": [
+      "La hipótesis del dogma central irreversible",
+      "El modelo de replicación dispersiva del ADN",
+      "El modelo del operón bacteriano inducible (Operón lac)",
+      "El modelo del mosaico fluido bicapa"
+    ],
+    "correctIndex": 2,
+    "explanation": "El operón lac consta de un gen regulador lacI, promotor, operador y genes estructurales lacZ, lacY y lacA regulados por represión transcripcional alostérica sensible a alolactosa.",
+    "skill": "Regulación de la Expresión Génica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética Molecular Procariota",
+    "subtopic": "Operón Lac"
+  },
+  {
+    "id": "bio-bac-23",
+    "sectionId": 7,
+    "number": 23,
+    "text": "¿Cuál es el tipo de mutación génica puntual en la cual la sustitución de una base nitrogenada convierte un codón codificante en un codón de parada prematuro (UAA, UAG o UGA)?",
+    "options": [
+      "Mutación por desfase de lectura (frameshift)",
+      "Mutación sin sentido (nonsense)",
+      "Mutación con cambio de sentido (missense)",
+      "Mutación silenciosa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una mutación sin sentido introduce prematuramente un codón de terminación provocando la liberación temprana del polipéptido incompleto por los factores de liberación ribosómicos.",
+    "skill": "Mutaciones Moleculares",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Código Genético y Mutaciones",
+    "subtopic": "Mutaciones Sin Sentido"
+  },
+  {
+    "id": "bio-bac-24",
+    "sectionId": 7,
+    "number": 24,
+    "text": "En ecología evolutiva de poblaciones, ¿qué características reproductivas y demográficas definen a las especies con estrategia de historia de vida tipo 'K'?",
+    "options": [
+      "Baja fecundidad, madurez sexual tardía, alta inversión y cuidado parental, y poblaciones estables cerca de la capacidad de carga",
+      "Altísima tasa de natalidad, madurez precoz, ciclo de vida efímero y ausencia total de cuidado parental",
+      "Capacidad de reproducción exclusiva por partenogénesis facultativa",
+      "Poblaciones sin límite alguno de crecimiento exponencial infinito"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los estrategas K (como grandes cetáceos, elefantes y primates) evolucionan en ambientes estables y competitivos optimizando la supervivencia individual de pocas crías.",
+    "skill": "Estrategias Demográficas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ecología de Poblaciones",
+    "subtopic": "Estrategas r y K"
+  },
+  {
+    "id": "bio-bac-25",
+    "sectionId": 7,
+    "number": 25,
+    "text": "¿Qué células del sistema inmunitario innato son las primeras en migrar masivamente por diapédesis quimiotáctica hacia un foco infeccioso agudo para fagocitar bacterias y liberar trampas extracelulares (NETs)?",
+    "options": [
+      "Linfocitos T colaboradores CD4+",
+      "Linfocitos B foliculares",
+      "Células plasmáticas secretoras de IgG",
+      "Neutrófilos polimorfonucleares"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los neutrófilos constituyen el 60-70% de los leucocitos sanguíneos y representan la primera línea celular de defensa innata en la inflamación purulenta aguda.",
+    "skill": "Inmunidad Innata y Fagocitosis",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sistema Inmunitario",
+    "subtopic": "Neutrófilos y Fagocitosis"
+  },
+  {
+    "id": "bio-bac-26",
+    "sectionId": 7,
+    "number": 26,
+    "text": "¿Cómo se llama el proceso evolutivo por el cual dos linajes filogenéticamente distantes desarrollan de forma independiente estructuras análogas similares ante presiones selectivas ambientales afines (como las alas de murciélagos y aves)?",
+    "options": [
+      "Coevolución predador-presa",
+      "Deriva génica estocástica",
+      "Evolución convergente",
+      "Evolución divergente (radiación adaptativa)"
+    ],
+    "correctIndex": 2,
+    "explanation": "La convergencia evolutiva genera órganos análogos (con similar función y forma pero distinto origen embriológico y genético) debido a adaptaciones independientes al mismo nicho.",
+    "skill": "Patrones Evolutivos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Evolución",
+    "subtopic": "Evolución Convergente"
+  },
+  {
+    "id": "bio-bac-27",
+    "sectionId": 7,
+    "number": 27,
+    "text": "¿Qué hormona peptídica secretada por las células alfa de los islotes de Langerhans estimula la glucogenólisis y gluconeogénesis hepática para elevar la glucemia en estado de ayuno?",
+    "options": [
+      "El polipéptido pancreático",
+      "El glucagón",
+      "La insulina",
+      "La somatostatina"
+    ],
+    "correctIndex": 1,
+    "explanation": "El glucagón se une a receptores acoplados a proteína Gs en hepatocitos, activando adenilato ciclasa y PKA para liberar glucosa libre a partir de glucógeno almacenado.",
+    "skill": "Homeostasis de la Glucemia",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Endocrinología Metabólica",
+    "subtopic": "Glucagón y Gluconeogénesis"
+  },
+  {
+    "id": "bio-bac-28",
+    "sectionId": 7,
+    "number": 28,
+    "text": "¿En qué consiste la distinción matemática y conceptual formulada por G. Evelyn Hutchinson entre nicho ecológico fundamental y nicho realizado?",
+    "options": [
+      "El nicho fundamental es el hipervolumen total de condiciones fisiológicamente tolerables por la especie, mientras el nicho realizado es la porción reducida que ocupa realmente debido a competencia y depredación",
+      "El nicho fundamental solo se aplica a plantas acuáticas y el realizado a animales terrestres",
+      "El nicho fundamental describe el hábitat geográfico y el realizado la dieta trófica",
+      "Ambos términos son sinónimos absolutos de bioma biogeográfico"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hutchinson definió el nicho como un hipervolumen multidimensional n-dimensional. Las presiones bióticas negativas (competencia interespecífica de Gause) reducen el nicho potencial al nicho efectivamente explotado.",
+    "skill": "Teoría del Nicho Ecológico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ecología de Comunidades",
+    "subtopic": "Nicho Fundamental y Realizado"
+  },
+  {
+    "id": "bio-bac-29",
+    "sectionId": 7,
+    "number": 29,
+    "text": "¿Qué enzima vírica exclusiva de los retrovirus (como el VIH) cataliza la síntesis de una molécula de ADN bicatenario a partir de un molde genómico de ARN de cadena simple?",
+    "options": [
+      "La ARN replicasa vírica",
+      "La integrasa recombinante",
+      "La neuraminidasa de envoltura",
+      "La transcriptasa inversa (retrotranscriptasa)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La transcriptasa inversa posee actividad ADN polimerasa dependiente de ARN, ARNasa H que degrada la hebra molde de ARN y ADN polimerasa dependiente de ADN para formar el ADN provírico dúplex.",
+    "skill": "Virología Molecular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Virus y Retrovirus",
+    "subtopic": "Transcriptasa Inversa del VIH"
+  },
+  {
+    "id": "bio-bac-30",
+    "sectionId": 7,
+    "number": 30,
+    "text": "¿Qué tipo de enlace químico une al grupo alfa-carboxilo de un aminoácido con el grupo alfa-amino del siguiente aminoácido con liberación de una molécula de agua durante la síntesis peptídica?",
+    "options": [
+      "Enlace glucosídico alfa-1,4",
+      "Puente disulfuro cisteínico",
+      "Enlace peptídico amida",
+      "Enlace fosfodiéster"
+    ],
+    "correctIndex": 2,
+    "explanation": "El enlace peptídico es un enlace covalente amida planar y rígido debido a su carácter parcial de doble enlace por resonancia electrónica entre el oxígeno carbonílico y el nitrógeno.",
+    "skill": "Química de Péptidos y Proteínas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioquímica Estructural",
+    "subtopic": "Enlace Peptídico"
+  },
+  {
+    "id": "bio-bac-31",
+    "sectionId": 7,
+    "number": 31,
+    "text": "En la fosforilación oxidativa mitocondrial, ¿cuál es el aceptor final de electrones en la cadena respiratoria que se reduce catalíticamente por el complejo IV (citocromo c oxidasa)?",
+    "options": [
+      "El sulfato inorgánico",
+      "El oxígeno molecular (O₂), que se reduce a agua (H₂O)",
+      "El NAD⁺ citosólico",
+      "El piruvato mitocondrial"
+    ],
+    "correctIndex": 1,
+    "explanation": "El complejo IV transfiere cuatro electrones desde el citocromo c reducido al O₂, captando cuatro protones matriciales para sintetizar dos moléculas de agua líquida.",
+    "skill": "Cadena de Transporte de Electrones",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respiración Celular",
+    "subtopic": "Aceptor Final de Electrones y Complejo IV"
+  },
+  {
+    "id": "bio-bac-32",
+    "sectionId": 7,
+    "number": 32,
+    "text": "¿Qué postula la teoría quimiosmótica propuesta por Peter Mitchell en 1961 para explicar la síntesis de ATP en mitocondrias y cloroplastos?",
+    "options": [
+      "El bombeo de protones a través de la membrana interna genera un gradiente electroquímico cuya fuerza protón-motriz impulsa la síntesis de ATP mediante la ATP sintasa rotatoria",
+      "El ATP se sintetiza únicamente por colisión térmica entre ADP y fosfato libre sin mediación de membranas",
+      "Las crestas mitocondriales absorben fotones de luz azul para condensar nucleótidos",
+      "Los electrones atraviesan directamente el canal catalítico de la ATP sintasa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mitchell postuló que los complejos I, III y IV bombean protones al espacio intermembrana, creando una diferencia de potencial eléctrico (ΔΨ) y de pH (ΔpH) que impulsa el rotor F₀F₁ de la ATP sintasa.",
+    "skill": "Teoría Quimiosmótica de Mitchell",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioenergética Mitocondrial",
+    "subtopic": "Gradiente Electroquímico de Protones"
+  },
+  {
+    "id": "bio-bac-33",
+    "sectionId": 7,
+    "number": 33,
+    "text": "¿Qué enzima estromal cataliza la fijación inicial de una molécula de CO₂ atmosférico a la ribulosa-1,5-bisfosfato (RuBP) durante el ciclo de Calvin-Benson en plantas C3?",
+    "options": [
+      "Fosfoenolpiruvato carboxilasa (PEP carboxilasa)",
+      "Anhidrasa carbónica estromal",
+      "Gliceraldehído-3-fosfato deshidrogenasa",
+      "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa/oxigenasa)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La enzima RuBisCO es la proteína más abundante de la biosfera terrestre y cataliza la adición de CO₂ a la pentosa RuBP para formar un intermediario inestable de 6 carbonos que se disocia en dos moléculas de 3-fosfoglicerato.",
+    "skill": "Fisiología Fotosintética y Fijación de CO₂",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fotosíntesis",
+    "subtopic": "Enzima RuBisCO y Ciclo de Calvin"
+  },
+  {
+    "id": "bio-bac-34",
+    "sectionId": 7,
+    "number": 34,
+    "text": "¿Qué adaptación anatómica y metabólica presentan las plantas con vía fotosintética C4 (como el maíz y la caña de azúcar) para evitar las pérdidas de carbono causadas por la fotorrespiración?",
+    "options": [
+      "Ausencia total de cloroplastos en las células del haz vascular",
+      "Dependencia exclusiva de la fotosíntesis anoxigénica bacteriana",
+      "Anatomía foliar tipo Kranz (en corona) y fijación inicial de CO₂ por PEP carboxilasa en células del mesófilo antes de transferir malato a la vaina fascicular",
+      "Apertura nocturna de estomas con acumulación de ácido málico vacuolar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Las plantas C4 segregan espacialmente la fijación inicial (PEP carboxilasa, que no tiene afinidad por O₂) en el mesófilo y el ciclo de Calvin en la vaina del haz vascular donde concentran CO₂ alrededor de RuBisCO.",
+    "skill": "Vías Fotosintéticas C3 y C4",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Adaptaciones Fotosintéticas",
+    "subtopic": "Fotosíntesis C4 y Anatomía de Kranz"
+  },
+  {
+    "id": "bio-bac-35",
+    "sectionId": 7,
+    "number": 35,
+    "text": "¿Qué modificación postranscripcional protege al extremo 5' del ARN mensajero eucariota contra la degradación por exonucleasas y facilita su reconocimiento por los ribosomas durante la iniciación de la traducción?",
+    "options": [
+      "La metilación de intrones autocatalíticos",
+      "El capuchón o caperuza de 7-metilguanosina (Cap 5')",
+      "La cola de poliadenilación de 200 residuos de adenina",
+      "El corte de secuencias promotoras TATA"
+    ],
+    "correctIndex": 1,
+    "explanation": "El cap 5' es una 7-metilguanosina unida mediante un enlace trifosfato 5'-5' invertido que se añade co-transcripcionalmente en el núcleo, permitiendo la unión del complejo eIF4E del ribosoma.",
+    "skill": "Procesamiento del ARNm Eucariota",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Molecular Eucariota",
+    "subtopic": "Capping 5' del ARNm"
+  },
+  {
+    "id": "bio-bac-36",
+    "sectionId": 7,
+    "number": 36,
+    "text": "¿Qué postula la Ley de Hardy-Weinberg sobre las frecuencias alélicas y genotípicas en una población mendeliana ideal en equilibrio evolutivo?",
+    "options": [
+      "Las frecuencias alélicas (p + q = 1) y genotípicas (p² + 2pq + q² = 1) permanecen constantes de generación en generación en ausencia de mutación, selección, migración y deriva genética",
+      "Los alelos dominantes siempre terminan sustituyendo a los recesivos hasta fijarse al 100%",
+      "La variabilidad genética se duplica en cada ronda de apareamiento no aleatorio",
+      "Las poblaciones pequeñas evolucionan más lentamente que las poblaciones infinitas"
+    ],
+    "correctIndex": 0,
+    "explanation": "El equilibrio de Hardy-Weinberg establece el modelo nulo poblacional: en una población panmíctica e infinitamente grande sin fuerzas evolutivas, las frecuencias alélicas y genotípicas no cambian.",
+    "skill": "Genética de Poblaciones Cuantitativa",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Equilibrio de Hardy-Weinberg",
+    "subtopic": "Fórmulas de Hardy-Weinberg"
+  },
+  {
+    "id": "bio-bac-37",
+    "sectionId": 7,
+    "number": 37,
+    "text": "¿Cuál es el mecanismo de acción de la hormona antidiurética (ADH o vasopresina) en las células principales de los túbulos colectores renales?",
+    "options": [
+      "Bloquear la filtración glomerular mediante vasoconstricción masiva de la arteriola aferente",
+      "Excretar activamente potasio e hidrógeno a la luz tubular",
+      "Inhibir la captación de glucosa en el túbulo proximal",
+      "Estimular la inserción de canales de acuaporina-2 (AQP2) en la membrana apical aumentando la reabsorción de agua libre"
+    ],
+    "correctIndex": 3,
+    "explanation": "La ADH se une a receptores V2 activando la vía cAMP-PKA, lo que promueve la exocitosis de vesículas intracelulares con canales de acuaporina-2 hacia la membrana luminal.",
+    "skill": "Fisiología Renal y Equilibrio Hídrico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Endocrinología Renal",
+    "subtopic": "ADH y Acuaporinas"
+  },
+  {
+    "id": "bio-bac-38",
+    "sectionId": 7,
+    "number": 38,
+    "text": "¿Qué suceso endocrino desencadena directamente la rotura del folículo de Graaf maduro y la ovulación en el día 14 de un ciclo ovárico femenino estándar de 28 días?",
+    "options": [
+      "El aumento continuo de la prolactina",
+      "La elevación de la hormona del crecimiento",
+      "El pico plasmático masivo de la hormona luteinizante (LH)",
+      "La caída abrupta de los estrógenos a cero"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los niveles sostenidos de estradiol producidos por el folículo dominante ejercen retroalimentación positiva sobre la hipófisis anterior provocando el pico preovulatorio de LH 24-36 horas antes de la ovulación.",
+    "skill": "Fisiología del Ciclo Ovárico y Menstrual",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Reproducción Humana",
+    "subtopic": "Pico de LH y Ovulación"
+  },
+  {
+    "id": "bio-bac-39",
+    "sectionId": 7,
+    "number": 39,
+    "text": "¿Cuál es el papel del complejo enzimático espliceosoma en el procesamiento y maduración de los precursores de ARN mensajero?",
+    "options": [
+      "Ensamblar la cápside proteica de los viriones",
+      "Reconocer las secuencias consenso 5' GU y 3' AG para clivar y remover los intrones y unir los exones codificantes",
+      "Fosforilar las colas de las histonas en los nucleosomas",
+      "Transcribir el ADN a ARN ribosomal"
+    ],
+    "correctIndex": 1,
+    "explanation": "El espliceosoma está formado por ribonucleoproteínas pequeñas nucleares (snRNP U1, U2, U4, U5, U6) que forman la estructura de lazo (lariat) con el intrón y ligan los exones contiguos.",
+    "skill": "Mecanismo de Corte y Empalme",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Procesamiento de ARN",
+    "subtopic": "Espliceosoma y Secuencias Consenso"
+  },
+  {
+    "id": "bio-bac-40",
+    "sectionId": 7,
+    "number": 40,
+    "text": "¿Qué modo de especiación biológica ocurre cuando una barrera geográfica física extrínseca (como una cordillera o un río caudaloso) subdivide una población continua ancestral en dos subpoblaciones aisladas?",
+    "options": [
+      "Especiación alopátrica (o vicariante)",
+      "Especiación simpátrica",
+      "Especiación por poliploidía súbita",
+      "Especiación cuántica por hibridación"
+    ],
+    "correctIndex": 0,
+    "explanation": "La vicarianza alopátrica interrumpe el flujo génico entre las poblaciones aisladas geográficamente; la acumulación independiente de mutaciones y presiones selectivas divergentes culmina en incompatibilidad reproductiva.",
+    "skill": "Mecanismos Macroevolutivos de Especiación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Especiación",
+    "subtopic": "Especiación Alopátrica"
+  },
+  {
+    "id": "bio-bac-41",
+    "sectionId": 7,
+    "number": 41,
+    "text": "¿Qué tipo de bacterias anaerobias facultativas o aerobias transforman el nitrato (NO₃⁻) del suelo en gas nitrógeno molecular (N₂) que se libera a la atmósfera completando el ciclo del nitrógeno?",
+    "options": [
+      "Bacterias nitrificantes Nitrosomonas",
+      "Rizobios simbióticos fijadores",
+      "Cianobacterias con heterocistos",
+      "Bacterias desnitrificantes (como géneros Pseudomonas y Paracoccus)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La desnitrificación es una respiración anaerobia en la cual el nitrato actúa como aceptor final de electrones, reduciéndose sucesivamente a NO₂⁻, NO, N₂O y finalmente N₂ gas.",
+    "skill": "Ciclos Biogeoquímicos Globales",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ciclo del Nitrógeno",
+    "subtopic": "Desnitrificación Bacteriana"
+  },
+  {
+    "id": "bio-bac-42",
+    "sectionId": 7,
+    "number": 42,
+    "text": "¿Qué principio inmunológico fundamental formulado por Macfarlane Burnet explica cómo antígenos foráneos activan y seleccionan clones preexistentes específicos de linfocitos que expresan receptores únicos?",
+    "options": [
+      "Hipótesis del mimetismo molecular",
+      "Modelo del peligro tisular de Matzinger",
+      "Teoría de la selección clonal",
+      "Teoría de la tolerancia central negativa"
+    ],
+    "correctIndex": 2,
+    "explanation": "La teoría de la selección clonal postula que cada linfocito porta una única especificidad de receptor generada al azar antes del contacto con el antígeno; la unión antigénica estimula la proliferación y diferenciación de dicho clon específico.",
+    "skill": "Inmunología Teórica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Inmunidad Adaptativa",
+    "subtopic": "Teoría de la Selección Clonal"
+  },
+  {
+    "id": "bio-bac-43",
+    "sectionId": 7,
+    "number": 43,
+    "text": "¿Cuál es la función fisiológica principal de la enzima anhidrasa carbónica presente en gran abundancia dentro de los glóbulos rojos?",
+    "options": [
+      "Transportar glucosa a través de la membrana eritrocitaria",
+      "Catalizar la hidratación reversible del CO₂ para formar ácido carbónico (CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻)",
+      "Reducir el oxígeno molecular a radicales superóxido",
+      "Escindir las cadenas de globina de la hemoglobina"
+    ],
+    "correctIndex": 1,
+    "explanation": "La anhidrasa carbónica acelera hasta un millón de veces la interconversión de CO₂ y bicarbonato, permitiendo que el 70% del CO₂ metabólico viaje disuelto en plasma como anión bicarbonato.",
+    "skill": "Fisiología del Transporte de Gases",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respiración y Transporte de CO₂",
+    "subtopic": "Anhidrasa Carbónica y Bicarbonato"
+  },
+  {
+    "id": "bio-bac-44",
+    "sectionId": 7,
+    "number": 44,
+    "text": "¿Qué estructura citosólica macromolecular en forma de barril degrada proteínas celulares dañadas o innecesarias marcadas previamente con cadenas de poliubiquitina?",
+    "options": [
+      "El proteasoma 26S",
+      "El ribosoma 80S",
+      "El peroxisoma catalítico",
+      "El fagosoma primario"
+    ],
+    "correctIndex": 0,
+    "explanation": "La vía de ubiquitinación-proteasoma es el principal sistema no lisosomal de degradación proteica regulada en eucariotas, esencial para el control del ciclo celular y la proteostasis.",
+    "skill": "Recambio y Degradación Proteica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Celular Molecular",
+    "subtopic": "Proteasoma y Vía de Ubiquitina"
+  },
+  {
+    "id": "bio-bac-45",
+    "sectionId": 7,
+    "number": 45,
+    "text": "En el ciclo cardíaco de un adulto sano en reposo, ¿qué fenómeno hemodinámico produce el primer ruido cardíaco (R1 o 'lub') auscultado con el estetoscopio?",
+    "options": [
+      "El cierre brusco de las válvulas semilunares aórtica y pulmonar al final de la sístole",
+      "El llenado ventricular rápido diastólico",
+      "La contracción auricular telediastólica",
+      "El cierre sincrónico de las válvulas auriculoventriculares (mitral y tricúspide) al inicio de la sístole ventricular"
+    ],
+    "correctIndex": 3,
+    "explanation": "R1 marca el comienzo de la contracción isovolumétrica ventricular cuando el aumento de presión intracavitaria fuerza el cierre tenso de las valvas mitral y tricúspide.",
+    "skill": "Fisiología del Ciclo Cardíaco",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sistema Cardiovascular",
+    "subtopic": "Ruidos Cardíacos y Sístole"
+  },
+  {
+    "id": "bio-bac-46",
+    "sectionId": 7,
+    "number": 46,
+    "text": "¿Qué tipo de interacciones ecológicas interespecíficas describe el Principio de Exclusión Competitiva formulado experimentalmente por Georgii Gause con cultivos de Paramecium?",
+    "options": [
+      "El mutualismo entre protistas es obligatoriamente letal para otras bacterias",
+      "La tasa de crecimiento de las poblaciones depende únicamente de la temperatura ambiental",
+      "Dos especies que compiten exactamente por los mismos recursos limitantes en un nicho idéntico no pueden coexistir indefinidamente en equilibrio estable",
+      "Los depredadores siempre extinguen a todas las poblaciones de sus presas en ambientes abiertos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gause demostró que si dos especies tienen nichos ecológicos idénticos, la competidora más eficiente desplazará y excluirá a la otra hasta extinguirla localmente salvo que ocurra diferenciación de nichos.",
+    "skill": "Competencia Interespecífica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ecología de Comunidades",
+    "subtopic": "Principio de Exclusión de Gause"
+  },
+  {
+    "id": "bio-bac-47",
+    "sectionId": 7,
+    "number": 47,
+    "text": "¿Cuál es la función del complejo mayor de histocompatibilidad de clase I (MHC-I) en la vigilancia inmunitaria contra virus y células neoplásicas?",
+    "options": [
+      "Transportar moléculas de albúmina a través del endotelio vascular",
+      "Presentar péptidos antigénicos endógenos citosólicos en la superficie celular a los receptores TCR de linfocitos T citotóxicos CD8+",
+      "Capturar inmunoglobulinas libres en el torrente circulatorio",
+      "Degradar la cápside de las bacterias extracelulares mediante hidrolasas ácidas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Todas las células somáticas nucleadas expresan MHC-I presentando péptidos derivados de antígenos sintetizados internamente (virales o mutados), permitiendo que los linfocitos T CD8+ reconozcan y destruyan la célula infectada.",
+    "skill": "Inmunología Celular y Presentación de Antígenos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Inmunidad Celular",
+    "subtopic": "MHC Clase I y Linfocitos T CD8+"
+  },
+  {
+    "id": "bio-bac-48",
+    "sectionId": 7,
+    "number": 48,
+    "text": "¿Qué tipo de ARN polimerasa eucariota es la responsable directa de transcribir todos los genes codificantes de proteínas sintetizando precursores de ARN mensajero (pre-ARNm)?",
+    "options": [
+      "La ARN polimerasa II",
+      "La ARN polimerasa I",
+      "La ARN polimerasa III",
+      "La ARN polimerasa mitocondrial bacteriana"
+    ],
+    "correctIndex": 0,
+    "explanation": "En eucariotas, la ARN polimerasa I sintetiza ARNr grande (28S, 18S, 5.8S), la ARN polimerasa II transcribe genes codificantes de proteínas (ARNm) y snARN, y la ARN polimerasa III transcribe ARNt y ARNr 5S.",
+    "skill": "Transcripción Eucariota",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Molecular",
+    "subtopic": "Tipos de ARN Polimerasas Eucariotas"
+  },
+  {
+    "id": "bio-bac-49",
+    "sectionId": 7,
+    "number": 49,
+    "text": "¿Qué estructura anatómica del feto humano comunica directamente la arteria pulmonar con la aorta descendente desviando la mayor parte del flujo sanguíneo lejos de los pulmones no expandidos?",
+    "options": [
+      "El foramen oval interauricular",
+      "El conducto venoso de Arancio",
+      "Las arterias umbilicales",
+      "El conducto arterioso (ductus arteriosus)"
+    ],
+    "correctIndex": 3,
+    "explanation": "El ductus arteriosus desvía sangre oxigenada del tronco pulmonar a la aorta sistémica durante la vida intrauterina debido a la altísima resistencia vascular pulmonar; al nacer se oblitera formando el ligamento arterioso.",
+    "skill": "Embriología y Circulación Fetal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Circulación Fetal",
+    "subtopic": "Conducto Arterioso"
+  },
+  {
+    "id": "bio-bac-50",
+    "sectionId": 7,
+    "number": 50,
+    "text": "¿Qué vitamina hidrosoluble forma el coenzima FAD (flavín adenín dinucleótido), transportador esencial de electrones en el ciclo de Krebs y la beta-oxidación de ácidos grasos?",
+    "options": [
+      "Vitamina B3 (niacina)",
+      "Vitamina B6 (piridoxina)",
+      "Vitamina B2 (riboflavina)",
+      "Vitamina B1 (tiamina)"
+    ],
+    "correctIndex": 2,
+    "explanation": "La riboflavina es precursora de FMN y FAD, grupos prostéticos redox que transfieren dos protones y dos electrones (reduciéndose a FADH₂) en deshidrogenasas como la succinato deshidrogenasa.",
+    "skill": "Cofactores Enzimáticos y Vitaminas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bioquímica Metabólica",
+    "subtopic": "Coenzima FAD y Riboflavina"
+  },
+  {
+    "id": "bio-bac-51",
+    "sectionId": 7,
+    "number": 51,
+    "text": "¿Qué estructura de la corteza suprarrenal secreta la aldosterona que estimula la reabsorción distal de sodio y la excreción urinaria de potasio?",
+    "options": [
+      "La médula adrenal",
+      "La zona glomerular",
+      "La zona reticular",
+      "La zona fasciculada"
+    ],
+    "correctIndex": 1,
+    "explanation": "La zona glomerular es la capa más externa de la corteza suprarrenal y expresa la enzima aldosterona sintasa para producir mineralocorticoides regulados por angiotensina II y potasio.",
+    "skill": "Fisiología de Mineralocorticoides",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Glándulas Suprarrenales",
+    "subtopic": "Zona Glomerular y Aldosterona"
+  },
+  {
+    "id": "bio-bac-52",
+    "sectionId": 7,
+    "number": 52,
+    "text": "¿Qué postula la hipótesis del mundo de ARN sobre la etapa inicial de la abiogénesis y evolución química prebiótica de la vida en la Tierra primitiva?",
+    "options": [
+      "Las moléculas de ARN precedieron al ADN y a las proteínas al poseer simultáneamente capacidad de almacenar información genética y actividad catalítica ribozímica propia",
+      "Las proteínas complejas se autoensamblaron en el vacío interestelar antes de la formación de cualquier ácido nucleico",
+      "El ADN bicatenario surgió como el primer polímero catalítico en fumarolas volcánicas",
+      "Los lípidos esteroideos fueron los primeros portadores del código de tripletes de nucleótidos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La dualidad funcional del ARN (capaz de autorreplicarse y catalizar reacciones químicas de unión peptídica) resuelve la paradoja del 'huevo o la gallina' entre ácidos nucleicos y enzimas proteicas.",
+    "skill": "Evolución Química y Origen de la Vida",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Origen de la Vida",
+    "subtopic": "Hipótesis del Mundo de ARN"
+  },
+  {
+    "id": "bio-bac-53",
+    "sectionId": 7,
+    "number": 53,
+    "text": "¿Cuál es la función primordial de la enzima telomerasa en células madre, células de la línea germinal y la mayoría de células cancerosas?",
+    "options": [
+      "Degradar los dímeros de timina causados por radiación UV",
+      "Metilar las citosinas de islas CpG silenciando oncogenes",
+      "Clivar los enlaces fosfodiéster de intrones en el pre-ARNm",
+      "Extender los extremos teloméricos de los cromosomas lineales mediante transcripción reversa a partir de un molde interno de ARN"
+    ],
+    "correctIndex": 3,
+    "explanation": "La telomerasa es una ribonucleoproteína con actividad transcriptasa inversa (TERT) que compensa el acortamiento por el 'problema de la replicación del extremo terminal' en cromosomas eucariotas lineales.",
+    "skill": "Genética Molecular y Telómeros",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Replicación Cromosómica",
+    "subtopic": "Telomerasa y Senescencia Celular"
+  },
+  {
+    "id": "bio-bac-54",
+    "sectionId": 7,
+    "number": 54,
+    "text": "¿Qué segmento de los vasos sanguíneos periféricos ejerce la mayor resistencia vascular al flujo sanguíneo regulando directamente la presión arterial sistólica y diastólica mediante tono vasomotor?",
+    "options": [
+      "Las venas cavas",
+      "Los capilares continuos",
+      "Las arteriolas",
+      "Las grandes arterias elásticas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Las arteriolas poseen gruesas capas de músculo liso inervadas por el sistema simpático; según la ley de Poiseuille (R ∝ 1/r⁴), pequeñas variaciones de su radio modulan drásticamente la resistencia periférica total (RPT).",
+    "skill": "Hemodinámica y Control de Presión Arterial",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Cardiovascular",
+    "subtopic": "Arteriolas y Resistencia Periférica"
+  },
+  {
+    "id": "bio-bac-55",
+    "sectionId": 7,
+    "number": 55,
+    "text": "¿Qué clase de fitohormonas sintetizadas en los meristemos apicales promueven el alargamiento celular en el lado sombreado del tallo provocando el fototropismo positivo?",
+    "options": [
+      "Los brasinosteroides",
+      "Las auxinas (ácido indol-3-acético o AIA)",
+      "Las citocininas",
+      "El ácido abscísico"
+    ],
+    "correctIndex": 1,
+    "explanation": "El transporte polar lateral de auxinas hacia el lado no iluminado del tallo activa bombas de protones que acidifican la pared celular (hipótesis del crecimiento ácido), aflojándola y permitiendo turgencia expansiva.",
+    "skill": "Fototropismo y Crecimiento Vegetal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Vegetal",
+    "subtopic": "Auxinas y Fototropismo"
+  },
+  {
+    "id": "bio-bac-56",
+    "sectionId": 7,
+    "number": 56,
+    "text": "¿Cuál es el mecanismo fisiopatológico por el cual la toxina del cólera (producida por Vibrio cholerae) provoca diarrea acuosa masiva potencialmente letal?",
+    "options": [
+      "Bloquea la actividad GTPasa de la subunidad Gαs manteniendo constitutivamente activa la adenilato ciclasa con secreción masiva de cloruro y agua a la luz intestinal",
+      "Destruye físicamente las microvellosidades del yeyuno mediante necrosis coagulativa",
+      "Inhibe la absorción de aminoácidos en el estómago",
+      "Paraliza por completo el músculo liso del colon impidiendo el tránsito fecal"
+    ],
+    "correctIndex": 0,
+    "explanation": "La toxina ribosila con ADP a la proteína Gs impidiendo la hidrólisis de GTP; el aumento persistente de cAMP intracelular abre los canales CFTR de cloruro secretando NaCl y agua osmótica en gran volumen.",
+    "skill": "Microbiología y Patogénesis Bacteriana",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Bacteriología Médica",
+    "subtopic": "Toxina Colérica y Vía cAMP"
+  },
+  {
+    "id": "bio-bac-57",
+    "sectionId": 7,
+    "number": 57,
+    "text": "¿Qué tipo de selección sexual describió Charles Darwin para explicar el desarrollo de rasgos ornamentales hipertróficos y llamativos en machos (como la cola del pavo real) generados por preferencia de las hembras?",
+    "options": [
+      "Selección intrasexual por combate físico entre machos",
+      "Selección estabilizadora de supervivencia ecológica",
+      "Selección de grupo por altruismo altruista",
+      "Selección intersexual (o epigámica)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La selección intersexual ocurre cuando los miembros del sexo que invierte más recursos (generalmente hembras) eligen compañeros basándose en señales de calidad genética o salud fenotípica honesta.",
+    "skill": "Evolución y Selección Sexual",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Teoría Evolutiva",
+    "subtopic": "Selección Intersexual"
+  },
+  {
+    "id": "bio-bac-58",
+    "sectionId": 7,
+    "number": 58,
+    "text": "¿Qué suceso bioquímico inicia la cascada de la fototransducción en los bastones de la retina cuando un fotón de luz choca contra la molécula de rodopsina?",
+    "options": [
+      "La apertura masiva de canales de calcio dependientes de voltaje",
+      "La liberación de trifosfato de inositol en el soma nuclear",
+      "La fotoisomerización del 11-cis-retinal a todo-trans-retinal",
+      "La polimerización de tubulina citosólica en el cilio conector"
+    ],
+    "correctIndex": 2,
+    "explanation": "La absorción del fotón induce la isomerización casi instantánea de 11-cis-retinal a todo-trans-retinal, activando la metarrodopsina II y la proteína G transducina que disminuye el cGMP hiperpolarizando la célula.",
+    "skill": "Fisiología Sensorial Molecular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Visión y Fotorreceptores",
+    "subtopic": "Fototransducción y Rodopsina"
+  },
+  {
+    "id": "bio-bac-59",
+    "sectionId": 7,
+    "number": 59,
+    "text": "¿Qué postula la teoría de los equilibrios puntuados propuesta por Niles Eldredge y Stephen Jay Gould en 1972 respecto al registro fósil?",
+    "options": [
+      "Las extinciones biológicas ocurren periódicamente cada diez mil años",
+      "Las especies experimentan largos períodos de estabilidad morfológica (estasis) intercalados con episodios breves y rápidos de especiación geológica",
+      "La evolución morfológica transcurre a una velocidad constante y gradual en todas las eras",
+      "Los fósiles marinos no guardan relación filogenética con organismos modernos"
+    ],
+    "correctIndex": 1,
+    "explanation": "El modelo del equilibrio puntuado refuta el gradualismo filético uniforme, proponiendo que la especiación (a menudo alopátrica y en poblaciones reducidas) ocurre con rapidez en escalas geológicas seguida de prolongada estasis morfológica.",
+    "skill": "Macroevolución y Paleontología",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Macroevolución",
+    "subtopic": "Equilibrios Puntuados de Gould y Eldredge"
+  },
+  {
+    "id": "bio-bac-60",
+    "sectionId": 7,
+    "number": 60,
+    "text": "¿Qué molécula señalizadora liposoluble derivada del ácido araquidónico promueve la inflamación, la contracción del músculo liso bronquial y la vasoconstricción durante las crisis de asma bronquial?",
+    "options": [
+      "Los leucotrienos (como LTC4, LTD4 y LTE4)",
+      "La melatonina",
+      "El ácido hialurónico",
+      "La transferrina"
+    ],
+    "correctIndex": 0,
+    "explanation": "La enzima 5-lipoxigenasa oxida el ácido araquidónico liberado de fosfolípidos de membrana produciendo leucotrienos cisteinílicos que son potentes broncoconstrictores (sustancia de reacción lenta de la anafilaxia).",
+    "skill": "Inmunopatología y Mediadores Lipídicos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respuesta Inflamatoria",
+    "subtopic": "Leucotrienos y Asma"
+  },
+  {
+    "id": "bio-bac-61",
+    "sectionId": 7,
+    "number": 61,
+    "text": "¿Qué tipo de bacterias mutualistas colonizan los nódulos radiculares de plantas leguminosas (como frijol, soya y alfalfa) fijando nitrógeno atmosférico mediante la enzima nitrogenasa?",
+    "options": [
+      "Bacterias del género Clostridium",
+      "Bacterias marinas Vibrio",
+      "Espiroquetas Borrelia",
+      "Bacterias del género Rhizobium"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rhizobium establece una simbiosis estrecha con leguminosas induciendo la formación de nódulos radiculares donde la leghemoglobina mantiene un ambiente microaerófilo protegiendo a la nitrogenasa.",
+    "skill": "Biotecnología y Simbiosis Agrícola",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fijación Biológica de Nitrógeno",
+    "subtopic": "Rhizobium y Leguminosas"
+  },
+  {
+    "id": "bio-bac-62",
+    "sectionId": 7,
+    "number": 62,
+    "text": "¿Cuál es el papel fundamental de los microfilamentos de actina y los motores moleculares de miosina II en la última etapa de la división celular (citocinesis) de las células animales?",
+    "options": [
+      "Desintegrar la envoltura nuclear de las células hijas",
+      "Secretar pectina para formar una placa celular rígida",
+      "Formar un anillo contráctil subyacente a la membrana plasmática que se estrecha hasta estrangular y separar las dos células hijas",
+      "Replicar el ADN centromérico durante la telofase tardía"
+    ],
+    "correctIndex": 2,
+    "explanation": "El anillo contráctil de actina y miosina II se ancla a la cara interna de la membrana en el plano ecuatorial celular y genera tracción centrípeta formando el surco de segmentación hasta la abscisión.",
+    "skill": "Ciclo Celular y Citocinesis Animal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "División Celular",
+    "subtopic": "Anillo Contráctil de Actomiosina"
+  },
+  {
+    "id": "bio-bac-63",
+    "sectionId": 7,
+    "number": 63,
+    "text": "¿Qué propiedad alostérica exhibe la unión cooperativa de oxígeno a la molécula de hemoglobina que produce una curva sigmoidea de saturación de oxígeno?",
+    "options": [
+      "La afinidad por el oxígeno disminuye linealmente al aumentar la presión parcial de oxígeno",
+      "La unión de una molécula de O₂ al primer grupo hemo aumenta progresivamente la afinidad por el O₂ de las subunidades restantes (transición conformacional T a R)",
+      "La unión de oxígeno desnaturaliza irreversiblemente a la proteína tetramérica",
+      "La hemoglobina solo puede unir una única molécula de oxígeno por tetrámero"
+    ],
+    "correctIndex": 1,
+    "explanation": "La transición del estado tenso T (baja afinidad) al estado relajado R (alta afinidad) tras la unión secuencial de O₂ confiere a la hemoglobina una cooperatividad positiva modulada alostéricamente por 2,3-BPG y protones.",
+    "skill": "Alosterismo y Transporte de Oxígeno",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Proteínas Alostéricas",
+    "subtopic": "Cooperatividad de la Hemoglobina"
+  },
+  {
+    "id": "bio-bac-64",
+    "sectionId": 7,
+    "number": 64,
+    "text": "¿Qué tipo de glándula exocrina vierte su secreción mediante la desintegración celular completa, de modo que la propia célula muerta llena de lípidos forma parte del producto secretado (como en las glándulas sebáceas de la piel)?",
+    "options": [
+      "Glándula holocrina",
+      "Glándula merocrina (o ecrina)",
+      "Glándula apocrina",
+      "Glándula paracrina"
+    ],
+    "correctIndex": 0,
+    "explanation": "En las glándulas holocrinas, las células maduras acumulan el producto lipídico hasta que sufren lisis y apoptosis celular total, vertiendo todo el contenido protoplasmático en la luz glandular.",
+    "skill": "Histología Epitelial Glandular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Tejido Epitelial",
+    "subtopic": "Secreción Holocrina"
+  },
+  {
+    "id": "bio-bac-65",
+    "sectionId": 7,
+    "number": 65,
+    "text": "¿Qué efecto biofísico y hemodinámico describe la ley de Frank-Starling sobre la autorregulación mecánica de la contractilidad ventricular cardíaca?",
+    "options": [
+      "La frecuencia cardíaca es inversamente proporcional a la resistencia vascular periférica",
+      "El gasto cardíaco desciende invariablemente con el aumento del retorno venoso",
+      "Las fibras musculares lisas de la aorta no responden a la presión transmural",
+      "A mayor volumen telediastólico (mayor estiramiento fisiológico inicial de los sarcómeros ventriculares), mayor es la fuerza de contracción sistólica y el volumen de eyección resultante"
+    ],
+    "correctIndex": 3,
+    "explanation": "La ley de Frank-Starling vincula la precarga cardíaca con la fuerza sistólica: una mayor elongación diastólica aproxima la longitud del sarcómero a su longitud óptima de solapamiento entre miofilamentos.",
+    "skill": "Mecánica Cardíaca y Autorregulación",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Cardiovascular",
+    "subtopic": "Ley de Frank-Starling"
+  },
+  {
+    "id": "bio-bac-66",
+    "sectionId": 7,
+    "number": 66,
+    "text": "¿Qué molécula de señalización intracelular secundaria sintetiza la enzima adenilato ciclasa a partir de ATP tras la activación de un receptor acoplado a proteína Gs?",
+    "options": [
+      "Diacilglicerol (DAG)",
+      "Guanosina monofosfato cíclica (cGMP)",
+      "Monofosfato de adenosina cíclico (cAMP)",
+      "Trifosfato de inositol (IP3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "El cAMP activa alostéricamente a la proteína quinasa A (PKA) liberando sus subunidades catalíticas libres para fosforilar proteínas diana y factores transcripcionales como CREB.",
+    "skill": "Transducción de Señales Intracelulares",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Señalización Celular",
+    "subtopic": "Vía del AMP Cíclico y PKA"
+  },
+  {
+    "id": "bio-bac-67",
+    "sectionId": 7,
+    "number": 67,
+    "text": "¿Cuál es el principal efecto adaptativo y ecofisiológico de la vía metabólica CAM (metabolismo ácido de las crasuláceas) presente en plantas suculentas de zonas áridas y desérticas?",
+    "options": [
+      "Convertir glucosa en celulosa directamente en la atmósfera",
+      "Abrir los estomas por la noche para captar CO₂ y acumularlo como ácido málico en vacuolas, cerrándolos de día para minimizar drásticamente la transpiración hídrica",
+      "Realizar fotosíntesis continua sin necesidad de luz solar visible",
+      "Absorber agua directamente a través de las flores sin usar raíces"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las plantas CAM separan temporalmente la captación de CO₂ (nocturna, con baja demanda evaporativa) de su fijación calviniana diurna impulsada por energía luminosa, logrando máxima eficiencia de uso de agua.",
+    "skill": "Ecofisiología Vegetal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Adaptaciones Fotosintéticas",
+    "subtopic": "Metabolismo Ácido de Crasuláceas (CAM)"
+  },
+  {
+    "id": "bio-bac-68",
+    "sectionId": 7,
+    "number": 68,
+    "text": "¿Qué estructura anatómica del oído interno contiene el órgano sensorial de Corti con células ciliadas mecanorreceptoras que transforman las ondas de presión de la perilinfa en impulsos auditivos?",
+    "options": [
+      "La cóclea (o caracol membranoso)",
+      "El sáculo vestibular",
+      "El utrículo de los otolitos",
+      "Los conductos semicirculares óseos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La cóclea alberga la rampa timpánica, vestibular y media (conducto coclear) con la membrana basilar sobre la que reposa el órgano espiral de Corti que transduce frecuencias sonoras tonotópicamente.",
+    "skill": "Fisiología Auditiva y Mecanorrecepción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sistema Auditivo",
+    "subtopic": "Cóclea y Órgano de Corti"
+  },
+  {
+    "id": "bio-bac-69",
+    "sectionId": 7,
+    "number": 69,
+    "text": "¿Cuál es la causa citogenética del síndrome de Turner en la especie humana?",
+    "options": [
+      "Trisomía gonosomal 47,XXY",
+      "Tetrasomía del cromosoma 18",
+      "Deleción en el brazo largo del cromosoma 22 (microdeleción 22q11)",
+      "Monosomía completa o parcial del cromosoma X (cariotipo habitual 45,X0)"
+    ],
+    "correctIndex": 3,
+    "explanation": "El síndrome de Turner afecta a mujeres fenotípicas con pérdida total o parcial del segundo cromosoma sexual, cursando con baja estatura, disgenesia gonadal estéril y cuello alado.",
+    "skill": "Citogenética Humana y Aneuploidías",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética Médica",
+    "subtopic": "Síndrome de Turner"
+  },
+  {
+    "id": "bio-bac-70",
+    "sectionId": 7,
+    "number": 70,
+    "text": "¿Qué suceso molecular provoca el cierre de las compuertas de inactivación (compuerta h) de los canales de sodio dependientes de voltaje durante la fase de repolarización del potencial de acción axonal?",
+    "options": [
+      "La desintegración instantánea de la vaina de mielina",
+      "La hidrólisis masiva de ATP en el axoplasma",
+      "La despolarización transmembrana previa desencadena el cierre retardado dependiente del tiempo de la compuerta de inactivación, originando el período refractario absoluto",
+      "La salida pasiva de calcio libre"
+    ],
+    "correctIndex": 2,
+    "explanation": "El modelo de Hodgkin-Huxley explica que la despolarización abre con rapidez las compuertas de activación m pero induce con ligero retraso el cierre de las compuertas h cerrando el flujo de Na⁺ e iniciando el período refractario.",
+    "skill": "Biofísica del Potencial de Acción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Electrofisiología Neuronal",
+    "subtopic": "Canales de Sodio y Período Refractario"
+  },
+  {
+    "id": "bio-bac-71",
+    "sectionId": 7,
+    "number": 71,
+    "text": "¿Qué compuesto nitrogenado es el principal producto de desecho excretor sintetizado por el hígado de mamíferos y anfibios adultos a partir de amoniaco mediante el ciclo de Krebs-Henseleit?",
+    "options": [
+      "La guanina cristalina",
+      "La urea",
+      "El ácido úrico insoluble",
+      "El amoniaco gas libre"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los animales ureotélicos (como los mamíferos) sintetizan urea a partir de NH₄⁺ y CO₂ consumiendo 3 moléculas de ATP en el ciclo hepático de la ornitina-urea para excretar nitrógeno de forma no tóxica y soluble.",
+    "skill": "Fisiología Comparada de la Excreción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Metabolismo Nitrogenado",
+    "subtopic": "Ciclo de la Urea"
+  },
+  {
+    "id": "bio-bac-72",
+    "sectionId": 7,
+    "number": 72,
+    "text": "¿Qué tipo de tejido muscular presenta discos intercalares con uniones comunicantes de tipo hendidura (gap junctions) que permiten la propagación sincrónica del potencial de acción formando un sincitio funcional?",
+    "options": [
+      "Músculo cardíaco estriado",
+      "Músculo esquelético voluntario",
+      "Músculo liso vascular",
+      "Músculo liso gastrointestinal unitario"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los discos intercalares conectan los cardiomiocitos mecánicamente mediante desmosomas y eléctricamente mediante uniones gap de conexina, permitiendo que la onda de despolarización se propague bidimensionalmente.",
+    "skill": "Histología Muscular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Tejido Muscular",
+    "subtopic": "Músculo Cardíaco y Discos Intercalares"
+  },
+  {
+    "id": "bio-bac-73",
+    "sectionId": 7,
+    "number": 73,
+    "text": "¿Qué término acuñado por Konrad Lorenz y Nikolaas Tinbergen describe un patrón de comportamiento estereotipado, innato y específico de la especie que se desencadena invariablemente ante un estímulo señal específico?",
+    "options": [
+      "Reflejo condicionado operante",
+      "Impronta filial reversible",
+      "Aprendizaje latente asociativo",
+      "Patrón de acción fija (PAF)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los patrones fijos de acción son conductas motoras innatas programadas genéticamente que, una vez desencadenadas por un estímulo señal (releaser), se ejecutan hasta completarse sin requerir retroalimentación sensorial.",
+    "skill": "Etología Clásica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Comportamiento Animal",
+    "subtopic": "Patrones Fijos de Acción"
+  },
+  {
+    "id": "bio-bac-74",
+    "sectionId": 7,
+    "number": 74,
+    "text": "¿Qué enzima de la replicación del ADN en procariotas posee tanto actividad polimerasa 5'->3' como actividad exonucleasa 5'->3' que le permite eliminar los cebadores de ARN y reemplazarlos por desoxirribonucleótidos?",
+    "options": [
+      "La ADN ligasa",
+      "La girasa bacteriana",
+      "La ADN polimerasa I",
+      "La ADN polimerasa III"
+    ],
+    "correctIndex": 2,
+    "explanation": "La ADN polimerasa I degrada el cebador de ARN precedente mediante su actividad exonucleasa 5'->3' (traslación de muesca o nick translation) mientras sintetiza ADN complementario simultáneamente.",
+    "skill": "Enzimas de la Replicación Bacteriana",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Replicación de ADN",
+    "subtopic": "ADN Polimerasa I y Eliminación de Cebadores"
+  },
+  {
+    "id": "bio-bac-75",
+    "sectionId": 7,
+    "number": 75,
+    "text": "¿Cuál es la función del surfactante biliar fosfolipídico fosfatidilcolina (lecitina) secretado en la bilis junto con las sales biliares y el colesterol?",
+    "options": [
+      "Coagular los glóbulos rojos senescentes",
+      "Formar micelas mixtas que solubilizan el colesterol hidrofóbico impidiendo su precipitación y la formación de cálculos biliares",
+      "Hidrolizar directamente los triglicéridos a glicerol",
+      "Neutralizar el ácido clorhídrico en el estómago"
+    ],
+    "correctIndex": 1,
+    "explanation": "La lecitina y las sales biliares forman micelas anfipáticas mixtas que mantienen en disolución estable al colesterol; un desbalance lipídico promueve la cristalización de cálculos biliares de colesterol.",
+    "skill": "Bioquímica Biliar y Solubilización",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Digestiva",
+    "subtopic": "Micelas Mixtas y Litiasis Biliar"
+  },
+  {
+    "id": "bio-bac-76",
+    "sectionId": 7,
+    "number": 76,
+    "text": "¿Qué tipo de barrera postcigótica ocurre cuando dos especies hibridan produciendo descendencia de primera generación (F1) vigorosa y fértil, pero la progenie de segunda generación (F2) o retrocruces resulta inviable o estéril?",
+    "options": [
+      "Colapso o degradación híbrida (hybrid breakdown)",
+      "Inviabilidad híbrida embrionaria",
+      "Esterilidad híbrida completa",
+      "Aislamiento mecánico"
+    ],
+    "correctIndex": 0,
+    "explanation": "El colapso híbrido se origina por incompatibilidades epistáticas entre combinaciones recombinantes de alelos parentales divergentes que se manifiestan recién en las generaciones F2 o F3.",
+    "skill": "Mecanismos de Aislamiento Postcigótico",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética Evolutiva",
+    "subtopic": "Colapso Híbrido Postcigótico"
+  },
+  {
+    "id": "bio-bac-77",
+    "sectionId": 7,
+    "number": 77,
+    "text": "¿Cuál es la función del centro de control cardiovascular localizado en el bulbo raquídeo humano ante una disminución brusca de la presión en el seno carotídeo detectada por los barorreceptores?",
+    "options": [
+      "Inhibir completamente el sistema renina-angiotensina",
+      "Dilatar masivamente las arteriolas musculares",
+      "Estimular la secreción de péptido natriurético auricular",
+      "Aumentar la descarga simpática e inhibir el tono parasimpático vagal, elevando la contractilidad cardíaca, la frecuencia cardíaca y la resistencia vascular periférica"
+    ],
+    "correctIndex": 3,
+    "explanation": "El reflejo barorreceptor opera como retroalimentación negativa rápida: una caída en la tensión de estiramiento del seno carotídeo reduce las señales aferentes al núcleo del tracto solitario, desinhibiendo la eferencia simpática.",
+    "skill": "Regulación Barorreceptora de la Presión",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Cardiovascular",
+    "subtopic": "Reflejo Barorreceptor"
+  },
+  {
+    "id": "bio-bac-78",
+    "sectionId": 7,
+    "number": 78,
+    "text": "¿Qué enzima de la matriz mitocondrial cataliza la condensación inicial de acetil-CoA con oxalacetato para formar citrato en la primera reacción del ciclo del ácido cítrico?",
+    "options": [
+      "Isocitrato deshidrogenasa",
+      "Malato deshidrogenasa",
+      "Citrato sintasa",
+      "Aconitasa"
+    ],
+    "correctIndex": 2,
+    "explanation": "La citrato sintasa cataliza la condensación aldólica exoergónica entre el grupo metilo de acetil-CoA y el grupo carbonilo de oxalacetato con hidrólisis de tioéster (ΔG°' = -31.5 kJ/mol).",
+    "skill": "Reacciones del Ciclo de Krebs",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respiración Celular",
+    "subtopic": "Citrato Sintasa"
+  },
+  {
+    "id": "bio-bac-79",
+    "sectionId": 7,
+    "number": 79,
+    "text": "¿Qué suceso molecular desencadena la contracción muscular cuando el potencial de acción llega a los túbulos T de la fibra muscular esquelética?",
+    "options": [
+      "La escisión enzimática de los puentes cruzados de tropomiosina",
+      "El sensor de voltaje dihidropiridínico (DHPR) induce la apertura mecánica de los canales de liberación de calcio rianodínicos (RyR1) del retículo sarcoplásmico",
+      "La entrada masiva de sodio por transportadores SGLT",
+      "La inactivación total de la bomba SERCA"
+    ],
+    "correctIndex": 1,
+    "explanation": "El acoplamiento excitación-contracción en el músculo esquelético es mecánico directo: el receptor de dihidropiridina del túbulo T cambia de conformación y tracciona al receptor de rianodina vaciando Ca²⁺ al sarcoplasma.",
+    "skill": "Acoplamiento Excitación-Contracción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Muscular",
+    "subtopic": "Receptores DHPR y Rianodina"
+  },
+  {
+    "id": "bio-bac-80",
+    "sectionId": 7,
+    "number": 80,
+    "text": "¿Qué mecanismo de defensa vegetal contra herbívoros consiste en compuestos secundarios nitrogenados de sabor amargo con marcados efectos farmacológicos en el sistema nervioso de los animales (como la morfina, nicotina y cafeína)?",
+    "options": [
+      "Los alcaloides",
+      "Los taninos condensados",
+      "Las ceras cuticulares",
+      "Los terpenoides carotenoides"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los alcaloides son metabolitos secundarios básicos nitrogenados derivados de aminoácidos que disuaden el consumo vegetal actuando como toxinas neuroactivas para insectos y vertebrados.",
+    "skill": "Defensa Química de las Plantas",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fitoquímica y Adaptación",
+    "subtopic": "Alcaloides Vegetales"
+  },
+  {
+    "id": "bio-bac-81",
+    "sectionId": 7,
+    "number": 81,
+    "text": "¿Cuál es la función del factor de transcripción bacteriano factor sigma (σ) cuando se une a la enzima ARN polimerasa central o núcleo (core)?",
+    "options": [
+      "Detener la síntesis de ARN en secuencias ricas en uracilos",
+      "Añadir el capuchón de guanina metilada al extremo 5'",
+      "Formar puentes de hidrógeno con el ARNt iniciador",
+      "Permitir el reconocimiento específico y unión de alta afinidad a las secuencias promotoras (-10 y -35) del ADN para iniciar la transcripción"
+    ],
+    "correctIndex": 3,
+    "explanation": "La holoenzima bacteriana (core α₂ββ'ω + subunidad σ) es requerida para el inicio específico de la transcripción; tras desnaturalizar el promotor y transcribir los primeros nucleótidos, el factor sigma se disocia.",
+    "skill": "Transcripción Procariota",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Genética Molecular Bacteriana",
+    "subtopic": "Factor Sigma y Promotores"
+  },
+  {
+    "id": "bio-bac-82",
+    "sectionId": 7,
+    "number": 82,
+    "text": "¿Qué efecto describe el efecto Bohr sobre la curva de disociación de la oxihemoglobina cuando la sangre atraviesa tejidos periféricos con metabolismo activo (alto CO₂ y pH bajo)?",
+    "options": [
+      "Inactivación irreversible de la fijación de oxígeno",
+      "Aumento drástico de la fijación de monóxido de carbono",
+      "Desplazamiento de la curva hacia la derecha disminuyendo la afinidad de la hemoglobina por el oxígeno y facilitando su cesión a los tejidos",
+      "Desplazamiento de la curva hacia la izquierda impidiendo la cesión de oxígeno"
+    ],
+    "correctIndex": 2,
+    "explanation": "El aumento de protones (H⁺) y CO₂ estabiliza la conformación T desoxigenada mediante formación de puentes salinos, desviando la curva a la derecha (efecto Bohr fisiológico).",
+    "skill": "Fisiología del Transporte de Gases",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Hemoglobina y Transporte de O₂",
+    "subtopic": "Efecto Bohr"
+  },
+  {
+    "id": "bio-bac-83",
+    "sectionId": 7,
+    "number": 83,
+    "text": "¿Cuál es la fase del ciclo celular de una célula somática eucariota en la cual se produce la replicación semiconservativa completa de todo el ADN genómico nuclear?",
+    "options": [
+      "Fase M mitótica",
+      "Fase S (de síntesis)",
+      "Fase G1",
+      "Fase G2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Durante la fase S de la interfase, los orígenes de replicación disparan bidireccionalmente la duplicación del genoma, pasando la célula de un contenido diploide 2C a 4C de ADN con dos cromátidas hermanas.",
+    "skill": "Ciclo Celular Eucariota",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ciclo Celular",
+    "subtopic": "Fase S y Replicación del ADN"
+  },
+  {
+    "id": "bio-bac-84",
+    "sectionId": 7,
+    "number": 84,
+    "text": "¿Qué tipo de lípidos anfipáticos contienen una base esfingoide de cadena larga (como la esfingosina) en lugar de una molécula de glicerol y forman abundantes microdominios o 'lipid rafts' en la membrana plasmática?",
+    "options": [
+      "Los esfingolípidos (como esfingomielina y glucolípidos)",
+      "Los triacilgliceroles neutros",
+      "Las ceras éster",
+      "Los ácidos biliares libres"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los esfingolípidos poseen cadenas acilo saturadas y largas que se empaquetan densamente junto con el colesterol formando plataformas lipídicas flotantes rígidas para señalización de membrana.",
+    "skill": "Bioquímica Estructural de Lípidos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Membranas Biológicas",
+    "subtopic": "Esfingolípidos y Balsas Lipídicas"
+  },
+  {
+    "id": "bio-bac-85",
+    "sectionId": 7,
+    "number": 85,
+    "text": "¿Qué enzima pancreática secretada a la luz duodenal hidroliza los enlaces éster de los triglicéridos en las posiciones 1 y 3 liberando dos ácidos grasos libres y un 2-monoacilglicerol?",
+    "options": [
+      "La fosfolipasa A2",
+      "La amilasa",
+      "La ribonucleasa",
+      "La lipasa pancreática (asistida por la colipasa)"
+    ],
+    "correctIndex": 3,
+    "explanation": "La lipasa pancreática actúa en la interfase agua-lípido de las micelas emulsionadas; requiere a la colipasa para desplazar a las sales biliares inhibitorias y acceder al sustrato hidrofóbico.",
+    "skill": "Digestión y Absorción de Lípidos",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Digestiva",
+    "subtopic": "Lipasa Pancreática y Colipasa"
+  },
+  {
+    "id": "bio-bac-86",
+    "sectionId": 7,
+    "number": 86,
+    "text": "¿Cuál es la función del complejo sinaptonémico que se ensambla entre los cromosomas homólogos durante la fase de zigoteno de la profase I meiótica?",
+    "options": [
+      "Degradar la cromatina aneuploide",
+      "Romper los enlaces fosfodiéster de los centrómeros",
+      "Alinear con precisión de base a base a los cromosomas homólogos emparejados (sinapsis) facilitando la recombinación genética",
+      "Condensar los microtúbulos del aster polar"
+    ],
+    "correctIndex": 2,
+    "explanation": "El complejo sinaptonémico es una estructura proteica tripartita (dos elementos laterales unidos a cromátidas homólogas y un elemento central) que mantiene la sinapsis física necesaria para el entrecruzamiento.",
+    "skill": "Citogenética Meiótica",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Meiosis",
+    "subtopic": "Complejo Sinaptonémico y Sinapsis"
+  },
+  {
+    "id": "bio-bac-87",
+    "sectionId": 7,
+    "number": 87,
+    "text": "¿Qué suceso inmunológico distingue a la hipersensibilidad inmediata de tipo I mediada por IgE de los otros tipos de hipersensibilidad inmunopatológica?",
+    "options": [
+      "Lisis de eritrocitos por anticuerpos IgM aglutinantes en frío",
+      "Fijación de IgE a mastocitos mediante receptores FcεRI y liberación rápida de histamina, prostaglandinas y leucotrienos ante la reexposición al alérgeno",
+      "Depósito tisular de inmunocomplejos circulantes antígeno-anticuerpo con activación del complemento",
+      "Ataque citotóxico celular mediado exclusivamente por linfocitos T CD8+ tras 48 a 72 horas"
+    ],
+    "correctIndex": 1,
+    "explanation": "La hipersensibilidad tipo I o anafiláctica depende de mastocitos previamente sensibilizados con IgE específica que se desgranulan en minutos tras el entrecruzamiento por el alérgeno bivalente.",
+    "skill": "Inmunopatología y Alergias",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Hipersensibilidad Inmunológica",
+    "subtopic": "Hipersensibilidad Tipo I"
+  },
+  {
+    "id": "bio-bac-88",
+    "sectionId": 7,
+    "number": 88,
+    "text": "¿Qué parte de la estructura terciaria de una enzima globular conforma la hendidura o cavidad tridimensional específica donde se une el sustrato y ocurren los pasos catalíticos químicos?",
+    "options": [
+      "El centro o sitio activo",
+      "El dominio transmembrana",
+      "La cola C-terminal no estructurada",
+      "El sitio alostérico inhibidor"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sitio activo posee residuos de aminoácidos de fijación (que reconocen el sustrato mediante enlaces débiles no covalentes) y residuos catalíticos que estabilizan el estado de transición reduciendo la energía de activación.",
+    "skill": "Cinética y Estructura Enzimática",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Enzimología",
+    "subtopic": "Sitio Activo de las Enzimas"
+  },
+  {
+    "id": "bio-bac-89",
+    "sectionId": 7,
+    "number": 89,
+    "text": "¿Qué estructura anatómica del ojo humano se encarga del proceso de acomodación visual modificando la curvatura y potencia dióptrica del cristalino para enfocar objetos cercanos?",
+    "options": [
+      "El músculo esfínter de la pupila",
+      "La coroides pigmentaria",
+      "La córnea avascular",
+      "El músculo ciliar (y las fibras de la zónula de Zinn)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Al contraerse el músculo ciliar bajo estímulo parasimpático, se relaja la tensión de las fibras zonulares de Zinn, permitiendo que la cápsula elástica del cristalino aumente su convexidad anterior y su poder de refracción.",
+    "skill": "Óptica Fisiológica Ocular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Sentido de la Vista",
+    "subtopic": "Acomodación del Cristalino"
+  },
+  {
+    "id": "bio-bac-90",
+    "sectionId": 7,
+    "number": 90,
+    "text": "¿Cuál es el mecanismo de transporte transmembrana mediante el cual la glucosa se reabsorbe desde la luz tubular del túbulo proximal renal hacia el citoplasma de las células epiteliales?",
+    "options": [
+      "Transporte activo primario impulsado por ATP sintasa de membrana",
+      "Endocitosis masiva mediada por clatrina",
+      "Transporte activo secundario por cotransporte simporte Na⁺/glucosa (SGLT2 y SGLT1)",
+      "Difusión simple a través de poros hidrofílicos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los transportadores SGLT aprovechan el gradiente electroquímico de sodio generado por la bomba Na⁺/K⁺ basolateral para acoplar la entrada de glucosa en contra de su propio gradiente de concentración.",
+    "skill": "Transporte Tubular Renal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Renal",
+    "subtopic": "Cotransportadores SGLT"
+  },
+  {
+    "id": "bio-bac-91",
+    "sectionId": 7,
+    "number": 91,
+    "text": "¿Qué tipo de especiación biológica ocurre de manera abrupta en simpatría en muchas especies vegetales mediante la no disyunción meiótica que resulta en la duplicación del genoma completo?",
+    "options": [
+      "Especiación alopátrica por efecto fundador",
+      "Especiación por poliploidía (autopoliploidía o alopoliploidía)",
+      "Especiación por aislamiento geográfico vicariante",
+      "Especiación parapátrica en clina ecológica"
+    ],
+    "correctIndex": 1,
+    "explanation": "La poliploidía (v.gr., tetraploidía) crea instantáneamente una barrera de aislamiento reproductivo precigótico y postcigótico respecto a los progenitores diploides (ya que los híbridos triploides son infértiles).",
+    "skill": "Genética Evolutiva Vegetal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Especiación",
+    "subtopic": "Poliploidía y Especiación Simpátrica"
+  },
+  {
+    "id": "bio-bac-92",
+    "sectionId": 7,
+    "number": 92,
+    "text": "¿Qué proceso del ciclo celular asegura que todas las cinetocoros de las cromátidas hermanas se encuentren correctamente anclados a los microtúbulos del huso mitótico antes de autorizar el paso a anafase?",
+    "options": [
+      "El punto de control del ensamblaje del huso (Spindle Assembly Checkpoint o SAC)",
+      "El punto de control G1/S de daño en el ADN",
+      "La descondensación telofásica",
+      "La fosforilación del complejo CDK1-ciclina A"
+    ],
+    "correctIndex": 0,
+    "explanation": "El SAC supervisa la tensión y ocupación cinetocórica; la proteína Mad2 inhibe al complejo promotor de la anafase (APC/C) hasta que el último cromosoma esté bi-orientado en la placa metafásica.",
+    "skill": "Puntos de Control del Ciclo Celular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Ciclo Celular",
+    "subtopic": "Punto de Control del Huso Mitótico"
+  },
+  {
+    "id": "bio-bac-93",
+    "sectionId": 7,
+    "number": 93,
+    "text": "¿Qué tipo de hormonas esteroideas lipofílicas atraviesan libremente la membrana plasmática y se unen a receptores nucleares intracelulares que actúan como factores de transcripción activados por ligando?",
+    "options": [
+      "Las catecolaminas polares",
+      "Las hormonas peptídicas como la insulina",
+      "Las citocinas hematopoyéticas",
+      "Los esteroides (como cortisol, aldosterona, estrógenos y testosterona)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los esteroides difunden pasivamente la bicapa fosfolipídica y se unen a receptores citosólicos o nucleares que dimerizan y se unen a secuencias HRE (elementos de respuesta a hormonas) en el ADN promotor.",
+    "skill": "Mecanismo de Acción Hormonal",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Endocrinología Molecular",
+    "subtopic": "Receptores Nucleares de Esteroides"
+  },
+  {
+    "id": "bio-bac-94",
+    "sectionId": 7,
+    "number": 94,
+    "text": "¿Cuál es la función ecológica de las especies 'clave' o 'piedra angular' (keystone species) en una comunidad ecológica según los experimentos clásicos de Robert Paine con la estrella de mar Pisaster ochraceus?",
+    "options": [
+      "Servir de presa exclusiva para todos los carnívoros del ecosistema",
+      "Descomponer la totalidad de la celulosa vegetal del suelo",
+      "Ejercer un control trófico desproporcionado respecto a su abundancia numérica manteniendo la diversidad y estructura de la comunidad al evitar la dominancia de una sola especie competidora",
+      "Producir la mayor cantidad absoluta de biomasa fotosintética en el bioma"
+    ],
+    "correctIndex": 2,
+    "explanation": "Paine demostró que al remover al depredador tope Pisaster, el mejillón Mytilus monopolizó el espacio rocoso intermareal excluyendo competitivamente a algas y otros invertebrados y colapsando la biodiversidad.",
+    "skill": "Ecología de Comunidades y Especies Clave",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Estructura Comunitaria",
+    "subtopic": "Especies Piedra Angular de Paine"
+  },
+  {
+    "id": "bio-bac-95",
+    "sectionId": 7,
+    "number": 95,
+    "text": "¿Qué enzima desoxirribonucleolítica bacteriana corta ambas cadenas de ADN en secuencias palindrómicas específicas de 4 a 8 pares de bases generando extremos romos o cohesivos?",
+    "options": [
+      "Las telomerasas virales",
+      "Las enzimas de restricción (endonucleasas de restricción tipo II)",
+      "Las ADN topoisomerasas I",
+      "Las helicasas replicativas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las endonucleasas de restricción bacterianas evolucionaron como sistema de defensa antiviral contra fagos para cortar ADN exógeno no metilado, siendo herramientas indispensables en clonación y biología molecular.",
+    "skill": "Ingeniería Genética y Biología Molecular",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biotecnología Molecular",
+    "subtopic": "Enzimas de Restricción"
+  },
+  {
+    "id": "bio-bac-96",
+    "sectionId": 7,
+    "number": 96,
+    "text": "¿Qué estructura citosólica filamentosa compuesta por protofilamentos paralelos de dímeros de tubulina alfa y beta sirve de riel para el transporte retrógrado mediado por dineína hacia el centrosoma?",
+    "options": [
+      "Los microtúbulos",
+      "Los filamentos de actina F",
+      "Los neurofilamentos intermedios",
+      "Las miofibrillas de titina"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los microtúbulos son cilindros huecos polarizados con un extremo (-) anclado en el centrosoma y un extremo (+) distal; la dineína citoplásmica viaja hacia el extremo (-) (transporte retrógrado axonal).",
+    "skill": "Citoesqueleto y Motores Moleculares",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Transporte Celular",
+    "subtopic": "Microtúbulos y Dineína"
+  },
+  {
+    "id": "bio-bac-97",
+    "sectionId": 7,
+    "number": 97,
+    "text": "¿Cuál es el destino metabólico del piruvato en el sarcoplasma de las fibras musculares durante un esfuerzo físico intenso en condiciones de anaerobiosis tisular relativa?",
+    "options": [
+      "Oxidarse a dióxido de carbono en la matriz mitocondrial",
+      "Condensarse con acetil-CoA para formar colesterol",
+      "Ser fosforilado directamente a glucógeno en el retículo",
+      "Reducirse a lactato catalizado por la lactato deshidrogenasa (LDH) para regenerar NAD⁺ indispensable para que prosiga la glucólisis"
+    ],
+    "correctIndex": 3,
+    "explanation": "La fermentación láctica (piruvato + NADH + H⁺ ⇌ lactato + NAD⁺) permite reoxidar el NADH citoplásmico evitando el agotamiento de NAD⁺ que paralizaría la reacción de la gliceraldehído-3-fosfato deshidrogenasa.",
+    "skill": "Metabolismo Anaeróbico del Músculo",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Respiración Celular y Fermentación",
+    "subtopic": "Fermentación Láctica y Regeneración de NAD⁺"
+  },
+  {
+    "id": "bio-bac-98",
+    "sectionId": 7,
+    "number": 98,
+    "text": "¿Qué estructura anatómica del corazón de mamíferos transmite con ligero retraso fisiológico la despolarización auricular hacia los ventrículos para permitir que las aurículas completen su vaciado?",
+    "options": [
+      "Las fibras de Purkinje ventriculares",
+      "La cresta terminal de His",
+      "El nódulo auriculoventricular (nódulo AV)",
+      "El nódulo sinoauricular"
+    ],
+    "correctIndex": 2,
+    "explanation": "El nódulo AV ralentiza la velocidad de conducción eléctrica aproximadamente 0.09 a 0.12 segundos debido a pequeñas fibras con escasas uniones gap, coordinando la sístole auricular antes de la ventricular.",
+    "skill": "Electrocardiografía y Sistema de Conducción",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Fisiología Cardíaca",
+    "subtopic": "Nódulo Auriculoventricular y Retraso Fisiológico"
+  },
+  {
+    "id": "bio-bac-99",
+    "sectionId": 7,
+    "number": 99,
+    "text": "¿Qué molécula de adhesión celular transmembrana dependiente de iones calcio (Ca²⁺) mantiene la cohesión mecánica intercelular en las uniones adherentes epiteliales anclándose a filamentos de actina vía cateninas?",
+    "options": [
+      "Las conexinas de hendidura",
+      "Las cadherinas (como E-cadherina)",
+      "Las integrinas basales",
+      "Las selectinas vasculares"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las cadherinas realizan interacciones homofílicas extracelulares dependientes de Ca²⁺; la pérdida o inactivación de E-cadherina es un sello distintivo de la transición epitelio-mesénquima en metástasis neoplásicas.",
+    "skill": "Uniones Intercelulares y Adhesión",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Biología Celular",
+    "subtopic": "Cadherinas y Uniones Adherentes"
+  },
+  {
+    "id": "bio-bac-100",
+    "sectionId": 7,
+    "number": 100,
+    "text": "¿Cuál es el principio biológico y evolutivo fundamental de la recombinación V(D)J mediada por las enzimas RAG-1 y RAG-2 en linfocitos B y T inmaduros?",
+    "options": [
+      "Reorganizar somáticamente segmentos génicos variables (V), de diversidad (D) y de unión (J) para generar un repertorio inmenso y diverso de receptores BCR y TCR antes del contacto antigénico",
+      "Duplicar el número de cromosomas durante la mitosis tímica",
+      "Eliminar todos los alelos recesivos de histocompatibilidad",
+      "Reparar dímeros de timina causados por radiación ionizante"
+    ],
+    "correctIndex": 0,
+    "explanation": "La recombinación somática V(D)J rompe y religa selectivamente fragmentos de ADN cromosómico generando más de 10¹¹ variantes distintas de regiones variables de anticuerpos y TCR sin requerir un gen separado para cada antígeno.",
+    "skill": "Inmunogenética y Diversidad de Receptores",
+    "difficulty": "Intermedio",
+    "educationalLevel": "Bachillerato",
+    "topic": "Inmunidad Adaptativa",
+    "subtopic": "Recombinación V(D)J y RAG"
+  }
+];
